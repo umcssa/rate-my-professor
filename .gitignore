@@ -10,3 +10,4 @@ var/
 env/
 venv/
 *.xlsx
+*.pem
