@@ -31,7 +31,7 @@ for department in departments:
         url = 'https://art.ai.umich.edu/course/{}%20{}/'.format(department, i)
         r = requests.get(url, cookies=jar)
         html = r.text
-        title = re.findall('<title>(.+?)</title>', html)
+        title = re.findall('<title>([\s\S]+?)</title>', html)
         if len(title) > 0:
             title = title[0]
             if str(i) in title:

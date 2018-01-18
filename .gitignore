@@ -11,3 +11,4 @@ env/
 venv/
 *.xlsx
 *.pem
+fetch/data/
