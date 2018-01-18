@@ -3,4 +3,17 @@ CREATE TABLE departments (
   name         VARCHAR(15) NOT NULL
 );
 
-CREATE TABLE cour
+CREATE TABLE courses (
+  courseid     INTEGER PRIMARY KEY AUTOINCREMENT,
+  departmentid INTEGER      NOT NULL,
+  number       INTEGER      NOT NULL,
+  title        VARCHAR(150) NOT NULL,
+  FOREIGN KEY (departmentid) REFERENCES departments (departmentid)
+);
+
+CREATE TABLE professors (
+  professorid  INTEGER PRIMARY KEY AUTOINCREMENT,
+  departmentid INTEGER     NOT NULL,
+  name         VARCHAR(50) NOT NULL,
+  FOREIGN KEY (departmentid) REFERENCES departments (departmentid)
+);
