@@ -1,0 +1,6 @@
+CREATE TABLE departments (
+  departmentid INTEGER PRIMARY KEY AUTOINCREMENT,
+  name         VARCHAR(15) NOT NULL
+);
+
+CREATE TABLE cour
