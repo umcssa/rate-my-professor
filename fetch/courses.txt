@@ -1,0 +1,207 @@
+EECS 101: Thriving in a Digital World
+EECS 183: Elementary Programming Concepts
+EECS 203: Discrete Math
+EECS 215: Introduction to Electronic Circuits
+EECS 216: Introduction to Signals and Systems
+EECS 230: Electromagnetics I
+EECS 250: Elec Sens Sys
+EECS 270: Introduction to Logic Design
+EECS 280: Programming and Introductory Data Structures
+EECS 281: Data Structures and Algorithms
+EECS 282: Information Systems Design and Programming
+EECS 283: Prog for Sci&amp;Eng
+EECS 285: A Programming Language or Computer System
+EECS 301: Probabilistic Methods in Engineering
+EECS 311: Analog Circuits
+EECS 312: Digital Integrated Circuits
+EECS 314: Electrical Circuits, Systems and Applications
+EECS 320: Introduction to Semiconductor Devices
+EECS 330: Introduction to Antennas and Wireless Systems
+EECS 334: Principles of Optics
+EECS 351: Introduction to Digital Signal Processing
+EECS 353: Intro Comm Systems
+EECS 370: Introduction to Computer Organization
+EECS 373: Design of Microprocessor Based Systems
+EECS 376: Foundations of Computer Science
+EECS 381: Object Oriented and Advanced Programming
+EECS 382: Internet-Scal Comp
+EECS 388: Introduction to Computer Security
+EECS 398: Special Topics
+EECS 399: Directed Study
+EECS 402: Computer Programming For Scientists and Engineers
+EECS 406: High-Tech Entrep
+EECS 410: Patent Fund Eng
+EECS 411: Microwave Circuits I
+EECS 413: Monolith Amplifier Circuits
+EECS 416: Elec for Bio
+EECS 417: Electrical Biophysics
+EECS 418: Power Electronics
+EECS 419: Elec Mach and Drives
+EECS 421: Properties of Transistors
+EECS 423: Solid-State Device Laboratory
+EECS 425: Integrated Microsystems Laboratory
+EECS 427: Very Large Scale Integrated Design I
+EECS 429: Semi Optoelec Dev
+EECS 430: Radiowave Prop
+EECS 434: Princ of Photonics
+EECS 435: Fourier Optics
+EECS 438: Adv Lasers Lab
+EECS 441: Mobile App Development for Entrepreneurs
+EECS 442: Computer Vision
+EECS 443: Senior ThesisL
+EECS 445: Introduction to Machine Learning
+EECS 452: Digital Signal Processing Design Laboratory
+EECS 453: Applied Matrix Algorithms for Signal Processing, Data Analysis, and Machine Learning
+EECS 455: Digital Communication Signals and Systems
+EECS 458: Biomedical Instrumentation and Design
+EECS 460: Control Systems Analysis and Design
+EECS 461: Embedded Control Systems
+EECS 463: Power Systems Design and Operations
+EECS 464: Hands-on Robotics
+EECS 467: Autonomous Robotics
+EECS 470: Computer Architecture
+EECS 473: Advanced Embedded Systems
+EECS 475: Introduction to Cryptography
+EECS 477: Introduction to  Algorithms
+EECS 478: Logic Circuit Synthesis and Optimization
+EECS 480: Logic Formal Verif
+EECS 481: Software Engineering
+EECS 482: Introduction to Operating Systems
+EECS 483: Compiler Construction
+EECS 484: Database Management Systems
+EECS 485: Web Database and Information Systems
+EECS 486: Informational Retrieval and Web Search
+EECS 487: Interactive Computer Graphics
+EECS 489: Comp Networks
+EECS 490: Programming Languages
+EECS 492: Introduction to Artificial Intelligence
+EECS 493: User Interface Development
+EECS 494: Computer Game Design and Development
+EECS 496: Major Design Experience-Professionalism
+EECS 497: Major Des Projects
+EECS 498: Special Topics
+EECS 499: Adv Directed Study
+EECS 500: Tutorl Sys Sci
+EECS 501: Probability and Random Processes
+EECS 502: Stochastic Processes
+EECS 503: Intro Numerical Em
+EECS 504: Foundations of Computer Vision
+EECS 509: BIOMEMS
+EECS 510: RF MEMS
+EECS 511: A/D Interfaces
+EECS 512: Amorphous Sem Dev
+EECS 513: Flat Pan Displays
+EECS 514: Advanced MEMS
+EECS 515: Integrated Microsystems
+EECS 516: Medical Imaging System
+EECS 517: Proc Plasma
+EECS 518: Magnetosphere
+EECS 519: Plasma Lab
+EECS 520: Solid State Physics
+EECS 521: Solid State Devices
+EECS 522: Analog Integr Ckts
+EECS 525: Adv Sol St Mw Cir
+EECS 526: Plasmonics
+EECS 527: Layout Synthesis&amp;Opt
+EECS 528: M-Elec Proc Tech
+EECS 529: Semi Lasers &amp; Leds
+EECS 530: Electromagnetic Theory I
+EECS 531: Antenna Thry&amp;Des
+EECS 532: M-Waves Rem Sens
+EECS 533: Micro Meas Lab
+EECS 535: Optical Inform Proc
+EECS 536: Statistical Optics
+EECS 537: Classical Optics
+EECS 538: Optical Waves in Crystals
+EECS 539: Lasers
+EECS 540: Applied Quantum Mechanics
+EECS 541: App Qnt Mch II
+EECS 542: Advanced Topics in Computer Vision
+EECS 543: Knowledge-Based Systems
+EECS 545: Machine Learning
+EECS 546: Ultrafast Optics
+EECS 547: Electronic Commerce
+EECS 548: Information Visualization
+EECS 549: Information Retrieval
+EECS 550: Information Theory
+EECS 551: Matrix Methods for Signal Processing, Data Analysis and Machine Learning
+EECS 552: Fib Opt:Intrnt Biomd
+EECS 553: Data Compression
+EECS 554: Introduction to Digital Communication and Coding
+EECS 555: Digital Commun Thry
+EECS 556: Image Processing
+EECS 557: Communication Netwk
+EECS 558: Stochastic Control
+EECS 559: Adv Signal Process
+EECS 560: Linear Systems Theory
+EECS 561: Design of Digital Control Systems
+EECS 562: Nonlinear Systems and Control
+EECS 564: Estimation, Filtering, and Detection
+EECS 565: Linear Feedback Control Systems
+EECS 566: Discrete Event Syst
+EECS 567: Robot Kinematics and Dynamics
+EECS 568: Mobile Robotics: Methods and Algorithms
+EECS 569: Prod Syst Eng
+EECS 570: Parallel Computer Architecture
+EECS 571: Principles of Real Time Computing
+EECS 573: Microarchitecture
+EECS 574: Computational Complexity
+EECS 575: Advanced Cryptography
+EECS 578: Correct Operation for Processors and Embedded Systems
+EECS 579: Digital System Testing
+EECS 580: Adv Comp Graphics
+EECS 581: Soft Eng Tool
+EECS 582: Adv Operat Sys
+EECS 583: Advanced Compilers
+EECS 584: Advanced Database Systems
+EECS 586: Design and Analysis of Algorithms
+EECS 587: Parallel Computing
+EECS 588: Comp Netwk Security
+EECS 589: Advanced Computer Networks
+EECS 590: Advanced Programming Languages
+EECS 591: Distribute Sys
+EECS 592: Foundations of Artificial Intelligence
+EECS 593: Hum as Inf Proc
+EECS 594: Intro Adaptive Syst
+EECS 595: Natural Language Processing
+EECS 596: M Eng Team Project
+EECS 597: Language &amp; Info
+EECS 598: Special Topics in Electrical Engineering and Computer Science
+EECS 599: Directed Study
+EECS 600: Func Meth Sys Thry
+EECS 620: Elect Opt Semicon
+EECS 627: VLSI Design II
+EECS 628: Adv Hi Perf VLSI
+EECS 631: Em Scattering
+EECS 633: Num Meth E-M
+EECS 634: Nonlin Opt
+EECS 638: Quantum Opt
+EECS 643: Theory of Neural Computation
+EECS 644: Comp Model Cogn
+EECS 650: Chanel Coding Thry
+EECS 659: Adapt Signal Proc
+EECS 662: Adv Nl Cont
+EECS 670: Spec Top Comp Arch
+EECS 674: Spec Tpc Theor CmpSc
+EECS 682: Software Sys Topics
+EECS 684: Curr Top Database
+EECS 691: Mobile Computing
+EECS 692: Adv Artif Intellig
+EECS 695: Neural Models
+EECS 698: Master&#39;s Thesis
+EECS 699: Research Work EECS
+EECS 700: Spec Topic Sys Thry
+EECS 720: Topics S-State Dev
+EECS 730: Topic Electromagnet
+EECS 735: Topic Optical Sci
+EECS 750: Topic Comm&amp;Inf Thry
+EECS 755: Topics Signal Proc
+EECS 760: Topic Control Thry
+EECS 765: Sp T Stoch Sys Cont
+EECS 767: Adv Nat Lang Pro Inf
+EECS 770: Topic Computer Sys
+EECS 792: Spec Top Artif Intel
+EECS 820: Sem in S-S Elec
+EECS 892: Sem Art Intelligenc
+EECS 990: Diss-Precand
+EECS 995: Diss-Cand
