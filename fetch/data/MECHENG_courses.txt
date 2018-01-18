@@ -1,0 +1,124 @@
+MECHENG 211: Introduction to Solid Mechanics
+MECHENG 240: Introduction to Dynamics and Vibrations
+MECHENG 250: Des &amp; Mfg I
+MECHENG 290: RISE 2
+MECHENG 305: Introduction to Finite Elements in Mechanical Engineering
+MECHENG 311: Strength-Materials
+MECHENG 320: Fluid Mechanics I
+MECHENG 336: Thermodyn II
+MECHENG 350: Design and Manufacturing II
+MECHENG 360: Modeling, Analysis and Control of Dynamic Systems
+MECHENG 382: Mech Behav Matls
+MECHENG 390: RISE 3
+MECHENG 395: Laboratory I
+MECHENG 400: Mech Engr Analysis
+MECHENG 401: Stat Quality Control
+MECHENG 406: Biomec for Engineers
+MECHENG 412: Adv Strength Matls
+MECHENG 420: Fluid Mech II
+MECHENG 424: Engin Acoustics
+MECHENG 432: Combustion
+MECHENG 433: Advanced Energy Solutions
+MECHENG 438: Internal Combustion Engines
+MECHENG 440: Dynamics&amp;Vibrations
+MECHENG 450: Design and Manufacturing III
+MECHENG 451: Prop Adv Mat
+MECHENG 452: Design for Mfg
+MECHENG 455: Analytical Product Design
+MECHENG 456: Tissue Mechanics
+MECHENG 458: Automotive Engr
+MECHENG 461: Automatic Control
+MECHENG 476: Biofluid Mechanics
+MECHENG 482: Machining Processes
+MECHENG 483: Mfg Sys Design
+MECHENG 487: Welding
+MECHENG 489: Sustainable Eng
+MECHENG 490: RISE 4
+MECHENG 491: Independent Study
+MECHENG 495: Lab I I
+MECHENG 499: Spec Topics in M E
+MECHENG 501: Mathematical Methods in Mechanical Engineering
+MECHENG 502: Meth Diff Eq Mech
+MECHENG 506: Com Mod Bio Tissues
+MECHENG 507: Atomistic Modeling
+MECHENG 512: Theory Elast
+MECHENG 513: Autobody Structures
+MECHENG 514: Nonlin Frac Mech
+MECHENG 515: Contact Mechanics
+MECHENG 516: Films-Layered Matls
+MECHENG 517: Mech of Polymers I
+MECHENG 518: Mfg &amp; Design
+MECHENG 521: Adv Fluid Mech II
+MECHENG 523: Computer Fluid Dynamics I
+MECHENG 524: Adv Eng Acoustics
+MECHENG 527: Multiphase Flow
+MECHENG 530: Advanced Heat Transfer
+MECHENG 532: Conv Heat Transfer
+MECHENG 533: Rad Heat Trans
+MECHENG 535: Thermodyn III
+MECHENG 537: Advanced Combustion
+MECHENG 538: Adv IC Engines
+MECHENG 539: Heat Transfer Phys
+MECHENG 540: Intermediate Dynamics
+MECHENG 542: Vehicle Dyn
+MECHENG 543: Analyticl&amp;Comp Dyn I
+MECHENG 548: Applied Nonlin Dynam
+MECHENG 551: Mech Design
+MECHENG 552: Mechatronic Systems Design
+MECHENG 553: Microelectromechanical  Systems
+MECHENG 554: Comp Aid Des
+MECHENG 555: Design Optim
+MECHENG 558: Disc Des Opt
+MECHENG 559: Smart Matrls
+MECHENG 560: Model Dyn Sy
+MECHENG 561: Des Dig Cont Sys
+MECHENG 562: Dyn Thrm-Fluid Proc
+MECHENG 564: Linear Systems Theory
+MECHENG 565: Battery Sys and Ctrl
+MECHENG 566: Hybrid Elec Vehicles
+MECHENG 567: Robot Kinemat Dynam
+MECHENG 568: Vehicle Control Syst
+MECHENG 569: Control of Advanced Powertrain Systems
+MECHENG 571: Energy Generation and Storage Using Modern Materials
+MECHENG 572: Rheology and Fracture
+MECHENG 573: Friction &amp; Wear
+MECHENG 574: Nano/Micr Struc Evol
+MECHENG 576: Fatigue Mech Des
+MECHENG 577: Materials in Design
+MECHENG 580: Trans Phenomena
+MECHENG 581: GPD
+MECHENG 584: Adv Mechantronic Mfg
+MECHENG 585: Mach Dyn&amp;Mech
+MECHENG 587: Global Manufacturing
+MECHENG 588: Assembly Modeling
+MECHENG 589: Sustainable Design
+MECHENG 590: Res Sel M E Topics
+MECHENG 591: Seminar I
+MECHENG 592: Seminar II
+MECHENG 593: M Eng Project
+MECHENG 595: Master Thesis Prop
+MECHENG 599: Special Topics in Mechanical Engineering
+MECHENG 605: Adv Finite Elem Meth
+MECHENG 617: Mech of Polymers II
+MECHENG 619: Theory Plasticity II
+MECHENG 622: Inviscid Fluids
+MECHENG 623: Hydrodyn Stability
+MECHENG 624: Turbulent Flow
+MECHENG 625: Nonhom Fluids
+MECHENG 626: Perturb Meth Fluids
+MECHENG 627: Wave Mot in Fluids
+MECHENG 631: Stat Thermodyn
+MECHENG 635: Thermodynamics IV
+MECHENG 641: Adv Vib Structures
+MECHENG 643: Analytcl&amp;Comp Dyn II
+MECHENG 645: Wave Prop Elas Sol
+MECHENG 646: Human Movement
+MECHENG 648: Nonlin O&amp;S ME Sys
+MECHENG 661: Adaptive Cont Sys
+MECHENG 662: Adv Nl Cont
+MECHENG 663: Est Stoch Sign Sys
+MECHENG 695: Master Thesis Res
+MECHENG 699: Adv Special Topics
+MECHENG 790: Mech Sciences Sem
+MECHENG 990: Diss-Precand
+MECHENG 995: Diss-Cand

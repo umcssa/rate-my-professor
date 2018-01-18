@@ -1,0 +1,112 @@
+FRENCH 100: Intensive Elem
+FRENCH 101: Elementary French
+FRENCH 102: Elementary
+FRENCH 103: Review of Elementary French
+FRENCH 113: Accel Rdg French
+FRENCH 205: Convers-Non Concent
+FRENCH 206: Practical French
+FRENCH 230: Intensive 2nd Year
+FRENCH 231: Second-Year French
+FRENCH 232: Second-Year French, Continued
+FRENCH 235: Advanced Practice in French
+FRENCH 240: Fr Topics in Transl
+FRENCH 241: Origins of Modernism: Art and Culture in Nineteenth Century France
+FRENCH 244: Race&amp;Cult Diversity
+FRENCH 250: UG Sem-Fren Studies
+FRENCH 270: French and Francophone Literature and Culture
+FRENCH 272: Fr Film&amp;Culture
+FRENCH 274: French and Francophone Societies and Culture
+FRENCH 276: Spoken and Written Performance in French
+FRENCH 305: Practical French
+FRENCH 306: Practical French
+FRENCH 333: French Phonetics
+FRENCH 335: Comp&amp;Stylistics
+FRENCH 337: Seminar in Translation
+FRENCH 340: French Literature in Translation
+FRENCH 341: Fr Afr Studies
+FRENCH 342: French Film
+FRENCH 343: French Enlightenment
+FRENCH 344: The Revolutionary Century:  France, 1789-1900
+FRENCH 345: 20th Century France
+FRENCH 350: Special Topics in French and Francophone Studies
+FRENCH 361: French Amer Studies
+FRENCH 362: Quebec and French Canadian Studies
+FRENCH 363: Caribbean Studies
+FRENCH 364: Studies-Maghreb
+FRENCH 365: African Studies (Sub-Saharan)
+FRENCH 366: Medieval Lit&amp;Cult
+FRENCH 367: Early Mod Lit&amp;Cult
+FRENCH 368: Enl, Rev, &amp; Rom
+FRENCH 369: Literature, History, and Culture of Modernity
+FRENCH 370: Adv Profic
+FRENCH 372: Film&amp;Cinema
+FRENCH 373: Popular Culture
+FRENCH 374: Prob Society
+FRENCH 375: Cinema&amp;Society
+FRENCH 377: Media Studies
+FRENCH 378: Studies in Genre
+FRENCH 379: Gender&amp;Sexuality
+FRENCH 380: Intermediate Business French
+FRENCH 381: Internship in France or Other Francophone Countries
+FRENCH 384: Origins Contem Fran
+FRENCH 385: Contemp France
+FRENCH 391: Junior Honors
+FRENCH 392: Junior Honors
+FRENCH 399: Independent Study
+FRENCH 402: Lit Translat
+FRENCH 410: Adv Trans Fren-Engl
+FRENCH 411: Adv Trans Engl-Fren
+FRENCH 412: Adv Conv &amp; Comp
+FRENCH 414: Adv Business Fren
+FRENCH 425: Bkg Mod Fren
+FRENCH 426: Fr Phon&amp;Morph
+FRENCH 427: French Syntax
+FRENCH 436: Professional French
+FRENCH 437: Topics: Linguistics
+FRENCH 438: Teaching French
+FRENCH 439: Writing Workshop
+FRENCH 444: Readings in Transl
+FRENCH 450: Special Studies
+FRENCH 451: Mid Age Lit
+FRENCH 453: Interd French Cult
+FRENCH 461: Old French Texts
+FRENCH 462: Lit in 16th Century
+FRENCH 463: Lit 17th C
+FRENCH 464: Lit 18th C
+FRENCH 466: Lit 20th C
+FRENCH 467: 20th C Novel
+FRENCH 468: 20th C Poetry
+FRENCH 469: African&amp;Carib Lit
+FRENCH 481: Theory&amp;Criticism
+FRENCH 482: Textual Analysis
+FRENCH 483: Emerging Ideas
+FRENCH 491: Senior Honors
+FRENCH 501: Resrch in Old French
+FRENCH 601: Prosem in French
+FRENCH 625: Bckgrn Mod French
+FRENCH 630: French Cult&amp;Soc
+FRENCH 631: Intellectual Trends
+FRENCH 636: French Mini-Course
+FRENCH 640: French Cinema
+FRENCH 651: Medieval Lit
+FRENCH 652: 16th C Lit
+FRENCH 653: 17th C Lit
+FRENCH 654: 18th C Lit
+FRENCH 655: Studies in 19th-Century French Literature
+FRENCH 656: 20th C Lit
+FRENCH 660: Topc&amp;Theme Fren Lit
+FRENCH 670: Atlantic Studies
+FRENCH 671: African Studies
+FRENCH 672: N Africa &amp; Mid East
+FRENCH 673: Mediterranean
+FRENCH 674: Asian, Pac, IndOcean
+FRENCH 675: American Studies
+FRENCH 678: Francophone Studies
+FRENCH 679: Postcolonial Theory
+FRENCH 680: Literary Theory
+FRENCH 681: Literary Criticism
+FRENCH 851: Sem Period&amp;Auth
+FRENCH 855: Spec Topics Sem
+FRENCH 899: Independent Study
+FRENCH 990: Diss-Precand
+FRENCH 995: Diss-Cand

@@ -1,0 +1,88 @@
+STATS 100: Intro Stat/Math Mode
+STATS 125: Games and Gambling
+STATS 150: Making Sense of Data
+STATS 170: Scientific Invest
+STATS 180: AP Statistics
+STATS 250: Introduction to Statistics and Data Analysis
+STATS 280: Honors Introduction to Statistics and Data Analysis
+STATS 299: Undergrad Internship
+STATS 306: Introduction to Statistical Computing
+STATS 400: Appl Stat Methods
+STATS 401: Stat Analysis II
+STATS 403: Introduction to Quantitative Research Methods
+STATS 404: Effective Communication in Statistics
+STATS 406: Introduction to Statistical Computing
+STATS 408: Statistical Principles for Problem Solving: A Systems Approach
+STATS 412: Introduction to Probability and Statistics
+STATS 413: Applied Regression Analysis
+STATS 414: Topics in Statistics
+STATS 415: Data Mining and Statistical Learning
+STATS 425: Introduction to Probability
+STATS 426: Introduction to Theoretical Statistics
+STATS 430: Applied Probability
+STATS 449: Topics in Biostatistics
+STATS 470: Introduction to the Design of Experiments
+STATS 480: Survey Sampling
+STATS 485: Capstone Seminar
+STATS 489: Ind Study in Stat
+STATS 499: Honors Seminar
+STATS 500: Applied Statistics I
+STATS 501: Applied Stat II
+STATS 503: Stats Learning II
+STATS 504: Statistical Consulting
+STATS 505: Econometric Analysis I
+STATS 506: Computational Methods and Tools in Statistics
+STATS 508: Stat Analys Fin Data
+STATS 509: Stats for Fin Data
+STATS 510: Mathematical Statistics I
+STATS 511: Stat Inference
+STATS 520: Math Meth Stat
+STATS 525: Probability Theory
+STATS 526: Discrete State Stochastic Processes
+STATS 531: Analysis Time Series
+STATS 535: Reliability
+STATS 545: Mol Gen&amp;Epigen Data
+STATS 547: Prob Mod Bioinf
+STATS 548: Comp Prob Mod Bio
+STATS 550: Bayesian Dat Anal
+STATS 553: Statistic Inference
+STATS 560: Nonpar Stat
+STATS 570: Design of Experiment
+STATS 580: Sampling Theory
+STATS 600: Linear Models
+STATS 601: Anl Multivr Cat Data
+STATS 604: Stat Investigations
+STATS 605: Adv Top Mod Data Anl
+STATS 606: Comp Meth Stat
+STATS 607: Programming and Numerical Methods in Statistics
+STATS 608: Optimization Methods in Statistics
+STATS 610: Statistical Inference
+STATS 611: Large Sample Theory
+STATS 612: Advanced Topics in Theoretical Statistics
+STATS 617: Adv Topic Quan Meth
+STATS 620: App Prob Stoch Model
+STATS 621: Probability Theory
+STATS 625: Probability and Random Processes I
+STATS 626: Pro&amp;Ran Pro II
+STATS 630: Top-Appl Probabil
+STATS 640: Stat Models
+STATS 642: Linear Model
+STATS 670: Adv Design of Expt
+STATS 680: Theory of Sampling
+STATS 700: Topics Appl Stat I
+STATS 701: Topics Appl Stat II
+STATS 710: Topics Theo Stat I
+STATS 711: Topics Theo Stat II
+STATS 725: Top Adv Pro I
+STATS 750: Directed Reading
+STATS 808: Seminar in Applied Statistics I
+STATS 809: Sem-Applied Stat
+STATS 810: Literature Proseminar I
+STATS 811: Lit Proseminar
+STATS 816: Sem Physical Sci
+STATS 817: Sem Soc Sci Meth
+STATS 818: Sem Theo Stat I
+STATS 819: Sem Theo Stat II
+STATS 990: Diss-Precand
+STATS 993: Graduate Student Instructor Training Program
+STATS 995: Diss-Cand

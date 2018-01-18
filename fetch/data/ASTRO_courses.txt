@@ -1,0 +1,51 @@
+ASTRO 101: Introductory Astronomy: The Solar System and the Search for Life Beyond Earth
+ASTRO 102: Introductory Astronomy:  Stars, Galaxies, and the Universe
+ASTRO 104: Alien Skies:  A Tour Through the Universe
+ASTRO 105: Cosmos Constellatns
+ASTRO 106: Aliens
+ASTRO 107: The Dark Side of the Universe
+ASTRO 115: Introductory Astrobiology:  The Search for Life in the Universe
+ASTRO 120: Frontiers of Astron
+ASTRO 125: Obs Astronomy
+ASTRO 127: Naked Eye Astronomy
+ASTRO 142: From the Big Bang to the Milky Way
+ASTRO 183: Intro Space Weather
+ASTRO 201: Introduction to Astrophysics
+ASTRO 204: Plan:Geol&amp;CLIM
+ASTRO 205: Hidden Universe
+ASTRO 206: Black Holes: The Triumph of Gravity
+ASTRO 210: Magellan Discoveries
+ASTRO 220: New Discoveries in Astronomy
+ASTRO 255: Earth and Space Sciences for Elementary School Educators
+ASTRO 261: Navigation
+ASTRO 300: The Beginning and The End:  A History of Cosmology
+ASTRO 301: Disc Universe
+ASTRO 305: Astronomy in the Community
+ASTRO 361: Astronomical Techniques
+ASTRO 389: Indi Studies Astro
+ASTRO 399: Intro-Research
+ASTRO 401: Exoplanets
+ASTRO 402: Stellar Astrophysics
+ASTRO 403: Interstell Medium
+ASTRO 404: Galaxies&amp;Universe
+ASTRO 405: High Energy Astro
+ASTRO 406: Computational Astrophysics
+ASTRO 420: New Discoveries in Astronomy for Advanced Students
+ASTRO 429: Scientific Writing
+ASTRO 461: Ground Observatories
+ASTRO 500: Theor Astrphy:Light
+ASTRO 501: Mod Astr Techniques
+ASTRO 520: Cosmochemistry
+ASTRO 530: Stellar Astrophysics I:  Star Formation and the Outer Layers of Stars
+ASTRO 531: Stellar Astrophys II
+ASTRO 532: The High Energy Universe
+ASTRO 533: Str&amp;Cont of Galax
+ASTRO 534: Extragalact Univers
+ASTRO 535: Astrph Interstellar
+ASTRO 690: Theoretic Astrophys
+ASTRO 691: Observ Astrophysics
+ASTRO 699: Special Problems
+ASTRO 901: Res-Theoret Astro
+ASTRO 902: Res-Observ Astro
+ASTRO 990: Diss-Precand
+ASTRO 995: Diss-Cand

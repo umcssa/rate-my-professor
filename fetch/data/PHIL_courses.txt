@@ -1,0 +1,194 @@
+PHIL 101: Intro-Types of Phil
+PHIL 151: Personal Decisions
+PHIL 152: Philosophy of Human Nature
+PHIL 153: Philos &amp; the Arts
+PHIL 154: Science Fiction and Philosophy
+PHIL 155: Nature of Science
+PHIL 156: Experimental Phil
+PHIL 157: Intro Anc Phil
+PHIL 158: Phil&amp;Narrative
+PHIL 160: Moral Principles and Problems
+PHIL 162: The University of Michigan: A Moral Institution?
+PHIL 180: Introductory Logic
+PHIL 181: Philosophical Issues: An Introduction
+PHIL 182: Intro Phil Issues
+PHIL 183: Critical Reasoning
+PHIL 196: First Year Seminar
+PHIL 201: Introduction-Logic
+PHIL 202: Introduction-Phil
+PHIL 210: Exp Phil
+PHIL 224: Global Justice
+PHIL 230: Introduction to Buddhism
+PHIL 231: Probs-Principles
+PHIL 232: Problems of Philosophy
+PHIL 234: Intro-Types of Phil
+PHIL 240: Environmental Ethics: Philosophical Underpinnings
+PHIL 262: Introduction to the Philosophy of Religion
+PHIL 263: Chinese Philosophy
+PHIL 286: Second Year Seminar in Philosophy
+PHIL 294: Honors Core Phil
+PHIL 295: Hnrs Core Wrtg Phil
+PHIL 296: Honors Introduction to Logic
+PHIL 297: Honors Introduction to Philosophy
+PHIL 303: Introduction to Symbolic Logic
+PHIL 305: Intro Formal Meth
+PHIL 319: Phil of the Arts
+PHIL 320: Worldview Mod Sci
+PHIL 322: Methods of Science
+PHIL 331: Indian Philosophy
+PHIL 334: Post-Biblical Jewish Philosophy
+PHIL 340: Minds and Machines
+PHIL 344: Ethics&amp;Health Care
+PHIL 345: Language &amp; Mind
+PHIL 350: Real World Ethics
+PHIL 351: Real World Ethics II
+PHIL 353: Right &amp; Wrong of Biz
+PHIL 355: Contemp Moral Prob
+PHIL 356: Issues in Bioethics
+PHIL 358: Law&amp;Philosophy
+PHIL 359: Law and Philosophy
+PHIL 361: Ethics
+PHIL 363: Comm-Fasc&amp;Dem0
+PHIL 365: Probs-Religion
+PHIL 366: Intro-Political
+PHIL 367: 19th C Politics
+PHIL 369: Phil of Law
+PHIL 370: Phil Aspects of Lit
+PHIL 371: Phenom&amp;Existential
+PHIL 372: Phil Topics Gender
+PHIL 375: Nietzsche&#39;s Philosophical Thought
+PHIL 376: Environmental Ethics
+PHIL 381: Science and Objectivity
+PHIL 383: Knowledge &amp; Reality
+PHIL 384: Applied Epistemology: Race, Ethnicity and Knowledge
+PHIL 385: European Soc Thought
+PHIL 388: History of Philosophy: Ancient
+PHIL 389: Hist-17&amp;18 Cent
+PHIL 397: Topics Philosophy
+PHIL 399: Independent Studies
+PHIL 401: Undergraduate Honors Seminar
+PHIL 402: Ug Seminar in Phil
+PHIL 404: Analytical Philo
+PHIL 405: Plato
+PHIL 406: Aristotle
+PHIL 408: Philosophy &amp; Econ
+PHIL 409: Phil of Language
+PHIL 410: Formal Semantics
+PHIL 411: Phil of Soc Sci
+PHIL 412: Phil in Literature
+PHIL 413: Formal Methods
+PHIL 414: Math Logic
+PHIL 415: Advanced Math Logic
+PHIL 416: Modal Logic
+PHIL 417: Logic&amp;Art Intellg
+PHIL 418: Phil of Math
+PHIL 419: Phil of the Arts
+PHIL 420: Phil of Science
+PHIL 422: Phil of Physics
+PHIL 423: Problems of Space and Time
+PHIL 424: Phil Quantum Mech
+PHIL 425: Phil of Biology
+PHIL 426: Philosophy and Linguistic Theory
+PHIL 427: Science &amp; Gender
+PHIL 429: Ethical Analysis
+PHIL 430: Topics in Ethics
+PHIL 431: Normative Ethics
+PHIL 432: Theory of Value
+PHIL 433: History of Ethics
+PHIL 435: Phil of Logic
+PHIL 437: Phil of Mus
+PHIL 438: Topics Aesthetics
+PHIL 439: Aesthetics
+PHIL 440: Philosophy of Film
+PHIL 441: Social Phil
+PHIL 442: Topics in Political Philosophy
+PHIL 443: Rational Choice
+PHIL 444: Groups &amp; Choices
+PHIL 445: Phil of Law
+PHIL 446: SPLang
+PHIL 450: Phil Cognition
+PHIL 455: Contemp Moral Probs
+PHIL 458: Philosophy of Kant
+PHIL 460: Medieval Philosophy
+PHIL 461: Phil Thought in 17C
+PHIL 462: Phil Thought in 18C
+PHIL 463: Topics in the History of Philosophy
+PHIL 464: Science Revolution
+PHIL 465: Continental Philos
+PHIL 466: Top Cont Phil
+PHIL 467: Enlightenment
+PHIL 474: 19 Century PHIL
+PHIL 475: Topic in 20th C Phil
+PHIL 477: Theory-Knowledge
+PHIL 480: Philos of Religion
+PHIL 481: Metaphysics
+PHIL 482: Philosophy of Mind
+PHIL 485: Philosophy of Action
+PHIL 486: Feminist Philos
+PHIL 487: Wittgenstein
+PHIL 492: Frege,Russell
+PHIL 497: Phil Mini-Course
+PHIL 498: Senior Honors
+PHIL 499: Senior Honors
+PHIL 501: Plato
+PHIL 502: Aristotle
+PHIL 503: Topic-Medieval Phil
+PHIL 508: Continental Ration
+PHIL 511: Phil Social Science
+PHIL 512: British Empiricism
+PHIL 514: Kant
+PHIL 515: Hegel
+PHIL 517: Topics History Phil
+PHIL 520: Wittgenstein
+PHIL 522: Logic Positivism
+PHIL 523: Phenomenology
+PHIL 524: Sartre
+PHIL 530: Top in Epistemology
+PHIL 535: Top Metaphysics
+PHIL 540: Top Phil of Mind
+PHIL 542: Probs Human Action
+PHIL 550: Top in Phil Lang
+PHIL 551: Top Phil-Ling
+PHIL 552: Prag&amp;SA Theory
+PHIL 553: Statistic Inference
+PHIL 555: Topics in Logic
+PHIL 556: Top Modal Logic
+PHIL 557: Top Induct Logic
+PHIL 558: Phil of Math
+PHIL 560: Top Phil of Science
+PHIL 562: Top Phil of Physics
+PHIL 567: Top in Phil of Hist
+PHIL 572: Top in Meta-Ethics
+PHIL 574: Top in Norm Ethics
+PHIL 576: Top in Soc Pol Phil
+PHIL 578: Top Phil of Law
+PHIL 580: Top in Phil-Relig
+PHIL 585: Topics in Aesthetic
+PHIL 590: Graduate Intensive Study
+PHIL 596: Reading Course
+PHIL 597: Proseminar
+PHIL 598: Ind Lit Survey
+PHIL 599: Doss Reading
+PHIL 600: Advanced Studies
+PHIL 601: Seminar in Theory of Knowledge
+PHIL 602: Philos of Science
+PHIL 605: Logic I
+PHIL 607: Metaphysics I
+PHIL 609: Philos of Mind
+PHIL 610: Seminar in History of Philosophy
+PHIL 611: Seminar in Current Philosophy
+PHIL 612: Religion
+PHIL 613: Space Sym and Rep
+PHIL 615: Sem Phil of Lang
+PHIL 616: Philosophy-Math
+PHIL 618: Aesthetics
+PHIL 619: Continental Phil
+PHIL 621: Plato
+PHIL 640: Seminar in Ethics
+PHIL 666: Chinese Marxism
+PHIL 677: Social Philos
+PHIL 697: Candidacy Seminar
+PHIL 990: Diss-Precand
+PHIL 991: RCRS
+PHIL 993: Graduate Student Instructor Training Program
+PHIL 995: Diss-Cand
