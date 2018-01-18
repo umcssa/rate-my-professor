@@ -1,0 +1,1755 @@
+
+
+
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EECS 413: Monolith Amplifier Circuits</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <link rel="stylesheet" type="text/css" href="/static/nvd3/build/nv.d3.min.b097b74ba466.css" />
+  <link rel="stylesheet" type="text/css" href="/static/bootstrap/dist/css/bootstrap.1a4f2e51d52a.css" />
+  <link rel="stylesheet" type="text/css" href="/static/dc/dc.ae741ac6d0b3.css" />
+
+  <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/blitzer/jquery-ui.min.css" type="text/css" media="all" />
+
+  <link rel="stylesheet" href="/static/js/libs/slick/slick.13b1b6672b8c.css"/>
+
+  <link rel="stylesheet" href="/static/js/libs/slick/slick-theme.590ee7f4d13f.css">
+
+  <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.css">
+
+  <link rel="stylesheet" href="//cdn.datatables.net/responsive/2.1.1/css/responsive.dataTables.min.css">
+
+  <link rel="stylesheet" type="text/css" href="/static/styles/main.0e3d0647639b.css" />
+
+  <script src="/static/jquery-1.10.1.min/index.33d85132f015.js"></script>
+  <script type="text/javascript" charset="utf8" src="/static/jquery.dataTables/index.d9fb809d472d.js"></script>
+  <script type="text/javascript" charset="utf8" src="/static/dataTables.responsive.min/index.7ccda93e38c3.js"></script>
+
+  <script type="text/javascript"  src="/static/crossfilter/crossfilter.3d4a66521d2b.js"></script>
+  <script type="text/javascript" src="/static/d3/d3.4a654f23f7fe.js"></script>
+  <script type="text/javascript" src="/static/dc/dc.81eda9c11807.js"></script>
+  <script type="text/javascript" src="/static/jquery-ui.min/index.d935d506ae9c.js"></script>
+  <script type="text/javascript" src="/static/nv.d3/index.b78adc7e756e.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  
+    <script src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.5.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.5.min.css">
+    <link href="https://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.5.min.css" rel="stylesheet" type="text/css">
+    <script src="https://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.5.min.js"></script>
+
+
+</head>
+
+<body class="" >
+
+  
+  
+
+  <!--   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  -->
+
+  
+
+  
+  
+
+  <header>
+    
+      <div class="header-content">
+        <div class="header-element nav-left-container">
+          <a class="nav-element wordmark" href="/"><img class="nav-logo" src="/static/images/logo/art-logo.401fa496879a.svg" alt="ART logo"></a>
+          <nav class="nav-element">
+            <ul class="main-nav">
+              <li><a href="/">Home</a></li>
+              <li><a href="/about/">About</a></li>
+              <li><a href="/contact/">Contact</a></li>
+              
+              <li><a href="/accounts/logout"><img src="/static/images/icons/logout.60acc78ec1d3.svg" alt="logout icon">Logout</a></li>
+              
+            </ul>
+          </nav>
+        </div>
+
+        <div class="header-element nav-right-container">
+          
+            <form action="/" role="form" method="POST" id="nav_explore">
+               <input type='hidden' name='csrfmiddlewaretoken' value='2F3H7vIAf7lzUnkUHN00OIhfdOxOR3PFhtzJBFEUjjTpvmAoH3c2mWi1DOKxwUix' />
+              <input type="hidden" name="op" value="courses">
+              <input id="auto_selected_nav" type="hidden" name="auto_selected" value="False">
+              <input type="text" name="search" id="nav_search" placeholder="Search course numbers, tiltes, or keywords" class="form-control form-control-small" aria-label="Search by course numbers, title, or keywords">
+            </form>
+          
+        </div>
+      </div>
+
+    
+  </header>
+
+  
+
+  
+  
+
+  
+
+
+  <div class="wrapper  container app ">
+    
+
+<div class="row">
+  <div class="col-md-8">
+    
+      <h1><span>EECS 413</span></h1>
+    
+  </div>
+</div>
+
+
+
+<div class="row course-info">
+  <div class="col-md-7 course-overview">
+    <h2> Monolith Amplifier Circuits </h2>
+    
+      <div class="course-description shorten">
+        Analysis and design of BJT and MOS multi-transistor amplifiers.  Feedback theory and application to feedback amplifiers.  Stability considerations, pole-zero cancellation, root locus techniques in feedback amplifiers.  Detailed analysis and design of BJT and MOS integrated operational amplifiers.
+      </div>
+  </div>
+
+  <div class="col-md-5 course-overview">
+    <div class="secondary-info">
+
+      
+        <h3>Enforced prerequisites:</h3>
+        <p>(EECS 311 and 320) or Graduate; (C or better)</p>
+      
+
+      
+
+      <div id="credits">
+        <h3>Credits:</h3>
+        <p>4.0</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<h3>Course Evaluations</h3>
+<p><em>Learn more about this <a href="/about/">evaluation data.</a></em></p>
+
+<!-- <p><strong>41%</strong> response rate (3,038 of 7,412 students)</p> -->
+
+<!-- <p>The following questions are based on a <strong>41%</strong> response rate (3,038 of 7,412 students)</p>
+
+<p>The following questions are based on a <strong>41% response rate</strong> (3,038 of 7,412 students)</p> -->
+
+<div class="eval-container">
+
+  
+  <div class="eval-card eval-card-course">
+    <div class="eval-card-top">
+      <div class="stat-background-bar">
+        <div class="stat-fill-bar heart" style="width: 81%">
+        </div>
+
+      </div>
+    </div>
+    <div class="eval-card-bottom">
+      <h4>Desire to take</h4>
+      <img src="/static/images/eval-icons/heart.15bca72418c9.svg" alt="heart icon">
+      <p class="eval-stat">81%</p>
+      <div class="eval-card-description">
+        <p>of respondents expressed a <strong>strong desire</strong> to take this course.</p>
+      </div>
+    </div>
+  </div>
+
+  
+
+  
+  <div class="eval-card eval-card-course">
+    <div class="eval-card-top">
+      <div class="stat-background-bar">
+        <div class="stat-fill-bar bulb" style="width: 57%">
+        </div>
+
+      </div>
+    </div>
+    <div class="eval-card-bottom">
+      <h4>Understanding</h4>
+      <img src="/static/images/eval-icons/bulb.5cc9e092e709.svg" alt="lightbulb icon">
+      <p class="eval-stat">57%</p>
+      <div class="eval-card-description">
+        <p>of respondents thought this course <strong>advanced their understanding</strong> of the subject matter.</p>
+      </div>
+    </div>
+  </div>
+  
+
+  
+  <div class="eval-card eval-card-course">
+    <div class="eval-card-top">
+      <div class="stat-background-bar">
+        <div class="stat-fill-bar weight" style="width: 21%">
+        </div>
+
+      </div>
+    </div>
+    <div class="eval-card-bottom">
+      <h4>Workload</h4>
+      <img src="/static/images/eval-icons/weight.80c14c4a11f1.svg" alt="weight icon">
+      <p class="eval-stat">21%</p>
+      <div class="eval-card-description">
+        <p>of respondents perceived the <strong>workload</strong> for this course as heavier than other courses.</p>
+      </div>
+    </div>
+  </div>
+ 
+
+
+  
+  <div class="eval-card eval-card-course">
+    <div class="eval-card-top">
+      <div class="stat-background-bar">
+        <div class="stat-fill-bar crystalball" style="width: 40%">
+        </div>
+      </div>
+    </div>
+  <div class="eval-card-bottom">
+      <h4>Expectations</h4>
+    <img src="/static/images/eval-icons/crystalball.0077b3eba387.svg" alt="crystal ball icon">
+    <p class="eval-stat">40%</p>
+      <div class="eval-card-description">
+        <p>of respondents expressed <strong>knowing what was expected</strong> of them in this course.</p>
+      </div>
+    </div>
+  </div>
+  
+
+  
+  <div class="eval-card eval-card-course">
+    <div class="eval-card-top">
+      <div class="stat-background-bar">
+        <div class="stat-fill-bar lightning" style="width: 50%">
+        </div>
+
+      </div>
+    </div>
+    <div class="eval-card-bottom">
+      <h4>Increased interest</h4>
+      <img src="/static/images/eval-icons/lightning.3f6603a788f9.svg" alt="lightning icon">
+      <p class="eval-stat">50%</p>
+      <div class="eval-card-description">
+        <p>of respondents expressed an <strong>increased interest</strong> in the subject because of this course.</p>
+      </div>
+    </div>
+  </div>
+
+  
+
+</div>
+
+
+<div class="response-rate">
+  <img src="/static/images/icons/loudspeaker.1b7c57a19e08.png" alt="response rate icon"><p>173 of 333 students (52%) responded.</p>
+</div>
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-md-12">
+    
+    <h3>Instructors</h3>
+    <p><em>Who teaches the course?</em></p>
+    <div>
+      <table id="instructortable"  data-order='[[ 1, "desc" ]]' class="display" style="width: 100%">
+        <thead style="position:relative;">
+          <tr>
+            <th class="all">Who</th>
+            <th class="all"># Terms taught</th>
+            <th class="min-tablet">Most recently</th>
+            
+            <th class="desktop eval-column">Preparedness</th>
+            <th class="desktop eval-column">Clarity</th>
+            <th class="desktop eval-column">Respect</th>
+            
+          </tr>
+        </thead>
+        <tbody>
+          
+            <tr>
+              <td><a href="/instructor/afshari/">Afshari, Ehsan</a></td>
+              <td>1</td>
+              <td>Fall 2016 </td>
+              
+              <td>
+                <div class="table-eval">
+                    
+                  <div class="stat-background-bar table-eval">
+                    <div class="stat-fill-bar calendar" style="width: 85%">
+                    </div>
+                  </div>
+                  <p>85%</p>
+                </div>
+                  
+              </td>
+              <td>
+                <div class="table-eval">
+                    
+                  <div class="stat-background-bar table-eval">
+                    <div class="stat-fill-bar glasses" style="width: 62%">
+                    </div>
+                  </div>
+                  <p>62%</p>
+                </div>
+                  
+              </td>
+              <td>
+                <div class="table-eval">
+                    
+                  <div class="stat-background-bar table-eval">
+                    <div class="stat-fill-bar ribbon" style="width: 88%">
+                    </div>
+                  </div>
+                  <p>88%</p>
+                </div>
+                  
+              </td>
+              
+            </tr>
+          
+            <tr>
+              <td><a href="/instructor/wentzlof/">Wentzloff, David</a></td>
+              <td>1</td>
+              <td>Fall 2015 </td>
+              
+              <td>
+                <div class="table-eval">
+                    
+                  <div class="stat-background-bar table-eval">
+                    <div class="stat-fill-bar calendar" style="width: 96%">
+                    </div>
+                  </div>
+                  <p>96%</p>
+                </div>
+                  
+              </td>
+              <td>
+                <div class="table-eval">
+                    
+              </td>
+              <td>
+                <div class="table-eval">
+                    
+                  <div class="stat-background-bar table-eval">
+                    <div class="stat-fill-bar ribbon" style="width: 96%">
+                    </div>
+                  </div>
+                  <p>96%</p>
+                </div>
+                  
+              </td>
+              
+            </tr>
+          
+            <tr>
+              <td><a href="/instructor/mpflynn/">Flynn, Michael</a></td>
+              <td>3</td>
+              <td>Fall 2014 </td>
+              
+              <td>
+                <div class="table-eval">
+                    
+                  <div class="stat-background-bar table-eval">
+                    <div class="stat-fill-bar calendar" style="width: 99%">
+                    </div>
+                  </div>
+                  <p>99%</p>
+                </div>
+                  
+              </td>
+              <td>
+                <div class="table-eval">
+                    
+              </td>
+              <td>
+                <div class="table-eval">
+                    
+                  <div class="stat-background-bar table-eval">
+                    <div class="stat-fill-bar ribbon" style="width: 96%">
+                    </div>
+                  </div>
+                  <p>96%</p>
+                </div>
+                  
+              </td>
+              
+            </tr>
+          
+        </tbody>
+      </table>
+    </div>
+    
+
+  </div>
+</div>
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-md-6">
+    <h3>Enrollment</h3>
+    <p><em>This panel shows when classes were offered in the past few years and how many students received a grade other than W, I, P or F. If no bar appears, it means the class was not offered.</em></p>
+    <h4>&nbsp;</h4>
+
+    <div class="enrol-chart">
+      
+      <link media="all" href="/static/nvd3/build/nv.d3.min.css" type="text/css" rel="stylesheet" />
+<script src="/static/d3/d3.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="/static/nvd3/build/nv.d3.min.js" type="text/javascript" charset="utf-8"></script>
+
+
+      
+
+    <script>
+
+    $(function(){
+
+
+        data_multibarchart_container=[{"color": "#e08214", "values": [{"y": 67, "x": "2011-12"}, {"y": 58, "x": "2012-13"}, {"y": 58, "x": "2013-14"}, {"y": 57, "x": "2014-15"}, {"y": 58, "x": "2015-16"}, {"y": 53, "x": "2016-17"}, {"y": 45, "x": "2017-18"}], "key": "FA", "yAxis": "1"}, {"color": "#74add1", "values": [{"y": 0, "x": "2011-12"}, {"y": 0, "x": "2012-13"}, {"y": 0, "x": "2013-14"}, {"y": 0, "x": "2014-15"}, {"y": 0, "x": "2015-16"}, {"y": 0, "x": "2016-17"}, {"y": 0, "x": "2017-18"}], "key": "WN", "yAxis": "1"}, {"color": "#7fbc41", "values": [{"y": 0, "x": "2011-12"}, {"y": 0, "x": "2012-13"}, {"y": 0, "x": "2013-14"}, {"y": 0, "x": "2014-15"}, {"y": 0, "x": "2015-16"}, {"y": 0, "x": "2016-17"}, {"y": 0, "x": "2017-18"}], "key": "SP", "yAxis": "1"}, {"color": "#efbfbf", "values": [{"y": 0, "x": "2011-12"}, {"y": 0, "x": "2012-13"}, {"y": 0, "x": "2013-14"}, {"y": 0, "x": "2014-15"}, {"y": 0, "x": "2015-16"}, {"y": 0, "x": "2016-17"}, {"y": 0, "x": "2017-18"}], "key": "SU", "yAxis": "1"}];
+
+    nv.addGraph(function() {
+        var chart = nv.models.multiBarChart();
+
+        chart.margin({top: 30, right: 60, bottom: 20, left: 60});
+
+        var datum = data_multibarchart_container;
+
+        chart.color(d3.scale.category20().range());
+
+
+
+
+            chart.yAxis
+                .tickFormat(d3.format(',.0d'));
+
+                    chart.tooltipContent(function(key, y, e, graph) {
+                        var x = String(graph.point.x);
+                        var y = String(graph.point.y);
+                                            if(key == 'FA'){
+                        var y =  String(graph.point.y) ;
+                    }
+                    if(key == 'WN'){
+                        var y =  String(graph.point.y) ;
+                    }
+                    if(key == 'SP'){
+                        var y =  String(graph.point.y) ;
+                    }
+                    if(key == 'SU'){
+                        var y =  String(graph.point.y) ;
+                    }
+
+                        tooltip_str = '<center><b>'+key+'</b></center>' + y + ' at ' + x;
+                        return tooltip_str;
+                    });
+
+      chart.showLegend(true);
+
+                chart.tooltips(true);
+                chart.showLegend(true);
+                chart.legend.margin({top:5, right:0, bottom:5, left:0});
+                chart.groupSpacing(0.3);
+                chart.reduceXTicks(false);
+                chart.staggerLabels(false);
+                chart.margin({top:10, right:50, bottom:40, left:30});
+                chart.showControls(false);
+                chart.height(300);
+
+
+        
+
+
+        d3.select('#multibarchart_container svg')
+            .datum(datum)
+            .transition().duration(500)
+            .attr('height', 450)
+            .call(chart);
+
+
+    });
+
+
+
+
+        });
+    </script>
+
+
+      <div id="multibarchart_container"><svg style="width:600px;height:300px;"></svg></div>
+
+
+      
+    </div>
+  </div>
+
+
+  <div class="col-md-6">
+    <h3>Level</h3>
+    <em>The year in school (based on credit hours earned) students were at the beginning of the term in which they took this course.</em>
+    <table class="table">
+      
+        <tbody>
+          
+            <tr>
+              
+              <td style="background:linear-gradient(to right,rgba(49, 54, 149, 0.3) 0%, white 0%)">Junior<span class="pull-right percent-column">
+              
+                
+                  <1%
+                
+              
+              </span></td>
+            </tr>
+          
+            <tr>
+              
+              <td style="background:linear-gradient(to right,rgba(49, 54, 149, 0.3) 25%, white 25%)">Senior<span class="pull-right percent-column">
+              
+                25%
+              
+              </span></td>
+            </tr>
+          
+            <tr>
+              
+              <td style="background:linear-gradient(to right,rgba(49, 54, 149, 0.3) 18%, white 18%)">G Pre-Cand<span class="pull-right percent-column">
+              
+                18%
+              
+              </span></td>
+            </tr>
+          
+            <tr>
+              
+              <td style="background:linear-gradient(to right,rgba(49, 54, 149, 0.3) 2%, white 2%)">Grad Cand<span class="pull-right percent-column">
+              
+                2%
+              
+              </span></td>
+            </tr>
+          
+            <tr>
+              
+              <td style="background:linear-gradient(to right,rgba(49, 54, 149, 0.3) 55%, white 55%)">Grad Mastr<span class="pull-right percent-column">
+              
+                55%
+              
+              </span></td>
+            </tr>
+          
+            <tr>
+              
+              <td style="background:linear-gradient(to right,rgba(49, 54, 149, 0.3) 0%, white 0%)">USpec/NCFD<span class="pull-right percent-column">
+              
+                
+                  <1%
+                
+              
+              </span></td>
+            </tr>
+          
+        </tbody>
+      
+    </table>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-6">
+      <h3>Degree</h3>
+      <p><em>Tracking student progress as best we can, what degrees have enrolled students declared?</em></p>
+      <table class="table">
+        
+          <tbody>
+            
+            <tr>
+              <td style="background:linear-gradient(to right, rgba(116, 173, 209, 0.8) 29%, white 29%)"><a class="course-link" href="/major/Electrical%20Engineering%20PhD/">Electrical Engineering PhD<span class="pull-right percent-column">29%</span></a>
+            </tr>
+            
+            <tr>
+              <td style="background:linear-gradient(to right, rgba(116, 173, 209, 0.8) 22%, white 22%)"><a class="course-link" href="/major/Electrical%20Engineering%20MS/">Electrical Engineering MS<span class="pull-right percent-column">22%</span></a>
+            </tr>
+            
+            <tr>
+              <td style="background:linear-gradient(to right, rgba(116, 173, 209, 0.8) 18%, white 18%)"><a class="course-link" href="/major/Electrical%20Engineering%20BSE/">Electrical Engineering BSE<span class="pull-right percent-column">18%</span></a>
+            </tr>
+            
+            <tr>
+              <td style="background:linear-gradient(to right, rgba(116, 173, 209, 0.8) 14%, white 14%)"><a class="course-link" href="/major/Electrical%20Engineering%20MSE/">Electrical Engineering MSE<span class="pull-right percent-column">14%</span></a>
+            </tr>
+            
+            <tr>
+              <td style="background:linear-gradient(to right, rgba(116, 173, 209, 0.8) 5%, white 5%)"><a class="course-link" href="/major/Electrical%20&amp;%20Computer%20Eng%20MS/">Electrical &amp; Computer Eng MS<span class="pull-right percent-column">5%</span></a>
+            </tr>
+            
+            <tr>
+              <td style="background:linear-gradient(to right, rgba(116, 173, 209, 0.8) 4%, white 4%)"><a class="course-link" href="/major/Electrical%20&amp;%20Computer%20Eng%20PhD/">Electrical &amp; Computer Eng PhD<span class="pull-right percent-column">4%</span></a>
+            </tr>
+            
+            <tr>
+              <td style="background:linear-gradient(to right, rgba(116, 173, 209, 0.8) 3%, white 3%)"><a class="course-link" href="/major/Electrical%20Engin-Systems%20MSE/">Electrical Engin-Systems MSE<span class="pull-right percent-column">3%</span></a>
+            </tr>
+            
+            <tr>
+              <td style="background:linear-gradient(to right, rgba(116, 173, 209, 0.8) 1%, white 1%)"><a class="course-link" href="/major/Electrical%20Engin-Systems%20MS/">Electrical Engin-Systems MS<span class="pull-right percent-column">1%</span></a>
+            </tr>
+            
+            <tr>
+              <td style="background:linear-gradient(to right, rgba(116, 173, 209, 0.8) 1%, white 1%)"><a class="course-link" href="/major/Engineering%20Honors%20Program/">Engineering Honors Program<span class="pull-right percent-column">1%</span></a>
+            </tr>
+            
+            <tr>
+              <td style="background:linear-gradient(to right, rgba(116, 173, 209, 0.8) 1%, white 1%)"><a class="course-link" href="/major/Mechanical%20Engineering%20MSE/">Mechanical Engineering MSE<span class="pull-right percent-column">1%</span></a>
+            </tr>
+            
+            <tr>
+              <td style="background:linear-gradient(to right, rgba(116, 173, 209, 0.8) 1%, white 1%)"><a class="course-link" href="/major/Engineering:%20First%20Year/">Engineering: First Year<span class="pull-right percent-column">1%</span></a>
+            </tr>
+            
+            <tr>
+              <td style="background:linear-gradient(to right, rgba(116, 173, 209, 0.8) 1%, white 1%)"><a class="course-link" href="/major/Computer%20Science%20&amp;%20Eng%20MS/">Computer Science &amp; Eng MS<span class="pull-right percent-column">1%</span></a>
+            </tr>
+            
+            <tr>
+              <td style="background:linear-gradient(to right, rgba(116, 173, 209, 0.8) 1%, white 1%)"><a class="course-link" href="/major/Electrical%20Engineering/">Electrical Engineering<span class="pull-right percent-column">1%</span></a>
+            </tr>
+            
+            <tr>
+              <td style="background:linear-gradient(to right, rgba(116, 173, 209, 0.8) 1%, white 1%)"><a class="course-link" href="/major/Electrical%20&amp;%20Computer%20Eng%20MSE/">Electrical &amp; Computer Eng MSE<span class="pull-right percent-column">1%</span></a>
+            </tr>
+            
+            <tr>
+              <td style="background:linear-gradient(to right, rgba(116, 173, 209, 0.8) 1%, white 1%)"><a class="course-link" href="/major/Mechanical%20Engineering%20PhD/">Mechanical Engineering PhD<span class="pull-right percent-column">1%</span></a>
+            </tr>
+            
+          </tbody>
+        
+      </table>
+  </div>
+
+  <div class="col-md-6">
+      <h3>School/College</h3>
+      <p><em>This list shows the schools or colleges students were enrolled in when they took the course. If there is no one from a school or college, it’s not shown at all.</em></p>
+      <table class="table">
+        
+          <tbody>
+            
+              <tr>
+                
+                <td style="background:linear-gradient(to right, rgba(53, 151, 143, 0.5) 74%, white 74%)">Rackham<span class="pull-right percent-column">
+                
+                  74%
+                
+                </span></td>
+            </tr>
+            
+              <tr>
+                
+                <td style="background:linear-gradient(to right, rgba(53, 151, 143, 0.5) 25%, white 25%)">Undergraduate Engineering<span class="pull-right percent-column">
+                
+                  25%
+                
+                </span></td>
+            </tr>
+            
+              <tr>
+                
+                <td style="background:linear-gradient(to right, rgba(53, 151, 143, 0.5) 1%, white 1%)">Graduate Engineering<span class="pull-right percent-column">
+                
+                  1%
+                
+                </span></td>
+            </tr>
+            
+              <tr>
+                
+                <td style="background:linear-gradient(to right, rgba(53, 151, 143, 0.5) 0%, white 0%)">Undergraduate Business Admin<span class="pull-right percent-column">
+                
+                  
+                    <1%
+                  
+                
+                </span></td>
+            </tr>
+            
+              <tr>
+                
+                <td style="background:linear-gradient(to right, rgba(53, 151, 143, 0.5) 0%, white 0%)">Undergraduate Non-Degree<span class="pull-right percent-column">
+                
+                  
+                    <1%
+                  
+                
+                </span></td>
+            </tr>
+            
+          </tbody>
+        
+      </table>
+  </div>
+</div>
+
+    <div class="row">
+    
+    </div>
+
+<div class="row">
+  <div class="col-md-4">
+    <h3>Pre-enrollment</h3>
+    <p><em>This list shows the most common courses students took before taking this course.</em></p>
+    <table class="table">
+      
+        <tbody>
+          
+            <tr>
+              
+              <td style="background:linear-gradient(to right, rgba(254, 224, 144, 0.8) 34%, white 34%)"><a class="course-link" href="/course/EECS%20320/">EECS 320<span class="pull-right percent-column">
+                
+                  34%
+                
+              </span></a></td>
+            </tr>
+          
+            <tr>
+              
+              <td style="background:linear-gradient(to right, rgba(254, 224, 144, 0.8) 34%, white 34%)"><a class="course-link" href="/course/EECS%20311/">EECS 311<span class="pull-right percent-column">
+                
+                  34%
+                
+              </span></a></td>
+            </tr>
+          
+            <tr>
+              
+              <td style="background:linear-gradient(to right, rgba(254, 224, 144, 0.8) 28%, white 28%)"><a class="course-link" href="/course/EECS%20230/">EECS 230<span class="pull-right percent-column">
+                
+                  28%
+                
+              </span></a></td>
+            </tr>
+          
+            <tr>
+              
+              <td style="background:linear-gradient(to right, rgba(254, 224, 144, 0.8) 24%, white 24%)"><a class="course-link" href="/course/EECS%20280/">EECS 280<span class="pull-right percent-column">
+                
+                  24%
+                
+              </span></a></td>
+            </tr>
+          
+            <tr>
+              
+              <td style="background:linear-gradient(to right, rgba(254, 224, 144, 0.8) 24%, white 24%)"><a class="course-link" href="/course/TCHNCLCM%20300/">TCHNCLCM 300<span class="pull-right percent-column">
+                
+                  24%
+                
+              </span></a></td>
+            </tr>
+          
+            <tr>
+              
+              <td style="background:linear-gradient(to right, rgba(254, 224, 144, 0.8) 23%, white 23%)"><a class="course-link" href="/course/EECS%20216/">EECS 216<span class="pull-right percent-column">
+                
+                  23%
+                
+              </span></a></td>
+            </tr>
+          
+            <tr>
+              
+              <td style="background:linear-gradient(to right, rgba(254, 224, 144, 0.8) 23%, white 23%)"><a class="course-link" href="/course/EECS%20312/">EECS 312<span class="pull-right percent-column">
+                
+                  23%
+                
+              </span></a></td>
+            </tr>
+          
+            <tr>
+              
+              <td style="background:linear-gradient(to right, rgba(254, 224, 144, 0.8) 22%, white 22%)"><a class="course-link" href="/course/EECS%20215/">EECS 215<span class="pull-right percent-column">
+                
+                  22%
+                
+              </span></a></td>
+            </tr>
+          
+            <tr>
+              
+              <td style="background:linear-gradient(to right, rgba(254, 224, 144, 0.8) 20%, white 20%)"><a class="course-link" href="/course/EECS%20427/">EECS 427<span class="pull-right percent-column">
+                
+                  20%
+                
+              </span></a></td>
+            </tr>
+          
+            <tr>
+              
+              <td style="background:linear-gradient(to right, rgba(254, 224, 144, 0.8) 19%, white 19%)"><a class="course-link" href="/course/ENGR%20100/">ENGR 100<span class="pull-right percent-column">
+                
+                  19%
+                
+              </span></a></td>
+            </tr>
+          
+        </tbody>
+      
+    </table>
+  </div>
+
+  <div class="col-md-4">
+    <h3>Co-enrollment</h3>
+    <p><em>This list shows the most common courses students took while also taking this course.</em></p>
+    <table class="table">
+      
+        <tbody>
+          
+            <tr>
+              
+              <td style="background:linear-gradient(to right, rgba(184, 225, 134, 0.8) 19%, white 19%)"><a class="course-link" href="/course/EECS%20496/">EECS 496<span class="pull-right percent-column">
+                
+                  19%
+                
+              </span></a></td>
+            </tr>
+          
+            <tr>
+              
+              <td style="background:linear-gradient(to right, rgba(184, 225, 134, 0.8) 17%, white 17%)"><a class="course-link" href="/course/TCHNCLCM%20496/">TCHNCLCM 496<span class="pull-right percent-column">
+                
+                  17%
+                
+              </span></a></td>
+            </tr>
+          
+            <tr>
+              
+              <td style="background:linear-gradient(to right, rgba(184, 225, 134, 0.8) 17%, white 17%)"><a class="course-link" href="/course/EECS%20414/">EECS 414<span class="pull-right percent-column">
+                
+                  17%
+                
+              </span></a></td>
+            </tr>
+          
+            <tr>
+              
+              <td style="background:linear-gradient(to right, rgba(184, 225, 134, 0.8) 16%, white 16%)"><a class="course-link" href="/course/EECS%20427/">EECS 427<span class="pull-right percent-column">
+                
+                  16%
+                
+              </span></a></td>
+            </tr>
+          
+            <tr>
+              
+              <td style="background:linear-gradient(to right, rgba(184, 225, 134, 0.8) 10%, white 10%)"><a class="course-link" href="/course/EECS%20599/">EECS 599<span class="pull-right percent-column">
+                
+                  10%
+                
+              </span></a></td>
+            </tr>
+          
+            <tr>
+              
+              <td style="background:linear-gradient(to right, rgba(184, 225, 134, 0.8) 10%, white 10%)"><a class="course-link" href="/course/EECS%20523/">EECS 523<span class="pull-right percent-column">
+                
+                  10%
+                
+              </span></a></td>
+            </tr>
+          
+            <tr>
+              
+              <td style="background:linear-gradient(to right, rgba(184, 225, 134, 0.8) 10%, white 10%)"><a class="course-link" href="/course/EECS%20411/">EECS 411<span class="pull-right percent-column">
+                
+                  10%
+                
+              </span></a></td>
+            </tr>
+          
+            <tr>
+              
+              <td style="background:linear-gradient(to right, rgba(184, 225, 134, 0.8) 7%, white 7%)"><a class="course-link" href="/course/EECS%20418/">EECS 418<span class="pull-right percent-column">
+                
+                  7%
+                
+              </span></a></td>
+            </tr>
+          
+            <tr>
+              
+              <td style="background:linear-gradient(to right, rgba(184, 225, 134, 0.8) 6%, white 6%)"><a class="course-link" href="/course/EECS%20470/">EECS 470<span class="pull-right percent-column">
+                
+                  6%
+                
+              </span></a></td>
+            </tr>
+          
+            <tr>
+              
+              <td style="background:linear-gradient(to right, rgba(184, 225, 134, 0.8) 6%, white 6%)"><a class="course-link" href="/course/EECS%20598/">EECS 598<span class="pull-right percent-column">
+                
+                  6%
+                
+              </span></a></td>
+            </tr>
+          
+        </tbody>
+      
+    </table>
+  </div>
+
+  <div class="col-md-4">
+    <h3>Post-enrollment</h3>
+    <p><em>This list shows the most common courses students took after taking this course.</em></p>
+    <table class="table">
+      
+        <tbody>
+          
+            <tr>
+              
+              <td style="background:linear-gradient(to right, rgba(116, 173, 209, 0.5) 38%, white 38%)"><a class="course-link" href="/course/EECS%20522/">EECS 522<span class="pull-right percent-column">
+                
+                  38%
+                
+              </span></a></td>
+            </tr>
+          
+            <tr>
+              
+              <td style="background:linear-gradient(to right, rgba(116, 173, 209, 0.5) 29%, white 29%)"><a class="course-link" href="/course/EECS%20511/">EECS 511<span class="pull-right percent-column">
+                
+                  29%
+                
+              </span></a></td>
+            </tr>
+          
+            <tr>
+              
+              <td style="background:linear-gradient(to right, rgba(116, 173, 209, 0.5) 27%, white 27%)"><a class="course-link" href="/course/EECS%20598/">EECS 598<span class="pull-right percent-column">
+                
+                  27%
+                
+              </span></a></td>
+            </tr>
+          
+            <tr>
+              
+              <td style="background:linear-gradient(to right, rgba(116, 173, 209, 0.5) 20%, white 20%)"><a class="course-link" href="/course/EECS%20599/">EECS 599<span class="pull-right percent-column">
+                
+                  20%
+                
+              </span></a></td>
+            </tr>
+          
+            <tr>
+              
+              <td style="background:linear-gradient(to right, rgba(116, 173, 209, 0.5) 19%, white 19%)"><a class="course-link" href="/course/EECS%20627/">EECS 627<span class="pull-right percent-column">
+                
+                  19%
+                
+              </span></a></td>
+            </tr>
+          
+            <tr>
+              
+              <td style="background:linear-gradient(to right, rgba(116, 173, 209, 0.5) 17%, white 17%)"><a class="course-link" href="/course/RACKHAM%20998/">RACKHAM 998<span class="pull-right percent-column">
+                
+                  17%
+                
+              </span></a></td>
+            </tr>
+          
+            <tr>
+              
+              <td style="background:linear-gradient(to right, rgba(116, 173, 209, 0.5) 16%, white 16%)"><a class="course-link" href="/course/EECS%20995/">EECS 995<span class="pull-right percent-column">
+                
+                  16%
+                
+              </span></a></td>
+            </tr>
+          
+            <tr>
+              
+              <td style="background:linear-gradient(to right, rgba(116, 173, 209, 0.5) 16%, white 16%)"><a class="course-link" href="/course/EECS%20523/">EECS 523<span class="pull-right percent-column">
+                
+                  16%
+                
+              </span></a></td>
+            </tr>
+          
+            <tr>
+              
+              <td style="background:linear-gradient(to right, rgba(116, 173, 209, 0.5) 14%, white 14%)"><a class="course-link" href="/course/EECS%20470/">EECS 470<span class="pull-right percent-column">
+                
+                  14%
+                
+              </span></a></td>
+            </tr>
+          
+            <tr>
+              
+              <td style="background:linear-gradient(to right, rgba(116, 173, 209, 0.5) 12%, white 12%)"><a class="course-link" href="/course/EECS%20427/">EECS 427<span class="pull-right percent-column">
+                
+                  12%
+                
+              </span></a></td>
+            </tr>
+          
+        </tbody>
+      
+    </table>
+  </div>
+
+</div>
+
+
+
+<script type="text/javascript">
+$(document).ready( function () {
+
+    // $.ajax({
+    //   method: 'GET',
+    //   url: 'plots/',
+    //   dataType: 'json',
+    //   success: function(result){
+    //     $('#bokeh_div').html(result.div);
+    //     $("head").append(result.script);
+    //   }
+    // });
+
+    $('#instructortable').DataTable({
+      "paging": true,
+      "searching": false,
+      "info": false,
+      "responsive": true,
+      "order": [[ 1, "desc" ]],
+      "stripeClasses": [],
+      "columns": [
+        { "width": "285px" },
+        { "width": "114px" },
+        { "width": "228px" }
+        
+        ,{ "width": "125px", "orderable": false },
+        { "width": "125px", "orderable": false },
+        { "width": "125px", "orderable": false }
+        
+      ]
+    });
+
+} );
+
+var median_g = '';
+if ("F" != 'F') {
+  median_g = "F";
+} else if ("F" != "F") {
+  median_g = "F ~ F";
+} else {
+  median_g = "F";
+}
+$('.show_median').html(median_g);
+
+$(document).on("click", function(e) {
+  if(e.target.id != "infoicon") {
+    $("#popup").hide();
+    $(".horizontal").show();
+  }
+});
+
+$("#infoicon").on("click", function(){
+  if($("#popup").css('display') == 'none') {
+    $("#popup").show();
+    $(".horizontal").hide();
+  } else {
+    $("#popup").hide();
+    $(".horizontal").show();
+  }
+});
+
+$("#popup").on("click", function() {
+  $("#popup").hide();
+  $(".horizontal").show();
+});
+
+$('#grade1').on("click", function(){
+  $("#toggle3").prop('checked', false);
+  $("#toggle4").prop('checked', false);
+  $("#toggle5").prop('checked', false);
+  $(this).css('border-bottom-color', '#8B84CC');
+  $('#grade2').css('border-bottom-color','white');
+  $('#option').val('pre');
+});
+
+$('#grade2').on("click", function(){
+  $("#toggle3").prop('checked', false);
+  $("#toggle4").prop('checked', false);
+  $("#toggle5").prop('checked', false);
+  $(this).css('border-bottom-color', '#8B84CC');
+  $('#grade1').css('border-bottom-color','white');
+  $('#option').val('co');
+});
+
+$("#course").autocomplete({
+  autoFocus: false,
+  minLength: 2,
+  delay: 0,
+  source: function(request, response){
+    $.ajax({
+      type:"GET",
+      url: "/api/courses/?search=" + $('#course').val(),
+      dataType: 'json',
+      success: function(data){
+        if(!data.length){
+          var result = [
+          {
+            label: "No results found",
+            value:''
+          }
+          ];
+          response(result);
+        }
+
+        else{
+          response($.map(data, function(item){
+          return{
+            label: '<div class=course1>' + item.course + '</div>' + '<div class=title>' + item.title + '</div>',
+            value: item.course
+          }
+        }))}
+      },
+    })
+  },
+}).data("ui-autocomplete")._renderItem = function(ul, item){
+  return $("<li></li>")
+          .data("item.autocomplete", item)
+          .append(item.label)
+          .appendTo(ul)
+}
+
+var ajax_form;
+
+var data_got = {};
+
+function submit_form() {
+  $(".image").css("opacity", '0.2');
+  $(".message").css("opacity", '0.2');
+  $(".bar2").css('opacity', '0.2');
+  $(".median").hide();
+  $(".loader").show();
+
+  var $form = $("#grade_form"),
+    op = $form.find("input[name='op']").val(),
+    course = $form.find("input[name='course']").val(),
+    url = $form.attr("action");
+
+  if (ajax_toggle) {
+    ajax_toggle.abort();
+    $.ajax({
+      url: '',
+      type: 'POST',
+      data: {
+        cancel: 'true',
+        csrfmiddlewaretoken: "2F3H7vIAf7lzUnkUHN00OIhfdOxOR3PFhtzJBFEUjjTpvmAoH3c2mWi1DOKxwUix"
+      },
+      dataType: 'json',
+      success: function(data) {
+        if (data['cancel'] == 'true') {
+          // alert("canceled");
+        }
+      }
+    });
+  }
+
+  if (op == "") {
+    alert("Please fill out the form");
+  } else {
+    ajax_form = $.ajax({
+      url: url,
+      type:'POST',
+      data:
+      {
+        op: op,
+        cancel: 'false',
+        course: course,
+        csrfmiddlewaretoken: "2F3H7vIAf7lzUnkUHN00OIhfdOxOR3PFhtzJBFEUjjTpvmAoH3c2mWi1DOKxwUix"
+      },
+      dataType: 'json',
+      success: function(data){
+        if (data['success'] == "false") {
+          $(".image").css("opacity", '1');
+          $(".message").css("opacity", '1');
+          $(".loader").hide();
+          alert("The course is not existed.")
+        } else {
+          $("#course").val('');
+          $(".message").hide();
+          $(".image").hide();
+          if ($(window).width() < 992) {
+            $(".box2").css("margin-top", 80);
+          } else {
+            $(".box2").css("margin-top", "");
+          }
+
+          $("#dotchart").empty();
+          $(".showcourse").remove();
+          $(".show_div").append('<p class="showcourse">' + data.course + '</p>');
+          $(".showcourse").css("white-space", "nowrap");
+          $(".showcourse").css("text-overflow", "ellipsis");
+          $(".showcourse").css("overflow", "hidden");
+          $(".show_div").show();
+          $(".image").css("opacity", '1');
+          $(".message").css("opacity", '1');
+          $(".median").show();
+          $(".loader").hide();
+
+          show_both(data);
+          data_got = data;
+        }
+      }
+    });
+  }
+}
+
+$("#grade_form").submit(function (e) {
+  e.preventDefault();
+  submit_form();
+});
+
+$(".fa.fa-search.icon").on("click", function() {
+  submit_form();
+});
+
+$(".clearicon").on("click", function() {
+  $(".show_div").hide();
+  $("#dotchart").empty();
+  show_general();
+  if ($(window).width() >= 600) {
+    $(".loader").css('top', '260px');
+    $(".loader").css('left', '260px');
+  } else {
+    $(".loader").css('top', '180px');
+    $(".loader").css('left', '150px');
+  }
+
+  if ($(window).width() < 420) {
+    $(".message").css("font-size", $(window).width()/30);
+    $(".message").css("width", $(window).width()/2.6);
+  } else {
+    $(".message").css("font-size", 14);
+    $(".message").css("width", 160);
+  }
+
+  $(".message").show();
+  $(".image").show();
+  if ($(window).width() < 992) {
+    $(".box2").css("margin-top", 175);
+  }
+
+  $(".median_grade_likeme").hide();
+  $(".students_number_likeme").hide();
+});
+
+show_general();
+function show_general() {
+  if ($(window).width() <= 420) {
+    $(".show_median").css("top", -$(window).width()/8);
+    $(".show_median").css("left", $(window).width()/9);
+    $(".show_number").css("top", -$(window).width()/8);
+    $(".show_number").css("left", $(window).width()/7);
+  }
+
+  if ($(window).width() < 600) {
+    var margin = {top: $(window).width()/60, right: 20, bottom: 30, left: 35};
+    var data = [];
+    dotbarchart_general(data, $(window).width() + 100, margin, 0);
+    $(".axis text").css("font-size", $(window).width()/60, 'F', 'F', 'F');
+  } else {
+    var margin = {top: 25, right: 30, bottom: 30, left: 40};
+    var data = [];
+    dotbarchart_general(data, 600, margin, 0, 'F', 'F', 'F');
+  }
+}
+
+function show_both(data) {
+  if ($(window).width() <= 420) {
+    $(".show_median").css("top", -$(window).width()/8);
+    $(".show_median_likeme").css("top", -$(window).width()/8);
+    $(".show_number").css("top", -$(window).width()/8);
+    $(".show_number_likeme").css("top", -$(window).width()/8);
+    $(".show_median").css("left", $(window).width()/9);
+    $(".show_median_likeme").css("left", $(window).width()/9);
+    $(".show_number").css("left", $(window).width()/7);
+    $(".show_number_likeme").css("left", $(window).width()/7);
+  }
+
+  if ($(window).width() < 600) {
+    var margin = {top: $(window).width()/60, right: 20, bottom: $(window).width()/60, left: 35};
+
+    var median_l = '';
+    if (data.median != 'F') {
+      median_l = data.median;
+    } else if (data.median1 != data.median2) {
+      median_l = data.median1 + '~' + data.median2;
+    } else {
+      median_l = data.median1;
+    }
+    $('.show_median_likeme').html(median_l);
+    $('.show_number_likeme').html(data.students);
+    $(".median_grade_likeme").show();
+    $(".students_number_likeme").show();
+
+    dotbarchart_both_2v_h([], $(window).width() + 100, margin, data.count, data.median1, data.median2, data.median, data.students, 0, 'F', 'F', 'F');
+  } else {
+    var margin = {top: 25, right: 30, bottom: 5, left: 40};
+    dotbarchart_both_2v_h([], 600, margin, data.count, data.median1, data.median2, data.median, data.students, 0, 'F', 'F', 'F');
+    $('.median_grade_likeme').hide();
+    $('.students_number_likeme').hide();
+  }
+}
+
+$(window).on('resize', function(){
+  $("#dotchart").empty();
+  if ($(toggle3).prop("checked") || $(toggle4).prop("checked") || $(toggle5).prop("checked") || $('.show_div').is(':visible')) {
+    show_both(data_got);
+  } else {
+    show_general();
+  }
+
+  if ($(window).width() < 992) {
+    if ($('.image').is(':visible')) {
+      $(".box2").css("margin-top", 175);
+    } else {
+      $(".box2").css("margin-top", 80);
+    }
+  } else{
+    $(".box2").css("margin-top", "");
+  }
+
+  if ($(window).width() < 420) {
+    $(".message").css("font-size", $(window).width()/30);
+    $(".message").css("width", $(window).width()/2.6);
+    $(".show_median").css("top", -$(window).width()/8);
+    $(".show_median").css("left", $(window).width()/9);
+    $(".show_median_likeme").css("top", -$(window).width()/8);
+    $(".show_median_likeme").css("left", $(window).width()/9);
+    $(".show_number").css("top", -$(window).width()/8);
+    $(".show_number").css("left", $(window).width()/7);
+    $(".show_number_likeme").css("top", -$(window).width()/8);
+    $(".show_number_likeme").css("left", $(window).width()/7);
+  } else {
+    $(".message").css("font-size", 14);
+    $(".message").css("width", 160);
+    $(".show_median").css("top", -60);
+    $(".show_median_likeme").css("top", -60);
+    $(".show_number").css("top", -60);
+    $(".show_number_likeme").css("top", -60);
+    $(".show_median").css("left", 50);
+    $(".show_median_likeme").css("left", 50);
+    $(".show_number").css("left", 60);
+    $(".show_number_likeme").css("left", 60);
+  }
+});
+
+$("#toggle1").change(function () {
+  if ($(this).prop("checked")){
+    $(".box1").hide();
+    $("#toggle2").prop('checked', true);
+    if ($(window).width() >= 600) {
+      $(".loader").css('top', '260px');
+      $(".loader").css('left', '260px');
+    } else {
+      $(".loader").css('top', 2*$(window).width()/3);
+      $(".loader").css('left', 5*$(window).width()/12);
+    }
+
+    if ($(window).width() < 420) {
+      $(".message").css("font-size", $(window).width()/30);
+      $(".message").css("width", $(window).width()/2.6);
+    } else {
+      $(".message").css("font-size", 14);
+      $(".message").css("width", 160);
+    }
+
+    $(".message").show();
+    $(".image").show();
+
+    if ($(window).width() < 992) {
+      $(".box2").css("margin-top", 175);
+    }
+    $(".box2").show();
+    $(".show_div").hide();
+    $(".image").css("opacity", '1');
+    $(".message").css("opacity", '1');
+  } else {
+    $("#dotchart").empty();
+    // barchartone();
+    show_general();
+    // dotbarchart_general();
+    $(".box2").hide();
+    $(".message").hide();
+    $(".image").hide();
+    if ($(window).width() < 992) {
+      $(".box2").css("margin-top", 80);
+    } else {
+      $(".box2").css("margin-top", "");
+    }
+    $("#toggle1").prop('checked', false);
+    $("#toggle3").prop('checked', false);
+    $("#toggle4").prop('checked', false);
+    $("#toggle5").prop('checked', false);
+    $(".box1").show();
+    if ($(window).width() >= 600) {
+      $(".loader").css('top', '260px');
+      $(".loader").css('left', '260px');
+    } else {
+      $(".loader").css('top', 3*$(window).width()/2);
+      $(".loader").css('left', 5*$(window).width()/12);
+    }
+    $(".median_grade_likeme").hide();
+    $(".students_number_likeme").hide();
+    // $(".loader").hide();
+
+    if (ajax_toggle) {
+      ajax_toggle.abort();
+    }
+    if (ajax_form) {
+      ajax_form.abort();
+    }
+  }
+});
+
+var ajax_toggle;
+
+function toggle() {
+  $(".median").hide();
+  $(".show_div").hide();
+  $("#course").val('');
+  $('#grade1').css('border-bottom-color','#8B84CC');
+  $('#grade2').css('border-bottom-color','white');
+
+  if ($("#toggle3").prop('checked') || $("#toggle4").prop('checked') || $("#toggle5").prop('checked')) {
+    $(".image").css("opacity", '0.2');
+    $(".message").css("opacity", '0.2');
+    $(".bar2").css('opacity', '0.2');
+    $(".loader").show();
+  } else {
+    if ($(window).width() >= 600) {
+      $(".loader").css('top', '260px');
+      $(".loader").css('left', '260px');
+    } else {
+      $(".loader").css('top', 3*$(window).width()/2);
+      $(".loader").css('left', 5*$(window).width()/12);
+    }
+    $(".median_grade_likeme").hide();
+    $(".students_number_likeme").hide();
+
+    $(".message").show();
+    $(".image").show();
+  }
+
+  if (ajax_form) {
+    ajax_form.abort();
+
+    $.ajax({
+      url: '',
+      type: 'POST',
+      data:
+      {
+        cancel: "true",
+        csrfmiddlewaretoken: "2F3H7vIAf7lzUnkUHN00OIhfdOxOR3PFhtzJBFEUjjTpvmAoH3c2mWi1DOKxwUix"
+      },
+      dataType: 'json',
+      success: function(data) {
+        if (data['cancel'] == 'true') {
+          console.log("form canceled");
+          // alert("canceled");
+        }
+      }
+    });
+  }
+
+  var check_3 = $("#toggle3").prop("checked");
+  var check_4 = $("#toggle4").prop("checked");
+  var check_5 = $("#toggle5").prop("checked");
+
+  ajax_toggle = $.ajax({
+    url: "",
+    type:'POST',
+    data:
+    {
+      check_3: check_3,
+      check_4: check_4,
+      check_5: check_5,
+      op: "toggle",
+      cancel: 'false',
+      csrfmiddlewaretoken: "2F3H7vIAf7lzUnkUHN00OIhfdOxOR3PFhtzJBFEUjjTpvmAoH3c2mWi1DOKxwUix"
+    },
+    dataType: 'json',
+    success: function(data) {
+      if (data.filter == "true") {
+        $("#dotchart").empty();
+        show_both(data);
+        data_got = data;
+
+        $(".message").hide();
+        $(".image").hide();
+        if ($(window).width() < 992) {
+          $(".box2").css("margin-top", 80);
+        } else {
+          $(".box2").css("margin-top", "");
+        }
+        $(".image").css("opacity", '1');
+        $(".message").css("opacity", '1');
+        $(".median").show();
+        $(".loader").hide();
+        var median_l = '';
+        if (data.median != 'F') {
+          median_l = data.median;
+        } else if (data.median1 != data.median2) {
+          median_l = data.median1 + '~' + data.median2;
+        } else {
+          median_l = data.median1;
+        }
+        $('.show_median_likeme').html(median_l);
+        $('.show_number_likeme').html(data.students);
+      } else {
+        $("#dotchart").empty();
+        show_general();
+
+        if ($(window).width() < 420) {
+          $(".message").css("font-size", $(window).width()/30);
+          $(".message").css("width", $(window).width()/2.6);
+        } else {
+          $(".message").css("font-size", 14);
+          $(".message").css("width", 160);
+        }
+        $(".message").show();
+        $(".image").show();
+        if ($(window).width() < 992) {
+          $(".box2").css("margin-top", 175);
+        } else {
+          $(".box2").css("margin-top", "");
+        }
+      }
+    }
+  });
+}
+
+$("#toggle3").change(toggle);
+$("#toggle4").change(toggle);
+$("#toggle5").change(toggle);
+
+$("#course").on("focus", function() {
+  $("#toggle3").prop('checked', false);
+  $("#toggle4").prop('checked', false);
+  $("#toggle5").prop('checked', false);
+});
+
+</script>
+
+    
+  </div>
+
+  <footer>
+    
+
+    <div class="dig-logos">
+      <img  src="/static/images/logo/ai-logo.979557965d5f.png" alt="Academic Innovation logo"/>
+      <img src="/static/images/logo/dig-logo.f45da9315fc3.png" alt="Digital Innovation Greenhouse logo"/>
+    </div>
+
+    <div class="footer">
+      <div class="container text-center">
+        <div class="row legal">
+          <p>
+            By using the Academic Reporting Tools (ART), you are agreeing to abide by our <a class="footer-link" href="/legal/">Terms of Service.</a>
+          </p>
+        </div>
+          <p>Version 2.0.2 Build #7318.1</p>
+        <p>Copyright &copy; 2017 The Regents of the University of Michigan</p>
+      </div>
+    </div>
+    
+  </footer>
+
+    <!-- scripts concatenated and minified via build script -->
+  
+  
+
+  
+  
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-67092539-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $("#nav_search").autocomplete({
+    autoFocus: false,
+    minLength: 2,
+    delay: 200,
+    source: function(request, response){
+      response([{ label: "Loading...", loading: true }]);
+      var url = "/api/courses/?search=" + $('#nav_search').val()
+      $.ajax({
+        type:"GET",
+        url: url,
+        dataType: 'json',
+        success: function(data){
+          if(!data.length){
+            var result = [
+            {
+              label: "No results found",
+              value:''
+            }
+            ];
+            response(result);
+          }
+
+          else{
+            response($.map(data, function(item){
+              return{
+                label: '<div class=course_name>' + item.course + '</div>' + '<div class=title_name>' + item.title + '</div>',
+                value: item.course
+              }
+            }))
+          }
+        },
+      })
+    },
+    select: function(event, ui){
+          $("#nav_search").val(ui.item.value);
+          $("#auto_selected_nav").val("True");
+          $("#nav_explore").submit();
+        },
+
+  }).data("ui-autocomplete")._renderItem = function(ul, item){
+    var $li = $("<li></li>")
+          .data("item.autocomplete", item)
+          .append(item.label)
+          .appendTo(ul)
+
+    if (item.loading) {
+      $li.on("click", false);
+    }
+
+    return $li
+  }
+
+$("#search").autocomplete({
+    autoFocus: false,
+    minLength: 2,
+    delay: 200,
+    source: function(request, response){
+      response([{ label: "Loading...", loading: true }]);
+      var url = '';
+      option = $('#option').val();
+      if (option == 'instructors') {
+        url = "instructor/api/instructorlist/?search=" + $('#search').val()
+      } else if (option == 'majors') {
+        url = '/api/majorlist/?search=' + $('#search').val()
+      } else {
+        url = "/api/courses/?search=" + $('#search').val()
+      }
+      $.ajax({
+        type:"GET",
+        url: url,
+        dataType: 'json',
+        success: function(data){
+          if(!data.length){
+            var result = [
+            {
+              label: "No results found",
+              value:''
+            }
+            ];
+            response(result);
+          }
+
+          else{
+            response($.map(data, function(item){
+              if (option == 'instructors') {
+                return{
+                  label: '<div class=instructor_name>' + item.first_name + ' ' + item.last_name + '</div>',
+                  value: item.instructor_username + ' ' + item.first_name + ' ' + item.last_name
+                }
+              } else if (option == 'majors') {
+                return{
+                  label: '<div class=major_name>' + item.plan_desc + '</div>',
+                  value: item.plan_desc
+                }
+              } else {
+                return{
+                  label: '<div class=course_name>' + item.course + '</div>' + '<div class=title_name>' + item.title + '</div>',
+                  value: item.course
+                }
+              }
+            }))
+          }
+        },
+      })
+    },
+    select: function(event, ui){
+          $("#search").val(ui.item.value);
+          $("#auto_selected_search").val("True");
+          $("#explore").submit();
+        },
+
+  }).data("ui-autocomplete")._renderItem = function(ul, item){
+    var $li = $("<li></li>")
+          .data("item.autocomplete", item)
+          .append(item.label)
+          .appendTo(ul)
+
+    if (item.loading) {
+      $li.on("click", false);
+    }
+
+    return $li
+  }
+})
+
+jQuery.ui.autocomplete.prototype._resizeMenu = function () {
+  var ul = this.menu.element;
+  ul.outerWidth(this.element.outerWidth());
+}
+</script>
+
+</body>
+
+</html>
