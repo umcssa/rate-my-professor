@@ -1,0 +1,75 @@
+62	2018-01-09 14:18:16	SAC 236	Hubert Cohen	2016 Fall	3	HU	B Range	4/5	3/5	3/5	比较推荐	讲电影艺术的课，每学期会换一个教授讲，一般一学期会专注于讲一个导演，引申讲电影的拍摄技巧等。很文科的课，需要discussion讨论和几篇essay。考试也一般是blue book。对于感兴趣电影的旁友们 会是一门很好的基础课~	喵
+61	2018-01-09 14:04:33	EECS485	Andrew Deorio	2017 FA	4	其他: CS Requirements??	A Range	2.5/5	4/5	3/5	比较推荐	Deorio手把手教你养鸡买牛小知识。当然你也有百分之五十的几率看着JFlinn的大裤衩和热水瓶。	／
+60	2018-01-08 11:08:07	Math 289	Hugh Montgomery	Math 2017 Fall	1		A Range	2/5	5/5	1/5	特别推荐
+59	2018-01-08 11:07:03	Econ 102	Stevenson	2016 Fall	4	SS	A Range	1/5	4/5	1/5	比较推荐
+58	2018-01-08 00:12:27	Asian 485	Se-mi Oh	2017 Fall	4	SS	P/F	1/5	5/5	1/5	特别推荐	吴教授为人友善，专业知识渊博，发音标准。课程选择的电影绝对能让你在一学期内了解到十分完整的韩国电影发展的历史，有机会还能近距离接触影评界的专业人士。最最重要的是课业压力很轻（每周一部电影，一个disucssion response并且无ddl，一学期三个essay，平均一千左右），评分标准松，课友少，基本都能互相了解。期末结束还有一次吃白食/石锅饭的机会，是同学们上水课的不二之选。	小红
+57	2018-01-07 20:19:43	Math 295	Stephen Debacker	2016 Fall	4		A Range	4/5	5/5	5/5	比较推荐
+56	2018-01-07 20:19:02	Math 425	Thomas Bothner	2017 Winter	3		B Range	3/5	4/5	2/5	比较推荐
+55	2018-01-07 20:18:18	Math 465	Thomas Lam	2017 Fall	3		A Range	2.5/5	5/5	2/5	比较推荐
+54	2018-01-07 20:17:34	Math 395	David Speyers	2017 Fall	4		A Range	4.5/5	4/5	4/5	比较推荐
+53	2018-01-06 16:47:00	Asian 325	Benjamin Brose	2016 Winter	4	HU	A Range	3.5/5	3/5	3/5	比较推荐	教授讲课有点无聊，容易睡着。平时workload不大，但Essay给分不高，要多和GSI沟通打磨。
+52	2018-01-06 15:59:32	EECS 388	Peter Honeyman	2017 Fall	4		B Range	3.5/5	2/5	4/5	比较推荐	内容蛮有意思的，project相比写码更偏向钻研找漏洞，需要写一些文字。Honeyman不推荐，但这门课还不错。
+51	2018-01-06 14:48:51	Asian 257	Juhn Ahn	2015 Fall	4	HU	A Range	1/5	5/5	1/5	特别推荐	教授超级友好，讲课很有意思而且给分高。不知道以后还开不开这节课，但是可以跟着选这个教授的所有课！A+不是梦
+50	2018-01-06 11:09:42	EECS 492	Benjamin Kuipers	2017 Fall	4		A Range	2.5/5	3/5	2/5	特别推荐	对AI有一个入门级的了解，很有意思但不算深入
+49	2018-01-06 11:04:19	ENGR 151	Michael Wellman	2015 Fall	4		A Range	4/5	4/5	3/5	比较推荐	适合对编程有基础的同学。进度更快，project稍有难度，考试还可以
+48	2018-01-05 17:41:11	ENGLISH 125	Babcock, Julie	2016Winter	4	其他: First Year Writing	A Range	2.5/5	5/5	3/5	特别推荐	这个老师巨水！只要每个assignment due前去个officer hour要feedback，英语第二语言的朋友也能分分钟A	嗯！要找这个老师啊！
+47	2018-01-05 17:40:08	EECS 280	Jeff Reinberg	2017 Spring	4		A Range	3/5	5/5	3/5	特别推荐
+46	2018-01-05 17:39:11	PSYCH 388	Stephen Garcia	2017Fall	3	SS	B Range	2/5	4/5	2/5	比较推荐	课内容挺简单，上课会进行模拟negotiation。虽然是三个小时的课，但从来都是提前一个小时，半个小时下课！内容比较有趣。但是！一定不要缺课！不要以为negotiation结束就可以走！attendence真的是随机记的！！negotiation 结束回到教室后还是有可能记attendance！！！而且缺一次attendance这个课的成绩就崩了……千万不能翘课！
+45	2018-01-05 17:38:03	LING 111	Coetzee, Andries	2016Winter	3	SS	A Range	0.5/5	4/5	1/5	特别推荐	"老师很强，很专业
+reading quiz都是在书里原话，HW和exam都是open-book"	哇－听说也没那么水了
+44	2018-01-05 17:38:01	Physics 106	Michal Zochowski	2016 Fall	3	NS	A Range	1/5	3/5	1/5	特别推荐	水 虽然听说近期改革了 但是江山易改大家懂的	呵呵
+43	2018-01-05 17:37:25	MATH 216	Sarah kitchen	2017 winter	4		A Range	5/5	1/5	5/5	不太推荐	这个课lab report非常烦，能不上就不上，能找大腿找大腿
+42	2018-01-05 17:36:54	ECON 402	Dudek, Maciej	2017FALL	4		A Range	1/5	3/5	1/5	特别推荐	"新来的visiting professor, 内容不难，还有10%的attendance extra credit
+学econ的去找他上课吧 认识的中国同学基本都是A+"	mi
+41	2018-01-05 17:34:40	Earth 107	Zhang Youxue	2017WN	1	NS	A Range	1/5	4/5	1/5	特别推荐	地震小知识，1分mini course，超水ns。考试有题库，全是原题。上课有quiz，稍微听讲一下就会答。
+40	2018-01-05 17:32:23	ling111	Wangle	2017 winter	4	SS	A Range	1/5	3/5	2/5	特别推荐	"找同学一起
+水如狗"
+39	2018-01-05 17:32:07	ASTRO 106	Devour, Brian	2016Winter	1	NS	A Range	1/5	3/5	1/5	特别推荐	就是躺水	啊－可能这课没那么水了
+38	2018-01-05 17:30:49	Earth 154	Jeffrey Alt	2016WN	3	NS	A Range	1/5	5/5	1/5	特别推荐	超水，教授人超级nice。每周作业就回答几个问题。对海洋有了更多了解！
+37	2018-01-05 17:30:35	PHYSICS 288	Christine Aidala	2017 Winter	3	SS	A Range	0.5/5	5/5	1/5	特别推荐	密大最水NS课有力争夺者，补全初中高中缺失的所有物理实验，然而已经选不到了，哈哈哈哈哈哈哈！	Snow
+36	2018-01-05 17:30:32	ASIANLAN 426	Yoshimi Sakakibara	2017 Winter	2		A Range	3/5	5/5	4/5	特别推荐	老师人很好很愿意探讨问题 有extra credit 上课气氛很好
+35	2018-01-05 17:28:28	PHIL 183	David Manley	2016 Winter	3	HU	A Range	3/5	4/5	2/5	比较推荐	老师讲课有点平淡，但是课程内容很值得学习	哈哈
+34	2018-01-05 17:28:17	Stats 426	Naisyin Wang	2017Winter	3		A Range	4/5	3/5	3/5	比较推荐	讲课的时候喜欢讲很多有趣的episode （即使如此还是上课很无聊 考试不难
+33	2018-01-05 17:26:38	Phil 183	David Manley	2017 Fall		HU	P/F	5/5	4/5	1/5	很不推荐	神烦的水课，很难受，如果是为了拿分的话一定不要选	Snow
+32	2018-01-05 17:26:19	Dance 100	Carlos Funn	2016 Fall		其他: CE	A Range	1/5	5/5	1/5	特别推荐	超级好玩，超级水！不会跳舞也可以去！超级好玩！！！！！就是比较难抢课
+31	2018-01-05 17:26:03	UC 280	Shawn McKee	2017 Spring		其他: General electives 	A Range	5/5	5/5	5/5	特别推荐	很好的UROP教授的非常耐心负责	Jason
+30	2018-01-05 17:25:51	PSYCH 270	Chang, Edward	2018Fall		SS	B Range	3/5	4/5	3/5	比较推荐	Ed教的270比较传统，没有Canvas page，上课用投影仪，而且有11个pop quiz，5个exam。所以你基本上都得去认真听课记笔记。但是只要你去上课并且看书，考试都不难。推荐尤其是对精神病理学或心理学专业感兴趣的同学。Ed还有许多给本科生做research的机会。	Peter
+29	2018-01-05 17:25:38	STATS 425	Paul Green	2017 Fall		NS	A Range	3/5	2/5	2/5	比较推荐	上课真的很无聊 听不进去都是他的错	嘿嘿
+28	2018-01-05 17:24:39	History 197	Paolo Squatriti	2016 Winter		HU	B Range	4/5	5/5	5/5	不太推荐	教授上课会点名发言	Jason
+27	2018-01-05 17:23:40	RCHUMS 252	Hottmann, Xiaodong	2016Fall		其他: CE	A Range	3/5	5/5	5/5	比较推荐	"老师很强，精通多种弦乐器
+workload很大，2分的课，每周上课时间3小时，课外练琴随意。为了拿A，每周课外练琴至少3小时。再有不错基础的情况下，拿了A-，整个班只有一个A
+如果你对中国古典乐感兴趣，不关心GPA，一定要上，不然可以pf"	😐
+26	2018-01-05 17:23:20	POLSCI 391	Page, Scott	2017 Fall		SS	A Range	2.5/5	5/5	2/5	特别推荐	workload很低，讲modeling。上课虽然ppt页数很多而且字很少，但是教授口述解释的内容有趣且清晰。作为modeling领域的专家，可以说是会有很多助益的吧！	萌萌哒小神兽
+25	2018-01-05 17:22:08	EECS 281	Dr. P	2017 Fall			A Range	2/5	5/5	2/5	特别推荐
+24	2018-01-05 17:21:36	MUSEUMS 498	McIsaac, Peter	2017 Fall		HU	A Range	3/5	5/5	3/5	比较推荐	"比课号所indicate的要简单，教授人超好，非常耐心听各种想法
+每节课写个reading reflection 两篇paper"	Julia
+23	2018-01-05 17:21:35	ACC 300	Debra Krolick	2017 Fall			A Range	4/5	4/5	3/5	比较推荐	老师很博学 但是上课很多乱七八糟的规矩（不能用电脑/手机 etc）考试不简单 拿A不难
+22	2018-01-05 17:21:34	Math 412	Karen Smith	2017 Fall			A Range	2/5	5/5	4/5	特别推荐
+21	2018-01-05 17:21:29	SOC 354	Sandra  Livinsky	2016 Fall		SS	A Range	3/5	5/5	3/5	特别推荐	最好的社会学教授，课讲得非常好，考试用心准备绝对不难，强烈推荐！	Snow
+20	2018-01-05 17:21:19	ECON 451/452	Asenova, Asenka Cvetkova	2016Fall		其他: major requirement	A Range	3/5	5/5	3/5	特别推荐	讲课讲得很清楚，会给笔记。当时给了60%多的A，课不太水，只是讲得比较好，考试跟practice很像	🦓
+19	2018-01-05 17:21:08	POLSCI 140	Gallagher, Mary	2017 Winter		SS	A Range	1.5/5	5/5	2/5	特别推荐	入门课程，workload很低。教授人很nice，女儿很美，儿子很可爱的那种。因为是中国研究院的主任，上课举例子很喜欢用天朝，对中国学生来说课程有趣程度指数型上升！还会很耐心的帮你改paper哦～！	萌萌哒小神兽
+18	2018-01-05 17:20:44	Math 490	Sarah Koch	2017 Fall			A Range	2/5	5/5	3/5	特别推荐
+17	2018-01-05 17:19:35	PHYSICS 210	Tarle,Gregory	2017 Winter		NS	A Range	3.5/5	5/5	4/5	特别推荐	课程内容很有趣，可以研究很有趣的能源问题，包括如何愉悦的学习核电技术hhh	萌萌哒小神兽
+16	2018-01-05 17:19:04	Math 423	Yavor Stoev	2017 Fall			A Range	3/5	2/5	2/5	不太推荐	上课很无聊 考试很简单
+15	2018-01-05 17:18:25	SOC 310	Michael Yabarra	2017F		SS	A Range	4.5/5	5/5	5/5	比较推荐	课的workload非常大，但是很多很多很多extra credit	Snow
+14	2018-01-05 17:18:03	Physics 106	Zochowski, Michal R	2016Fall		NS	A Range	1/5	5/5	1/5	特别推荐	认准这个老师，换了别的老师难度没办法保证。ez A+推荐。	🦓
+13	2018-01-05 17:17:43	Physics 405	Winn David	2017Fall		其他: Physics major core	A Range	4/5	3/5	3/5	比较推荐	Dave讲课很跳跃，不预习的话很容易不知道他在讲啥。但是Griffith课本很好，自学基本都能明白。Dave 人很好，office hour很有帮助，虽然考试不简单，但是他会想尽办法让大家最终拿到满意的成绩。但是如果依赖上课听讲，没有预习习惯的同学…听他的课可能比较痛苦…
+12	2018-01-05 17:17:18	UC 280	N/A - senior seminar leader	2017Winter		其他: UROP	A Range	1/5	3/5	1/5	特别推荐	"Research很好玩，课很简单
+基本都会A，research好可以拿A+"	啊
+11	2018-01-05 17:16:45	Math 451	Shuyang Cheng	2017Fall			A Range	3/5	4/5	4/5	比较推荐	教授人很好很耐心 考试不难 但是拿A需要一些努力
+10	2018-01-05 17:16:40	FRENCH 235	Viers,Yannick	2016 Fall		其他: 法语minor 或major的gateway course	A Range	2/5	4/5	2/5	比较推荐	"Yannick très amiable =)
+
+课不难，没有任何考试，只有三个两页的paper"	Julia
+9	2018-01-05 17:16:19	Asian 230	Lopez Jr, Donald	2016Fall			P/F	3/5	5/5	2/5	特别推荐	非常好的HU4分课，老师很牛逼。一学期就一本书，好好学完全可以拿A，只去过review session都可以拿B+…（P）	🦓
+8	2018-01-05 17:16:10	EECS 183	Arthur, William	2017Fall		其他: 忘了	A Range	3/5	5/5	4/5	特别推荐	这个老师很推荐，一直在教183，讲的详细同时也会活跃课堂气氛。183本身不难，只要肯花时间拿A或者A-不难。就是相对其他100level的课，workload更大一点。	Peter
+7	2018-01-05 17:15:31	Math 425	Green Paul	2016 Fall		NS	A Range	1/5	1/5	2/5	特别推荐	"Very very waterful teacher.
+High recommend if you don't pursuit any future in Probability area."	叫我雷锋
+6	2018-01-05 17:14:39	ECON 102	Edward Cho	2017Fall		SS	A Range	1/5	5/5	1/5	特别推荐	"一共6个作业，effort based
+Ed Cho很有趣，讲的很清楚
+不用看书也可以A+
+考试内容slides为主，practice exam很有用"	Loo
+5	2018-01-05 17:14:21	Math 425	Daniel Burns	2016Fall			A Range	4/5	3/5	3/5	很不推荐	课程内容支离破碎 考试严重超纲
+4	2018-01-05 17:13:43	SAC 290	David Marek	2017 Fall		HU	A Range	3/5	3/5	3/5	特别推荐
+3	2018-01-05 17:11:17	ECON 101	Ronald Caldwell	2017 Spring			A Range	3/5	5/5	2/5	特别推荐			intro to microeconomics
+2	2018-01-05 17:10:59	ECON 421	McCall, Brian P	2017Winter			A Range	2/5	4/5	1/5	特别推荐	闭着眼拿A，虽然有点无聊，但是是Econ特别好的upper elective	🦓	Labor Economics
+1	2018-01-05 17:08:22	English 125	Zhang, Xiaoxi	2017Winter			A Range	2/5	4/5	3/5	特别推荐	写作课难不难，全看老师。	🦓	First Year Writing
