@@ -9,3 +9,4 @@ __pycache__/
 var/
 env/
 venv/
+*.xlsx
