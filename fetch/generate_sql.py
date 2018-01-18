@@ -1,25 +1,21 @@
 import os
 import re
 
-departments = []
+departments = ['EECS', 'STATS']
 sql = ""
-for filename in os.listdir('data'):
-    if 'courses' in filename:
-        department_name = filename[:filename.find('_')]
-        departments.append(department_name)
 
-for filename in os.listdir('data'):
-    department_name = filename[:filename.find('_')]
-    department_id = departments.index(department_name) + 1
-    read_file = open(os.path.join('data', filename))
-    if 'professors' in filename:
+department_id = 0
+for department in departments:
+    department_id += 1
+    if os.path.exists(os.path.join('data',department+'_professors.txt')):
+        read_file = open(os.path.join('data',department+'_professors.txt'))
         professors = list(set(read_file.readlines()))
         sql += "\nINSERT INTO professors (departmentid, name) VALUES \n"
         for professor in professors:
             sql += "(" + str(department_id) + ", '" + professor[:-1] + "'), \n"
         sql = sql[:-3] + ";\n"
-
-    elif 'courses' in filename:
+    if os.path.exists(os.path.join('data', department + '_courses.txt')):
+        read_file = open(os.path.join('data', department + '_courses.txt'))
         courses = read_file.readlines()
         sql += "\nINSERT INTO courses (departmentid, number, title) VALUES \n"
         for course in courses:
