@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/header.css">
+</head>
+<body>
+<div class="header">
+    <a href="/"><img src="/static/images/logo.png" class="logo" alt="logo"></a>
+    <div class="header-links"><a href="">Sign up</a></div>
+</div>
+
+<form action="" method="post" enctype="multipart/form-data" style="margin: 50px 100px">
+    <table style="border-spacing: 15px">
+        <tr>
+            <td class="list_word">Photo</td>
+            <td><input type="file" name="file"></td>
+        </tr>
+        <tr>
+            <td class="list_word">Name</td>
+            <td><input type="text" name="fullname" placeholder="Fullname"/></td>
+        </tr>
+        <tr>
+            <td class="list_word">Username</td>
+            <td><input type="text" name="username" placeholder="Username"/></td>
+        </tr>
+        <tr>
+            <td class="list_word">Email</td>
+            <td><input type="text" name="email" placeholder="Email"/></td>
+        </tr>
+        <tr>
+            <td class="list_word">Password</td>
+            <td><input type="password" name="password" placeholder="password"/></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" name="signup" value="sign up" class="button_style button1"/></td>
+        </tr>
+    </table>
+    <p style="font-size: 20px; margin-left: 15px">Have an account? <a href="/accounts/login/" style="font-weight: bold">Log in</a></p>
+</form>
+
+</body>
+</html>

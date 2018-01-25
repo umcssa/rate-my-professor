@@ -1,0 +1,98 @@
+#!/bin/bash
+# insta485test-html
+#
+# Scrape a web site, then validate download HTML pages.
+#
+# Andrew DeOrio <awdeorio@umich.edu>
+
+# Configuration
+BASE_URL=http://localhost:8000
+
+# Check for dependencies
+if ! which wget &> /dev/null; then
+  echo "Error: can't find wget.  Maybe you need to install it?"
+  exit 1
+fi
+if ! which html5validator &> /dev/null; then
+  echo "Error: can't find html5validator.  Maybe you need to install it?"
+  exit 1
+fi
+
+# Stop on errors, print commands
+set -e
+set -x
+
+# Clean up
+rm -rf html/ cookies.txt
+
+# Start server
+./bin/insta485run & PID=$!
+
+# Register handler to kill server on exit, ctrl-C, etc.
+function cleanup() {
+  echo "stopping ./bin/insta485run"
+  sync
+  pkill -TERM -P ${PID} &> /dev/null
+}
+function die() {
+  [ -n "$1" ] && echo "die: $1"
+  cleanup
+  echo "========================================"
+  echo " FAIL"
+  echo " More info in: insta485run.log"
+  echo "========================================"
+  exit 1
+}
+trap "die 'non-zero exit'" SIGINT SIGTERM SIGSTOP ERR
+
+# Make sure server is running
+sleep 1
+if ! kill -0 ${PID} &> /dev/null; then
+  cat insta485run.log
+  echo "Error: server failed to start"
+  exit 1
+fi
+
+# Logout
+wget \
+  --quiet \
+  --spider \
+  ${BASE_URL}/accounts/logout/
+
+# Login
+wget \
+  --quiet \
+  --post-data 'username=awdeorio&password=password&submit=login' \
+  --save-cookies cookies.txt \
+  --keep-session-cookies \
+  --output-document /dev/null \
+  ${BASE_URL}/accounts/login/
+
+# Crawl
+wget \
+  --no-verbose \
+  --load-cookies cookies.txt \
+  --recursive \
+  --convert-links \
+  --page-requisites \
+  --level=5 \
+  --adjust-extension \
+  --no-host-directories \
+  --directory-prefix=html \
+  ${BASE_URL}
+
+# Check HTML
+html5validator --ignore JAVA_TOOL_OPTIONS --root html
+
+# Clean up
+rm -rf html/ cookies.txt
+
+# Stop printing commands
+set +x
+
+# Finish up
+cleanup
+echo "========================================"
+echo "$0 $@"
+echo "PASS"
+echo "========================================"

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Explore</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/header.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/explore.css">
+</head>
+<body>
+<div class="header">
+    <a href="/"><img src="/static/images/logo.png" class="logo" alt="logo"></a>
+    <div class="header-links"><a href="/explore/">explore</a><span> | </span><a
+            href="/u/{{logname}}/">{{logname}}</a></div>
+</div>
+<h1 style="margin-left: 80px">Discover People</h1>
+{% for user in not_following %}
+<div class="discover">
+    <table style="width: 100%">
+        <tr>
+            <td>
+                <a href="/u/{{user.username}}/"><img src="{{user.user_img_url}}" alt="user_img"></a>
+                <a href="/u/{{user.username}}/">{{user.username}}</a>
+            </td>
+            <td style="float: right">
+                <div>
+                    <div style="display: inline-block">
+                        <form action="" method="post" enctype="multipart/form-data">
+                            <input type="submit" name="follow" value="follow" class="button_style button1"/>
+                            <input type="hidden" name="username" value="{{user.username}}"/>
+                        </form>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+{% endfor %}
+</body>
+</html>

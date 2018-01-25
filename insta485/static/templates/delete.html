@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Delete</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/header.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/delete.css">
+</head>
+<body>
+<div class="header">
+    <a href="/"><img src="/static/images/logo.png" class="logo" alt="logo"></a>
+    <div class="header-links"><a href="/explore/">explore</a><span> | </span><a
+            href="/u/{{logname}}/">{{logname}}</a></div>
+</div>
+
+<p class="info-title">{{logname}}</p>
+
+<form action="" method="post" enctype="multipart/form-data" class="info-title">
+  <input type="submit" name="delete" value="confirm delete account" class="button_style button1"/>
+</form>
+</body>
+</html>

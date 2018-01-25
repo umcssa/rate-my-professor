@@ -12,3 +12,6 @@ venv/
 *.xlsx
 *.pem
 fetch/data/
+dist/
+node_modules/
+npm-debug.log
