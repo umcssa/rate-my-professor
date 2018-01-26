@@ -6,7 +6,7 @@ Andrew DeOrio <awdeorio@umich.edu>
 import flask
 
 # app is a single object used by all the code modules in this package
-app = flask.Flask(__name__, static_folder="static/dist", template_folder="static/templates")  # pylint: disable=invalid-name
+app = flask.Flask(__name__, static_folder='./static/dist', template_folder='./static')  # pylint: disable=invalid-name
 
 # Read settings from config module (insta485/config.py)
 app.config.from_object('insta485.config')

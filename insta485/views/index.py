@@ -2,29 +2,23 @@
 import flask
 import insta485
 import insta485.model
+import random
 
 
 @insta485.app.route('/', methods=['GET', 'POST'])
 def index():
     """Display / route."""
-    if insta485.model.check_login() != 'login':
-        return insta485.model.check_login()
-    logname_index = flask.session[
-        insta485.app.config['SESSION_COOKIE_NAME']]
-    if flask.request.method == 'POST':
-        if 'like' in flask.request.form:
-            postid = flask.request.form['postid']
-            insta485.model.like_post(logname_index, postid)
-        elif 'unlike' in flask.request.form:
-            postid = flask.request.form['postid']
-            insta485.model.unlike_post(logname_index, postid)
-        elif 'comment' in flask.request.form:
-            postid = flask.request.form['postid']
-            text = flask.request.form['text']
-            insta485.model.add_comment(logname_index, postid, text)
-    context = {}
-    logname = flask.session[
-        insta485.app.config['SESSION_COOKIE_NAME']]
-    context['logname'] = logname
-    context['posts'] = insta485.model.get_posts(logname)
-    return flask.render_template("index.html", **context)
+    return flask.render_template('index.html')
+
+
+@insta485.app.route('/hello')  # take note of this decorator syntax, it's a common pattern
+def hello():
+    # It is good practice to only call a function in your route end-point,
+    # rather than have actual implementation code here.
+    # This allows for easier unit and integration testing of your functions.
+    return get_hello()
+
+
+def get_hello():
+    greeting_list = ['Ciao', 'Hei', 'Salut', 'Hola', 'Hallo', 'Hej']
+    return random.choice(greeting_list)
