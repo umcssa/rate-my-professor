@@ -30,12 +30,17 @@ for department in departments:
     if os.path.exists(os.path.join('data', department + '_courses.txt')):
         read_file = open(os.path.join('data', department + '_courses.txt'))
         courses = read_file.readlines()
-        sql += "\nINSERT INTO courses (departmentid, number, title) VALUES \n"
+        sql += "\nINSERT INTO courses (departmentid, number, title, credits) VALUES \n"
+        is_title = True
         for course in courses:
-            result = re.findall('^\w+ (\d{3}): (.+)$', course)[0]
-            number = result[0]
-            title = flask.Markup(result[1]).unescape().replace("'", "''")
-            sql += "(" + str(department_id) + ", " + number + ", '" + title + "'), \n"
+            if is_title:
+                result = re.findall('^\w+ (\d{3}): (.+)$', course)[0]
+                number = result[0]
+                title = flask.Markup(result[1]).unescape().replace("'", "''")
+                sql += "(" + str(department_id) + ", " + number + ", '" + title + "'"
+            else:
+                sql += ", '" + course[:-1] + "'), \n"
+            is_title = not is_title
         sql = sql[:-3] + ";\n"
 
 output = open('sql/data.sql', 'w')

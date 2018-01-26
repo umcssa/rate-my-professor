@@ -8,6 +8,7 @@ CREATE TABLE courses (
   departmentid INTEGER      NOT NULL,
   number       INTEGER      NOT NULL,
   title        VARCHAR(150) NOT NULL,
+  credits      VARCHAR(15)  NOT NULL,
   FOREIGN KEY (departmentid) REFERENCES departments (departmentid)
 );
 
