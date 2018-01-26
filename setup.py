@@ -3,9 +3,9 @@
 from setuptools import setup
 
 setup(
-    name='insta485',
+    name='rmp',
     version='0.1.0',
-    packages=['insta485'],
+    packages=['rmp'],
     include_package_data=True,
     install_requires=[
         'Flask==0.12.2',

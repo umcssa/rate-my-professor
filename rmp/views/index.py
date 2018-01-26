@@ -1,17 +1,18 @@
-"""Insta485 index view."""
+"""RMP index view."""
 import flask
-import insta485
-import insta485.model
+import rmp
+import rmp.model
 import random
 
 
-@insta485.app.route('/', methods=['GET', 'POST'])
+@rmp.app.route(rmp.app.config['APPLICATION_ROOT'], methods=['GET', 'POST'])
 def index():
     """Display / route."""
     return flask.render_template('index.html')
 
 
-@insta485.app.route('/hello')  # take note of this decorator syntax, it's a common pattern
+@rmp.app.route(rmp.app.config[
+                        'APPLICATION_ROOT'] + 'hello')  # take note of this decorator syntax, it's a common pattern
 def hello():
     # It is good practice to only call a function in your route end-point,
     # rather than have actual implementation code here.

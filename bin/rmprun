@@ -1,0 +1,15 @@
+#!/bin/bash
+# rmprun
+
+# Stop on errors, print commands
+set -e
+set -x
+
+if [ ! -f var/rmp.sqlite3 ]; then
+    ./bin/rmpdb "create"
+fi
+
+export FLASK_DEBUG=True
+export FLASK_APP=rmp
+export RMP_SETTINGS=config.py
+flask run --host 0.0.0.0 --port 8000
