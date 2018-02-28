@@ -1,6 +1,0 @@
-34a06e11aa9ea7a5c71e670d3e9a5a7f	88465fc532e4757009de6d6d8a3fb715	art.ai.umich.edu	/	Session	64	✓	✓
-_ga	GA1.2.1020928685.1516233529	.umich.edu	/	2020-01-17T23:58:54.000Z	30
-_gat	1	.umich.edu	/	2018-01-17T23:59:49.000Z	5
-_gid	GA1.2.1172081647.1516233529	.umich.edu	/	2018-01-18T23:58:54.000Z	31
-csrftoken	lIpYsQBzE7wxoDppdHq2FKGh786KTS8IAwV0W0xTIj4nZCFTdXC4dYH3x8jtyJBA	art.ai.umich.edu	/	2019-01-16T23:58:53.811Z	73
-sessionid	b6v34tn4hkvxojzw6bv5pospprcla1wz	art.ai.umich.edu	/	Session	41	✓
