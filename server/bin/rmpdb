@@ -24,6 +24,7 @@ case $1 in
     mkdir -p var/uploads
     sqlite3 var/rmp.sqlite3 < sql/schema.sql
     sqlite3 var/rmp.sqlite3 < sql/data.sql
+    sqlite3 var/rmp.sqlite3 < sql/data_rate.sql
     cp sql/uploads/* var/uploads/
     ;;
 
@@ -38,16 +39,8 @@ case $1 in
     mkdir -p var/uploads
     sqlite3 var/rmp.sqlite3 < sql/schema.sql
     sqlite3 var/rmp.sqlite3 < sql/data.sql
+    sqlite3 var/rmp.sqlite3 < sql/data_rate.sql
     cp sql/uploads/* var/uploads/
-    ;;
-
-  "dump")
-    set -x
-    sqlite3 -batch -line var/rmp.sqlite3 'SELECT * FROM comments'
-    sqlite3 -batch -line var/rmp.sqlite3 'SELECT * FROM following'
-    sqlite3 -batch -line var/rmp.sqlite3 'SELECT * FROM likes'
-    sqlite3 -batch -line var/rmp.sqlite3 'SELECT * FROM posts'
-    sqlite3 -batch -line var/rmp.sqlite3 'SELECT * FROM users'
     ;;
   *)
     usage
