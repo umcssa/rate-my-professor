@@ -2,6 +2,7 @@
 RMP package initializer.
 """
 import flask
+from flask_cors import CORS
 
 # app is a single object used by all the code modules in this package
 app = flask.Flask(__name__, static_folder='./static/dist', template_folder='./static')  # pylint: disable=invalid-name
@@ -13,6 +14,7 @@ app.config.from_object('rmp.config')
 # useful for using different on development and production machines.
 # Reference: http://flask.pocoo.org/docs/0.12/config/
 app.config.from_envvar('RMP_SETTINGS', silent=True)
+CORS(app)
 
 # Tell our app about views and model.  This is dangerously close to a
 # circular import, which is naughty, but Flask was designed that way.
