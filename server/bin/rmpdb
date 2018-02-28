@@ -22,33 +22,23 @@ case $1 in
     fi
     set -x
     mkdir -p var/uploads
-    echo "+ mkdir -p var/uploads"
     sqlite3 var/rmp.sqlite3 < sql/schema.sql
-    echo "+ sqlite3 var/rmp.sqlite3 < sql/schema.sql"
     sqlite3 var/rmp.sqlite3 < sql/data.sql
-    echo "+ sqlite3 var/rmp.sqlite3 < sql/data.sql"
     cp sql/uploads/* var/uploads/
-    echo "+ cp sql/uploads/* var/uploads/"
     ;;
 
   "destroy")
     set -x
     rm -rf var/rmp.sqlite3 var/uploads
-    echo "+ rm -rf var/rmp.sqlite3 var/uploads"
     ;;
 
   "reset")
     set -x
     rm -rf var/rmp.sqlite3 var/uploads
-    echo "+ rm -rf var/rmp.sqlite3 var/uploads"
     mkdir -p var/uploads
-    echo "+ mkdir -p var/uploads"
     sqlite3 var/rmp.sqlite3 < sql/schema.sql
-    echo "+ sqlite3 var/rmp.sqlite3 < sql/schema.sql"
     sqlite3 var/rmp.sqlite3 < sql/data.sql
-    echo "+ sqlite3 var/rmp.sqlite3 < sql/data.sql"
     cp sql/uploads/* var/uploads/
-    echo "+ cp sql/uploads/* var/uploads/"
     ;;
 
   "dump")
