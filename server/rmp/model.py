@@ -1,5 +1,6 @@
 """RMP model (database) API."""
 import os
+import re
 import hashlib
 import uuid
 import shutil
@@ -8,6 +9,7 @@ import sqlite3
 import flask
 import arrow
 import rmp
+from rmp.api.invalid_usage import InvalidUsage
 
 
 def dict_factory(cursor, row):
@@ -46,3 +48,243 @@ def close_db(error):
         flask.g.sqlite_db.commit()
         flask.g.sqlite_db.close()
 
+
+# Rate My Professor
+
+def get_all_departments():
+    cur = get_db().execute(
+        "SELECT name FROM department ORDER BY name ASC")
+    results = cur.fetchall()
+    departments = []
+    for result in results:
+        departments.append(result['name'])
+    cur.close()
+    return departments
+
+
+def get_courses(department):
+    cur = get_db().execute(
+        "SELECT department.name, course.number, course.title FROM course INNER JOIN department WHERE upper(department.name)=upper(?) AND course.department_id=department.department_id ORDER BY department.name ASC, course.number ASC",
+        (department,))
+    results = cur.fetchall()
+    courses = []
+    for result in results:
+        courses.append(
+            '{} {}: {}'.format(result['name'], result['number'],
+                               result['title']))
+    cur.close()
+    return courses
+
+
+def get_professors(department):
+    cur = get_db().execute(
+        "SELECT professor.name FROM professor INNER JOIN department WHERE upper(department.name)=upper(?) AND professor.department_id=department.department_id ORDER BY professor.name ASC",
+        (department,))
+    results = cur.fetchall()
+    professors = []
+    for result in results:
+        professors.append(result['name'])
+    cur.close()
+    return professors
+
+
+def validate_form(rate):
+    return bool(re.match(r'^\d{4} (spring|summer|fall|winter)$',
+                         rate.get('semester').lower()))
+
+
+def save_rate(rate):
+    try:
+        cur = get_db().cursor()
+        semester = re.findall(r'^(\d{4}) (spring|summer|fall|winter)$',
+                              rate.get('semester').lower())[0]
+
+        result = cur.execute(
+            "SELECT semester_id FROM semester WHERE year=? AND season=?",
+            (semester[0], semester[1])).fetchone()
+        if result:
+            semester_id = result['semester_id']
+        else:
+            cur.execute(
+                "INSERT INTO semester (year, season) VALUES (?,?)",
+                (semester[0], semester[1]))
+            semester_id = cur.execute("SELECT last_insert_rowid() FROM semester").fetchone()['last_insert_rowid()']
+
+        types = rate.getlist('type[]')
+        suggestion = rate.get('suggestion')
+        cur.execute(
+            "INSERT INTO rate (rate_id, course_title, professor_name, semester_id, credits, isHU, isSS, isNS, isID, isRE, isOther, grade, difficulty, quality, workload, recommend, suggestion) VALUES "
+            "(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", (
+                rate.get('rate_id'),
+                rate.get('course'), rate.get('professor'), semester_id,
+                rate.get('credits'), 'HU' in types, 'SS' in types,
+                'NS' in types, 'ID' in types, 'RE' in types,
+                'Other' in types,
+                rate.get('grade'), rate.get('difficulty'),
+                rate.get('quality'), rate.get('workload'),
+                rate.get('recommend'),
+                None if suggestion == None or str(
+                    suggestion).strip() == '' else suggestion)
+        )
+        cur.close()
+        return True
+    except sqlite3.Error:
+        return False
+
+
+def get_viewable_departments():
+    cur = get_db().execute(
+        "SELECT DISTINCT department.name FROM rate INNER JOIN course ON rate.course_id=course.course_id INNER JOIN department ON course.department_id=department.department_id WHERE rate.viewable=1 ORDER BY name ASC")
+    results = cur.fetchall()
+    departments = []
+    for result in results:
+        departments.append(result['name'])
+    cur.close()
+    return departments
+
+
+def get_viewable_courses(department):
+    cur = get_db().execute(
+        "SELECT DISTINCT department.name, course.number, course.title FROM rate INNER JOIN course ON rate.course_id=course.course_id INNER JOIN department WHERE upper(department.name)=upper(?) AND course.department_id=department.department_id ORDER BY department.name ASC, course.number ASC",
+        (department,))
+    results = cur.fetchall()
+    courses = []
+    for result in results:
+        courses.append(
+            '{} {}: {}'.format(result['name'], result['number'],
+                               result['title']))
+    cur.close()
+    return courses
+
+
+def get_viewable_professors(department):
+    cur = get_db().execute(
+        "SELECT DISTINCT professor.name FROM rate INNER JOIN professor ON rate.professor_id=professor.professor_id INNER JOIN department WHERE upper(department.name)=upper(?) AND professor.department_id=department.department_id ORDER BY professor.name ASC",
+        (department,))
+    results = cur.fetchall()
+    professors = []
+    for result in results:
+        professors.append(result['name'])
+    cur.close()
+    return professors
+
+
+def get_keywords(string):
+    """Get keywords from string, with % as prefix and suffix."""
+    keywords = re.sub('[^a-zA-Z0-9]', ' ', string).split()
+    if len(keywords) == 0:
+        keywords = ['']
+    for i, keyword in enumerate(keywords):
+        keywords[i] = '%' + keyword + '%'
+    return keywords
+
+
+def search_rate(rate):
+    offset = int(rate.get('offset'))
+    department = '%' + (rate.get('department') if rate.get('department') else '') + '%'
+
+    course = rate.get('course') if rate.get('course') else ''
+    course_keywords = get_keywords(course)
+
+    professor = rate.get('professor') if rate.get('professor') else ''
+    professor_keywords = get_keywords(professor)
+
+    credits = rate.getlist('credits[]')
+    if (len(credits) == 5):
+        credits.append('0')
+    elif (len(credits) == 0):
+        credits.append('-1')
+
+    types = rate.getlist('type[]')
+    excluded_types = []
+    for type in ['HU', 'SS', 'NS', 'ID', 'RE', 'Other']:
+        if type not in types:
+            excluded_types.append(type)
+
+    grades = rate.getlist('grade[]')
+    if (len(grades) == 0):
+        grades.append('')
+
+    difficulty = rate.getlist('difficulty[]')
+    quality = rate.getlist('quality[]')
+    workload = rate.getlist('workload[]')
+    recommend = rate.getlist('recommend[]')
+
+    sql = "SELECT rate.*, department.name AS department_name, course.number AS course_number, course.title AS course_title, professor.name AS professor_name, semester.year, semester.season FROM rate INNER JOIN course ON rate.course_id=course.course_id INNER JOIN department ON course.department_id=department.department_id INNER JOIN professor ON rate.professor_id = professor.professor_id INNER JOIN semester ON rate.semester_id = semester.semester_id WHERE department.name LIKE ?" + " AND department.name||course.number||course.title LIKE ?" * len(
+        course_keywords) + " AND professor.name LIKE ?" * len(
+        professor_keywords) + " AND (rate.credits=?" + " OR rate.credits=?" * (len(
+        credits) - 1) + ")" + (" AND rate.isHU=0" if 'HU' in excluded_types else "") + (
+              " AND rate.isSS=0" if 'SS' in excluded_types else "") + (
+              " AND rate.isNS=0" if 'NS' in excluded_types else "") + (
+              " AND rate.isID=0" if 'ID' in excluded_types else "") + (
+              " AND rate.isRE=0" if 'RE' in excluded_types else "") + (
+              " AND rate.isOther=0" if 'Other' in excluded_types else "") + " AND (rate.grade=?" + " OR rate.grade=?" * (
+                  len(grades) - 1) + ")" + "".join(
+        [" AND rate.{}>=? AND rate.{}<=?".format(i, i) for i in
+         ['difficulty', 'quality', 'workload', 'recommend']]) + " ORDER BY rate.rate_id DESC"
+
+    data = get_db().execute(sql, tuple([
+                                           department] + course_keywords + professor_keywords + credits + grades + difficulty + quality + workload + recommend)).fetchall()
+
+    data = [item for item in data if rate_in_range(item, rate.getlist('semester[]'))]
+    return {'results': data[offset:offset + 10], 'total': len(data), 'offset': offset}
+
+
+def rate_in_range(rate, range):
+    months = convert_semester_to_months(rate['year'], rate['season'])
+    return range[0] <= months[0] and range[1] >= months[1]
+
+
+def convert_semester_to_months(year, season):
+    seasons = ['spring', 'summer', 'fall', 'winter']
+    begins = ['05', '06', '09', '01']
+    ends = ['06', '08', '12', '04']
+    return [str(year) + '-' + begins[seasons.index(season)], str(year) + '-' + ends[seasons.index(season)]]
+
+
+def auto_update_rates():
+    """For all rates that are not viewable, update course_id and professor_id."""
+    cur = get_db().cursor()
+    rates = cur.execute(
+        "SELECT rate_id, course_id, course_title, professor_id, professor_name FROM rate WHERE viewable=0").fetchall()
+    for rate in rates:
+        if not rate['course_id']:
+            course_keywords = get_keywords(rate['course_title'])
+            courses = cur.execute(
+                "SELECT d.name, c.course_id, c.number, c.title FROM course c INNER JOIN department d ON c.department_id = d.department_id WHERE 1" + " AND d.name||c.number||c.title LIKE ?" * len(
+                    course_keywords), tuple(course_keywords)).fetchall()
+            if len(courses) == 1:
+                print(course_keywords)
+                print(courses)
+                cur.execute("UPDATE rate SET course_id=?, course_title=NULL WHERE rate_id=?",
+                            (courses[0]['course_id'], rate['rate_id']))
+            elif len(courses) > 1:
+                print(course_keywords)
+                print(courses)
+        if not rate['professor_id']:
+            professor_keywords = get_keywords(rate['professor_name'])
+            professors = cur.execute(
+                "SELECT professor_id, name FROM professor WHERE 1" + " AND name LIKE ?" * len(
+                    professor_keywords), tuple(professor_keywords)).fetchall()
+            if len(professors) == 1 or (len(professors) > 1 and professors[0]['name'] == professors[1]['name']):
+                print(professor_keywords)
+                print(professors)
+                cur.execute("UPDATE rate SET professor_id=?, professor_name=NULL WHERE rate_id=?",
+                            (professors[0]['professor_id'], rate['rate_id']))
+
+    rates = cur.execute(
+        "SELECT rate_id, course_id, course_title, professor_id, professor_name FROM rate WHERE viewable=0").fetchall()
+    for rate in rates:
+        if rate['course_id'] and rate['professor_id']:
+            cur.execute("UPDATE rate SET viewable=1 WHERE rate_id=?", (rate['rate_id'],))
+
+
+# Freshman Handbook
+
+def get_article_content(title):
+    cur = get_db().execute("SELECT content FROM article WHERE title=?", (title,))
+    result = cur.fetchone()
+    if result:
+        return result['content']
+    else:
+        return ''
