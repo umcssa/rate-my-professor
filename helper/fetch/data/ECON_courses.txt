@@ -1,0 +1,350 @@
+ECON 101: Principles of Economics I
+3.0 - 4.0
+ECON 102: Principles of Economics II
+3.0 - 4.0
+ECON 108: Introductory Microeconomics Workshop
+1.0
+ECON 140: First-Yr Sem in Econ
+3.0
+ECON 195: Topics Sem Intro Ec
+3.0
+ECON 208: Inter Micro Workshop
+1.0
+ECON 230: Honors Econ
+4.0
+ECON 240: Honors ECON
+4.0
+ECON 251: Introduction to Statistics and Econometrics II
+4.0
+ECON 290: Topics in Economics
+3.0
+ECON 309: Experimental Econ
+3.0
+ECON 310: Money and Banking
+3.0
+ECON 320: Survey of Labor Economics
+3.0
+ECON 323: Economics and Gender
+3.0
+ECON 325: Econ of Education
+3.0
+ECON 327: Economics Of Crime
+3.0
+ECON 330: American Industries
+4.0
+ECON 333: Econ Ind Pol
+3.0
+ECON 340: International Economics
+3.0
+ECON 350: Comparative Systems
+3.0
+ECON 360: Developing Economic
+3.0
+ECON 370: Environmental and Resource Economics
+3.0
+ECON 380: Public Finance
+3.0
+ECON 395: Topics in Microecon
+1.0 - 3.0
+ECON 396: Topics in Macroecon
+1.0 - 3.0
+ECON 398: Strategy
+4.0
+ECON 401: Intermediate Microeconomic Theory
+4.0
+ECON 402: Intermediate Macroeconomic Theory
+4.0
+ECON 403: Adv Economic Theory
+3.0
+ECON 408: Philosophy &amp; Econ
+3.0
+ECON 409: Game Theory
+4.0
+ECON 411: Monetary and Financial Theory
+3.0
+ECON 412: Topics in Macroeconomics
+3.0
+ECON 414: Growth Theory
+4.0
+ECON 418: Business Cycles
+3.0
+ECON 421: Labor Economics I
+3.0
+ECON 422: The Structure of Labor Markets
+3.0
+ECON 423: Econ Social Policy
+3.0
+ECON 425: U S Inequality
+3.0
+ECON 429: Migration Economics and Policy
+3.0 - 4.0
+ECON 430: Business Abroad
+4.0
+ECON 431: Industrial Organization and Performance
+3.0
+ECON 432: Government Regulation of Industry
+3.0 - 4.0
+ECON 434: Corporate Finance
+3.0
+ECON 435: Financial Econ
+4.0
+ECON 437: Energy Econ
+3.0
+ECON 438: Ec Hlth Serv
+3.0
+ECON 441: International Trade Theory
+3.0
+ECON 442: International Finance
+4.0
+ECON 444: The European Economy
+4.0
+ECON 445: Econ Peop Rep China
+3.0
+ECON 446: Economics of Japan
+3.0
+ECON 451: Comparative Analysis of Economic Systems
+4.0
+ECON 452: Intermediate Introduction to Statistics and Econometrics II
+4.0
+ECON 453: Advanced Introduction to Statistics and Econometrics I
+3.0 - 4.0
+ECON 454: Adv Stat&amp;Metrics II
+3.0 - 4.0
+ECON 456: The Russian Economy
+3.0
+ECON 457: Finance Econometrics
+3.0
+ECON 461: Econ Development I
+3.0 - 4.0
+ECON 462: Econ Development II
+3.0
+ECON 466: Econ of Population
+3.0
+ECON 467: Econ Devel Mid East
+3.0
+ECON 471: Environ Econ
+3.0
+ECON 472: Interm N R Econ
+3.0
+ECON 481: Government Expenditures
+3.0
+ECON 482: Govt Revenues
+3.0
+ECON 483: Pos Pol Econ
+3.0
+ECON 485: Law and Economics
+3.0
+ECON 486: Law &amp; Econ I I
+3.0
+ECON 487: Urban Economics
+3.0
+ECON 490: Topics in Microeconomics
+3.0
+ECON 491: The History of the American Economy
+3.0
+ECON 492: World Econ Hist
+3.0
+ECON 493: Euro Econ Hist
+3.0
+ECON 494: Ec Hist Topic
+3.0
+ECON 495: Seminar in Economics
+3.0
+ECON 496: Hist Econ Thought
+3.0
+ECON 497: Econ Hist Japan
+3.0
+ECON 498: Honors Ind Research
+1.0 - 4.0
+ECON 499: Individual Research
+1.0 - 4.0
+ECON 500: Quantitative Methods
+3.0
+ECON 501: Microeconomic Theory
+3.0
+ECON 502: Appl Macroeconomics
+3.0
+ECON 503: Probability and Mathematical Statistics
+3.0
+ECON 504: Econometr MAE II
+3.0
+ECON 530: Econ-Regulatn
+3.0
+ECON 540: Intl Econ Policy
+3.0
+ECON 541: International Trade Policy
+3.0
+ECON 561: Econ Dev Policy
+3.0
+ECON 572: Policy Models
+3.0
+ECON 573: Bene Cost Anly
+3.0 - 4.0
+ECON 574: Forecast&amp;Model
+3.0
+ECON 584: Econ Publ Educ
+2.0 - 3.0
+ECON 588: Urban Publ Econ
+3.0
+ECON 599: Special Tutorial
+1.0 - 3.0
+ECON 600: Math for Economists
+2.0
+ECON 601: Microeconomic Theory I
+1.5
+ECON 602: Microecon Theory II
+1.5
+ECON 603: Microeconomic Theory III
+1.5
+ECON 604: Microecon Theory IV
+1.5
+ECON 605: Macroeconomic Theory I
+3.0
+ECON 607: Macroecon Theory II
+3.0
+ECON 608: Adv Theory II
+3.0
+ECON 610: Stoch Dyn Opt in Ec
+1.5
+ECON 611: Stabilization Policy
+3.0
+ECON 612: Stabilization Pol
+3.0
+ECON 613: Adv Topc Math for Ec
+1.5
+ECON 617: Game Theory
+1.5 - 3.0
+ECON 618: Advanced Theory
+3.0
+ECON 619: Adv Theory I
+1.5
+ECON 620: Adv Theory II
+1.5
+ECON 621: Labor Economics I
+3.0
+ECON 622: Labor Economics II
+3.0
+ECON 631: Industrial Organizations and Public Policy
+3.0
+ECON 632: Industr Org&amp;Pub Pol
+3.0
+ECON 641: International Trade Theory
+3.0
+ECON 642: Internatl Finance
+3.0
+ECON 651: Empirical Asset Pricing
+3.0
+ECON 657: Hist Econ Thot I
+3.0
+ECON 658: Hist Econ Thot II
+3.0
+ECON 659: Econ of Transition
+3.0
+ECON 661: Advanced Natural Resources Economics
+3.0
+ECON 662: Envrnmtl Ec
+3.0
+ECON 663: Topics in World Economic History I
+3.0
+ECON 664: Topc Wrld Ec Hist II
+3.0
+ECON 665: Economic Development of Underdeveloped Countries
+3.0
+ECON 666: Econ Dev&amp;Transitn II
+3.0
+ECON 667: Econ of Pop Growth
+3.0
+ECON 669: Economy of Japan
+3.0
+ECON 671: Econometric Analysis I
+3.0
+ECON 672: Econometric Anl II
+3.0
+ECON 675: Applied Microeconometrics
+3.0
+ECON 676: Appl Macroeconometr
+3.0
+ECON 678: Advanced Econometrics I
+3.0
+ECON 679: Adv Econometrics II
+3.0
+ECON 683: Government Expenditures
+3.0
+ECON 684: Government Revenues
+3.0
+ECON 695: Introduction to Economic Research I
+3.0
+ECON 696: Intro Research I I
+3.0
+ECON 700: Research
+1.0 - 6.0
+ECON 739: Intl Econ Pol
+1.5
+ECON 745: Economics of China
+3.0
+ECON 751: Computational Economics
+1.5
+ECON 752: Advanced Mathematical Methods for Dynamic Stochastic Model
+1.5
+ECON 753: Struc Estimat Method
+1.5
+ECON 771: Tax&amp;Fed Issues
+3.0
+ECON 772: Intnatl Econ Pol
+3.0
+ECON 773: Canada Ec Iss
+3.0
+ECON 777: St&amp;Loc Pub Fin
+3.0
+ECON 811: Sem In Monetary Thry
+2.0
+ECON 812: Sem Monetary Theory
+2.0
+ECON 821: Sem In Labor Econ
+2.0
+ECON 822: Seminar in Labor
+2.0
+ECON 825: Chinese Hist
+2.0 - 3.0
+ECON 831: Applied Micro
+2.0
+ECON 832: Applied Micro
+2.0
+ECON 835: Sem Nat Res Econ
+3.0
+ECON 836: Sem Nat Res Econ
+3.0
+ECON 841: Sem-Internatl Econ
+3.0
+ECON 842: Sem-Internatl Econ
+3.0
+ECON 851: Adv Econ Theory
+3.0
+ECON 852: Sem-Adv Econ Theory
+3.0
+ECON 859: Sem Comp Econ Dev
+2.0
+ECON 860: Sem Comp Econ Dev
+2.0
+ECON 863: Sem in Econ History
+3.0
+ECON 864: Economic History
+3.0
+ECON 865: Econ Development
+2.0
+ECON 866: Econ Development
+2.0
+ECON 875: Quantitative Econ
+3.0
+ECON 876: Quantitative Econ
+3.0
+ECON 881: Public Finance
+2.0
+ECON 882: Public Finance
+2.0
+ECON 899: Responsible Conduct of Research
+0.65
+ECON 990: Diss-Precand
+1.0 - 8.0
+ECON 995: Diss-Cand
+4.0 - 8.0

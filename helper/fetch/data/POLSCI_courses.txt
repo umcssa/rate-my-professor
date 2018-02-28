@@ -1,0 +1,582 @@
+POLSCI 101: Introduction to Political Theory
+4.0
+POLSCI 111: Introduction to American Politics
+4.0
+POLSCI 140: Introduction to Comparative Politics
+4.0
+POLSCI 160: Introduction to World Politics
+4.0
+POLSCI 190: First-Year Seminar in Political Science
+3.0
+POLSCI 195: Special Topics
+1.0 - 2.0
+POLSCI 230: Honors Core Pol Sci
+4.0
+POLSCI 240: Honors Core Writing in Political Science
+4.0
+POLSCI 299: POLSCI Internship
+1.0
+POLSCI 300: Quant Emp Mthd PolSc
+4.0
+POLSCI 301: Development of Political Thought: To Modern Period
+3.0
+POLSCI 302: Pol Thot Mod-Recent
+3.0
+POLSCI 306: American Political Thought: Early
+3.0 - 4.0
+POLSCI 307: Amer Pol Thot: Late
+3.0 - 4.0
+POLSCI 308: Law and Sexuality
+3.0
+POLSCI 309: Theor Persp Env Chng
+3.0 - 4.0
+POLSCI 310: Amer Policy Process
+3.0
+POLSCI 311: American Political Processes
+3.0
+POLSCI 312: Persuasive Politics
+4.0
+POLSCI 313: Polit Mobil
+3.0
+POLSCI 314: Am Pol Parties
+3.0 - 4.0
+POLSCI 315: Media and Public Opinion
+3.0 - 4.0
+POLSCI 316: Law &amp; Social Justice
+3.0 - 4.0
+POLSCI 317: Courts,Poli&amp;Society
+3.0
+POLSCI 318: Am Constitution Pol
+3.0
+POLSCI 319: The Politics of Civil Liberties and Civil Rights
+4.0
+POLSCI 320: The American Chief Executive
+3.0 - 4.0
+POLSCI 321: Pol Strategy&amp;Debate
+3.0
+POLSCI 322: Legislative Process
+3.0
+POLSCI 323: Women&amp;Pol Syst
+3.0
+POLSCI 324: Black Americans
+3.0
+POLSCI 325: Informal Politics
+3.0
+POLSCI 326: American State Government
+3.0
+POLSCI 327: Politics Metropolis
+3.0
+POLSCI 329: Seminar in Urban Analysis
+4.0
+POLSCI 330: Psych Perspec on Pol
+3.0
+POLSCI 331: Environmental Public Opinion Analysis
+3.0
+POLSCI 332: Am Economic Equality
+4.0
+POLSCI 333: Govt&amp;Public Policy
+3.0
+POLSCI 334: Commu &amp; Capit E Eur
+4.0
+POLSCI 335: Ethics&amp;Pub Pol
+3.0
+POLSCI 336: Energy Politics
+3.0
+POLSCI 337: State&amp;Mkt in China
+4.0
+POLSCI 338: Constitution&amp;Courts
+3.0
+POLSCI 339: China&#39;s Evolution Under Communism
+3.0 - 4.0
+POLSCI 340: Govt&amp;Pol-West Eur
+4.0
+POLSCI 341: Comp Pol Democracies
+3.0
+POLSCI 342: Eastern Europe: Revolution, Reaction, and Reform
+3.0
+POLSCI 343: PolEcon of Dev Democ
+3.0
+POLSCI 344: Gov&amp;Pol of Russia
+3.0
+POLSCI 345: Hate in Asia
+4.0
+POLSCI 346: Comp Rel&amp;Pol
+3.0
+POLSCI 347: Lat Amer Pol&amp;Soc
+3.0
+POLSCI 348: Pol Econ Developmt
+3.0
+POLSCI 349: Pol Change Dev World
+3.0
+POLSCI 350: Mod East Eur Jewry
+3.0
+POLSCI 351: Israeli Society&amp;Pol
+3.0
+POLSCI 352: Govt&amp;Pol Mid East
+3.0
+POLSCI 353: The Arab-Israeli Conflict
+4.0
+POLSCI 354: Governments and Politics of Southeast Asia
+3.0
+POLSCI 355: Dem &amp; Devt in Africa
+4.0
+POLSCI 356: Govt&amp;Pol-Japan
+3.0
+POLSCI 357: Politics of India
+3.0
+POLSCI 358: Europ Union Politics
+3.0
+POLSCI 359: African Politics
+3.0 - 4.0
+POLSCI 360: Probs World Politic
+3.0
+POLSCI 362: History of European Integration
+3.0 - 4.0
+POLSCI 363: Intl Organiz&amp;Integ
+3.0
+POLSCI 364: Publ Internatl Law
+3.0
+POLSCI 368: Modern Warfare
+4.0
+POLSCI 369: Politics of International Economic Relations
+3.0 - 4.0
+POLSCI 371: Amer Forgn Pol Proc
+3.0
+POLSCI 372: International Security Affairs
+3.0
+POLSCI 380: Environmental Politics and Policy
+3.0
+POLSCI 381: Political Science Research Design
+3.0
+POLSCI 382: Law&amp;Development
+3.0
+POLSCI 383: Pol Sci Rsrch Opp
+1.0 - 3.0
+POLSCI 384: Directed Studies
+1.0 - 3.0
+POLSCI 385: Special Topics
+1.0 - 2.0
+POLSCI 386: Sports, Politics, and Society
+3.0
+POLSCI 387: Comp Anlys Gov Inst
+3.0 - 4.0
+POLSCI 388: Asian Business Culture
+4.0
+POLSCI 389: Topics in Contemporary Political Science
+3.0 - 4.0
+POLSCI 391: Intro Internship
+4.0
+POLSCI 392: MIW Prep Seminar
+2.0
+POLSCI 393: Inside Washington DC
+1.0
+POLSCI 394: Environ and Develop
+3.0
+POLSCI 395: Russia and the Soviet Union: Reform, Revolution, and the Socialist Experiment
+3.0 - 4.0
+POLSCI 396: East Central Europe
+3.0 - 4.0
+POLSCI 397: Nations&amp;Nationalism
+4.0
+POLSCI 398: Wash Internship
+2.0
+POLSCI 399: Adv Internship
+3.0
+POLSCI 400: Topics Pol Theory
+3.0
+POLSCI 401: Fm Pol Theory
+3.0
+POLSCI 402: Liberalism and Its Critics
+3.0
+POLSCI 403: Grk Pol Thot
+3.0
+POLSCI 404: Mod Pol Thought
+3.0
+POLSCI 405: Pol Phil of Enlight
+3.0
+POLSCI 406: Democrat Theory
+3.0
+POLSCI 407: Marxism&amp;Radicalism
+3.0
+POLSCI 408: Blk Pol Thot
+3.0
+POLSCI 409: 20 C Pol Thought
+3.0
+POLSCI 410: Wash Exp Sem
+2.0
+POLSCI 411: Nat Capital Research
+4.0
+POLSCI 421: Law and Gender
+3.0
+POLSCI 425: U S Inequality
+3.0
+POLSCI 427: Race&amp;Shaping Am Pol
+3.0
+POLSCI 432: Law &amp; Public Policy
+3.0 - 4.0
+POLSCI 458: Poli Sub-Saharan Afr
+3.0
+POLSCI 460: Adv Writing Pol Sci
+3.0
+POLSCI 462: Strategic World Pol
+3.0
+POLSCI 464: Adv Intrnational Law
+3.0
+POLSCI 470: Grad Cred Pol Sci
+3.0
+POLSCI 475: China&#39;s Intl Impact
+3.0
+POLSCI 481: Jr Honors Prosem
+3.0
+POLSCI 482: Pos Pol Econ
+3.0
+POLSCI 485: Election Forensics
+3.0
+POLSCI 486: Pub Opin&amp;Press Grps
+3.0
+POLSCI 488: Political Dynamics
+3.0
+POLSCI 489: Advanced Topics in Contemporary Political Science
+3.0
+POLSCI 490: Game Theory and Formal Models
+4.0
+POLSCI 491: Ug-Directed Studies
+1.0 - 6.0
+POLSCI 492: Directed Studies
+1.0 - 6.0
+POLSCI 493: Senior Honors Proseminar
+4.0
+POLSCI 494: Ug-Senior Honors
+4.0
+POLSCI 495: Undergraduate Seminar in Political Theory
+3.0
+POLSCI 496: Undergraduate Seminar in American Government and Politics
+3.0
+POLSCI 497: Undergraduate Seminar in Comparative and Foreign Government
+3.0
+POLSCI 498: Undergraduate Seminar in International Politics
+3.0
+POLSCI 499: Quant Meth-Pol Anal
+3.0
+POLSCI 500: First Yr Colloquium
+2.0
+POLSCI 501: Social Scientific Studies of Historical and Contemporary China
+3.0
+POLSCI 502: China Humanistic St
+3.0
+POLSCI 514: The Use of Social Science Computer Programs
+2.0
+POLSCI 586: Org Design
+3.0
+POLSCI 594: Int Stat&amp;Data Anl I
+2.0
+POLSCI 595: Int Stat&amp;Dat Anl II
+2.0
+POLSCI 596: Intr Regress Analys
+3.0
+POLSCI 598: Mathematics for Political Scientists
+4.0
+POLSCI 599: Statistical Methods in Political Research I
+4.0
+POLSCI 600: Scope &amp; Method
+3.0
+POLSCI 601: Phil of Soc Sci
+3.0
+POLSCI 602: Pol Thot-Early Mod
+3.0
+POLSCI 603: Mod Political Thot
+3.0
+POLSCI 604: Democratic Theory
+3.0
+POLSCI 605: American Pol Thot
+3.0
+POLSCI 606: Grk Pol Thot
+3.0
+POLSCI 607: Psem-Early Mod Thot
+3.0
+POLSCI 608: Pol Sci:History of
+3.0
+POLSCI 609: Psem-20c Pol Thot
+3.0
+POLSCI 610: Econ Ratnality Pol
+3.0
+POLSCI 611: Proseminar in American National Government
+3.0
+POLSCI 612: Crt&amp;Lgl Proc
+3.0
+POLSCI 613: Prosem Public Law
+3.0
+POLSCI 614: Prosem Law&amp;Society
+3.0
+POLSCI 615: Amer Chief Executiv
+3.0
+POLSCI 616: Comparatv Legl Sys
+3.0
+POLSCI 617: Legislat Behav
+3.0
+POLSCI 618: Prosem Jurisprudenc
+3.0
+POLSCI 619: Afram&amp;Pol Rac
+3.0
+POLSCI 620: Pol&amp;Mass Media
+3.0
+POLSCI 621: State-Loc Govt
+3.0
+POLSCI 622: American Political Institutions
+3.0
+POLSCI 623: Municipal Prob
+3.0
+POLSCI 624: Law&amp;Pol of Identity
+3.0
+POLSCI 625: Psem Intergov Relat
+3.0
+POLSCI 626: Fnd Inst Analysis
+3.0
+POLSCI 627: St&amp;Regimes-Comp Pers
+3.0
+POLSCI 628: Comp Pol Party&amp;Syst
+3.0
+POLSCI 631: Admin Organiz
+3.0
+POLSCI 632: Pol of Federalism
+3.0
+POLSCI 633: Org&amp;Soc Const Thry
+3.0
+POLSCI 635: Pub Admin-Pub Pol
+3.0
+POLSCI 637: Field Training
+2.0 - 4.0
+POLSCI 639: Amer Natl Admin
+3.0
+POLSCI 641: Comparative Govt
+3.0
+POLSCI 642: Govt Pol W Eur
+3.0
+POLSCI 643: Ethnicity&amp;Politics
+3.0
+POLSCI 644: Sov&amp;Post-Sov Pol
+3.0
+POLSCI 645: Gov Pol East Eur
+3.0
+POLSCI 646: Comparative Com
+3.0
+POLSCI 647: Psem-Com Elite Anal
+3.0
+POLSCI 648: Pol Adv Indus Soc
+3.0
+POLSCI 649: Latin Amer Pol&amp;Soc
+3.0
+POLSCI 650: Political Develop
+3.0
+POLSCI 651: Political Economy
+3.0
+POLSCI 653: Proseminar in Middle East Politics
+3.0
+POLSCI 654: Stds Relig,Pol&amp;Cult
+3.0
+POLSCI 655: Japanese Politics
+3.0
+POLSCI 656: Chinese Govt-Pol
+3.0
+POLSCI 657: South Asia
+3.0
+POLSCI 658: Comp Inst Analysis
+3.0
+POLSCI 659: Gov&amp;Pol Africa
+3.0
+POLSCI 660: Proseminar in World Politics
+3.0
+POLSCI 661: Contemp Thry Wor Pol
+3.0
+POLSCI 662: Classical Theor Wrld
+3.0
+POLSCI 663: Intntl Org&amp;Integrat
+3.0
+POLSCI 664: World Res Des&amp;Meth
+3.0
+POLSCI 666: Internatl Pol Econ
+3.0
+POLSCI 668: War-World Politics
+3.0
+POLSCI 670: Comp Foreign Policy
+3.0
+POLSCI 671: Foreign Policy-U S
+3.0
+POLSCI 672: Intl Peace&amp;Sec Aff
+3.0
+POLSCI 675: Sov&amp;Russ for Policy
+3.0
+POLSCI 676: Asian Security Aff
+3.0
+POLSCI 677: SE Asian Pol
+3.0
+POLSCI 679: Intntl Rel Afr
+3.0
+POLSCI 680: Behav Res Methods
+3.0
+POLSCI 681: Intermed Game Theory
+3.0
+POLSCI 682: Democr Global Persp
+3.0
+POLSCI 683: Parties&amp;Pol Behav
+3.0
+POLSCI 684: Compare Dem Process
+3.0
+POLSCI 685: Elect Behav
+3.0
+POLSCI 686: Proseminar in Public Opinion
+3.0
+POLSCI 687: Pro Pol Psychology
+4.0
+POLSCI 688: Selected Topics in Political Science
+3.0
+POLSCI 689: Field Experiments
+3.0
+POLSCI 690: Pol Socialization
+3.0
+POLSCI 691: Directed Reading
+1.0 - 6.0
+POLSCI 692: Directed Reading
+1.0 - 6.0
+POLSCI 694: Qual Res Meth
+3.0
+POLSCI 695: Regression Analysis
+3.0
+POLSCI 699: Stat Methods Res II
+4.0
+POLSCI 701: Concepts Pol Theory
+3.0
+POLSCI 702: Select Pol Theorist
+1.0 - 3.0
+POLSCI 703: Approaches Pol Thry
+3.0
+POLSCI 704: American Pol Thot
+3.0
+POLSCI 709: Women &amp; Politics
+3.0
+POLSCI 711: American Natl Govt
+3.0
+POLSCI 712: Jurispru&amp;Legl Proc
+3.0
+POLSCI 713: Sem Public Law
+3.0
+POLSCI 719: Racial Politics-U S
+3.0
+POLSCI 723: Sem Urban Analysis
+3.0
+POLSCI 724: Urban Politics
+3.0
+POLSCI 730: Wom&amp;Emply Pol
+3.0
+POLSCI 731: Public Admin
+3.0
+POLSCI 734: Pub Pol Pse
+3.0
+POLSCI 736: Poverty and Inequality
+3.0
+POLSCI 737: Law for Admin
+3.0
+POLSCI 738: Ethics&amp;Publ Pol
+3.0
+POLSCI 741: Sem Compar Politics
+3.0 - 6.0
+POLSCI 742: Comp Res Des&amp;Meth
+3.0
+POLSCI 749: Poli Econ of Gov Reg
+3.0
+POLSCI 755: Govt &amp; Pol-Japan
+3.0
+POLSCI 756: Govt &amp; Pol-China
+3.0
+POLSCI 760: Res World Politics
+3.0
+POLSCI 761: Glob Env Chng&amp;State
+3.0
+POLSCI 768: Conflict Systems
+1.0 - 3.0
+POLSCI 770: Compar Forgn Policy
+3.0
+POLSCI 781: Res Sem Pol Behav I
+1.0 - 6.0
+POLSCI 782: Pol Behavior
+1.0 - 6.0
+POLSCI 785: Comp Pol Behavior
+3.0
+POLSCI 786: Stoch Pol Models
+3.0
+POLSCI 787: Multivariate Analysis
+3.0
+POLSCI 788: Tech-Causal Infer
+3.0
+POLSCI 789: Tech-Dimension Anal
+3.0
+POLSCI 790: Dynam Analy
+3.0
+POLSCI 793: Methods Seminar
+2.0 - 3.0
+POLSCI 794: Methods Seminar
+2.0 - 3.0
+POLSCI 811: Multivar Stat Meth
+3.0
+POLSCI 812: Scal&amp;Dimensnl Analy
+3.0
+POLSCI 813: Struct Equat Model
+3.0
+POLSCI 814: Time Series Analys
+3.0
+POLSCI 815: Categorical Analys
+3.0
+POLSCI 816: Gen Struc Equat Mod
+3.0
+POLSCI 817: Adv Analy Variance
+3.0
+POLSCI 818: Math Model:Game Thr
+3.0
+POLSCI 819: Math Mod:Rationl Ch
+3.0
+POLSCI 820: Max Likelihood Est
+3.0
+POLSCI 821: Hierarch Lin Models
+3.0
+POLSCI 822: Dyn-Longitud Analy
+2.0
+POLSCI 823: Non-Linear Syst I
+3.0
+POLSCI 824: Non-Linear Syst II
+3.0
+POLSCI 825: Chinese Hist
+2.0 - 3.0
+POLSCI 826: Computing Soc Sci
+2.0
+POLSCI 827: Res Des Soc Sci
+2.0
+POLSCI 829: Math Soc Sci
+2.0
+POLSCI 830: Adv Topic Soc Res
+2.0
+POLSCI 831: Gis&amp;Spatial Analys
+3.0
+POLSCI 832: Math Stat Soc Sci
+3.0
+POLSCI 834: Publ Pol Res
+2.0 - 6.0
+POLSCI 838: Math Modl:Game Thry
+3.0
+POLSCI 841: Max Likelihd Estim
+3.0
+POLSCI 846: Poverty&amp;Pub Pol I
+3.0
+POLSCI 876: Soc Wrk &amp; Polit Sci
+3.0
+POLSCI 891: Directed Research
+1.0 - 6.0
+POLSCI 892: Directed Research
+1.0 - 6.0
+POLSCI 990: Diss-Precand
+1.0 - 8.0
+POLSCI 993: Graduate Student Instructor Training Program
+1.0
+POLSCI 994: Workshops in POLSCI
+1.0
+POLSCI 995: Diss-Cand
+4.0 - 8.0

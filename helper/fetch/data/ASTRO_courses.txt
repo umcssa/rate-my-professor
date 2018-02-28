@@ -1,0 +1,102 @@
+ASTRO 101: Introductory Astronomy: The Solar System and the Search for Life Beyond Earth
+4.0
+ASTRO 102: Introductory Astronomy:  Stars, Galaxies, and the Universe
+4.0
+ASTRO 104: Alien Skies:  A Tour Through the Universe
+3.0
+ASTRO 105: Cosmos Constellatns
+3.0
+ASTRO 106: Aliens
+1.0
+ASTRO 107: The Dark Side of the Universe
+1.0
+ASTRO 115: Introductory Astrobiology:  The Search for Life in the Universe
+3.0
+ASTRO 120: Frontiers of Astron
+3.0
+ASTRO 125: Obs Astronomy
+4.0
+ASTRO 127: Naked Eye Astronomy
+1.0
+ASTRO 142: From the Big Bang to the Milky Way
+3.0
+ASTRO 183: Intro Space Weather
+3.0
+ASTRO 201: Introduction to Astrophysics
+4.0
+ASTRO 204: Plan:Geol&amp;CLIM
+3.0
+ASTRO 205: Hidden Universe
+3.0
+ASTRO 206: Black Holes: The Triumph of Gravity
+3.0
+ASTRO 210: Magellan Discoveries
+3.0
+ASTRO 220: New Discoveries in Astronomy
+3.0
+ASTRO 255: Earth and Space Sciences for Elementary School Educators
+3.0
+ASTRO 261: Navigation
+3.0
+ASTRO 300: The Beginning and The End:  A History of Cosmology
+3.0
+ASTRO 301: Disc Universe
+3.0
+ASTRO 305: Astronomy in the Community
+1.0 - 3.0
+ASTRO 361: Astronomical Techniques
+4.0
+ASTRO 389: Indi Studies Astro
+1.0 - 3.0
+ASTRO 399: Intro-Research
+1.0 - 3.0
+ASTRO 401: Exoplanets
+3.0
+ASTRO 402: Stellar Astrophysics
+3.0
+ASTRO 403: Interstell Medium
+3.0
+ASTRO 404: Galaxies&amp;Universe
+3.0
+ASTRO 405: High Energy Astro
+3.0
+ASTRO 406: Computational Astrophysics
+3.0
+ASTRO 420: New Discoveries in Astronomy for Advanced Students
+3.0
+ASTRO 429: Scientific Writing
+3.0
+ASTRO 461: Ground Observatories
+3.0
+ASTRO 500: Theor Astrphy:Light
+3.0
+ASTRO 501: Mod Astr Techniques
+3.0
+ASTRO 520: Cosmochemistry
+3.0
+ASTRO 530: Stellar Astrophysics I:  Star Formation and the Outer Layers of Stars
+3.0
+ASTRO 531: Stellar Astrophys II
+3.0
+ASTRO 532: The High Energy Universe
+3.0
+ASTRO 533: Str&amp;Cont of Galax
+3.0
+ASTRO 534: Extragalact Univers
+3.0
+ASTRO 535: Astrph Interstellar
+3.0
+ASTRO 690: Theoretic Astrophys
+1.0 - 4.0
+ASTRO 691: Observ Astrophysics
+1.0 - 4.0
+ASTRO 699: Special Problems
+1.0 - 8.0
+ASTRO 901: Res-Theoret Astro
+1.0 - 8.0
+ASTRO 902: Res-Observ Astro
+1.0 - 8.0
+ASTRO 990: Diss-Precand
+1.0 - 8.0
+ASTRO 995: Diss-Cand
+4.0 - 8.0

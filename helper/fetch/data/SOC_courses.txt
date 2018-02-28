@@ -1,0 +1,406 @@
+SOC 100: Introduction to Sociology
+3.0 - 4.0
+SOC 102: Introduction to Sociology:  Special Topics
+3.0 - 4.0
+SOC 105: First Year Seminar in Sociology
+3.0
+SOC 122: Intergroup Dialogues
+3.0
+SOC 195: Honors Introduction to Sociology
+3.0 - 4.0
+SOC 203: Multiculturalism
+3.0
+SOC 204: Intl Migra&amp;Glob Wrld
+3.0
+SOC 205: Poverty,Race&amp;Hlth
+3.0
+SOC 206: Animals and Society
+3.0
+SOC 207: Social Suffering
+3.0
+SOC 208: Terrorism, Torture
+3.0 - 4.0
+SOC 210: Elementary Statistics
+3.0 - 4.0
+SOC 215: Organization&amp;Society
+4.0
+SOC 218: Foundations of Intergroup Relations
+3.0
+SOC 220: Political Economy
+4.0
+SOC 221: Social Inequality
+3.0 - 4.0
+SOC 222: Strat Interact
+4.0
+SOC 225: Practicum in Sociology
+2.0 - 4.0
+SOC 230: Health-Pop S Africa
+3.0 - 4.0
+SOC 231: Invstg Soc&amp;Dem Chng
+4.0
+SOC 233: Social Problems
+3.0 - 4.0
+SOC 235: S African Field Expr
+2.0
+SOC 240: Sociology of Culture
+3.0 - 4.0
+SOC 250: Politics, Power&amp;Soc
+3.0 - 4.0
+SOC 255: Sociology of Music
+3.0
+SOC 260: Tipping Points, Bandwagons and Cascades:  From Individual Behavior to Social Dynamics
+3.0
+SOC 270: Gender &amp; the Law
+3.0 - 4.0
+SOC 280: Moral Choice
+4.0
+SOC 295: Topics in Sociology
+1.0 - 4.0
+SOC 300: Sociological Principles and Problems
+3.0
+SOC 302: Health and Society: An Introduction to Sociology
+4.0
+SOC 303: Race&amp;Ethnicity
+3.0 - 4.0
+SOC 304: American Immigration
+4.0
+SOC 305: Introduction to Sociological Theory
+3.0 - 4.0
+SOC 310: Sociological Research Methods
+3.0 - 4.0
+SOC 311: Contemp Globalizatns
+4.0
+SOC 313: Social Science Theory I: From Social Contract to Oedipus Complex
+4.0
+SOC 315: Economic Sociology
+3.0 - 4.0
+SOC 317: Commu &amp; Capit E Eur
+4.0
+SOC 320: Processes of Intergroup Dialogues Facilitation
+3.0
+SOC 321: Practicum in Facilitating Intergroup Dialogues
+4.0
+SOC 323: Blk Soc Thot
+3.0
+SOC 324: Advanced Practicum in Intergroup Relations
+1.0 - 4.0
+SOC 325: Sociology of Service Learning
+4.0
+SOC 330: Population Problems
+3.0
+SOC 331: U S Pop Trends
+3.0
+SOC 335: Urban Inequality
+3.0 - 4.0
+SOC 344: Soc of Families
+3.0 - 4.0
+SOC 345: Sociology of Sexuality
+3.0 - 4.0
+SOC 346: Sociology of the Body
+3.0
+SOC 350: Human Rights in the United Nations
+4.0
+SOC 354: Law and Society
+4.0
+SOC 368: Criminology
+3.0 - 4.0
+SOC 375: Conflict &amp; Coexist
+3.0
+SOC 379: Sports, Politics, and Society
+3.0
+SOC 380: Environmental Public Opinion Analysis
+3.0
+SOC 383: Intr Surv Res
+3.0
+SOC 392: Russia and the Soviet Union: Reform, Revolution, and the Socialist Experiment
+3.0 - 4.0
+SOC 393: East Central Europe
+3.0 - 4.0
+SOC 394: Undergrad Research
+1.0 - 4.0
+SOC 395: Independent Study
+1.0 - 4.0
+SOC 396: UG Internship
+1.0
+SOC 398: Prof Writing &amp; Soc
+3.0
+SOC 404: Hisp Americans
+3.0
+SOC 405: Adv Social Theory
+3.0 - 4.0
+SOC 410: The Jewish Community
+3.0
+SOC 411: Comm&amp;Publ Opin
+3.0
+SOC 416: Thinking Class
+3.0
+SOC 417: Social Networks
+3.0
+SOC 420: Complex Organizatns
+3.0
+SOC 422: Latin America
+3.0
+SOC 424: Sr Sem: Social Strat
+3.0
+SOC 427: Soc Korea DevGlob&amp;Id
+3.0
+SOC 428: Contemporary China
+3.0
+SOC 429: Sociology of Japan
+3.0
+SOC 430: World Population Dynamics
+3.0
+SOC 434: Soc Org Blk Com
+3.0
+SOC 440: Sociology of Work
+3.0
+SOC 442: Occupat-Profession
+3.0
+SOC 444: Sr Sem:Amer Family
+3.0
+SOC 445: Diagnosis, Sex, &amp;Soc
+3.0
+SOC 447: Soc of Gender
+3.0
+SOC 450: Global Human Rights
+3.0
+SOC 451: Women and Work
+3.0
+SOC 452: Law&amp;Soc Psychology
+3.0
+SOC 453: Mexican Labor N Amer
+4.0
+SOC 455: Religion &amp; Society
+3.0
+SOC 457: Nations
+3.0
+SOC 458: Soc of Education
+3.0
+SOC 460: Social Change
+3.0
+SOC 461: Social Movements
+3.0 - 4.0
+SOC 462: Nat Amer Soc Mvmts
+3.0
+SOC 465: Sociological Analysis of Deviance
+3.0 - 4.0
+SOC 468: Crime/Just in Prison
+3.0
+SOC 471: IGR Senior Capstone: Social Justice in the Real World
+3.0
+SOC 472: Advanced Laboratory in Social Psychology
+3.0
+SOC 475: Introduction to Medical Sociology
+3.0 - 4.0
+SOC 476: Sociology of Bioethics
+3.0
+SOC 477: Death &amp; Dying
+3.0 - 4.0
+SOC 488: Organizing Interns
+1.0
+SOC 489: Organizing: People, Power, and Change
+3.0
+SOC 493: Politics of Fascism
+3.0
+SOC 495: Topics in Sociology
+1.0 - 4.0
+SOC 496: Special Courses
+3.0
+SOC 497: Proposal Writing
+3.0
+SOC 498: Honors:  Data Collection and Analysis
+3.0
+SOC 499: Thesis Writing
+3.0
+SOC 500: Social Welfare-Usa
+1.0
+SOC 503: Race, Ethn, &amp; Imm
+3.0
+SOC 504: Am IMM:Soc Persp
+3.0
+SOC 505: Theories and Practices of Sociology
+4.0
+SOC 506: Theory &amp; Practice
+4.0
+SOC 507: Logics and Strategies of Sociological Research Inquiry
+3.0
+SOC 508: Phil Social Science
+3.0
+SOC 510: Statistics
+2.0 - 4.0
+SOC 515: Econ Soc &amp; Org
+3.0
+SOC 520: Soc of Knowledg
+2.0 - 3.0
+SOC 521: Black Int Thot
+3.0
+SOC 522: Qual Research Meth
+3.0
+SOC 523: Practicum in Qualitative Research Methods II
+3.0
+SOC 527: Social Scientific Studies of Historical and Contemporary China
+3.0
+SOC 528: Top-Anal Chin Soc
+2.0 - 3.0
+SOC 529: Comp-Quant Soc Sci
+3.0
+SOC 530: Social Demography
+2.0 - 3.0
+SOC 532: Cmpartv Histrcl Soc
+2.0 - 3.0
+SOC 533: Cmpartv Histrcl Soc
+2.0 - 3.0
+SOC 535: Urban Community
+3.0
+SOC 541: Contemp Japan Soc
+2.0 - 3.0
+SOC 542: Quant Methods I
+3.0
+SOC 543: Quant Methods II
+3.0
+SOC 544: Soc of Fmly&amp;Kinshp
+3.0
+SOC 547: Soc Econ Pharm Prac
+3.0
+SOC 551: Gender and Labor
+3.0
+SOC 555: Culture &amp; Knowledge
+3.0
+SOC 556: Soc of Religion
+3.0
+SOC 557: Soc of Nationalism
+3.0
+SOC 558: Cult History Memory
+3.0
+SOC 560: Pow,Hist&amp;Soc Change
+3.0
+SOC 561: Surv Res Des
+2.0 - 3.0
+SOC 562: Sur Res Data
+2.0 - 3.0
+SOC 572: Soc Foundations ID
+3.0
+SOC 575: Health &amp; Health Care
+3.0
+SOC 580: Topics in Disability Studies
+1.0 - 3.0
+SOC 590: Prosem Soc Psych
+3.0
+SOC 591: Spec Areas Soc Psyc
+3.0
+SOC 595: Topics in Sociology
+2.0 - 3.0
+SOC 596: Special Courses
+2.0 - 3.0
+SOC 597: Special Courses
+2.0 - 3.0
+SOC 605: Sociological Theory
+2.0 - 3.0
+SOC 610: Statistical Meth
+2.0 - 4.0
+SOC 612: Applied Sampling
+3.0
+SOC 613: Adv Meth Surv Samp
+3.0
+SOC 616: Anal Survey Data II
+4.0
+SOC 619: Cat Data Analysis
+3.0
+SOC 621: Wkshop Samp Techniq
+3.0 - 6.0
+SOC 622: Soc Stratification
+3.0
+SOC 630: Res Meths Pop-Ecol
+2.0 - 3.0
+SOC 634: Urban Ethnogr Trad
+3.0
+SOC 641: Intl Iss Rac
+3.0
+SOC 649: Fmly;Gend&amp;the State
+3.0
+SOC 650: Prosem Pol Soc
+2.0 - 3.0
+SOC 651: Elect Behav
+3.0
+SOC 652: Transnational Sociol
+3.0
+SOC 653: Soc of Law
+2.0 - 3.0
+SOC 654: Marx &amp; Modernity
+3.0
+SOC 655: Crt&amp;Lgl Proc
+3.0
+SOC 660: Sociology of Class
+3.0
+SOC 666: Prac&amp;Soc Chg
+2.0 - 3.0
+SOC 682: Advanced Social Psychology
+3.0
+SOC 688: Int to Surv Res Tech
+6.0
+SOC 695: Directed Research
+1.0 - 6.0
+SOC 696: Directed Reading
+1.0 - 6.0
+SOC 710: Adv Top Quant Meth
+3.0
+SOC 711: Quest Design &amp; Eval
+3.0
+SOC 713: Sem Public Law
+3.0
+SOC 717: Sampling Theory
+3.0
+SOC 719: Cmp Anl Surv
+3.0
+SOC 726: Multivari Anal
+2.0 - 3.0
+SOC 729: Pol Transform
+2.0 - 3.0
+SOC 751: Dynam Analy
+3.0
+SOC 760: Pwr,Hst&amp;Soc Chg Res
+3.0
+SOC 781: Socialization
+3.0
+SOC 785: Group Processes
+3.0
+SOC 786: Res Des-Soc Psy
+3.0
+SOC 789: Mvmnts Cntnts Pol
+2.0 - 3.0
+SOC 800: Research Workshop in Sociology
+1.0 - 3.0
+SOC 803: Race&amp;Ethn Res Sem
+1.0 - 3.0
+SOC 805: Wkshp in Soc Theory
+1.0 - 3.0
+SOC 810: Sem Soc Sci Meth
+1.0
+SOC 815: Research Workshop in Economics and Organizations
+1.0 - 3.0
+SOC 823: Research Workshop in Inequality
+1.0 - 3.0
+SOC 825: Chinese Hist
+2.0 - 3.0
+SOC 835: Wkshp in Urban Soc
+1.0 - 3.0
+SOC 842: Quantitative Workshp
+1.0 - 3.0
+SOC 847: Research Workshop in Gender and Sexuality
+1.0 - 3.0
+SOC 855: Research Workshop in Culture, History, Politics
+1.0 - 3.0
+SOC 861: Wkshp Soc Mvmts&amp;Pro
+1.0 - 3.0
+SOC 895: Special Seminar
+1.0 - 3.0
+SOC 899: Responsible Conduct of Research
+0.65
+SOC 988: Advanced Seminars in Social Psychology
+1.0 - 5.0
+SOC 990: Diss-Precand
+1.0 - 8.0
+SOC 993: Graduate Student Instructor Training Program
+1.0
+SOC 995: Diss-Cand
+4.0 - 8.0

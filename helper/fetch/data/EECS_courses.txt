@@ -1,0 +1,418 @@
+EECS 101: Thriving in a Digital World
+4.0
+EECS 183: Elementary Programming Concepts
+4.0
+EECS 203: Discrete Math
+4.0
+EECS 215: Introduction to Electronic Circuits
+4.0
+EECS 216: Introduction to Signals and Systems
+4.0
+EECS 230: Electromagnetics I
+4.0
+EECS 250: Elec Sens Sys
+3.0
+EECS 270: Introduction to Logic Design
+4.0
+EECS 280: Programming and Introductory Data Structures
+4.0
+EECS 281: Data Structures and Algorithms
+4.0
+EECS 282: Information Systems Design and Programming
+4.0
+EECS 283: Prog for Sci&amp;Eng
+4.0
+EECS 285: A Programming Language or Computer System
+2.0
+EECS 301: Probabilistic Methods in Engineering
+4.0
+EECS 311: Analog Circuits
+4.0
+EECS 312: Digital Integrated Circuits
+4.0
+EECS 314: Electrical Circuits, Systems and Applications
+4.0
+EECS 320: Introduction to Semiconductor Devices
+4.0
+EECS 330: Introduction to Antennas and Wireless Systems
+4.0
+EECS 334: Principles of Optics
+4.0
+EECS 351: Introduction to Digital Signal Processing
+4.0
+EECS 353: Intro Comm Systems
+4.0
+EECS 370: Introduction to Computer Organization
+4.0
+EECS 373: Design of Microprocessor Based Systems
+4.0
+EECS 376: Foundations of Computer Science
+4.0
+EECS 381: Object Oriented and Advanced Programming
+4.0
+EECS 382: Internet-Scal Comp
+4.0
+EECS 388: Introduction to Computer Security
+4.0
+EECS 398: Special Topics
+1.0 - 4.0
+EECS 399: Directed Study
+1.0 - 4.0
+EECS 402: Computer Programming For Scientists and Engineers
+3.0
+EECS 406: High-Tech Entrep
+4.0
+EECS 410: Patent Fund Eng
+4.0
+EECS 411: Microwave Circuits I
+4.0
+EECS 413: Monolith Amplifier Circuits
+4.0
+EECS 414: Introduction to MEMS:
+4.0
+EECS 416: Elec for Bio
+4.0
+EECS 417: Electrical Biophysics
+4.0
+EECS 418: Power Electronics
+4.0
+EECS 419: Elec Mach and Drives
+4.0
+EECS 421: Properties of Transistors
+4.0
+EECS 423: Solid-State Device Laboratory
+4.0
+EECS 425: Integrated Microsystems Laboratory
+4.0
+EECS 427: Very Large Scale Integrated Design I
+4.0
+EECS 429: Semi Optoelec Dev
+4.0
+EECS 430: Radiowave Prop
+4.0
+EECS 434: Princ of Photonics
+4.0
+EECS 435: Fourier Optics
+3.0
+EECS 438: Adv Lasers Lab
+4.0
+EECS 441: Mobile App Development for Entrepreneurs
+4.0
+EECS 442: Computer Vision
+4.0
+EECS 443: Senior ThesisL
+3.0
+EECS 445: Introduction to Machine Learning
+4.0
+EECS 452: Digital Signal Processing Design Laboratory
+4.0
+EECS 453: Applied Matrix Algorithms for Signal Processing, Data Analysis, and Machine Learning
+4.0
+EECS 455: Digital Communication Signals and Systems
+4.0
+EECS 458: Biomedical Instrumentation and Design
+4.0
+EECS 460: Control Systems Analysis and Design
+4.0
+EECS 461: Embedded Control Systems
+4.0
+EECS 463: Power Systems Design and Operations
+4.0
+EECS 464: Hands-on Robotics
+4.0
+EECS 467: Autonomous Robotics
+4.0
+EECS 470: Computer Architecture
+4.0
+EECS 473: Advanced Embedded Systems
+4.0
+EECS 475: Introduction to Cryptography
+4.0
+EECS 477: Introduction to  Algorithms
+4.0
+EECS 478: Logic Circuit Synthesis and Optimization
+4.0
+EECS 480: Logic Formal Verif
+4.0
+EECS 481: Software Engineering
+4.0
+EECS 482: Introduction to Operating Systems
+4.0
+EECS 483: Compiler Construction
+4.0
+EECS 484: Database Management Systems
+4.0
+EECS 485: Web Database and Information Systems
+4.0
+EECS 486: Informational Retrieval and Web Search
+4.0
+EECS 487: Interactive Computer Graphics
+4.0
+EECS 489: Comp Networks
+4.0
+EECS 490: Programming Languages
+4.0
+EECS 492: Introduction to Artificial Intelligence
+4.0
+EECS 493: User Interface Development
+4.0
+EECS 494: Computer Game Design and Development
+4.0
+EECS 496: Major Design Experience-Professionalism
+2.0
+EECS 497: Major Des Projects
+4.0
+EECS 498: Special Topics
+1.0 - 4.0
+EECS 499: Adv Directed Study
+1.0 - 4.0
+EECS 500: Tutorl Sys Sci
+1.0
+EECS 501: Probability and Random Processes
+4.0
+EECS 502: Stochastic Processes
+3.0
+EECS 503: Intro Numerical Em
+3.0
+EECS 504: Foundations of Computer Vision
+3.0
+EECS 509: BIOMEMS
+3.0
+EECS 510: RF MEMS
+4.0
+EECS 511: A/D Interfaces
+4.0
+EECS 512: Amorphous Sem Dev
+3.0
+EECS 513: Flat Pan Displays
+3.0
+EECS 514: Advanced MEMS
+4.0
+EECS 515: Integrated Microsystems
+4.0
+EECS 516: Medical Imaging System
+3.0
+EECS 517: Proc Plasma
+3.0
+EECS 518: Magnetosphere
+3.0
+EECS 519: Plasma Lab
+4.0
+EECS 520: Solid State Physics
+4.0
+EECS 521: Solid State Devices
+3.0
+EECS 522: Analog Integr Ckts
+4.0
+EECS 523: Digital Integrated Technology:
+4.0
+EECS 525: Adv Sol St Mw Cir
+3.0
+EECS 526: Plasmonics
+3.0
+EECS 527: Layout Synthesis&amp;Opt
+3.0 - 4.0
+EECS 528: M-Elec Proc Tech
+3.0
+EECS 529: Semi Lasers &amp; Leds
+3.0
+EECS 530: Electromagnetic Theory I
+3.0
+EECS 531: Antenna Thry&amp;Des
+3.0
+EECS 532: M-Waves Rem Sens
+3.0
+EECS 533: Micro Meas Lab
+3.0
+EECS 535: Optical Inform Proc
+3.0
+EECS 536: Statistical Optics
+3.0
+EECS 537: Classical Optics
+3.0
+EECS 538: Optical Waves in Crystals
+3.0
+EECS 539: Lasers
+3.0
+EECS 540: Applied Quantum Mechanics
+3.0
+EECS 541: App Qnt Mch II
+3.0
+EECS 542: Advanced Topics in Computer Vision
+3.0
+EECS 543: Knowledge-Based Systems
+3.0
+EECS 545: Machine Learning
+3.0
+EECS 546: Ultrafast Optics
+3.0
+EECS 547: Electronic Commerce
+3.0
+EECS 548: Information Visualization
+3.0
+EECS 549: Information Retrieval
+3.0
+EECS 550: Information Theory
+3.0
+EECS 551: Matrix Methods for Signal Processing, Data Analysis and Machine Learning
+4.0
+EECS 552: Fib Opt:Intrnt Biomd
+3.0
+EECS 553: Data Compression
+3.0
+EECS 554: Introduction to Digital Communication and Coding
+3.0
+EECS 555: Digital Commun Thry
+3.0
+EECS 556: Image Processing
+3.0
+EECS 557: Communication Netwk
+3.0
+EECS 558: Stochastic Control
+3.0
+EECS 559: Adv Signal Process
+3.0
+EECS 560: Linear Systems Theory
+4.0
+EECS 561: Design of Digital Control Systems
+3.0
+EECS 562: Nonlinear Systems and Control
+3.0
+EECS 564: Estimation, Filtering, and Detection
+3.0
+EECS 565: Linear Feedback Control Systems
+3.0
+EECS 566: Discrete Event Syst
+3.0
+EECS 567: Robot Kinematics and Dynamics
+3.0
+EECS 568: Mobile Robotics: Methods and Algorithms
+4.0
+EECS 569: Prod Syst Eng
+3.0
+EECS 570: Parallel Computer Architecture
+4.0
+EECS 571: Principles of Real Time Computing
+4.0
+EECS 573: Microarchitecture
+3.0
+EECS 574: Computational Complexity
+4.0
+EECS 575: Advanced Cryptography
+4.0
+EECS 578: Correct Operation for Processors and Embedded Systems
+4.0
+EECS 579: Digital System Testing
+4.0
+EECS 580: Adv Comp Graphics
+4.0
+EECS 581: Soft Eng Tool
+3.0
+EECS 582: Adv Operat Sys
+4.0
+EECS 583: Advanced Compilers
+4.0
+EECS 584: Advanced Database Systems
+4.0
+EECS 586: Design and Analysis of Algorithms
+4.0
+EECS 587: Parallel Computing
+4.0
+EECS 588: Comp Netwk Security
+4.0
+EECS 589: Advanced Computer Networks
+4.0
+EECS 590: Advanced Programming Languages
+4.0
+EECS 591: Distribute Sys
+4.0
+EECS 592: Foundations of Artificial Intelligence
+4.0
+EECS 593: Hum as Inf Proc
+3.0
+EECS 594: Intro Adaptive Syst
+3.0
+EECS 595: Natural Language Processing
+3.0
+EECS 596: M Eng Team Project
+1.0 - 6.0
+EECS 597: Language &amp; Info
+3.0
+EECS 598: Special Topics in Electrical Engineering and Computer Science
+1.0 - 4.0
+EECS 599: Directed Study
+1.0 - 4.0
+EECS 600: Func Meth Sys Thry
+3.0
+EECS 620: Elect Opt Semicon
+4.0
+EECS 627: VLSI Design II
+4.0
+EECS 628: Adv Hi Perf VLSI
+3.0 - 4.0
+EECS 631: Em Scattering
+3.0
+EECS 633: Num Meth E-M
+3.0
+EECS 634: Nonlin Opt
+3.0
+EECS 638: Quantum Opt
+3.0
+EECS 643: Theory of Neural Computation
+2.0 - 4.0
+EECS 644: Comp Model Cogn
+2.0 - 4.0
+EECS 650: Chanel Coding Thry
+3.0
+EECS 659: Adapt Signal Proc
+3.0
+EECS 662: Adv Nl Cont
+3.0
+EECS 670: Spec Top Comp Arch
+3.0
+EECS 674: Spec Tpc Theor CmpSc
+3.0
+EECS 682: Software Sys Topics
+3.0
+EECS 684: Curr Top Database
+3.0
+EECS 691: Mobile Computing
+3.0
+EECS 692: Adv Artif Intellig
+4.0
+EECS 695: Neural Models
+3.0
+EECS 698: Master&#39;s Thesis
+1.0 - 6.0
+EECS 699: Research Work EECS
+1.0 - 6.0
+EECS 700: Spec Topic Sys Thry
+1.0 - 16.0
+EECS 720: Topics S-State Dev
+1.0 - 4.0
+EECS 730: Topic Electromagnet
+1.0 - 4.0
+EECS 735: Topic Optical Sci
+1.0 - 4.0
+EECS 750: Topic Comm&amp;Inf Thry
+1.0 - 16.0
+EECS 755: Topics Signal Proc
+1.0 - 4.0
+EECS 760: Topic Control Thry
+1.0 - 16.0
+EECS 765: Sp T Stoch Sys Cont
+3.0
+EECS 767: Adv Nat Lang Pro Inf
+3.0
+EECS 770: Topic Computer Sys
+1.0 - 16.0
+EECS 792: Spec Top Artif Intel
+3.0
+EECS 820: Sem in S-S Elec
+1.0
+EECS 892: Sem Art Intelligenc
+2.0
+EECS 990: Diss-Precand
+1.0 - 8.0
+EECS 995: Diss-Cand
+4.0 - 8.0

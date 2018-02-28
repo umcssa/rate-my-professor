@@ -1,0 +1,398 @@
+DANCE 100: Introduction to Dance
+1.0
+DANCE 101: Modern Dance I
+1.0
+DANCE 102: Modern Dance I
+1.0
+DANCE 103: Modern Dance I
+1.0
+DANCE 104: Modern Dance I
+1.0
+DANCE 111: Ballet I
+1.0
+DANCE 112: Ballet I
+1.0
+DANCE 113: Ballet I
+1.0
+DANCE 114: Ballet I
+1.0
+DANCE 121: Freshman Repertory
+1.0
+DANCE 122: Freshman Repertory
+1.0
+DANCE 126: FTC
+2.0
+DANCE 127: Dance Laboratory
+1.0
+DANCE 128: Dance Laboratory
+1.0
+DANCE 131: Dance Composition 1
+2.0
+DANCE 132: Dance Comp 2
+2.0
+DANCE 141: Music for Dance 1
+2.0
+DANCE 151: Anat &amp; Kines
+3.0
+DANCE 152: Body Knowledge
+2.0
+DANCE 201: Modern Dance II
+1.0
+DANCE 202: Modern Dance II
+1.0
+DANCE 203: Modern Dance II
+1.0
+DANCE 204: Modern Dance II
+1.0
+DANCE 211: Ballet II
+1.0
+DANCE 212: Ballet II
+1.0
+DANCE 213: Ballet II
+1.0
+DANCE 214: Ballet II
+1.0
+DANCE 221: Sophomore Repertory
+1.0
+DANCE 222: Sophomore Repertory
+1.0
+DANCE 227: Dance Laboratory
+1.0
+DANCE 228: Dance Laboratory
+1.0
+DANCE 229: Sophomore Dancers
+1.0
+DANCE 231: Dance Composition 3
+2.0
+DANCE 232: Dance Comp 4
+2.0
+DANCE 241: The Art of Dance: An Introduction to American and European Dance History, Aesthetics, and Criticism
+3.0
+DANCE 242: Int Music Move
+2.0
+DANCE 246: Dev Music Dance
+3.0
+DANCE 261: Congolese Dance 1
+1.0
+DANCE 262: Congolese Dance I
+1.0
+DANCE 265: Afro-Caribbean
+1.0
+DANCE 291: Sophomore Seminar
+2.0
+DANCE 301: Modern Dance III
+1.0
+DANCE 302: Modern Dance III
+1.0
+DANCE 303: Modern Dance III
+1.0
+DANCE 304: Modern Dance III
+1.0
+DANCE 311: Ballet III
+1.0
+DANCE 312: Ballet III
+1.0
+DANCE 313: Ballet III
+1.0
+DANCE 314: Ballet III
+1.0
+DANCE 321: Junior Repertory
+1.0
+DANCE 322: Junior Repertory
+1.0
+DANCE 327: Dance Laboratory
+1.0
+DANCE 328: Dance Laboratory
+1.0
+DANCE 332: Movement Improv
+2.0
+DANCE 335: Dance and Related Arts
+2.0
+DANCE 342: World Dance
+3.0
+DANCE 347: Dancing Cities
+3.0
+DANCE 348: Africanist Trad
+3.0
+DANCE 372: Dance Production
+2.0
+DANCE 390: CPP&amp;D Lab
+1.0
+DANCE 391: Thesis Project Lab
+1.0
+DANCE 401: Modern Dance IV
+1.0
+DANCE 402: Modern Dance IV
+1.0
+DANCE 403: Modern Dance IV
+1.0
+DANCE 404: Modern Dance IV
+1.0
+DANCE 405: AADW Technique
+1.0
+DANCE 406: Paul Taylor Summer Intensive/UM Technique
+1.0 - 2.0
+DANCE 411: Ballet IV
+1.0
+DANCE 412: Ballet IV
+1.0
+DANCE 413: Ballet IV
+1.0
+DANCE 414: Ballet IV
+1.0
+DANCE 421: Senior Repertory
+1.0
+DANCE 422: Senior Repertory
+1.0
+DANCE 423: AADW Repertory
+1.0 - 2.0
+DANCE 424: Paul Taylor Summer Intensive - Repertory
+1.0
+DANCE 427: Dance Laboratory
+1.0
+DANCE 428: Dance Laboratory
+1.0
+DANCE 431: Dramaturgy
+3.0
+DANCE 442: Screendance
+3.0
+DANCE 445: DWDQ
+3.0
+DANCE 446: Accomp Mvmt
+3.0
+DANCE 481: Teaching Methods
+3.0
+DANCE 482: Teaching Methods
+3.0
+DANCE 491: Senior Seminar
+2.0
+DANCE 493: Senior Dance Concert
+4.0
+DANCE 494: Senior Concert
+4.0
+DANCE 497: Independent Study
+1.0 - 3.0
+DANCE 498: Field Experience
+1.0 - 3.0
+DANCE 501: Research in Action 1:  Research Methods in Dance
+3.0
+DANCE 502: RIA 2
+3.0
+DANCE 505: RIA 3
+1.0
+DANCE 511: Ballet
+1.0
+DANCE 513: Modern Dance
+1.0
+DANCE 514: World Dance
+1.0
+DANCE 515: AADW:  Tech
+1.0
+DANCE 516: PTSI:  Technique
+1.0
+DANCE 517: ST: Dance Technique
+1.0 - 3.0
+DANCE 518: FE: Dance Technique
+1.0 - 3.0
+DANCE 519: IS: Dance Technique
+1.0 - 3.0
+DANCE 521: University Dance Company
+1.0
+DANCE 522: Movement Research
+3.0
+DANCE 523: Perf Portfolio
+2.0 - 4.0
+DANCE 524: Solo Performance
+3.0
+DANCE 525: AADW: Repertory
+1.0 - 2.0
+DANCE 526: PTSI:  Rep
+1.0
+DANCE 527: ST: Perform/Rep
+1.0 - 3.0
+DANCE 528: FE: Perform/Rep
+1.0 - 3.0
+DANCE 529: IS: Perform/Rep
+1.0 - 3.0
+DANCE 531: Solo Composition
+3.0
+DANCE 532: CPP &amp; D
+3.0
+DANCE 533: Chor Portfolio
+2.0 - 4.0
+DANCE 534: Performance Improvisation 1
+3.0
+DANCE 535: Site-Specific Perf
+3.0
+DANCE 536: Dramaturgy
+3.0
+DANCE 537: ST: Choreography
+1.0 - 3.0
+DANCE 538: Field Experience:  Choreography
+1.0 - 3.0
+DANCE 539: IS: Choreography
+1.0 - 3.0
+DANCE 542: Screendance 1
+3.0
+DANCE 543: Screen Portfolio
+2.0 - 4.0
+DANCE 546: DWDQ
+3.0
+DANCE 547: Special Topics:  Screendance
+1.0 - 3.0
+DANCE 548: Field Experience: Screendance
+1.0 - 3.0
+DANCE 549: IS: Screendance
+1.0 - 3.0
+DANCE 551: Exp Anatomy
+3.0
+DANCE 557: ST: Dance Science
+1.0 - 3.0
+DANCE 558: FE: Dance Science
+1.0 - 3.0
+DANCE 559: IS: Dance Science
+1.0 - 3.0
+DANCE 562: Dance Criticism
+3.0
+DANCE 563: Black Dance Perf
+3.0
+DANCE 564: Balanchine
+3.0
+DANCE 567: ST: Dance History
+1.0 - 3.0
+DANCE 568: FE: Dance History
+1.0 - 3.0
+DANCE 569: IS: Dance History
+1.0 - 3.0
+DANCE 571: Pedagogy Dance Technique
+3.0
+DANCE 572: Pedagogy:Composition
+3.0
+DANCE 575: Pedagogy: History
+3.0
+DANCE 577: ST: Dance Education
+1.0 - 3.0
+DANCE 578: FE: Dance Education
+1.0 - 3.0
+DANCE 579: IS: Dance Education
+1.0 - 3.0
+DANCE 581: Dance Music
+3.0
+DANCE 582: Mus Intro to Dance
+3.0
+DANCE 583: Dance and Related Arts
+2.0
+DANCE 586: Accomp Mvmt
+3.0
+DANCE 587: ST: Interdisc Arts
+1.0 - 3.0
+DANCE 588: FE: Interdisc Arts
+1.0 - 3.0
+DANCE 589: IS: Interdisc Arts
+1.0 - 3.0
+DANCE 591: Thesis Performance
+6.0
+DANCE 595: Thesis 1: SRP
+2.0
+DANCE 601: Research in Action 4:  Problemetizing Theory in Practice
+3.0
+DANCE 602: Research in Action
+1.0 - 2.0
+DANCE 611: Ballet
+1.0
+DANCE 613: Modern Dance
+1.0
+DANCE 614: World Dance
+1.0
+DANCE 615: AADW: Technique
+1.0
+DANCE 616: PTSI: Technique
+1.0
+DANCE 617: ST: Dance Technique
+1.0 - 3.0
+DANCE 618: FE: Dance Technique
+1.0 - 3.0
+DANCE 619: IS: Dance Technique
+1.0 - 3.0
+DANCE 621: University Dance Company
+1.0 - 2.0
+DANCE 622: Movement Research
+3.0
+DANCE 623: Perf Portfolio
+2.0 - 4.0
+DANCE 624: AADW Repertory
+1.0 - 2.0
+DANCE 625: AADW Repertory
+1.0
+DANCE 626: PTSI Repertory
+1.0
+DANCE 627: ST: Perform/Rep
+1.0 - 3.0
+DANCE 628: FE: Perform/Rep
+1.0 - 3.0
+DANCE 629: IS: Perform/Rep
+1.0 - 3.0
+DANCE 631: Grad Studio
+2.0
+DANCE 633: Choreographic Portfolio
+2.0 - 4.0
+DANCE 634: Performance Improvisation 2
+3.0
+DANCE 637: Special Topics: Choreography
+1.0 - 3.0
+DANCE 638: Field Experience: Choreography
+1.0 - 3.0
+DANCE 639: IS: Choreography
+1.0 - 3.0
+DANCE 642: Screendance 2
+3.0
+DANCE 643: Screendance Portfolio
+2.0 - 4.0
+DANCE 647: Special Topics:  Screendance
+1.0 - 3.0
+DANCE 648: Field Experience: Screendance
+1.0 - 3.0
+DANCE 649: IS: Screendance
+1.0 - 3.0
+DANCE 651: Somatic Study
+3.0
+DANCE 657: ST: Dance Science
+1.0 - 3.0
+DANCE 658: FE: Dance Science
+1.0 - 3.0
+DANCE 659: IS: Dance Science
+1.0 - 3.0
+DANCE 661: Dance History
+3.0
+DANCE 663: Dancing Diasporas
+3.0
+DANCE 667: ST: Dance History
+1.0 - 3.0
+DANCE 668: FE: Dance History
+1.0 - 3.0
+DANCE 669: IS: Dance History
+1.0 - 3.0
+DANCE 671: Teaching Internship
+1.0 - 3.0
+DANCE 677: ST: Dance Education
+1.0 - 3.0
+DANCE 678: FE: Dance Education
+1.0 - 3.0
+DANCE 679: IS: Dance Education
+1.0 - 3.0
+DANCE 681: The Stage/Music
+3.0
+DANCE 682: D&amp;M Reconstruction
+3.0
+DANCE 683: Designing for Dance
+2.0
+DANCE 687: ST: Interdisc Arts
+1.0 - 3.0
+DANCE 688: FE: Interdisc Arts
+1.0 - 3.0
+DANCE 689: IS: Interdisc Arts
+1.0 - 3.0
+DANCE 695: Thesis 2: Proposal
+2.0
+DANCE 699: Thesis 3: Project
+6.0

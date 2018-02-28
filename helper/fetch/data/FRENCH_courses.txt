@@ -1,0 +1,224 @@
+FRENCH 100: Intensive Elem
+8.0
+FRENCH 101: Elementary French
+4.0
+FRENCH 102: Elementary
+4.0
+FRENCH 103: Review of Elementary French
+4.0
+FRENCH 113: Accel Rdg French
+4.0
+FRENCH 205: Convers-Non Concent
+1.0
+FRENCH 206: Practical French
+1.0
+FRENCH 230: Intensive 2nd Year
+8.0
+FRENCH 231: Second-Year French
+4.0
+FRENCH 232: Second-Year French, Continued
+4.0
+FRENCH 235: Advanced Practice in French
+3.0
+FRENCH 240: Fr Topics in Transl
+3.0
+FRENCH 241: Origins of Modernism: Art and Culture in Nineteenth Century France
+4.0
+FRENCH 244: Race&amp;Cult Diversity
+3.0
+FRENCH 250: UG Sem-Fren Studies
+3.0
+FRENCH 270: French and Francophone Literature and Culture
+3.0
+FRENCH 272: Fr Film&amp;Culture
+3.0
+FRENCH 274: French and Francophone Societies and Culture
+3.0
+FRENCH 276: Spoken and Written Performance in French
+3.0
+FRENCH 305: Practical French
+1.0
+FRENCH 306: Practical French
+1.0
+FRENCH 333: French Phonetics
+3.0
+FRENCH 335: Comp&amp;Stylistics
+3.0
+FRENCH 337: Seminar in Translation
+3.0
+FRENCH 340: French Literature in Translation
+2.0 - 3.0
+FRENCH 341: Fr Afr Studies
+3.0
+FRENCH 342: French Film
+3.0
+FRENCH 343: French Enlightenment
+3.0
+FRENCH 344: The Revolutionary Century:  France, 1789-1900
+3.0 - 4.0
+FRENCH 345: 20th Century France
+3.0 - 4.0
+FRENCH 350: Special Topics in French and Francophone Studies
+3.0
+FRENCH 361: French Amer Studies
+3.0
+FRENCH 362: Quebec and French Canadian Studies
+3.0
+FRENCH 363: Caribbean Studies
+3.0
+FRENCH 364: Studies-Maghreb
+3.0
+FRENCH 365: African Studies (Sub-Saharan)
+3.0
+FRENCH 366: Medieval Lit&amp;Cult
+3.0
+FRENCH 367: Early Mod Lit&amp;Cult
+3.0
+FRENCH 368: Enl, Rev, &amp; Rom
+3.0
+FRENCH 369: Literature, History, and Culture of Modernity
+3.0
+FRENCH 370: Adv Profic
+3.0
+FRENCH 372: Film&amp;Cinema
+3.0
+FRENCH 373: Popular Culture
+3.0
+FRENCH 374: Prob Society
+3.0
+FRENCH 375: Cinema&amp;Society
+3.0
+FRENCH 377: Media Studies
+3.0
+FRENCH 378: Studies in Genre
+3.0
+FRENCH 379: Gender&amp;Sexuality
+3.0
+FRENCH 380: Intermediate Business French
+3.0
+FRENCH 381: Internship in France or Other Francophone Countries
+3.0
+FRENCH 384: Origins Contem Fran
+2.0 - 3.0
+FRENCH 385: Contemp France
+2.0 - 3.0
+FRENCH 391: Junior Honors
+2.0 - 3.0
+FRENCH 392: Junior Honors
+2.0 - 3.0
+FRENCH 399: Independent Study
+1.0 - 3.0
+FRENCH 402: Lit Translat
+3.0
+FRENCH 410: Adv Trans Fren-Engl
+3.0
+FRENCH 411: Adv Trans Engl-Fren
+3.0
+FRENCH 412: Adv Conv &amp; Comp
+3.0
+FRENCH 414: Adv Business Fren
+3.0
+FRENCH 425: Bkg Mod Fren
+3.0
+FRENCH 426: Fr Phon&amp;Morph
+3.0
+FRENCH 427: French Syntax
+3.0
+FRENCH 436: Professional French
+3.0
+FRENCH 437: Topics: Linguistics
+3.0
+FRENCH 438: Teaching French
+3.0
+FRENCH 439: Writing Workshop
+3.0
+FRENCH 444: Readings in Transl
+3.0
+FRENCH 450: Special Studies
+3.0
+FRENCH 451: Mid Age Lit
+3.0
+FRENCH 453: Interd French Cult
+3.0
+FRENCH 461: Old French Texts
+3.0
+FRENCH 462: Lit in 16th Century
+3.0
+FRENCH 463: Lit 17th C
+3.0
+FRENCH 464: Lit 18th C
+3.0
+FRENCH 466: Lit 20th C
+3.0
+FRENCH 467: 20th C Novel
+3.0
+FRENCH 468: 20th C Poetry
+3.0
+FRENCH 469: African&amp;Carib Lit
+3.0
+FRENCH 481: Theory&amp;Criticism
+3.0
+FRENCH 482: Textual Analysis
+3.0
+FRENCH 483: Emerging Ideas
+3.0
+FRENCH 491: Senior Honors
+3.0
+FRENCH 501: Resrch in Old French
+1.0 - 3.0
+FRENCH 601: Prosem in French
+1.0
+FRENCH 625: Bckgrn Mod French
+3.0
+FRENCH 630: French Cult&amp;Soc
+3.0
+FRENCH 631: Intellectual Trends
+3.0
+FRENCH 636: French Mini-Course
+1.0 - 2.0
+FRENCH 640: French Cinema
+3.0
+FRENCH 651: Medieval Lit
+2.0 - 3.0
+FRENCH 652: 16th C Lit
+2.0 - 3.0
+FRENCH 653: 17th C Lit
+2.0 - 3.0
+FRENCH 654: 18th C Lit
+2.0 - 3.0
+FRENCH 655: Studies in 19th-Century French Literature
+2.0 - 3.0
+FRENCH 656: 20th C Lit
+2.0 - 3.0
+FRENCH 660: Topc&amp;Theme Fren Lit
+2.0 - 3.0
+FRENCH 670: Atlantic Studies
+2.0 - 3.0
+FRENCH 671: African Studies
+2.0 - 3.0
+FRENCH 672: N Africa &amp; Mid East
+2.0 - 3.0
+FRENCH 673: Mediterranean
+2.0 - 3.0
+FRENCH 674: Asian, Pac, IndOcean
+2.0 - 3.0
+FRENCH 675: American Studies
+2.0 - 3.0
+FRENCH 678: Francophone Studies
+2.0 - 3.0
+FRENCH 679: Postcolonial Theory
+2.0 - 3.0
+FRENCH 680: Literary Theory
+2.0 - 3.0
+FRENCH 681: Literary Criticism
+2.0 - 3.0
+FRENCH 851: Sem Period&amp;Auth
+2.0 - 3.0
+FRENCH 855: Spec Topics Sem
+3.0
+FRENCH 899: Independent Study
+1.0 - 3.0
+FRENCH 990: Diss-Precand
+1.0 - 8.0
+FRENCH 995: Diss-Cand
+4.0 - 8.0

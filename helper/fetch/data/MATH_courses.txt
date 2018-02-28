@@ -1,0 +1,414 @@
+MATH 100: Intro Stat/Math Mode
+3.0 - 4.0
+MATH 101: Explor in Algebra
+2.0
+MATH 103: Intermed Algebra
+2.0
+MATH 104: Mathematical Thinking
+2.0
+MATH 105: Data, Functions, and Graphs
+4.0
+MATH 106: Intro Calculus
+4.0
+MATH 107: Math for Info Age
+3.0
+MATH 110: Pre-Calc:Self Study
+2.0
+MATH 115: Calculus I
+4.0
+MATH 116: Calculus II
+4.0
+MATH 120: Exam Calc Credit I
+2.0 - 4.0
+MATH 121: Exam Calc Credit II
+2.0 - 4.0
+MATH 127: Geom and Imag
+4.0
+MATH 128: Explor Num Theory
+4.0
+MATH 145: Houghton Scholars Calculus Workshop I
+2.0
+MATH 146: Houghton Calc Wkp II
+2.0
+MATH 147: Introduction to Interest Theory
+3.0
+MATH 156: Applied Honors Calculus II
+4.0
+MATH 174: Plane Geometry
+4.0
+MATH 175: An Introduction to Cryptology
+4.0
+MATH 176: Explorations in Calc
+4.0
+MATH 185: Honors Calculus I
+4.0
+MATH 186: Honors Calc II
+4.0
+MATH 203: Comp Alg Systems
+2.0
+MATH 214: Applied Linear Algebra
+4.0
+MATH 215: Calculus III
+4.0
+MATH 216: Introduction to Differential Equations
+4.0
+MATH 217: Linear Algebra
+4.0
+MATH 255: App Honors Calc III
+4.0
+MATH 256: App Honors Calc IV
+4.0
+MATH 285: Honors Calculus III
+4.0
+MATH 286: Hnr Diff Equations
+3.0
+MATH 288: Math Model Workshop
+1.0
+MATH 289: Problem Seminar
+1.0
+MATH 295: Honors Analysis I
+4.0
+MATH 296: Honors Mathematics II
+4.0
+MATH 310: Chance and Choice
+3.0
+MATH 312: Applied Modern Algebra
+3.0
+MATH 316: Differential Equations
+3.0
+MATH 327: Evol Math Concepts
+3.0
+MATH 333: Directed Tutoring
+1.0 - 3.0
+MATH 351: Principles of Analysis
+3.0
+MATH 354: Fourier Analys&amp;Appl
+3.0
+MATH 362: Applic Calc Lin Alg
+3.0
+MATH 371: Numerical Methods for Engineers and Scientists
+3.0
+MATH 385: Mathematics for Elementary School Teachers
+3.0
+MATH 389: Explore in Math Res
+3.0
+MATH 395: Honors Analysis I
+4.0
+MATH 396: Honors Analysis II
+4.0
+MATH 399: Independent Reading
+1.0 - 6.0
+MATH 404: Intermediate Differential Equations and Dynamics
+3.0
+MATH 412: Introduction to Modern Algebra
+3.0
+MATH 416: Theory Algorithms
+3.0
+MATH 417: Matrix Algebra I
+3.0
+MATH 419: Linear Spaces and Matrix Theory
+3.0
+MATH 420: Advanced Linear Algebra
+3.0
+MATH 422: Risk Management and Insurance
+3.0
+MATH 423: Mathematics of Finance
+3.0
+MATH 424: Compound Interest and Life Insurance
+3.0
+MATH 425: Introduction to Probability
+3.0
+MATH 427: Retre Plans
+3.0
+MATH 429: Internship
+1.0
+MATH 431: Topics in Geometry for Teachers
+3.0
+MATH 433: Intro Diff Geom
+3.0
+MATH 450: Advanced Mathematics for Engineers I
+4.0
+MATH 451: Advanced Calculus I
+3.0
+MATH 452: Adv Calculus II
+3.0
+MATH 454: Boundary Value Problems for Partial Differential Equations
+3.0
+MATH 462: Math Models
+3.0
+MATH 463: Mathematical Modeling in Biology
+3.0
+MATH 464: Inverse Problems
+3.0
+MATH 465: Introduction to Combinatorics
+3.0
+MATH 466: Mathematical Ecology
+3.0
+MATH 471: Introduction to Numerical Methods
+3.0
+MATH 472: Numerical Methods with Financial Applications
+3.0
+MATH 475: Number Theory I
+3.0
+MATH 476: Comp Lab No Thy
+1.0
+MATH 481: Introduction to Mathematical Logic
+3.0
+MATH 485: Math Elem Sch Teach
+3.0
+MATH 486: Concepts Basic to Secondary Mathematics
+3.0
+MATH 487: Algebra Sec Teach
+3.0
+MATH 489: Math Elem Mid Sch
+3.0
+MATH 490: Introduction to Topology
+3.0
+MATH 493: Honors Algebra I
+3.0
+MATH 494: Honors Algebra II
+3.0
+MATH 497: Topics in Elementary Mathematics
+3.0
+MATH 498: Topics Mod Math
+3.0
+MATH 499: Independent Reading
+1.0 - 4.0
+MATH 501: Applied &amp; Interdisciplinary Mathematics Student Seminar
+1.0
+MATH 506: Analysis for Finance
+3.0
+MATH 507: Math Algo Trading
+3.0
+MATH 520: Life Contingencies I
+3.0
+MATH 521: Life Contin II
+3.0
+MATH 523: Loss Models I
+3.0
+MATH 524: Loss Models II
+3.0
+MATH 525: Probability Theory
+3.0
+MATH 526: Discrete State Stochastic Processes
+3.0
+MATH 528: Casualty Insurance
+3.0
+MATH 531: Trans Groups Geom
+3.0
+MATH 532: Disc&amp;Appl Geom
+3.0
+MATH 537: Intro Diff Manifold
+3.0
+MATH 540: Math of Bio Networks
+3.0
+MATH 547: Prob Mod Bioinf
+3.0
+MATH 548: Comp Prob Mod Bio
+1.0
+MATH 550: Introduction to Adaptive Systems
+3.0
+MATH 552: Nonlin Sys
+3.0
+MATH 555: Introduction to Functions of a Complex Variable with Applications
+3.0
+MATH 556: Applied Functional Analysis
+3.0
+MATH 557: Appl Asymp Analysis
+3.0
+MATH 558: Applied Nonlinear Dynamics
+3.0
+MATH 559: Topics Applied Math
+3.0
+MATH 561: Linear Programming I
+3.0
+MATH 562: Cont Optimum Methods
+3.0
+MATH 563: Adv Math Biol
+3.0
+MATH 564: Topics Math Biology
+3.0
+MATH 565: Combinatorics and Graph Theory
+3.0
+MATH 566: Combinatiorial Theo
+3.0
+MATH 567: Intro Coding Theory
+3.0
+MATH 568: Math &amp; Comp Neurosci
+3.0
+MATH 571: Numerical Linear Algebra
+3.0
+MATH 572: Num Mthd DE
+3.0
+MATH 573: Financial Mathematics I
+3.0
+MATH 574: Fin Math II
+3.0
+MATH 575: Theory of Nos I
+1.0 - 3.0
+MATH 582: Intro to Set Theory
+3.0
+MATH 583: Prob Int Proofs
+3.0
+MATH 590: Intr to Topology
+3.0
+MATH 591: Differentiable Manifolds
+3.0
+MATH 592: Intr Alg Topology
+3.0
+MATH 593: Algebra I
+3.0
+MATH 594: Algebra II
+3.0
+MATH 596: Analysis I
+3.0
+MATH 597: Analysis II
+3.0
+MATH 602: Real Analysis II
+3.0
+MATH 604: Complex Analysis II
+3.0
+MATH 605: Several Complex Var
+3.0
+MATH 606: Adv Stoch An
+3.0
+MATH 609: Topics in Analysis
+3.0
+MATH 612: Algebra II
+3.0
+MATH 613: Homological Algebra
+3.0
+MATH 614: Commutative Algebra
+3.0
+MATH 615: Commutative Alge II
+3.0
+MATH 619: Topics in Algebra
+3.0
+MATH 623: Computational Finance
+3.0
+MATH 625: Probability and Random Processes I
+3.0
+MATH 626: Pro&amp;Ran Pro II
+3.0
+MATH 627: Applications of Stochastic Processes I
+3.0
+MATH 631: Introduction to Algebraic Geometry
+3.0
+MATH 632: Algebraic Geom II
+3.0
+MATH 635: Differential Geom
+3.0
+MATH 636: Topics in Differential Geometry
+3.0
+MATH 637: Lie Groups
+3.0
+MATH 638: Int Representn Thry
+3.0
+MATH 650: Fourier Analysis
+3.0
+MATH 651: Topics Appl Math I
+3.0
+MATH 654: Intro Fluid Dynam
+3.0
+MATH 655: Topics Fluid Dynam
+3.0
+MATH 656: Introduction to Partial and Differential Equations
+3.0
+MATH 657: Nonlin Part Diff Eq
+3.0
+MATH 658: Ordinary Diff Equat
+3.0
+MATH 660: Linear Prog II
+3.0
+MATH 663: Nonlinear Programming
+3.0
+MATH 664: Combinatorl Thry I
+3.0
+MATH 665: Combinatorial Theory II
+3.0
+MATH 667: Topics Coding Thry
+3.0
+MATH 669: Combinatorial Theory
+3.0
+MATH 671: Analysis of Numerical Methods I
+3.0
+MATH 675: Analytic Theory of Numbers
+3.0
+MATH 676: Theory Alg Numbers
+3.0
+MATH 677: Diophantine Problems
+3.0
+MATH 678: Modular Forms
+3.0
+MATH 679: Elliptic Curves
+3.0
+MATH 681: Mathematical Logic
+3.0
+MATH 682: Set Theory
+3.0
+MATH 683: Model Theory
+3.0
+MATH 684: Recursion Theory
+3.0
+MATH 690: Topological Groups
+3.0
+MATH 694: Diff Topology II
+3.0
+MATH 695: Algebraic Topology I
+3.0
+MATH 696: Algebraic Top II
+3.0
+MATH 697: Topics in Topology
+2.0 - 3.0
+MATH 700: Dir Read-Research
+1.0 - 3.0
+MATH 701: Functional Anal I
+3.0
+MATH 702: Functional Anal II
+3.0
+MATH 703: Complex Function I
+3.0
+MATH 704: Complex Func II
+3.0
+MATH 709: Topics in Modern Analysis I
+3.0
+MATH 710: Topcs Mod Analys II
+3.0
+MATH 711: Adv Algebra
+3.0
+MATH 715: Adv Topics-Algebra
+3.0
+MATH 725: Top Adv Pro I
+3.0
+MATH 731: Topics in Algebraic Geometry
+3.0
+MATH 732: Topics Alg Geom II
+3.0
+MATH 756: Advanced Topics in Partial Differential Equations
+3.0
+MATH 775: Number Theory
+3.0
+MATH 776: Topics Alg Num Thry
+3.0
+MATH 777: Top-Diophantine Pro
+3.0
+MATH 778: Auto Forms&amp;Num Thry
+3.0
+MATH 781: Topics Math Logic
+3.0
+MATH 795: Adv Top Alg Topo I
+3.0
+MATH 797: Adv Topics Topology
+3.0
+MATH 821: Actuarial Math
+1.0
+MATH 826: Probability II
+1.0
+MATH 929: Internship
+1.0
+MATH 990: Diss-Precand
+1.0 - 8.0
+MATH 993: Graduate Student Instructor Training Program
+1.0
+MATH 995: Diss-Cand
+4.0 - 8.0

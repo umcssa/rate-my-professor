@@ -1,0 +1,224 @@
+RCHUMS 214: Funds-Narr-Fiction
+4.0
+RCHUMS 217: Fathers and Sons
+3.0
+RCHUMS 218: The Hero as Outsider, Outcast or Outlaw
+3.0
+RCHUMS 220: Narration
+4.0
+RCHUMS 221: The Writing of Poetry
+4.0
+RCHUMS 222: Writing Young Adult
+4.0
+RCHUMS 230: Bibl Grk Med Texts
+3.0
+RCHUMS 235: Topics World Dance
+3.0
+RCHUMS 236: The Art of the Film
+4.0
+RCHUMS 237: Self-Taught Artists
+3.0
+RCHUMS 242: Creative Adaptation
+4.0
+RCHUMS 249: Foundations of Music
+4.0
+RCHUMS 250: Chamber Music
+1.0 - 2.0
+RCHUMS 251: Topics in Music
+3.0 - 4.0
+RCHUMS 252: Topics in Musical Expression
+2.0 - 4.0
+RCHUMS 253: Choral Ensemble
+1.0
+RCHUMS 254: Human Voice
+4.0
+RCHUMS 255: The Film Experience
+4.0
+RCHUMS 256: Play SE Asian Music
+3.0
+RCHUMS 257: Visual Sources
+4.0
+RCHUMS 258: Afro-Cuban Drumming
+4.0
+RCHUMS 259: Musical Improvisation
+4.0
+RCHUMS 260: The Art of Dance: An Introduction to American and European Dance History, Aesthetics, and Criticism
+3.0
+RCHUMS 272: Modern Art
+3.0 - 4.0
+RCHUMS 273: North Korea
+4.0
+RCHUMS 275: West Mind-Revolutn
+4.0
+RCHUMS 280: Drama to Theatre
+2.0 - 3.0
+RCHUMS 281: Intr Comedy&amp;Tragedy
+4.0
+RCHUMS 282: Drama Interpretation I: Actor and Text
+4.0
+RCHUMS 283: Asian Pop Culture
+4.0
+RCHUMS 290: Arts &amp; Ideas 20 C
+4.0
+RCHUMS 291: The Experience of Arts and Ideas in the Nineteenth Century
+4.0
+RCHUMS 301: Beginning Indonesian Orchestra
+1.0
+RCHUMS 302: Beg Indonesian Orch
+1.0
+RCHUMS 303: Indonesian Orchestra
+1.0 - 2.0
+RCHUMS 305: Cult Confrontn Arts
+3.0
+RCHUMS 306: History of Writing
+3.0
+RCHUMS 307: Imagination
+3.0
+RCHUMS 308: Arts&amp;Ideas S&amp;SE Asia
+3.0
+RCHUMS 309: Classical Sources
+4.0
+RCHUMS 310: Pagans, Christians, Barbarians in Late Antiquity and the Early Middle Ages
+3.0
+RCHUMS 312: Central European Cinema
+3.0
+RCHUMS 313: Russia/Ukraine Film
+3.0
+RCHUMS 314: Shakespeare&amp;Rome
+3.0
+RCHUMS 315: Representn of Rome
+4.0
+RCHUMS 317: Writings of Latinas
+4.0
+RCHUMS 318: Critical Approaches to Literature
+4.0
+RCHUMS 319: Topics in Film
+3.0
+RCHUMS 320: Advanced Narration
+4.0
+RCHUMS 321: Adv Poetry Wrtg
+4.0
+RCHUMS 322: Adv C Writing-Youth
+4.0
+RCHUMS 325: Creative Writing Tutorial
+4.0
+RCHUMS 326: Creative Writing Tutorial
+4.0
+RCHUMS 327: Writing Real World
+3.0
+RCHUMS 330: The Arabian Nights
+3.0
+RCHUMS 333: Art &amp; Culture
+3.0 - 4.0
+RCHUMS 334: Special Topics in the Humanities
+3.0 - 4.0
+RCHUMS 337: Children Under Fire
+3.0
+RCHUMS 338: Grow Up Near Grt Lks
+3.0
+RCHUMS 340: 4 Interdis Stds
+4.0
+RCHUMS 341: Empowering Community
+3.0
+RCHUMS 342: Holocaust Lit&amp;Film
+4.0
+RCHUMS 344: Reason/Passion 18thC
+3.0
+RCHUMS 345: Weimar Culture
+3.0
+RCHUMS 346: Art and Philosophy
+3.0
+RCHUMS 347: Survey of Russian Literature
+4.0
+RCHUMS 348: Survey Russ Lit
+4.0
+RCHUMS 350: Creative Musician
+4.0
+RCHUMS 351: Musicianship Lab
+1.0 - 2.0
+RCHUMS 352: Found Instruments-Building, Design and Performance
+4.0
+RCHUMS 353: Fund Electron Music
+4.0
+RCHUMS 354: Race and Identity in Music
+3.0
+RCHUMS 355: Film Criticism
+4.0
+RCHUMS 356: Symphonic Century
+3.0
+RCHUMS 357: What TV Means
+4.0
+RCHUMS 358: Chn Forbidden Novel
+3.0
+RCHUMS 360: Existentialism
+4.0
+RCHUMS 361: Psychoanalysis/Novel
+3.0
+RCHUMS 363: Comm-Fasc&amp;Dem0
+4.0
+RCHUMS 364: Nietzsche&#39;s Last Yr
+3.0
+RCHUMS 365: Experiences Atheism
+3.0
+RCHUMS 371: Political Modernism
+3.0
+RCHUMS 372: Subj Aftermath Rev
+3.0
+RCHUMS 373: Perf Arts S&amp;SE Asia
+3.0
+RCHUMS 374: Chinese Performance
+3.0
+RCHUMS 380: Greek Theatre
+4.0
+RCHUMS 381: Shakespeare
+4.0
+RCHUMS 382: Moliere&amp;His Theatre
+4.0
+RCHUMS 383: Ibsen &amp; Strindberg
+4.0
+RCHUMS 385: Theatre of Brecht
+4.0
+RCHUMS 386: Medieval Drama
+4.0
+RCHUMS 387: Renaissance Drama
+4.0
+RCHUMS 388: Restoration&amp;Comedy
+4.0
+RCHUMS 389: The Modern Theatre
+4.0
+RCHUMS 390: Special Period and Place Drama
+4.0
+RCHUMS 392: Eng Grammar-Meaning
+4.0
+RCHUMS 393: Eng Grammar-Writing
+4.0
+RCHUMS 410: Upperclass Sem-Lit
+4.0
+RCHUMS 411: Translation Sem
+4.0
+RCHUMS 417: Epic &amp; Saga
+4.0
+RCHUMS 425: Creative Writing Tutorial
+4.0
+RCHUMS 426: Creative Writing Tutorial
+4.0
+RCHUMS 444: Balanchine
+3.0
+RCHUMS 457: Video Prod-Fantasy
+4.0
+RCHUMS 470: Phil&amp;Public Affairs
+4.0
+RCHUMS 472: A&amp;I Sr Sem
+4.0
+RCHUMS 480: Drama Theory &amp; Crit
+4.0
+RCHUMS 481: Play Production Sem
+4.0
+RCHUMS 482: Director and Text
+4.0
+RCHUMS 483: Theater in the Arb
+2.0 - 4.0
+RCHUMS 484: Sem-Drama Topics
+4.0
+RCHUMS 485: Special Drama Topics
+1.0 - 2.0

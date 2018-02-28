@@ -1,0 +1,598 @@
+PSYCH 110: Learning to Learn
+4.0
+PSYCH 111: Introduction to Psychology
+4.0
+PSYCH 112: Introduction to Psychology as a Natural Science
+4.0
+PSYCH 114: Honors Intro Psych
+4.0
+PSYCH 115: H Intro Psych, N S
+4.0
+PSYCH 116: Intro Mind&amp;Brain
+4.0
+PSYCH 119: Gender in Science
+3.0
+PSYCH 120: First-Year Seminar in Psychology as a Social Science
+3.0
+PSYCH 121: First-Year Seminar in Psychology as a Natural Science
+3.0
+PSYCH 122: Intergroup Dialogues
+3.0
+PSYCH 200: Ind Psych Issues
+1.0 - 4.0
+PSYCH 202: Psych Hon Sem Nat Sci
+3.0 - 4.0
+PSYCH 203: Psyc Hon Sem Soc Sci
+3.0 - 4.0
+PSYCH 211: Project Outreach
+3.0
+PSYCH 217: Soph Sem Psych/NS
+3.0 - 4.0
+PSYCH 218: Sophomore Seminar in Psychology as a Social Science
+3.0 - 4.0
+PSYCH 220: Introduction to Biopsychology, for Non-BCN or Non-Neuroscience majors
+4.0
+PSYCH 223: Entrepreneurial Creativity
+3.0
+PSYCH 224: Mind,Brain,Creative
+4.0
+PSYCH 225: Psy Human Sexuality
+3.0
+PSYCH 226: UG Psych Research
+1.0 - 4.0
+PSYCH 230: Introduction to Behavioral Neuroscience
+4.0
+PSYCH 240: Introduction to Cognitive Psychology
+4.0
+PSYCH 242: Language and Human Mind
+3.0 - 4.0
+PSYCH 250: Adjustment
+4.0
+PSYCH 270: Introduction to Psychopathology
+4.0
+PSYCH 280: Introduction to Social Psychology
+4.0
+PSYCH 290: Introduction to the Psychology of Personality
+4.0
+PSYCH 291: Psych Women&amp;Gender
+4.0
+PSYCH 296: Gender, Sex Differences, and Addiction: Girls Gone Wild
+3.0 - 4.0
+PSYCH 297: Promo Equity&amp;Inclus
+3.0
+PSYCH 302: Research Methods in Cognitive Neuroscience
+3.0
+PSYCH 303: Field Practicum
+3.0
+PSYCH 304: Practicum in Teaching and Leading Groups
+2.0 - 4.0
+PSYCH 305: Practicum in Psychology
+1.0 - 4.0
+PSYCH 306: Project Outreach Group Leading
+3.0
+PSYCH 307: Directed Experiences with Children
+3.0 - 4.0
+PSYCH 308: Peer Advising Practicum in Psychology
+2.0 - 3.0
+PSYCH 310: Processes of Intergroup Dialogues Facilitation
+3.0
+PSYCH 311: Practicum in Facilitating Intergroup Dialogues
+4.0
+PSYCH 312: Conflict &amp; Coexist
+3.0
+PSYCH 313: Psy&amp;Religion
+4.0
+PSYCH 314: Positive Psychology
+3.0
+PSYCH 315: Aspc Blk Exp
+3.0
+PSYCH 316: Wrl Blk Chld
+3.0
+PSYCH 317: Community Research
+4.0
+PSYCH 318: Laboratory in Community Research
+4.0
+PSYCH 319: Empowering Fam&amp;Comm
+4.0
+PSYCH 322: Fld Prac Res Nat Sci
+1.0 - 4.0
+PSYCH 323: Fld Prac Res Soc Sci
+1.0 - 4.0
+PSYCH 324: Advanced Practicum in Intergroup Relations
+1.0 - 4.0
+PSYCH 325: Pract Multicultural
+1.0 - 4.0
+PSYCH 326: Dir Res Psych/NS
+1.0 - 4.0
+PSYCH 327: Dir Res Psych/SS
+1.0 - 4.0
+PSYCH 328: Res Lab Psy Nat Sci
+1.0
+PSYCH 329: Res Lab Psy Soc Sci
+1.0
+PSYCH 330: Topics in Biopsych
+3.0
+PSYCH 331: Res Methods BBCS
+4.0
+PSYCH 332: Biopsyc Rhythm&amp;Behvr
+3.0
+PSYCH 333: Affective Neurosci
+3.0
+PSYCH 334: NS Learn&amp;Memory
+3.0
+PSYCH 335: Introduction to Animal Behavior
+4.0
+PSYCH 336: Drugs of Abuse
+3.0
+PSYCH 337: Hormones and Behavior
+3.0
+PSYCH 338: Primate Social Behavior I
+4.0
+PSYCH 339: Biopsy Cooperation
+3.0
+PSYCH 340: Topic Cog&amp;Cog Neuro
+3.0
+PSYCH 341: Advanced Laboratory in Cognitive Psychology
+3.0
+PSYCH 343: Cog NS of Learn&amp;Mem
+3.0
+PSYCH 344: Second Language Acquisition
+3.0
+PSYCH 345: Introduction to Human Neuropsychology
+4.0
+PSYCH 346: Learning&amp;Memory
+3.0
+PSYCH 347: Perception
+3.0
+PSYCH 348: Psych of Thinking
+3.0
+PSYCH 349: Talking Minds
+3.0
+PSYCH 350: Curr Top Dev Psych
+3.0
+PSYCH 351: Advanced Laboratory in Developmental Psychology
+3.0
+PSYCH 352: Development of Language and Thought
+3.0
+PSYCH 353: Social Development
+3.0
+PSYCH 354: Psych Marr &amp; Family
+3.0
+PSYCH 355: Cognitive Development
+3.0
+PSYCH 356: Educational Psychology
+4.0
+PSYCH 358: Psychology of Adolescence
+3.0
+PSYCH 360: Behavior&amp;Environment
+3.0
+PSYCH 361: Adv Lab Org Psych
+4.0
+PSYCH 362: Psy Env Stewardship
+3.0
+PSYCH 370: Top Clinical Psych
+3.0
+PSYCH 371: Advanced Laboratory in Psychopathology
+3.0
+PSYCH 372: Clinical Psych
+3.0
+PSYCH 373: Child&amp;AdolPsychopath
+3.0
+PSYCH 374: Cultur &amp; Mental Hlth
+3.0
+PSYCH 380: Topics Social Psych
+3.0
+PSYCH 381: Advanced Laboratory in Social Psychology
+3.0
+PSYCH 383: Intr Surv Res
+3.0
+PSYCH 385: Sex &amp; Survival
+3.0
+PSYCH 386: Culture &amp; Evolution
+3.0
+PSYCH 387: Topics App Soc Psych
+3.0
+PSYCH 388: Negotiation
+3.0
+PSYCH 389: Psychology and Law
+3.0
+PSYCH 390: Topics in P&amp;SC
+3.0
+PSYCH 391: A L Personality
+3.0
+PSYCH 393: Political Psych
+3.0
+PSYCH 394: Sex, Sexuality, and Public Policy
+3.0
+PSYCH 395: Org Psych
+4.0
+PSYCH 400: Special Problems
+1.0 - 4.0
+PSYCH 401: Special Problems in Psychology as a Social Science
+1.0 - 4.0
+PSYCH 402: Special Problems
+2.0 - 4.0
+PSYCH 404: Field Practicum
+1.0 - 4.0
+PSYCH 405: Pract Univ Setting
+1.0 - 4.0
+PSYCH 408: Perc, Sci&amp;Reality
+3.0
+PSYCH 411: IGR Senior Capstone: Social Justice in the Real World
+3.0
+PSYCH 413: A History of Modern Psychology
+3.0
+PSYCH 414: Sexuality &amp; Science
+3.0
+PSYCH 416: Psych Asian American
+3.0
+PSYCH 418: Psychology and Spiritual Development
+3.0
+PSYCH 420: Adv Reading NS
+1.0 - 4.0
+PSYCH 421: Adv Reading Soc Sci
+1.0 - 4.0
+PSYCH 422: Adv Research NS
+1.0 - 4.0
+PSYCH 423: Adv Res Soc Sci
+3.0 - 4.0
+PSYCH 424: Senior Honors Research I for Psychology as a Natural Science
+2.0 - 4.0
+PSYCH 425: Sr Hon Res I Soc Sc
+2.0 - 4.0
+PSYCH 426: Senior Honors Research II for Psychology as a Natural Science
+2.0 - 4.0
+PSYCH 427: Sr Hon Res II Soc Sc
+2.0 - 4.0
+PSYCH 428: Sr Thesis Psych NS
+2.0 - 4.0
+PSYCH 429: Sr Thesis Psych SS
+2.0 - 4.0
+PSYCH 430: Advanced Topics in Biopsychology
+3.0
+PSYCH 431: Adv Topics Behav NS
+3.0
+PSYCH 432: AdvTop Evol&amp;Comp Psy
+3.0
+PSYCH 433: Adv Topics Neurosci
+3.0
+PSYCH 434: NS of Fear &amp; Anxiety
+3.0
+PSYCH 435: Neur Attn&amp;Attn Disor
+3.0
+PSYCH 437: Curr Topics Biopsych
+3.0
+PSYCH 440: Advanced Topics in Cognitive Neuroscience
+3.0
+PSYCH 441: Neurosci &amp; Society
+3.0
+PSYCH 442: Cog NS of Expertise
+3.0
+PSYCH 443: Creativity
+3.0
+PSYCH 444: Cognitive Aging
+3.0
+PSYCH 445: Psych of Language
+3.0
+PSYCH 446: Altruism
+3.0
+PSYCH 447: Current Topics in Cognition and Cognitive Neuroscience
+3.0
+PSYCH 448: Math Psych
+3.0
+PSYCH 449: Decision Processes
+3.0
+PSYCH 451: Adv Res Adol Psych
+3.0
+PSYCH 454: Devel Cog Neurosci
+3.0
+PSYCH 456: Human Infancy
+3.0
+PSYCH 457: Current Topics in Developmental Psychology
+3.0
+PSYCH 459: Psych of Aging
+3.0
+PSYCH 464: Grp Behav-Organizat
+3.0
+PSYCH 465: Organizational Syst
+3.0
+PSYCH 467: Curr Topic Org Psych
+3.0
+PSYCH 470: Mood Disorders
+3.0
+PSYCH 471: Resil Chld&amp;Adol Dev
+3.0
+PSYCH 474: Intro Behav Therapy
+3.0
+PSYCH 475: Traumatic Stress
+3.0
+PSYCH 477: Current Topics in Clinical Psychology
+3.0
+PSYCH 478: Clinical Psychology
+3.0
+PSYCH 479: Intv Child Disorder
+3.0
+PSYCH 487: Current Topics in Social Psychology
+3.0
+PSYCH 488: Sociological Analysis of Deviance
+3.0 - 4.0
+PSYCH 491: Human Motiv&amp;Behav
+3.0
+PSYCH 492: Personality Theory
+3.0
+PSYCH 493: Culture&amp;Ethnicity
+3.0
+PSYCH 494: Adolescent Sexuality
+3.0
+PSYCH 497: Current Topics in Personality Psychology
+3.0
+PSYCH 498: Gender&amp;Individual
+3.0
+PSYCH 499: Psych of Women
+3.0
+PSYCH 506: Prof Issues Psych
+1.0 - 2.0
+PSYCH 509: Interm Stats Psych
+4.0
+PSYCH 513: Surv Res Des
+2.0 - 3.0
+PSYCH 514: Sur Res Data
+2.0 - 3.0
+PSYCH 519: Supervised Research
+3.0
+PSYCH 530: Adv Evol Comparative
+3.0
+PSYCH 531: Topics Biopsych
+3.0
+PSYCH 532: Mammal Reprod Physio
+4.0
+PSYCH 533: Sleep Neurobiology
+3.0
+PSYCH 534: Animal Cognition
+3.0
+PSYCH 539: Grant-Writing for Life Sciences
+2.0 - 3.0
+PSYCH 541: Adv Topics CCN
+3.0
+PSYCH 547: Exper Language Proc
+3.0
+PSYCH 551: Topics Dev Psych
+3.0
+PSYCH 561: Topics Organiz Psy
+3.0
+PSYCH 571: Topics Clin Psych
+3.0
+PSYCH 581: Topics Social Psych
+3.0
+PSYCH 591: Topic Personal Psy
+3.0
+PSYCH 600: Psyc Grad Prosem I
+3.0
+PSYCH 604: Teaching Academy
+1.0
+PSYCH 605: Prof Issues Psych
+1.0 - 2.0
+PSYCH 606: Positive Psychology
+3.0
+PSYCH 609: Psychology Teaching Academy
+1.0
+PSYCH 613: Advanced Statistical Methods, I
+4.0
+PSYCH 614: Adv Stat Methods
+4.0
+PSYCH 616: Anal Survey Data II
+4.0
+PSYCH 618: Adv Meth Surv Samp
+3.0
+PSYCH 619: Supervised Research
+1.0 - 4.0
+PSYCH 627: Total Survey Error
+3.0
+PSYCH 630: Primatology
+2.0 - 3.0
+PSYCH 631: Prosem in Biopsych
+3.0
+PSYCH 634: Human Neuropsych
+4.0
+PSYCH 643: Theory of Neural Computation
+2.0 - 4.0
+PSYCH 644: Comp Model Cogn
+2.0 - 4.0
+PSYCH 653: Personality and Social Contexts Orientation
+2.0
+PSYCH 654: CL&amp;Mod Personlty
+3.0
+PSYCH 655: Psych of Women
+3.0
+PSYCH 665: Measurement Org Res
+3.0
+PSYCH 670: Res Des&amp;Eval Clin
+3.0
+PSYCH 672: Interv&amp;Clin Ethics
+3.0
+PSYCH 678: Ethics&amp;Professnl Iss
+1.0 - 2.0
+PSYCH 681: Survey of Social Psychology
+2.0
+PSYCH 682: Advanced Social Psychology
+3.0
+PSYCH 683: Wkshop Samp Techniq
+3.0 - 6.0
+PSYCH 685: Soc Psych Theories
+2.0
+PSYCH 687: Applied Sampling
+3.0
+PSYCH 688: Int to Surv Res Tech
+6.0
+PSYCH 689: Culture&amp;Cognition
+2.0 - 3.0
+PSYCH 691: Literacy
+3.0
+PSYCH 703: Cognition &amp; Environ
+3.0
+PSYCH 706: Tutorial Reading
+1.0 - 4.0
+PSYCH 707: Psychometric Theory
+3.0
+PSYCH 708: Cogn&amp;Instr Classrm
+3.0
+PSYCH 709: Motiv in the Classrm
+3.0
+PSYCH 710: Cmp Anl Surv
+3.0
+PSYCH 711: Quest Design &amp; Eval
+3.0
+PSYCH 719: Supervised Research
+1.0 - 5.0
+PSYCH 720: Soc/Per Psy of Educ
+3.0
+PSYCH 721: Mathematical Psych
+3.0
+PSYCH 722: Decision Processes
+3.0
+PSYCH 723: Hum Dev&amp;Schooling
+3.0
+PSYCH 726: Multivari Anal
+2.0 - 3.0
+PSYCH 730: Sem in Biopsych
+1.0 - 4.0
+PSYCH 731: Advanced Seminar and Practicum in Physiological Psychology
+3.0
+PSYCH 740: Neural Models
+3.0
+PSYCH 741: Proc Cog&amp;Cog Neuro
+3.0
+PSYCH 742: Complex Cognition
+3.0
+PSYCH 743: Human Learn-Memory
+3.0
+PSYCH 744: Perception
+3.0
+PSYCH 745: Psychology of Language
+3.0
+PSYCH 746: Atten &amp; Cog Control
+3.0
+PSYCH 747: Models of Thinking
+3.0 - 4.0
+PSYCH 749: Cognitive Functng
+3.0
+PSYCH 751: Cognitive Development
+3.0
+PSYCH 756: Lang&amp;Comm Skil
+3.0
+PSYCH 757: Social Development
+3.0
+PSYCH 758: Dev Neurosci Hum Beh
+3.0
+PSYCH 759: Proseminar in Developmental Psychology
+2.0
+PSYCH 760: Prob Orgnized Behav
+3.0
+PSYCH 764: Psem Org Psych I
+3.0
+PSYCH 765: Psem Org Psych II
+3.0
+PSYCH 770: Family Therapy
+3.0
+PSYCH 771: Topics in Clinical Science and Practice
+1.0
+PSYCH 773: Eval Soc Prg
+3.0
+PSYCH 775: Psychological Assessment I
+4.0
+PSYCH 776: Clinical Science in Historical and Cultural Context
+3.0
+PSYCH 778: Psych Assessment II
+4.0
+PSYCH 779: Integrated Pract Sem
+1.0 - 3.0
+PSYCH 781: Socialization
+3.0
+PSYCH 782: Cultural Psychology
+3.0
+PSYCH 785: Group Processes
+3.0
+PSYCH 786: Res Des-Soc Psy
+3.0
+PSYCH 787: Emotion and Motivation
+3.0
+PSYCH 788: Attitude&amp;Soc Judge
+3.0
+PSYCH 793: Emotional Developmt
+3.0
+PSYCH 794: Dev,Psy&amp;Mentl Hlth
+3.0
+PSYCH 795: Sem Dev&amp;Mentl Hlth
+1.0 - 2.0
+PSYCH 796: Development-Infancy
+3.0
+PSYCH 797: Develop-Adolescence
+3.0
+PSYCH 798: Psychol of Aging
+3.0
+PSYCH 803: Community Psychology
+3.0
+PSYCH 804: Struc Eq Model(SEM)
+3.0
+PSYCH 805: Adv Pro Issues Psy
+1.0 - 2.0
+PSYCH 808: Special Seminar
+1.0 - 4.0
+PSYCH 809: Logic&amp;Meth Res
+3.0
+PSYCH 817: Sem Soc Sci Meth
+1.0
+PSYCH 819: Supervised Research
+1.0 - 4.0
+PSYCH 831: Physiological
+1.0 - 4.0
+PSYCH 833: Adv Sem Neuroscience
+1.0 - 4.0
+PSYCH 840: Introduction to Functional MRI
+3.0
+PSYCH 841: Des&amp;anly fMRI exper
+3.0
+PSYCH 842: DecisionConsort
+1.0 - 3.0
+PSYCH 854: Prsnlty:Res Techniq
+3.0
+PSYCH 855: Res Meth:Personality
+3.0
+PSYCH 858: Current Issues in Developmental Psychology
+2.0 - 4.0
+PSYCH 861: Proseminar in Education and Psychology
+3.0
+PSYCH 862: Sem Ed Psy
+3.0
+PSYCH 872: Psychotherapy Lab I
+3.0
+PSYCH 873: Psychotherapy Lab II
+3.0
+PSYCH 874: Intro Psycho Adults
+3.0
+PSYCH 875: Intro Child Therapy
+3.0
+PSYCH 876: Practicum in Clinical Psychology
+2.0
+PSYCH 877: Psychopathology through the Lifespan I
+3.0
+PSYCH 878: Psychopth Lifesp II
+3.0
+PSYCH 879: Internship in Clinical Psychology
+2.0
+PSYCH 897: DPMH Comm Pract
+1.0 - 4.0
+PSYCH 908: Special Seminar
+1.0 - 4.0
+PSYCH 948: Special Seminar
+1.0 - 4.0
+PSYCH 958: Special Seminar in Development
+1.0 - 4.0
+PSYCH 978: Special Seminar in Clinical Psychology
+1.0 - 4.0
+PSYCH 988: Advanced Seminars in Social Psychology
+1.0 - 5.0
+PSYCH 990: Diss-Precand
+1.0 - 8.0
+PSYCH 995: Diss-Cand
+4.0 - 8.0

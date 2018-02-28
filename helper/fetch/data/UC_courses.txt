@@ -1,0 +1,112 @@
+UC 101: Sea Pwr&amp;Mar Affairs
+2.0
+UC 109: Programs, Information and People
+4.0
+UC 110: Introduction to Information Studies
+4.0
+UC 150: First-Year Humanities Seminar
+3.0
+UC 151: First-Year Social Science Seminar
+3.0
+UC 152: First-Year Natural Science Seminar
+3.0
+UC 153: 1st Yr Compos Sem
+4.0
+UC 154: First-Year Interdisciplinary Seminar
+3.0
+UC 155: 1st Yr Creat Exprssn
+1.0 - 3.0
+UC 163: Biotech Human Values
+4.0
+UC 170: UC Special Topics
+1.0 - 3.0
+UC 190: Discipl Lang Study
+1.0
+UC 201: U.S. Aviation History &amp; Its Development into Air Power
+1.0
+UC 202: US Avia Hist Dev II
+1.0
+UC 203: Innovative Tactical Leadership
+1.0
+UC 204: Leadership Environs
+1.0
+UC 205: Leadership and Management
+3.0
+UC 213: Entrepreneurial Crea
+3.0
+UC 215: SEAsia Social Issues
+3.0
+UC 227: Practicum
+1.0 - 3.0
+UC 250: Sophomore Seminar HU
+3.0
+UC 251: Sophomore Seminar SS
+3.0
+UC 252: Sophomore Natural Science Seminar
+3.0
+UC 254: Sophomore Interdisciplinary Seminar
+3.0
+UC 255: Creat Exprssn Sem
+1.0 - 3.0
+UC 260: Law,Ethics&amp;Life Sci
+4.0
+UC 270: University Courses Special Topics
+1.0 - 3.0
+UC 275: Global Intercultural Experience for Undergraduates
+1.0 - 2.0
+UC 280: Undergraduate Research
+1.0 - 4.0
+UC 290: Discipl Lang Study
+1.0
+UC 299: Directed Study
+1.0 - 3.0
+UC 300: College Practicum
+1.0 - 4.0
+UC 301: Leading Small Organizations I
+2.0
+UC 302: Lead Small Org II
+2.0
+UC 309: Air Force Leadership and Management
+3.0
+UC 310: Evolution of Warfare
+3.0
+UC 312: Comm Proj Art&amp;Hum I
+4.0
+UC 313: Com Proj Art&amp;Hum II
+4.0
+UC 327: Advanced Practicum
+1.0 - 3.0
+UC 370: UC Special Topics
+1.0 - 3.0
+UC 371: FoodStudies Research
+3.0
+UC 390: Disciplinary Study in a Second Language
+1.0
+UC 399: Directed Study
+1.0 - 3.0
+UC 401: Work in America I
+2.0
+UC 402: Mil Prof&amp;Ethics
+2.0
+UC 403: Leadership&amp;Ethics
+2.0 - 3.0
+UC 406: Prob Mus Meth
+3.0
+UC 410: Evolution of Warfare
+3.0
+UC 415: Methods in Research for the Natural Sciences
+1.0
+UC 416: Methods in Research for the Social Sciences or Humanities
+1.0
+UC 427: Capstone Practicum
+1.0 - 3.0
+UC 455: IMP Senior Seminar
+3.0
+UC 470: UC Special Topics
+1.0 - 3.0
+UC 490: Discipl Lang Study
+1.0
+UC 499: Directed Study
+1.0 - 3.0
+UC 500: Biomedical Engineering Seminar
+1.0

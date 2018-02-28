@@ -1,0 +1,304 @@
+PHYSICS 105: Origin Fate Univers
+1.0
+PHYSICS 106: Everyday Physics
+3.0
+PHYSICS 107: 20th-Century Concepts of Space, Time, and Matter
+3.0
+PHYSICS 109: Natural Science
+3.0
+PHYSICS 110: Quarks-Unification
+3.0
+PHYSICS 111: Evol Sci Thought
+3.0
+PHYSICS 112: Cosmology
+3.0
+PHYSICS 114: Physics NS Seminar
+3.0
+PHYSICS 115: Principles of Physics
+2.0
+PHYSICS 116: From Quarks to Cosmos
+3.0
+PHYSICS 119: Phys World
+4.0
+PHYSICS 120: Foundations of Phys
+4.0
+PHYSICS 121: Physics for Architects
+5.0
+PHYSICS 123: AP Phys Mech&amp;Sound
+5.0
+PHYSICS 124: AP Phys Elec&amp;Light
+5.0
+PHYSICS 125: Genrl Phys Mech Snd
+4.0
+PHYSICS 126: Electricity &amp; Light
+4.0
+PHYSICS 127: Mech &amp; Sound Lab
+1.0
+PHYSICS 128: Elec Light Lab
+1.0
+PHYSICS 135: Physics for the Life Sciences I
+4.0
+PHYSICS 136: Physics for the Life Sciences Laboratory I
+1.0
+PHYSICS 139: AP General Phys I
+5.0
+PHYSICS 140: General Physics I
+4.0
+PHYSICS 141: Elementary Laboratory I
+1.0
+PHYSICS 160: Honors Physics I
+4.0
+PHYSICS 161: Honors Introductory Mechanics Lab
+1.0
+PHYSICS 169: The Physical Universe: An Introduction to Modern Physics, Astrophysics, and Cosmology
+3.0
+PHYSICS 201: Physics of Sports
+3.0
+PHYSICS 204: Great Books in Phys
+4.0
+PHYSICS 210: Energy for our Future
+3.0
+PHYSICS 214: Physicists&amp;Bomb
+4.0
+PHYSICS 235: Physics for the Life Sciences II
+4.0
+PHYSICS 236: Physics for the Life Sciences Laboratory II
+1.0
+PHYSICS 239: AP General Phys II
+5.0
+PHYSICS 240: General Physics II
+4.0
+PHYSICS 241: Elementary Laboratory II
+1.0
+PHYSICS 260: Honors Physics II
+4.0
+PHYSICS 261: Honors Electricity and Magnetism Lab
+1.0
+PHYSICS 288: Physics of Music
+3.0
+PHYSICS 290: Physics Body&amp;Mind
+3.0
+PHYSICS 340: Waves, Heat, and Light
+3.0
+PHYSICS 341: Waves,Heat&amp;Light Lab
+2.0
+PHYSICS 351: Methods of Theoretical Physics I
+3.0
+PHYSICS 360: Honors Physics III
+3.0
+PHYSICS 365: Cyberscience: Computational Science and the Rise of the Fourth Paradigm
+3.0
+PHYSICS 370: Physical and Chemical Principles Behind Biology and Medicine
+3.0
+PHYSICS 390: Introduction to Modern Physics
+3.0
+PHYSICS 391: Introduction to Modern Physics Lab
+2.0
+PHYSICS 401: Intermediate Mechanics
+4.0
+PHYSICS 402: Optics
+3.0
+PHYSICS 405: Intermediate Electricity and Magnetism
+4.0
+PHYSICS 406: Statistical and Thermal Physics
+4.0
+PHYSICS 411: Intro Comp Physics
+3.0
+PHYSICS 413: Introduction to Nonlinear Dynamics and the Physics of Complexity
+3.0
+PHYSICS 415: Ug Special Problems
+1.0 - 6.0
+PHYSICS 417: Dyn Proc Biophys
+3.0
+PHYSICS 420: Phys for Educators
+3.0
+PHYSICS 421: Phys Lab for Edu
+1.0
+PHYSICS 424: Physics in Action
+3.0
+PHYSICS 430: Medical Physics
+3.0
+PHYSICS 433: Biocomplexity
+3.0
+PHYSICS 435: Gravitational Physics
+3.0
+PHYSICS 438: Elecmag Radiation
+3.0
+PHYSICS 441: Advanced Laboratory I
+3.0
+PHYSICS 442: Advanced Laboratory II
+3.0
+PHYSICS 450: Laboratory Techniques in Biophysics
+3.0
+PHYSICS 452: Meth Theoretical II
+3.0
+PHYSICS 453: Quantum Mechanics
+4.0
+PHYSICS 455: Electron Dev &amp; Circ
+3.0
+PHYSICS 457: Particles&amp;Cosmology
+3.0
+PHYSICS 460: Quantum Mech II
+3.0
+PHYSICS 463: Intro Solid State
+3.0
+PHYSICS 465: Adv Topics Physics
+2.0
+PHYSICS 470: Nonlinear Dynamics
+3.0
+PHYSICS 481: Sci, Tech &amp; Pub Pol
+3.0
+PHYSICS 489: Physics of Music II
+3.0
+PHYSICS 496: Senior Thesis I
+2.0 - 3.0
+PHYSICS 497: Senior Thesis II
+2.0 - 3.0
+PHYSICS 498: Intr Res-Honors Stu
+2.0 - 3.0
+PHYSICS 499: Intr Res-Honors Stu
+2.0 - 3.0
+PHYSICS 501: First-Year Mini-Colloquium
+1.0
+PHYSICS 505: Electricity and Magnetism I
+3.0
+PHYSICS 506: Elec&amp;Magnetism II
+3.0
+PHYSICS 507: Theoretical Mech
+3.0
+PHYSICS 508: Theory of Social and Technological Networks
+3.0
+PHYSICS 510: Statistical Physics I
+3.0
+PHYSICS 511: Quantum Theory and Atomic Structure, I
+3.0
+PHYSICS 512: Adv Quantum Mech II
+3.0
+PHYSICS 513: Advanced Quantum Mechanics I
+3.0
+PHYSICS 514: Computational Physics
+3.0
+PHYSICS 515: Supervised Research
+4.0 - 6.0
+PHYSICS 516: Supervised Research
+4.0 - 6.0
+PHYSICS 517: Nanobio Cert Sem
+2.0
+PHYSICS 518: Micomp Exp Res
+3.0
+PHYSICS 519: Applied Grp Theory
+3.0
+PHYSICS 520: Condensed Matter
+3.0
+PHYSICS 521: Elem Particl Phy I
+3.0
+PHYSICS 522: Atomic Physics
+3.0
+PHYSICS 523: Quan Field Thry II
+3.0
+PHYSICS 525: Cosmo I Early Univer
+3.0
+PHYSICS 526: Cosmology II - The Late Universe
+3.0
+PHYSICS 527: Intro Astrophys III
+3.0
+PHYSICS 529: Tech Exp Phys
+3.0
+PHYSICS 530: Statistical Phys I
+3.0
+PHYSICS 535: General Relativity
+3.0
+PHYSICS 540: Advanced Condensed Matter
+3.0
+PHYSICS 541: Elementary Particle Physics II
+3.0
+PHYSICS 542: Quantum Opt
+3.0
+PHYSICS 580: Nonlin Sys
+3.0
+PHYSICS 605: Appl Group Theory
+1.0 - 3.0
+PHYSICS 608: Prin Microscp
+3.0
+PHYSICS 610: Space Sym and Rep
+1.0
+PHYSICS 611: Nonlin Opt
+3.0
+PHYSICS 612: Science of Energy
+1.0
+PHYSICS 613: Top Adv Quantum Thry
+3.0
+PHYSICS 615: Adv Classical Mech
+3.0
+PHYSICS 617: Continuous Media
+3.0
+PHYSICS 619: Solid State
+3.0
+PHYSICS 620: Advanced Condensed Matter Physics
+3.0
+PHYSICS 621: Quantum Thry-Fields
+3.0
+PHYSICS 622: Quantum Thry-Fields
+3.0
+PHYSICS 623: Adv Stat Physics
+2.0 - 3.0
+PHYSICS 624: Adv Stat Physics
+3.0
+PHYSICS 625: Thry-Elem Particles
+3.0
+PHYSICS 627: Exp-High Energy Phy
+3.0
+PHYSICS 628: Exp Collider Phys
+3.0
+PHYSICS 629: Complex Fluids
+3.0
+PHYSICS 630: Biological Physics
+3.0
+PHYSICS 631: Adv Math Physics
+3.0
+PHYSICS 633: Fluid Dynamics
+3.0
+PHYSICS 635: Theor Relativity
+3.0
+PHYSICS 637: Adv Nuclear Physics
+3.0
+PHYSICS 639: Low Temp Physics
+3.0
+PHYSICS 642: Tutorial Quant Mech
+2.0
+PHYSICS 643: Adv Atomic Physics
+2.0 - 3.0
+PHYSICS 644: Adv Atomic Phys
+3.0
+PHYSICS 645: M-theory
+3.0
+PHYSICS 646: String Theory
+3.0
+PHYSICS 650: Optical Waves in Crystals
+3.0
+PHYSICS 651: Lasers
+3.0
+PHYSICS 653: Adv Accelerator
+3.0
+PHYSICS 655: Adv Molecular Phys
+3.0
+PHYSICS 667: Adv Astrophysics
+3.0
+PHYSICS 668: Adv Astrophysics
+3.0
+PHYSICS 674: Medical Physics
+2.0
+PHYSICS 690: Special Topics in Physics
+3.0
+PHYSICS 715: Special Prob-Grad
+1.0 - 6.0
+PHYSICS 751: Topic Macr Sci
+2.0
+PHYSICS 806: Seminar
+3.0
+PHYSICS 990: Diss-Precand
+1.0 - 8.0
+PHYSICS 993: Graduate Student Instructor Training Program
+1.0
+PHYSICS 995: Diss-Cand
+4.0 - 8.0

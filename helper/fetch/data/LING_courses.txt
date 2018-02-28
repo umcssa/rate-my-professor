@@ -1,0 +1,270 @@
+LING 102: First Year Seminar (Humanities)
+3.0
+LING 103: First Yr Sem SS
+3.0
+LING 104: First Yr Sem Comp
+4.0
+LING 105: Lang&amp;Mind Honors
+3.0
+LING 106: First Lang Acquisitn
+3.0
+LING 111: Introduction to Language
+3.0
+LING 112: Lang of the World
+3.0
+LING 114: A World of Words
+3.0
+LING 115: Language in a Multicultural World
+3.0
+LING 119: Conversation
+3.0
+LING 192: Humanities Tpcs-Ling
+1.0 - 4.0
+LING 193: SS Topics-Ling
+1.0 - 4.0
+LING 209: Language and Human Mind
+3.0 - 4.0
+LING 210: Introduction to Linguistic Analysis
+4.0
+LING 212: Symbol Analy Lang
+2.0 - 4.0
+LING 230: Honors Core Ling
+4.0
+LING 240: Honrs Core Wrtg Ling
+4.0
+LING 272: Lang in Soc
+4.0
+LING 305: Advertis Rhetoric
+3.0
+LING 313: Lang and History
+2.0 - 3.0
+LING 315: Introduction to Syntax
+2.0 - 3.0
+LING 316: Discourse in the Academic Disciplines
+3.0
+LING 317: Lang and History
+2.0 - 3.0
+LING 318: Types of Languages
+3.0
+LING 319: Discourse Acad Disc
+2.0 - 3.0
+LING 339: Afr Amer Lang
+3.0
+LING 340: Introduction to Sociolinguistics
+3.0
+LING 341: The Mathematics of Language
+3.0
+LING 342: Persp Bilingualism
+3.0
+LING 345: Langs&amp;Peoples
+3.0
+LING 347: Talking Minds
+3.0
+LING 349: Word Systems
+3.0
+LING 350: Sec Lang Learn Inst
+3.0
+LING 351: Second Language Acquisition
+3.0
+LING 352: Development of Language and Thought
+3.0
+LING 362: Talking and Telling
+3.0
+LING 367: Languages of Asia
+3.0
+LING 368: How Different is Chinese?
+3.0
+LING 370: Lang&amp;Discrim
+3.0
+LING 374: Language and Culture
+4.0
+LING 375: Language in the Mass Media:  Linguistics and Language Variation in the Public Sphere
+3.0
+LING 385: Experiential Practice
+1.0 - 6.0
+LING 390: Community-Engaged Learning in ESL Teaching Contexts
+3.0
+LING 391: Teach ESL Mignt Comm
+3.0
+LING 392: Eng Grammar-Meaning
+4.0
+LING 393: Eng Grammar-Writing
+4.0
+LING 394: Topics in Ling
+1.0 - 4.0
+LING 395: Individual Research
+1.0 - 4.0
+LING 396: Mignt Out &amp; ESL Prac
+2.0 - 3.0
+LING 402: Research Seminar
+3.0
+LING 406: Mod Engl Grammar
+3.0
+LING 408: Varieties of English
+3.0
+LING 411: Intro Linguistics
+3.0
+LING 412: Speech Perception
+3.0
+LING 413: Speech Science
+3.0
+LING 416: Field Methods Ling
+2.0 - 3.0
+LING 418: Linguistic Typology
+3.0
+LING 420: Lang, Metaphr, Jokes
+3.0
+LING 421: Morphology
+2.0 - 3.0
+LING 426: Philosophy and Linguistic Theory
+2.0 - 3.0
+LING 429: Disc&amp;Lang Teach
+3.0
+LING 433: Arab Syn Semantics
+3.0
+LING 440: Language Learnability
+3.0
+LING 441: Introduction to Computational Linguistics
+3.0
+LING 442: Anatomy of Nat Lang
+3.0
+LING 445: Cognitive LING
+3.0
+LING 446: Comparative Ling
+3.0
+LING 447: Psych of Language
+3.0
+LING 449: Creole Lang
+2.0 - 3.0
+LING 450: Persptve 2nd Lang
+3.0
+LING 456: Topics Comp Ling
+1.0
+LING 461: Language, Culture, and Society in Native North America
+3.0
+LING 471: Face-to-Face Interac
+3.0
+LING 473: Ethnopoetics
+2.0 - 3.0
+LING 492: Topics in Ling
+1.0 - 4.0
+LING 493: Undergrad Reading
+1.0 - 3.0
+LING 494: Undergrad Reading
+1.0 - 3.0
+LING 495: Senior Honors Read
+1.0 - 3.0
+LING 496: Senior Honors Read
+1.0 - 3.0
+LING 497: Capstone Seminar
+3.0
+LING 505: Rhetoric
+3.0
+LING 509: Engl Styles
+2.0 - 3.0
+LING 512: Intro Phonet&amp;Phonol
+4.0
+LING 513: Phonology
+2.0 - 3.0
+LING 515: Intro to Syntax
+2.0 - 3.0
+LING 516: Semantics&amp;Pragmatic
+2.0 - 3.0
+LING 517: Principles and Methods of Historical Linguistics
+2.0 - 3.0
+LING 518: Ling Typology
+2.0 - 3.0
+LING 519: Discourse Analysis
+2.0 - 3.0
+LING 520: Lexicon
+3.0
+LING 521: Morphology
+3.0
+LING 522: Language Contact
+3.0
+LING 523: Prag&amp;SA Theory
+3.0
+LING 532: Iss in Bilingualism
+3.0
+LING 540: Pers Iran Ling
+3.0
+LING 541: Natural Language Processing
+3.0
+LING 542: Int Sociol
+2.0 - 3.0
+LING 545: Cognitive Ling
+3.0
+LING 547: Exper Language Proc
+3.0
+LING 551: Second Lang Acquis
+3.0
+LING 562: Conversation Analys
+3.0
+LING 587: Ling Structures
+2.0 - 3.0
+LING 612: Advanced Phonetics
+2.0 - 3.0
+LING 613: Advanced Phonology
+2.0 - 3.0
+LING 614: Adv Semantics
+3.0
+LING 615: Adv Syntax
+2.0 - 3.0
+LING 616: Adv Pragmatics
+3.0
+LING 618: Adv Typology
+3.0
+LING 619: Narrative Analysis
+3.0
+LING 621: Adv Morphology
+3.0
+LING 622: Topics in Morph
+1.0 - 3.0
+LING 660: Lang&amp;Aging
+3.0
+LING 676: Quechua Lang
+2.0 - 3.0
+LING 680: Field Methods
+3.0
+LING 681: Field Methods
+3.0
+LING 691: Literacy
+3.0
+LING 702: Language &amp; Info
+3.0
+LING 740: Research in Linguistics
+3.0
+LING 750: Research Writing in Linguistics
+3.0
+LING 756: Lang&amp;Comm Skil
+3.0
+LING 780: Interdisciplinary Seminar in Linguistics
+3.0
+LING 792: Topics in Linguistics
+1.0 - 4.0
+LING 801: Sem on Grad Study
+1.0 - 2.0
+LING 812: Seminar-Phonetics
+3.0
+LING 813: Seminar-Phonology
+2.0 - 3.0
+LING 814: Seminar-Semantics
+3.0
+LING 815: Seminar: Syntax
+2.0 - 3.0
+LING 816: Seminar-Pragmatics
+3.0
+LING 817: Sem Historical Ling
+3.0
+LING 819: Sem-Discourse Anal
+3.0
+LING 842: Sem Sociolinguistic
+3.0
+LING 990: Diss-Precand
+1.0 - 8.0
+LING 993: Graduate Student Instructor Training Program
+1.0
+LING 995: Diss-Cand
+4.0 - 8.0
+LING 997: Spec Res I &amp; II
+1.0 - 6.0

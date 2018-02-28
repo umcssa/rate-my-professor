@@ -1,0 +1,376 @@
+EARTH 100: Coral Reefs
+1.0
+EARTH 101: Matter Life Environ
+1.0
+EARTH 102: Energy from Earth
+1.0
+EARTH 103: Dinosaurs and Other Failures
+1.0
+EARTH 104: Ice Ages, Past and Future
+1.0
+EARTH 105: Our Active Earth: Plate Tectonics and Geohazards
+1.0
+EARTH 106: Fossils,Prim&amp;Hum Ev
+1.0
+EARTH 107: Volcanoes and Earthquakes
+1.0
+EARTH 108: When Earth Attacks:  The Science Behind Natural Disasters
+1.0
+EARTH 109: Water and Society
+1.0
+EARTH 110: Evolving Oceans
+1.0
+EARTH 111: Climate and Humankind
+1.0
+EARTH 112: Life Extreme Environ
+1.0
+EARTH 113: Planets and Moons
+1.0
+EARTH 114: Global Warming
+1.0
+EARTH 115: The Emerald Planet
+1.0
+EARTH 116: Intro Field Geol
+5.0
+EARTH 117: Intro to Geology
+5.0
+EARTH 118: Introductory Geology Laboratory
+1.0
+EARTH 119: Introductory Geology Lectures
+3.0 - 4.0
+EARTH 120: Geol National Parks
+4.0
+EARTH 122: Extreme Weather
+3.0
+EARTH 125: Evol &amp; Extinction
+3.0
+EARTH 130: Phys World
+4.0
+EARTH 140: Climate &amp; the Media
+3.0
+EARTH 142: From Stars to Stones
+3.0
+EARTH 144: Climate and Humans
+3.0
+EARTH 145: Evolution Earth
+3.0
+EARTH 146: Plate Tectonics
+3.0
+EARTH 147: Natural Hazards
+3.0
+EARTH 148: Seminar: Environmental Geology
+3.0
+EARTH 149: Fossils &amp; Evolution
+3.0
+EARTH 150: Dinosaur Extinction
+3.0
+EARTH 151: The Ice Ages: Past and Present
+3.0
+EARTH 152: Coastal Systems
+3.0
+EARTH 153: Earthlike Planets
+3.0
+EARTH 154: Ocean Resources
+3.0
+EARTH 155: Evol North America
+3.0
+EARTH 156: Coral Reef Dynamics
+3.0
+EARTH 157: Hist Earth Sci
+3.0
+EARTH 158: Env Impact Energy
+3.0
+EARTH 159: Toward a Sustainable Human Future
+3.0
+EARTH 160: Sci Environ Issues
+3.0
+EARTH 171: GC: Sustain Science
+4.0
+EARTH 172: GC: Sustain Chall
+4.0
+EARTH 175: Microbial World
+4.0
+EARTH 201: Introduction to Environmental Science and Geography
+3.0 - 4.0
+EARTH 202: Intro Earth Env Sci
+5.0
+EARTH 204: Plan:Geol&amp;CLIM
+3.0
+EARTH 205: Earth:Dyn Planet
+2.0
+EARTH 206: How the Earth Works: The Water Cycle and Environment
+2.0
+EARTH 207: Earth:Hands-on
+2.0
+EARTH 208: Topics in Earth Sci
+1.0
+EARTH 210: Discovery-Earth Sci
+3.0
+EARTH 222: Introductory Oceanography
+3.0
+EARTH 223: Introductory Oceanography, Laboratory
+1.0
+EARTH 238: A Hist of Everything
+3.0 - 4.0
+EARTH 255: Earth and Space Sciences for Elementary School Educators
+3.0
+EARTH 259: Resilient Society
+4.0
+EARTH 277: Water 21st Century
+3.0
+EARTH 284: Environ Geol
+4.0
+EARTH 296: Topics Earth Env Sci
+1.0 - 5.0
+EARTH 298: Internship
+1.0
+EARTH 299: Ind Study EARTH
+1.0 - 6.0
+EARTH 305: Earth&#39;s Surface and Sediments
+4.0
+EARTH 309: GIS Explorations of the Past, Present, and Future
+3.0
+EARTH 311: Geology of Michigan
+3.0
+EARTH 313: Geobiology
+4.0
+EARTH 314: Global and Applied Geophysics
+4.0
+EARTH 315: Earth Materials
+4.0
+EARTH 320: Earth Sys Evolution
+3.0
+EARTH 321: Earth System Dynam
+3.0
+EARTH 323: Earth Sys Analysis
+4.0
+EARTH 325: Envr Geochem
+4.0
+EARTH 331: Climate Change
+4.0
+EARTH 333: Inexhaustible Seas?
+4.0
+EARTH 344: Sust Fossil Energy
+3.0
+EARTH 350: Atm Thermo
+3.0
+EARTH 351: Earth Structure
+4.0
+EARTH 370: Solar Terrestrial
+4.0
+EARTH 380: Mineral Resources, Economics, and the Environment
+3.0 - 4.0
+EARTH 381: Intro Atm Radiation
+3.0
+EARTH 396: Topics Earth Env Sci
+1.0 - 5.0
+EARTH 401: Geophysical  Fluid Dynamics
+3.0
+EARTH 408: Intro GIS Earth Sci
+3.0
+EARTH 409: Earth System Modeling
+4.0
+EARTH 410: Fld Stds Volcanology
+3.0
+EARTH 411: Cloud&amp;Precip Process
+3.0
+EARTH 412: Geochem Solid Earth
+4.0
+EARTH 413: Geomicrobiology
+3.0
+EARTH 414: Weather Systems
+3.0
+EARTH 415: Intro Econ Geol
+4.0
+EARTH 416: Org Function&amp;Evol
+4.0
+EARTH 417: Geol Grt Lakes
+2.0
+EARTH 418: Paleontology
+3.0
+EARTH 419: Paleontology Lab
+1.0
+EARTH 420: Intro Earth Physics
+3.0
+EARTH 421: Introduction of Physical Oceanography
+3.0
+EARTH 422: Prin of Geochem
+3.0
+EARTH 423: Boundary Layer Met
+4.0
+EARTH 426: Mineral Physics
+3.0
+EARTH 427: Appl Mineral
+3.0
+EARTH 428: Mineral Surfaces
+3.0
+EARTH 429: Computational Mineralogy
+4.0
+EARTH 430: Depos Environ
+3.0
+EARTH 431: Terrestrial Biomes Past, Present and Future
+3.0
+EARTH 432: Plant Paleobiology
+4.0
+EARTH 433: Field Studies in Economic Geology
+1.0 - 4.0
+EARTH 434: Fld Stdy-Tect&amp;Struc
+1.0 - 4.0
+EARTH 435: Field Studies in Mineralogy, Petrology, and Geochemistry
+1.0 - 4.0
+EARTH 436: Field Studies in Stratigraphy, Paleontology, and Sedimentology
+1.0 - 4.0
+EARTH 437: Evolu of Vertebrate
+4.0
+EARTH 438: Fossl Rec Evol Prim
+4.0
+EARTH 439: Fossil&amp;Evol Mammals
+4.0
+EARTH 440: Geol Field Methods
+5.0
+EARTH 441: Field Geol Project
+1.0
+EARTH 442: Earth Surface&amp;Soils
+4.0
+EARTH 443: Climate Tec&amp;Erth Sur
+4.0
+EARTH 444: Analytical Paleobio
+4.0
+EARTH 445: Biogeography
+3.0
+EARTH 446: Paleoclimatology
+4.0
+EARTH 449: Marine Geology
+3.0
+EARTH 450: Ecosyst Sci Rockies
+5.0
+EARTH 451: Int Struct Tectonics
+3.0
+EARTH 452: Paleoceanography
+3.0
+EARTH 454: Meteorological Analysis Laboratory
+4.0
+EARTH 455: Determin Meth
+4.0
+EARTH 457: Atmospheric Dynamics I
+4.0
+EARTH 460: Paleobio/Paleoenv
+5.0
+EARTH 465: Biogeochem
+3.0
+EARTH 467: Stratigraphy &amp; Basin
+4.0
+EARTH 468: Data Analysis and Model Estimation
+3.0
+EARTH 473: Fund Org Geochem
+3.0
+EARTH 474: Ice and Climate
+3.0
+EARTH 475: Earth System Intract
+4.0
+EARTH 477: Hydrogeology
+4.0
+EARTH 478: Geochemistry of Natural Waters
+4.0
+EARTH 479: Marine Geochem
+3.0
+EARTH 483: Geophysics-Seismol
+4.0
+EARTH 486: Geodynamics
+3.0
+EARTH 489: Geol Sci Honors
+1.0 - 6.0
+EARTH 490: Geol Honors
+1.0 - 6.0
+EARTH 494: Experiential Learn
+1.0 - 4.0
+EARTH 495: Research Methods NS
+1.0
+EARTH 496: Special Topics in the Earth and Environmental Sciences
+1.0 - 5.0
+EARTH 497: W.T.Smith Lec Sem
+1.0
+EARTH 498: Research&amp;Spec Work
+1.0 - 6.0
+EARTH 499: Research&amp;Spec Work
+1.0 - 6.0
+EARTH 500: Intro Linux Prog
+2.0
+EARTH 501: Element Micropaleo
+3.0
+EARTH 503: Comput Method GEOSCI
+2.0
+EARTH 504: Sources&amp;Cycling
+3.0 - 4.0
+EARTH 506: Habitable World
+3.0
+EARTH 507: Ign Petrog-Petrogen
+4.0
+EARTH 508: Metamorph Petrology
+4.0
+EARTH 511: Paleobiology 2
+3.0
+EARTH 514: Isotope Biogeochem
+3.0
+EARTH 515: Tectonics of Oceans and Continents
+4.0
+EARTH 516: Orogenic Systems
+2.0 - 4.0
+EARTH 517: Tectonics Surf Proc
+4.0
+EARTH 523: Micro Commun Omics
+2.0 - 3.0
+EARTH 525: Tectonophysics
+4.0
+EARTH 529: Nucl Waste Mgmt
+3.0
+EARTH 530: Sediment Diagenesis
+3.0
+EARTH 531: Seminar in Geologic Problems
+1.0 - 3.0
+EARTH 532: Seminar in Climate, Tectonics, and Surface Processes
+1.0 - 2.0
+EARTH 533: Sem Economic Geol
+1.0 - 2.0
+EARTH 534: Seminar in Geophysics, Tectonics, or Structure
+1.0 - 2.0
+EARTH 535: Seminar in Mineralogy, Petrology, or Geochemistry
+1.0 - 2.0
+EARTH 536: Seminar in Stratigraphy, Paleontology, or Sedimentology
+1.0 - 2.0
+EARTH 537: Topics Oceanography
+1.0
+EARTH 538: Quant Analysis
+3.0
+EARTH 539: Sem Paleomammalogy
+1.0 - 2.0
+EARTH 541: Sem Biogeochemistry
+1.0 - 2.0
+EARTH 542: Sem Environ Geochem
+1.0 - 2.0
+EARTH 553: Thermo&amp;Phase Equilib
+3.0
+EARTH 554: Thermodyn &amp; Kinetics
+4.0
+EARTH 555: Kinetic Geochm Proc
+3.0
+EARTH 580: Isotope Earth Env Sc
+4.0
+EARTH 581: Aquatic Chemistry
+3.0
+EARTH 582: Advanced Mineral Deposits
+4.0
+EARTH 599: Independent Study
+1.0 - 9.0
+EARTH 608: Advanced Isotopes
+3.0
+EARTH 620: Nuclear Waste Forms
+3.0
+EARTH 709: Thesis Res Am-Ms
+1.0 - 6.0
+EARTH 929: Investigations
+1.0 - 6.0
+EARTH 990: Diss-Precand
+1.0 - 8.0
+EARTH 995: Diss-Cand
+4.0 - 8.0

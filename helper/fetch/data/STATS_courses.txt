@@ -1,0 +1,176 @@
+STATS 100: Intro Stat/Math Mode
+3.0 - 4.0
+STATS 125: Games and Gambling
+3.0
+STATS 150: Making Sense of Data
+3.0
+STATS 170: Scientific Invest
+4.0
+STATS 180: AP Statistics
+3.0
+STATS 250: Introduction to Statistics and Data Analysis
+4.0
+STATS 280: Honors Introduction to Statistics and Data Analysis
+4.0
+STATS 299: Undergrad Internship
+1.0
+STATS 306: Introduction to Statistical Computing
+4.0
+STATS 400: Appl Stat Methods
+4.0
+STATS 401: Stat Analysis II
+4.0
+STATS 403: Introduction to Quantitative Research Methods
+4.0
+STATS 404: Effective Communication in Statistics
+2.0
+STATS 406: Introduction to Statistical Computing
+3.0
+STATS 408: Statistical Principles for Problem Solving: A Systems Approach
+4.0
+STATS 412: Introduction to Probability and Statistics
+3.0
+STATS 413: Applied Regression Analysis
+4.0
+STATS 414: Topics in Statistics
+3.0 - 4.0
+STATS 415: Data Mining and Statistical Learning
+4.0
+STATS 425: Introduction to Probability
+3.0
+STATS 426: Introduction to Theoretical Statistics
+3.0
+STATS 430: Applied Probability
+3.0
+STATS 449: Topics in Biostatistics
+3.0
+STATS 470: Introduction to the Design of Experiments
+4.0
+STATS 480: Survey Sampling
+4.0
+STATS 485: Capstone Seminar
+3.0
+STATS 489: Ind Study in Stat
+1.0 - 4.0
+STATS 499: Honors Seminar
+2.0 - 3.0
+STATS 500: Applied Statistics I
+3.0
+STATS 501: Applied Stat II
+3.0
+STATS 503: Stats Learning II
+4.0
+STATS 504: Statistical Consulting
+3.0
+STATS 505: Econometric Analysis I
+3.0
+STATS 506: Computational Methods and Tools in Statistics
+3.0
+STATS 508: Stat Analys Fin Data
+3.0
+STATS 509: Stats for Fin Data
+3.0
+STATS 510: Mathematical Statistics I
+3.0
+STATS 511: Stat Inference
+3.0
+STATS 520: Math Meth Stat
+3.0
+STATS 525: Probability Theory
+3.0
+STATS 526: Discrete State Stochastic Processes
+3.0
+STATS 531: Analysis Time Series
+3.0
+STATS 535: Reliability
+3.0
+STATS 545: Mol Gen&amp;Epigen Data
+3.0
+STATS 547: Prob Mod Bioinf
+3.0
+STATS 548: Comp Prob Mod Bio
+1.0
+STATS 550: Bayesian Dat Anal
+3.0
+STATS 553: Statistic Inference
+3.0 - 4.0
+STATS 560: Nonpar Stat
+3.0
+STATS 570: Design of Experiment
+3.0
+STATS 580: Sampling Theory
+3.0
+STATS 600: Linear Models
+4.0
+STATS 601: Anl Multivr Cat Data
+4.0
+STATS 604: Stat Investigations
+3.0
+STATS 605: Adv Top Mod Data Anl
+3.0
+STATS 606: Comp Meth Stat
+3.0
+STATS 607: Programming and Numerical Methods in Statistics
+1.5 - 3.0
+STATS 608: Optimization Methods in Statistics
+1.5 - 3.0
+STATS 610: Statistical Inference
+3.0
+STATS 611: Large Sample Theory
+3.0
+STATS 612: Advanced Topics in Theoretical Statistics
+3.0
+STATS 617: Adv Topic Quan Meth
+3.0
+STATS 620: App Prob Stoch Model
+3.0
+STATS 621: Probability Theory
+3.0
+STATS 625: Probability and Random Processes I
+3.0
+STATS 626: Pro&amp;Ran Pro II
+3.0
+STATS 630: Top-Appl Probabil
+3.0
+STATS 640: Stat Models
+3.0
+STATS 642: Linear Model
+3.0
+STATS 670: Adv Design of Expt
+3.0
+STATS 680: Theory of Sampling
+3.0
+STATS 700: Topics Appl Stat I
+1.5 - 3.0
+STATS 701: Topics Appl Stat II
+1.5 - 3.0
+STATS 710: Topics Theo Stat I
+2.0 - 3.0
+STATS 711: Topics Theo Stat II
+1.5 - 3.0
+STATS 725: Top Adv Pro I
+3.0
+STATS 750: Directed Reading
+1.0 - 6.0
+STATS 808: Seminar in Applied Statistics I
+1.0
+STATS 809: Sem-Applied Stat
+1.0
+STATS 810: Literature Proseminar I
+2.0
+STATS 811: Lit Proseminar
+2.0
+STATS 816: Sem Physical Sci
+1.0 - 4.0
+STATS 817: Sem Soc Sci Meth
+1.0
+STATS 818: Sem Theo Stat I
+1.0
+STATS 819: Sem Theo Stat II
+1.0
+STATS 990: Diss-Precand
+1.0 - 8.0
+STATS 993: Graduate Student Instructor Training Program
+1.0
+STATS 995: Diss-Cand
+4.0 - 8.0

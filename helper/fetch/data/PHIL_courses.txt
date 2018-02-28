@@ -1,0 +1,388 @@
+PHIL 101: Intro-Types of Phil
+2.0 - 4.0
+PHIL 151: Personal Decisions
+2.0 - 3.0
+PHIL 152: Philosophy of Human Nature
+2.0 - 3.0
+PHIL 153: Philos &amp; the Arts
+2.0 - 3.0
+PHIL 154: Science Fiction and Philosophy
+2.0 - 3.0
+PHIL 155: Nature of Science
+2.0 - 3.0
+PHIL 156: Experimental Phil
+2.0 - 3.0
+PHIL 157: Intro Anc Phil
+3.0
+PHIL 158: Phil&amp;Narrative
+2.0 - 3.0
+PHIL 160: Moral Principles and Problems
+3.0 - 4.0
+PHIL 162: The University of Michigan: A Moral Institution?
+3.0 - 4.0
+PHIL 180: Introductory Logic
+2.0 - 3.0
+PHIL 181: Philosophical Issues: An Introduction
+2.0 - 3.0
+PHIL 182: Intro Phil Issues
+3.0
+PHIL 183: Critical Reasoning
+3.0
+PHIL 196: First Year Seminar
+3.0
+PHIL 201: Introduction-Logic
+2.0 - 3.0
+PHIL 202: Introduction-Phil
+2.0 - 3.0
+PHIL 210: Exp Phil
+3.0
+PHIL 224: Global Justice
+2.0 - 4.0
+PHIL 230: Introduction to Buddhism
+4.0
+PHIL 231: Probs-Principles
+2.0 - 3.0
+PHIL 232: Problems of Philosophy
+2.0 - 4.0
+PHIL 234: Intro-Types of Phil
+2.0 - 4.0
+PHIL 240: Environmental Ethics: Philosophical Underpinnings
+2.0 - 3.0
+PHIL 262: Introduction to the Philosophy of Religion
+3.0 - 4.0
+PHIL 263: Chinese Philosophy
+3.0
+PHIL 286: Second Year Seminar in Philosophy
+2.0 - 3.0
+PHIL 294: Honors Core Phil
+4.0
+PHIL 295: Hnrs Core Wrtg Phil
+4.0
+PHIL 296: Honors Introduction to Logic
+2.0 - 3.0
+PHIL 297: Honors Introduction to Philosophy
+2.0 - 3.0
+PHIL 303: Introduction to Symbolic Logic
+3.0 - 4.0
+PHIL 305: Intro Formal Meth
+3.0 - 4.0
+PHIL 319: Phil of the Arts
+2.0 - 3.0
+PHIL 320: Worldview Mod Sci
+3.0 - 4.0
+PHIL 322: Methods of Science
+2.0 - 3.0
+PHIL 331: Indian Philosophy
+3.0
+PHIL 334: Post-Biblical Jewish Philosophy
+2.0 - 3.0
+PHIL 340: Minds and Machines
+2.0 - 4.0
+PHIL 344: Ethics&amp;Health Care
+2.0 - 3.0
+PHIL 345: Language &amp; Mind
+3.0 - 4.0
+PHIL 350: Real World Ethics
+4.0
+PHIL 351: Real World Ethics II
+2.0
+PHIL 353: Right &amp; Wrong of Biz
+3.0 - 4.0
+PHIL 355: Contemp Moral Prob
+3.0 - 4.0
+PHIL 356: Issues in Bioethics
+3.0 - 4.0
+PHIL 358: Law&amp;Philosophy
+2.0 - 3.0
+PHIL 359: Law and Philosophy
+2.0 - 4.0
+PHIL 361: Ethics
+3.0 - 4.0
+PHIL 363: Comm-Fasc&amp;Dem0
+4.0
+PHIL 365: Probs-Religion
+2.0 - 4.0
+PHIL 366: Intro-Political
+2.0 - 4.0
+PHIL 367: 19th C Politics
+3.0 - 4.0
+PHIL 369: Phil of Law
+3.0
+PHIL 370: Phil Aspects of Lit
+2.0 - 3.0
+PHIL 371: Phenom&amp;Existential
+2.0 - 3.0
+PHIL 372: Phil Topics Gender
+2.0 - 3.0
+PHIL 375: Nietzsche&#39;s Philosophical Thought
+2.0 - 3.0
+PHIL 376: Environmental Ethics
+3.0
+PHIL 381: Science and Objectivity
+3.0 - 4.0
+PHIL 383: Knowledge &amp; Reality
+3.0 - 4.0
+PHIL 384: Applied Epistemology: Race, Ethnicity and Knowledge
+3.0 - 4.0
+PHIL 385: European Soc Thought
+2.0 - 3.0
+PHIL 388: History of Philosophy: Ancient
+2.0 - 4.0
+PHIL 389: Hist-17&amp;18 Cent
+2.0 - 4.0
+PHIL 397: Topics Philosophy
+1.0 - 4.0
+PHIL 399: Independent Studies
+1.0 - 4.0
+PHIL 401: Undergraduate Honors Seminar
+2.0 - 3.0
+PHIL 402: Ug Seminar in Phil
+2.0 - 3.0
+PHIL 404: Analytical Philo
+2.0 - 3.0
+PHIL 405: Plato
+2.0 - 3.0
+PHIL 406: Aristotle
+2.0 - 3.0
+PHIL 408: Philosophy &amp; Econ
+3.0
+PHIL 409: Phil of Language
+2.0 - 3.0
+PHIL 410: Formal Semantics
+3.0
+PHIL 411: Phil of Soc Sci
+2.0 - 3.0
+PHIL 412: Phil in Literature
+2.0 - 3.0
+PHIL 413: Formal Methods
+2.0 - 3.0
+PHIL 414: Math Logic
+2.0 - 3.0
+PHIL 415: Advanced Math Logic
+2.0 - 3.0
+PHIL 416: Modal Logic
+2.0 - 3.0
+PHIL 417: Logic&amp;Art Intellg
+3.0
+PHIL 418: Phil of Math
+2.0 - 3.0
+PHIL 419: Phil of the Arts
+3.0
+PHIL 420: Phil of Science
+3.0
+PHIL 422: Phil of Physics
+2.0 - 3.0
+PHIL 423: Problems of Space and Time
+2.0 - 3.0
+PHIL 424: Phil Quantum Mech
+2.0 - 3.0
+PHIL 425: Phil of Biology
+3.0
+PHIL 426: Philosophy and Linguistic Theory
+2.0 - 3.0
+PHIL 427: Science &amp; Gender
+2.0 - 3.0
+PHIL 429: Ethical Analysis
+2.0 - 3.0
+PHIL 430: Topics in Ethics
+2.0 - 3.0
+PHIL 431: Normative Ethics
+2.0 - 3.0
+PHIL 432: Theory of Value
+2.0 - 3.0
+PHIL 433: History of Ethics
+2.0 - 3.0
+PHIL 435: Phil of Logic
+2.0 - 3.0
+PHIL 437: Phil of Mus
+3.0
+PHIL 438: Topics Aesthetics
+2.0 - 3.0
+PHIL 439: Aesthetics
+2.0 - 3.0
+PHIL 440: Philosophy of Film
+2.0 - 3.0
+PHIL 441: Social Phil
+2.0 - 3.0
+PHIL 442: Topics in Political Philosophy
+2.0 - 3.0
+PHIL 443: Rational Choice
+3.0 - 4.0
+PHIL 444: Groups &amp; Choices
+4.0
+PHIL 445: Phil of Law
+2.0 - 3.0
+PHIL 446: SPLang
+3.0
+PHIL 450: Phil Cognition
+3.0
+PHIL 455: Contemp Moral Probs
+2.0 - 4.0
+PHIL 458: Philosophy of Kant
+2.0 - 3.0
+PHIL 460: Medieval Philosophy
+2.0 - 3.0
+PHIL 461: Phil Thought in 17C
+2.0 - 3.0
+PHIL 462: Phil Thought in 18C
+2.0 - 3.0
+PHIL 463: Topics in the History of Philosophy
+3.0
+PHIL 464: Science Revolution
+2.0 - 3.0
+PHIL 465: Continental Philos
+2.0 - 3.0
+PHIL 466: Top Cont Phil
+3.0
+PHIL 467: Enlightenment
+3.0
+PHIL 474: 19 Century PHIL
+2.0 - 3.0
+PHIL 475: Topic in 20th C Phil
+2.0 - 3.0
+PHIL 477: Theory-Knowledge
+2.0 - 3.0
+PHIL 480: Philos of Religion
+2.0 - 3.0
+PHIL 481: Metaphysics
+2.0 - 3.0
+PHIL 482: Philosophy of Mind
+2.0 - 3.0
+PHIL 485: Philosophy of Action
+3.0
+PHIL 486: Feminist Philos
+3.0
+PHIL 487: Wittgenstein
+2.0 - 3.0
+PHIL 492: Frege,Russell
+2.0 - 3.0
+PHIL 497: Phil Mini-Course
+1.0 - 2.0
+PHIL 498: Senior Honors
+2.0 - 3.0
+PHIL 499: Senior Honors
+2.0 - 3.0
+PHIL 501: Plato
+2.0 - 3.0
+PHIL 502: Aristotle
+3.0
+PHIL 503: Topic-Medieval Phil
+2.0 - 3.0
+PHIL 508: Continental Ration
+2.0 - 3.0
+PHIL 511: Phil Social Science
+3.0
+PHIL 512: British Empiricism
+2.0 - 3.0
+PHIL 514: Kant
+2.0 - 3.0
+PHIL 515: Hegel
+2.0 - 3.0
+PHIL 517: Topics History Phil
+2.0 - 3.0
+PHIL 520: Wittgenstein
+2.0 - 3.0
+PHIL 522: Logic Positivism
+2.0 - 3.0
+PHIL 523: Phenomenology
+2.0 - 3.0
+PHIL 524: Sartre
+2.0 - 3.0
+PHIL 530: Top in Epistemology
+2.0 - 3.0
+PHIL 535: Top Metaphysics
+2.0 - 3.0
+PHIL 540: Top Phil of Mind
+2.0 - 3.0
+PHIL 542: Probs Human Action
+3.0
+PHIL 550: Top in Phil Lang
+2.0 - 3.0
+PHIL 551: Top Phil-Ling
+2.0 - 3.0
+PHIL 552: Prag&amp;SA Theory
+3.0
+PHIL 553: Statistic Inference
+3.0 - 4.0
+PHIL 555: Topics in Logic
+2.0 - 3.0
+PHIL 556: Top Modal Logic
+2.0 - 3.0
+PHIL 557: Top Induct Logic
+2.0 - 3.0
+PHIL 558: Phil of Math
+2.0 - 3.0
+PHIL 560: Top Phil of Science
+2.0 - 3.0
+PHIL 562: Top Phil of Physics
+2.0 - 3.0
+PHIL 567: Top in Phil of Hist
+2.0 - 3.0
+PHIL 572: Top in Meta-Ethics
+2.0 - 3.0
+PHIL 574: Top in Norm Ethics
+2.0 - 3.0
+PHIL 576: Top in Soc Pol Phil
+2.0 - 3.0
+PHIL 578: Top Phil of Law
+2.0 - 3.0
+PHIL 580: Top in Phil-Relig
+2.0 - 3.0
+PHIL 585: Topics in Aesthetic
+2.0 - 3.0
+PHIL 590: Graduate Intensive Study
+1.0 - 3.0
+PHIL 596: Reading Course
+2.0 - 3.0
+PHIL 597: Proseminar
+3.0
+PHIL 598: Ind Lit Survey
+3.0
+PHIL 599: Doss Reading
+2.0 - 3.0
+PHIL 600: Advanced Studies
+2.0 - 3.0
+PHIL 601: Seminar in Theory of Knowledge
+3.0 - 4.0
+PHIL 602: Philos of Science
+2.0 - 3.0
+PHIL 605: Logic I
+2.0 - 3.0
+PHIL 607: Metaphysics I
+2.0 - 3.0
+PHIL 609: Philos of Mind
+2.0 - 3.0
+PHIL 610: Seminar in History of Philosophy
+2.0 - 3.0
+PHIL 611: Seminar in Current Philosophy
+2.0 - 3.0
+PHIL 612: Religion
+2.0 - 3.0
+PHIL 613: Space Sym and Rep
+1.0
+PHIL 615: Sem Phil of Lang
+2.0 - 3.0
+PHIL 616: Philosophy-Math
+2.0 - 3.0
+PHIL 618: Aesthetics
+2.0 - 3.0
+PHIL 619: Continental Phil
+3.0
+PHIL 621: Plato
+3.0
+PHIL 640: Seminar in Ethics
+2.0 - 3.0
+PHIL 666: Chinese Marxism
+2.0 - 3.0
+PHIL 677: Social Philos
+2.0 - 3.0
+PHIL 697: Candidacy Seminar
+2.0
+PHIL 990: Diss-Precand
+1.0 - 8.0
+PHIL 991: RCRS
+1.0
+PHIL 993: Graduate Student Instructor Training Program
+1.0
+PHIL 995: Diss-Cand
+4.0 - 8.0

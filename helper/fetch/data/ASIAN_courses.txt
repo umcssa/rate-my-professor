@@ -1,0 +1,410 @@
+ASIAN 200: Intr Jpn Civilizatn
+4.0
+ASIAN 201: Society Culture Jpn
+3.0 - 4.0
+ASIAN 204: East Asia: Early Transformations
+3.0 - 4.0
+ASIAN 205: Modern East Asia
+3.0 - 4.0
+ASIAN 206: Indian Civilization
+3.0 - 4.0
+ASIAN 207: Southeast Asian Civilization
+3.0 - 4.0
+ASIAN 210: Philippine Cult&amp;Hist
+3.0
+ASIAN 219: Intro to Sikhism
+3.0
+ASIAN 220: Intr Asian Religions
+4.0
+ASIAN 221: Great Books of China
+4.0
+ASIAN 222: Second Year Indonesian II
+4.0
+ASIAN 223: Krishna Speaks:  Bhagavad-Gita
+3.0
+ASIAN 225: Classical Hinduism
+3.0
+ASIAN 230: Introduction to Buddhism
+4.0
+ASIAN 231: Intro Tibet Buddhism
+4.0
+ASIAN 232: Zen Masters, Dharma Bums, and Drag Queens: Buddhism in America
+3.0
+ASIAN 234: Buddhism and Death
+3.0
+ASIAN 235: Second Year Korean I
+4.0
+ASIAN 241: Chinese Renaissance
+3.0
+ASIAN 243: Intro to S Asian Art
+3.0
+ASIAN 244: Seeds of Conflict
+3.0
+ASIAN 245: Anime
+4.0
+ASIAN 248: Jesus Comes to Asia
+4.0
+ASIAN 250: Ug Sem Buddh
+3.0
+ASIAN 251: Ug Sem China Cult
+3.0
+ASIAN 252: Second Year Sanskrit II
+3.0
+ASIAN 253: Ug Sem SSEA Cult
+3.0
+ASIAN 254: Undergraduate Seminar in Korean Culture
+3.0
+ASIAN 255: UG Sem Asian Studies
+3.0
+ASIAN 256: Great Books of Asia
+4.0
+ASIAN 257: Intensive Second Year Tamil
+4.0
+ASIAN 258: Food &amp; Drink of Asia
+4.0
+ASIAN 259: Modern South Asia
+3.0 - 4.0
+ASIAN 260: Introduction to Chinese Civilization
+4.0
+ASIAN 261: Intro Modern China
+4.0
+ASIAN 262: Chn Changed the Wrld
+4.0
+ASIAN 263: Chinese Philosophy
+3.0
+ASIAN 264: Looking at Traditional China Through its Most Famous Novel, The Story of the Stone
+3.0
+ASIAN 272: Intro Kor Religions
+3.0
+ASIAN 273: North Korea
+4.0
+ASIAN 274: Introduction to Korean Civilization
+3.0
+ASIAN 275: India: Culture&amp;Soc
+3.0
+ASIAN 276: India as Homeland
+3.0
+ASIAN 280: Topics in Asian Studies
+3.0
+ASIAN 282: Asian Pop Culture
+4.0
+ASIAN 283: Asian Martial Arts
+4.0
+ASIAN 285: Intimacy in Asia
+3.0
+ASIAN 292: Intro Japanese Art
+4.0
+ASIAN 296: Study Abroad in Asia
+1.0 - 3.0
+ASIAN 297: MiniCrs: Asian Stds
+1.0 - 3.0
+ASIAN 300: Love and Death in Japanese Culture
+3.0
+ASIAN 301: Jpn Women Lit
+3.0
+ASIAN 302: Modern Jpn Lit
+3.0
+ASIAN 303: Rel Military Orders
+3.0
+ASIAN 304: The Art of Yoga
+3.0
+ASIAN 305: Religion &amp; Violence
+3.0
+ASIAN 306: What is Religion?
+3.0
+ASIAN 307: Eat, Pray, Love:  Devotional Traditions in South Asia
+3.0
+ASIAN 308: Arts&amp;Ideas S&amp;SE Asia
+3.0
+ASIAN 310: Family in Japan
+3.0
+ASIAN 311: Image of Samurai
+3.0
+ASIAN 312: Postwar Japan
+3.0
+ASIAN 313: Modern E Asian Fict
+3.0
+ASIAN 314: Strange Ways
+3.0
+ASIAN 316: Japan Controversies
+3.0
+ASIAN 318: Humanities Topics in Japan through Popular Culture
+3.0
+ASIAN 319: Japanese Spirits
+3.0
+ASIAN 320: Jpn Perform Culture
+3.0
+ASIAN 321: Japanese Modern
+3.0
+ASIAN 322: War Tales: Jpn &amp; Chn
+3.0
+ASIAN 324: Islam in South Asia
+4.0
+ASIAN 325: Zen Buddhism
+4.0
+ASIAN 326: Third Year Japanese II
+3.0
+ASIAN 329: Buddh Viol &amp; Nonviol
+3.0
+ASIAN 330: S Asian Lit Humor
+3.0
+ASIAN 331: Indian Philosophy
+3.0
+ASIAN 332: S. Asian Identity
+3.0
+ASIAN 333: Nation and Religion
+3.0
+ASIAN 334: Prejudice: India&amp;US
+3.0
+ASIAN 335: Himalayan Aesthetics
+3.0
+ASIAN 336: Third Year Korean II
+3.0
+ASIAN 337: Ramayana Text&amp;Contex
+3.0
+ASIAN 340: G Khan to Taliban
+3.0 - 4.0
+ASIAN 341: Intro Indian Cinema
+4.0
+ASIAN 342: Gender&amp;Power SE Asia
+3.0
+ASIAN 343: SEA Politics &amp; Art
+3.0
+ASIAN 345: Trauma Asia/Afr/Eur
+3.0
+ASIAN 346: Controversies in Contemporary Southeast Asia
+3.0
+ASIAN 350: Gods, Ghosts, and Gangsters: Popular Religion in China
+3.0
+ASIAN 351: Tibetan Life&amp;Culture
+3.0
+ASIAN 352: Gender, Sexuality, and Power in Premodern China
+3.0
+ASIAN 353: Globalizing China
+3.0
+ASIAN 354: War, Rebellion and Revolution in China Through Two Centuries
+3.0 - 4.0
+ASIAN 355: Communism &amp; China
+3.0
+ASIAN 356: Chinese Performance
+3.0
+ASIAN 357: Chn Forbidden Novel
+3.0
+ASIAN 358: Art of War
+3.0
+ASIAN 359: Crime&amp;Detect Chn Lit
+3.0
+ASIAN 360: Taoism
+3.0
+ASIAN 361: Happiness-Chin Trad
+3.0
+ASIAN 362: Advanced Thai II
+3.0
+ASIAN 363: China Drama&amp;Theater
+3.0
+ASIAN 364: Develop Chn Fiction
+3.0
+ASIAN 365: Doctrs Ancient World
+3.0
+ASIAN 366: China Controversies
+3.0
+ASIAN 367: Languages of Asia
+3.0
+ASIAN 368: How Different is Chinese?
+3.0
+ASIAN 369: Chinese Film
+3.0
+ASIAN 370: Acupuncture:  Historical and Contemporary Transformations
+3.0
+ASIAN 371: Nat Disasters E Asia
+3.0
+ASIAN 372: The Korean War
+3.0
+ASIAN 373: Perf Arts S&amp;SE Asia
+3.0
+ASIAN 374: Korean War Fict&amp;Film
+3.0
+ASIAN 375: Modern Korean Lit
+3.0
+ASIAN 376: Korea Controversies
+3.0
+ASIAN 377: Korean Pop Culture
+3.0
+ASIAN 380: Topics in Asian Studies
+3.0
+ASIAN 381: Junior/Senior Research Seminar for Majors
+3.0
+ASIAN 382: Asian St Approaches
+3.0
+ASIAN 383: Wealth and Korea
+3.0
+ASIAN 385: Love in Kor Lit&amp;Cin
+3.0
+ASIAN 387: Hate in Asia
+4.0
+ASIAN 388: UtopiaDystopia Korea
+3.0
+ASIAN 389: Asian Business Culture
+4.0
+ASIAN 393: China Human Rights
+3.0
+ASIAN 396: Asian Internship
+1.0
+ASIAN 397: MiniCrs: Asian Stds
+1.0 - 3.0
+ASIAN 400: Indian Rel/West Thot
+3.0
+ASIAN 402: E Asia Perf Theory
+3.0
+ASIAN 415: Law &amp; Soc in China
+3.0
+ASIAN 416: Spirit Ethno SEAsia
+3.0
+ASIAN 423: Premod S Asia Topics
+3.0 - 4.0
+ASIAN 424: Topics in Modern South Asian History
+3.0 - 4.0
+ASIAN 428: China&#39;s Evolution Under Communism
+3.0 - 4.0
+ASIAN 430: Phil of Sikh Gurus
+3.0
+ASIAN 435: Truth in Indian Lit
+3.0
+ASIAN 440: Academic Japanese II
+3.0
+ASIAN 450: Japan to 1700
+3.0
+ASIAN 451: Japan&#39;s Modern Transformations
+3.0
+ASIAN 457: Trans Korean Poetry
+3.0
+ASIAN 458: Film Culture in Korea
+3.0
+ASIAN 459: Soc Korea DevGlob&amp;Id
+3.0
+ASIAN 460: Gender&amp;Nation-Korea
+3.0
+ASIAN 462: Perspect Indonesia
+3.0
+ASIAN 463: S E Asian Music
+2.0
+ASIAN 464: From Mystic Saints to Holy Warriors:  Islam in Southeast Asia
+3.0
+ASIAN 465: Sacred Image/Sacred Place in Japanese Art
+3.0
+ASIAN 467: Lu Xun&amp;Modern China
+3.0
+ASIAN 469: Chns Visual Culture
+3.0
+ASIAN 470: Three Kingdoms
+3.0
+ASIAN 475: Japanese Cinema
+3.0
+ASIAN 477: Theory&amp;Pract Transln
+3.0
+ASIAN 480: Topics in Asian Studies
+3.0
+ASIAN 483: Lives of the Buddha
+3.0
+ASIAN 484: Buddhist Tantra
+3.0
+ASIAN 485: Religion in China
+3.0
+ASIAN 487: Buddhism in India
+3.0
+ASIAN 488: Tibetan Buddhism
+3.0
+ASIAN 490: Contemporary China
+3.0
+ASIAN 494: Ocean of Stories
+3.0
+ASIAN 499: Ind Stdy-Dir Rdg
+1.0 - 4.0
+ASIAN 500: Seminar-Asian Std
+3.0
+ASIAN 501: Social Scientific Studies of Historical and Contemporary China
+3.0
+ASIAN 502: China Humanistic St
+3.0
+ASIAN 503: Acad and Profess Wrt
+3.0
+ASIAN 510: Law Family East Asia
+3.0
+ASIAN 521: Source Buddhist St
+3.0
+ASIAN 527: Hist Buddhist St
+3.0
+ASIAN 528: Comparative Topics
+3.0
+ASIAN 531: Early Chinese Lit
+3.0
+ASIAN 532: Chinese Poetry
+3.0
+ASIAN 533: Confucian Sino Civ
+3.0
+ASIAN 534: Chinese Drama
+3.0
+ASIAN 535: Chinese Science
+3.0
+ASIAN 536: Trad Chinese Fiction
+3.0
+ASIAN 537: Rethinking China after 1949:  New Approaches in PRC Cultural Studies
+3.0
+ASIAN 538: Sinolog Tools&amp;Meth
+3.0
+ASIAN 539: Documentary Chinese
+3.0
+ASIAN 541: Hist Chinese Lang
+3.0
+ASIAN 546: Asian Perfor Crit St
+3.0
+ASIAN 547: Partition in Asia
+3.0
+ASIAN 550: Intermediate Central Asian Language II
+3.0
+ASIAN 551: Asian St Practicum
+3.0
+ASIAN 553: Classical Jpn Poetry
+3.0
+ASIAN 554: Modern Japanese Lit
+3.0
+ASIAN 558: Body/Bndry Premd JPN
+3.0
+ASIAN 560: Korean Studies
+3.0
+ASIAN 563: S.E.Asian Mus
+2.0
+ASIAN 570: Seminar in Southeast Asian Studies
+3.0
+ASIAN 575: Sem Indonesian Study
+3.0
+ASIAN 577: Bodies &amp; Buildings
+3.0
+ASIAN 580: Sem S Asian Studies
+3.0
+ASIAN 581: Indian Philosophy
+3.0
+ASIAN 582: Himalayan Aesthetics
+3.0
+ASIAN 585: Sem Chinese Studies
+3.0
+ASIAN 590: Seminar in Japanese Studies
+3.0
+ASIAN 609: Tang-Song-Yuan China
+3.0
+ASIAN 625: Read Buddhist Lit
+3.0
+ASIAN 668: Early Chin Hst
+3.0
+ASIAN 692: Buddhas&amp;Bodies
+3.0
+ASIAN 694: Crit Chin Art
+2.0 - 3.0
+ASIAN 699: Directed Readings
+1.0 - 6.0
+ASIAN 798: MA Essay S.S.E.A.
+1.0 - 6.0
+ASIAN 990: Diss-Precand
+1.0 - 8.0
+ASIAN 995: Diss-Cand
+4.0 - 8.0

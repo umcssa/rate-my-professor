@@ -1,0 +1,80 @@
+ENGR 100: Intro Engineering
+4.0
+ENGR 101: Introduction to Computers and Programming
+4.0
+ENGR 110: Design Your Engineering Experience
+2.0
+ENGR 151: Accelerated Introduction to Computers and Programming
+4.0
+ENGR 190: Selected Topics in Engineering
+1.0 - 6.0
+ENGR 196: Outreach Internship
+1.0
+ENGR 255: Introductory Multidisciplinary Engineering Project
+1.0 - 3.0
+ENGR 256: Peer Mentrsp Eng Des
+1.0 - 2.0
+ENGR 260: Engineering Across Cultures
+1.0
+ENGR 266: Mfg Stat Methods I
+2.0
+ENGR 267: Mfg Stat Methods II
+1.0
+ENGR 280: Undergrad Research
+1.0 - 4.0
+ENGR 290: Special Topics in Engineering
+1.0 - 6.0
+ENGR 301: Engineering Undergraduate Study Abroad
+1.0 - 16.0
+ENGR 345: Intro to Design Proc
+2.0
+ENGR 350: Intl Lab Exp-Engin
+3.0
+ENGR 354: Engineering Design Practice
+1.0
+ENGR 355: Intermediate Multidisciplinary Engineering Project
+1.0 - 4.0
+ENGR 371: Numerical Methods for Engineers and Scientists
+3.0
+ENGR 390: Special Topics in Engineering
+1.0 - 6.0
+ENGR 391: Dir Overseas Study
+1.0 - 3.0
+ENGR 400: Co-Op Educ Engr
+0.0
+ENGR 403: Sci Visualization
+3.0
+ENGR 405: Problem Solving and Troubleshooting in the Workplace
+3.0
+ENGR 406: High-Tech Entrep
+4.0
+ENGR 410: Patent Fund Eng
+4.0
+ENGR 450: Multidisciplinary Design:
+4.0
+ENGR 455: Advanced Multidisciplinary Engineering Project
+2.0 - 5.0
+ENGR 456: Mentorship-Leadership in Multidisciplinary Design
+1.0 - 2.0
+ENGR 465: Env Process Engr
+3.0
+ENGR 480: Global Syn Project
+4.0
+ENGR 490: Special Topics in Engineering
+1.0 - 6.0
+ENGR 520: Entre Bus Fund Engr
+3.0
+ENGR 521: Clean Tech Entrepren
+3.0
+ENGR 523: Business of Biology
+2.25
+ENGR 580: Teaching Engineering
+3.0
+ENGR 591: Engr Grad Study Abrd
+1.0 - 16.0
+ENGR 599: Special Topics in Engineering
+1.0 - 4.0
+ENGR 600: Eng Practicum Proj
+1.0 - 8.0
+ENGR 996: Respons Res Pract
+1.0 - 2.0

@@ -1,0 +1,560 @@
+ENGLISH 124: Academic Writing and Literature
+4.0
+ENGLISH 125: Writing and Academic Inquiry
+4.0
+ENGLISH 140: First-Year Seminar on English Language and Literature
+3.0
+ENGLISH 142: 1st-Yr Engl Sem ID
+3.0
+ENGLISH 203: Intro Lang &amp; Rhet
+3.0 - 4.0
+ENGLISH 215: Intro to Women &amp; Lit
+3.0 - 4.0
+ENGLISH 216: Disability Studies
+2.0 - 4.0
+ENGLISH 217: Literature Sem
+3.0
+ENGLISH 221: Literature and Writing Outside the Classroom
+2.0 - 3.0
+ENGLISH 223: Creative Writing
+3.0
+ENGLISH 225: Academic Argumentation
+3.0 - 4.0
+ENGLISH 226: Directed Writing
+1.0 - 3.0
+ENGLISH 227: Introductory Playwriting
+2.0 - 3.0
+ENGLISH 229: Professional Writing
+4.0
+ENGLISH 230: Short Story&amp;Novel
+3.0
+ENGLISH 231: Honors English Stds
+4.0
+ENGLISH 232: Introduction to Visual Culture
+3.0 - 4.0
+ENGLISH 235: Intro to Autobio
+3.0
+ENGLISH 240: Intro to Poetry
+3.0
+ENGLISH 241: Hon Core Wrtg Eng
+4.0
+ENGLISH 242: Intrdis Studies-Engl
+1.0 - 4.0
+ENGLISH 245: Drama to Theatre
+2.0 - 3.0
+ENGLISH 250: Intro-Lang Std
+3.0
+ENGLISH 258: The Bible as Literature
+3.0
+ENGLISH 260: Intro British Lit
+3.0
+ENGLISH 267: World of Shakespeare
+3.0
+ENGLISH 270: Intro to Amer Lit
+3.0
+ENGLISH 274: Intr Afr-Am Lit
+2.0 - 3.0
+ENGLISH 275: Wrld Lit In English
+2.0 - 3.0
+ENGLISH 280: Intro-Dig Cult
+3.0
+ENGLISH 282: Nat Amer Lit
+3.0 - 4.0
+ENGLISH 285: Intr 20c Literature
+3.0
+ENGLISH 290: Themes in Language and Literature
+3.0 - 4.0
+ENGLISH 292: Topics in Lit
+1.0 - 2.0
+ENGLISH 293: Great Works
+1.0 - 2.0
+ENGLISH 297: Intro to Poetry
+2.0 - 3.0
+ENGLISH 298: Introduction to Literary Studies
+3.0
+ENGLISH 299: Directed Study
+1.0 - 3.0
+ENGLISH 301: The Power of Words
+2.0 - 3.0
+ENGLISH 303: Language &amp; Rhetoric
+3.0 - 4.0
+ENGLISH 305: Exploring the English Language
+3.0 - 4.0
+ENGLISH 308: History Engl Lang
+3.0 - 4.0
+ENGLISH 309: American English
+2.0 - 3.0
+ENGLISH 310: Discourse&amp;Society
+3.0
+ENGLISH 311: Theater of Politics
+3.0
+ENGLISH 312: Hist &amp; Lit Rockies
+3.0
+ENGLISH 313: Topics in Literary Studies
+3.0 - 4.0
+ENGLISH 314: Gender/Sexuality Std
+2.0 - 4.0
+ENGLISH 315: Women and Literature
+3.0 - 4.0
+ENGLISH 316: Disability Studies
+3.0
+ENGLISH 317: Literature and Culture
+3.0
+ENGLISH 318: Genre Studies
+3.0
+ENGLISH 319: Literature and Social Change
+3.0
+ENGLISH 320: Literature and the Environment
+2.0 - 4.0
+ENGLISH 321: Internship
+1.0
+ENGLISH 323: Creative Writing:  Fiction
+3.0
+ENGLISH 324: Creative Writing:  Poetry
+3.0
+ENGLISH 325: Art of the Essay
+3.0
+ENGLISH 326: Comm Wrtg&amp;Publ Cult
+2.0 - 3.0
+ENGLISH 327: Intermed Playwriting
+2.0 - 3.0
+ENGLISH 328: Writing and the Environment
+3.0
+ENGLISH 329: Environ Writing &amp;Lit
+5.0
+ENGLISH 330: Major Directors
+3.0
+ENGLISH 331: Film Genres&amp;Types
+3.0
+ENGLISH 332: Visual Culture
+2.0 - 4.0
+ENGLISH 335: Autobiography
+2.0 - 4.0
+ENGLISH 340: Studies in Poetry
+3.0
+ENGLISH 341: Fantasy
+2.0 - 4.0
+ENGLISH 342: Science Fiction
+2.0 - 4.0
+ENGLISH 345: The New Essay
+3.0
+ENGLISH 346: Performance Studies
+3.0
+ENGLISH 349: American Theatre and Drama
+3.0
+ENGLISH 350: Literature in English to 1660
+3.0 - 4.0
+ENGLISH 351: Lit 1660-1830
+3.0 - 4.0
+ENGLISH 352: Lit 1830-Present
+3.0 - 4.0
+ENGLISH 360: The Rise of the Novel
+3.0
+ENGLISH 361: Victorian Novel
+3.0
+ENGLISH 362: The American Novel
+3.0 - 4.0
+ENGLISH 363: The Modern Novel
+3.0 - 4.0
+ENGLISH 364: The Contemporary Novel
+2.0 - 4.0
+ENGLISH 366: Shakespeare&#39;s Contem
+3.0 - 4.0
+ENGLISH 367: Shakespeare&#39;s Principal Plays
+3.0 - 4.0
+ENGLISH 373: Lit of the Americas
+3.0
+ENGLISH 375: World Lit in English
+3.0
+ENGLISH 379: Lit Afro Cul
+3.0
+ENGLISH 380: Fictions &amp; Feminisms
+3.0
+ENGLISH 381: Asian American Literature
+3.0
+ENGLISH 382: Studies in Native American Literature
+3.0
+ENGLISH 383: Jewish Literature
+3.0
+ENGLISH 384: Caribbean Literature
+3.0
+ENGLISH 385: African Literature
+3.0
+ENGLISH 386: Irish Lit
+2.0 - 3.0
+ENGLISH 387: Latina/Latino Lit
+3.0
+ENGLISH 388: Pacif Lit&amp;Cult Stds
+3.0
+ENGLISH 389: Literature in African History
+3.0
+ENGLISH 390: Topics in Literary Criticism and Theory
+3.0
+ENGLISH 397: Honors Junior Seminar
+3.0
+ENGLISH 398: Junior Seminar in English Studies
+3.0 - 4.0
+ENGLISH 403: Lang/Rhet Studies
+3.0
+ENGLISH 405: Theories of Writing
+3.0
+ENGLISH 406: Mod Engl Grammar
+3.0
+ENGLISH 407: Topics in Language and Literature
+3.0
+ENGLISH 408: Varieties of English
+3.0
+ENGLISH 409: Old English
+3.0
+ENGLISH 410: Middle English
+3.0
+ENGLISH 411: Art of the Film
+3.0
+ENGLISH 414: Gender/Sexuality Std
+3.0
+ENGLISH 415: Studies Women&amp;Lit
+3.0
+ENGLISH 416: Disability Cultures
+3.0
+ENGLISH 418: Graphic Narrative
+3.0
+ENGLISH 420: Technology and the Humanities
+3.0
+ENGLISH 423: Advanced Fiction Writing
+3.0
+ENGLISH 424: Creative Writing
+3.0
+ENGLISH 425: Advanced Essay Writing
+3.0
+ENGLISH 426: Directed Writing
+1.0 - 4.0
+ENGLISH 427: Adv Playwrit
+2.0 - 3.0
+ENGLISH 428: SeniorCreatWritTutor
+3.0
+ENGLISH 432: Stds-Visual Culture
+2.0 - 3.0
+ENGLISH 435: Studies in Autobio
+3.0
+ENGLISH 440: Modern Poetry
+3.0
+ENGLISH 441: Contemporary Poetry
+3.0
+ENGLISH 442: Studies in Poetry
+3.0
+ENGLISH 443: History of Theatre I
+3.0
+ENGLISH 444: Theat Hst II
+3.0
+ENGLISH 445: Shakespeare Rivals
+2.0 - 3.0
+ENGLISH 446: Std in Performance
+3.0
+ENGLISH 447: Modern Drama
+3.0
+ENGLISH 448: Contemporary Drama
+2.0 - 3.0
+ENGLISH 449: Medieval Drama
+3.0
+ENGLISH 450: Studies in Medieval and Renaissance Literature
+3.0
+ENGLISH 451: Studies in Literature, 1600-1830
+3.0
+ENGLISH 452: Lit 1830-Present
+3.0
+ENGLISH 455: Medieval Engl Lit
+2.0 - 3.0
+ENGLISH 457: Renaiss Engl Lit
+2.0 - 3.0
+ENGLISH 459: Engl Neoclassic Lit
+2.0 - 3.0
+ENGLISH 460: Studies in the Novel
+3.0
+ENGLISH 461: Engl Romantic Lit
+3.0
+ENGLISH 462: Victorian Lit
+3.0
+ENGLISH 463: Mod British Lit
+3.0
+ENGLISH 464: Studies in Individual Authors
+3.0
+ENGLISH 465: Chaucer: The Canterbury Tales
+3.0
+ENGLISH 467: Topics in Shakespeare
+3.0
+ENGLISH 469: Milton
+3.0
+ENGLISH 470: Colonial Revol AmLit
+3.0
+ENGLISH 471: Nineteenth-Century American Literature
+3.0
+ENGLISH 472: Twentieth-Century American Literature
+3.0
+ENGLISH 473: Topics in American Literature
+2.0 - 3.0
+ENGLISH 474: Harlem Renaissance
+2.0 - 3.0
+ENGLISH 475: Std WorldLit English
+3.0
+ENGLISH 477: Erly Afr Lit
+2.0 - 3.0
+ENGLISH 478: Afro-Am Lit
+3.0
+ENGLISH 479: Topics Afroamer Lit
+3.0
+ENGLISH 490: Reading, Writing, and Criticism in the Teaching of English
+3.0
+ENGLISH 491: Tchg Engl Pract
+5.0
+ENGLISH 492: Spc Topics Lang&amp;Lit
+1.0 - 2.0
+ENGLISH 493: Great Works of Lit
+1.0 - 2.0
+ENGLISH 495: Honors Colloquium:  Drafting the Thesis
+3.0
+ENGLISH 496: Complete the Thesis
+1.0 - 3.0
+ENGLISH 498: Directed Teaching
+2.0 - 3.0
+ENGLISH 499: Directed Study
+1.0 - 4.0
+ENGLISH 501: Old English
+2.0 - 3.0
+ENGLISH 502: Old Engl Lit
+2.0 - 3.0
+ENGLISH 503: Middle English
+3.0
+ENGLISH 505: History of English
+3.0
+ENGLISH 506: Structure of Engl
+3.0
+ENGLISH 507: Engl Styles
+2.0 - 3.0
+ENGLISH 508: Discourse&amp;Rhetoric
+3.0
+ENGLISH 509: Language&amp;Literature
+3.0
+ENGLISH 510: Res Meth&amp;Materials
+1.0 - 3.0
+ENGLISH 513: Old Norse
+2.0 - 3.0
+ENGLISH 516: Lit Res&amp;Computer
+3.0
+ENGLISH 520: Introduction to Graduate Studies
+3.0
+ENGLISH 521: History of Literary Theory
+2.0 - 3.0
+ENGLISH 522: Hist Lit Criticism
+2.0 - 3.0
+ENGLISH 525: Rise&amp;Fall Amer Lit
+3.0
+ENGLISH 526: Literature&amp;Culture
+3.0
+ENGLISH 527: Contemp Critic Thry
+3.0
+ENGLISH 528: Topics in Disability Studies
+1.0 - 3.0
+ENGLISH 529: Topics in Drama
+3.0
+ENGLISH 532: Modern Drama
+3.0
+ENGLISH 533: The Short Poem-Engl
+3.0
+ENGLISH 535: Contemporary Poetry
+3.0
+ENGLISH 536: Beginnings of Novel
+3.0
+ENGLISH 538: Modern Novel
+3.0
+ENGLISH 540: Topics in Language and Literature
+1.0 - 3.0
+ENGLISH 541: Lit Medieval Period
+3.0
+ENGLISH 542: Tudor&amp;Eliz Period
+3.0
+ENGLISH 543: Jacobean&amp;Caroline
+3.0
+ENGLISH 544: Restoratn&amp;Early 18c
+3.0
+ENGLISH 545: Later 18th Century
+3.0
+ENGLISH 546: Romantic Period
+3.0
+ENGLISH 547: Victorian Period
+3.0
+ENGLISH 548: Lit Modern Period
+3.0
+ENGLISH 549: Contemporary Lit
+3.0
+ENGLISH 551: Colonial&amp;Rep Am Lit
+3.0
+ENGLISH 552: 19th C American Lit
+3.0
+ENGLISH 553: 20th C American Lit
+3.0
+ENGLISH 560: Chaucer:Major Texts
+3.0
+ENGLISH 561: Chaucer Cant Tales
+3.0
+ENGLISH 562: Chaucer
+3.0
+ENGLISH 563: Shakes-Early Plays
+3.0
+ENGLISH 564: Shakes-Later Plays
+3.0
+ENGLISH 565: Milton
+3.0
+ENGLISH 569: Wksp Creatv Non-Fic
+3.0
+ENGLISH 570: Res in Composition
+3.0
+ENGLISH 571: Workshop in Writing Fiction
+6.0
+ENGLISH 572: Wkshp Write Fiction
+6.0
+ENGLISH 574: Workshop in Writing Poetry
+6.0
+ENGLISH 575: Wkshop Write Poetry
+6.0
+ENGLISH 576: Playwriting
+3.0
+ENGLISH 577: Indi Stdy-Creat Wrt
+1.0 - 3.0
+ENGLISH 578: Creative Writing
+3.0
+ENGLISH 579: Creative Writing-Poetry
+3.0
+ENGLISH 581: History of Film
+3.0
+ENGLISH 583: Theory of Film
+3.0
+ENGLISH 590: Indi Study MA Stu
+1.0 - 4.0
+ENGLISH 614: Edit&amp;Creat Texts
+3.0
+ENGLISH 626: Marxism&amp;Literature
+3.0
+ENGLISH 627: Critical Theories
+3.0
+ENGLISH 630: Special Topics
+1.0 - 3.0
+ENGLISH 632: Topics in Drama
+3.0
+ENGLISH 635: Topics in Poetry
+3.0
+ENGLISH 637: Studies in Novel
+3.0
+ENGLISH 638: Topics in Fiction
+3.0
+ENGLISH 640: Studies in Genre
+3.0
+ENGLISH 641: Topics in the Medieval Period
+3.0
+ENGLISH 642: Topics Renaissance
+3.0
+ENGLISH 643: Topics in 17th C
+3.0
+ENGLISH 644: Restoration&amp;18th C
+3.0
+ENGLISH 646: Romantic Period
+3.0
+ENGLISH 647: Victorian Period
+3.0
+ENGLISH 648: Topics in the Modern Period
+3.0
+ENGLISH 649: Topic Contemp Lit
+3.0
+ENGLISH 651: Colonial&amp;Rep Am Lit
+3.0
+ENGLISH 652: 19th C American Lit
+3.0
+ENGLISH 653: Topics in Twentieth Century American Literature
+3.0
+ENGLISH 663: Study 16c Authors
+3.0
+ENGLISH 667: Study 20C Authors
+3.0
+ENGLISH 668: Studies in American Authors
+3.0
+ENGLISH 671: Write Fictn-2nd Yr
+6.0
+ENGLISH 674: Write Poetry-2nd Yr
+6.0
+ENGLISH 675: Create Writing Proj
+6.0
+ENGLISH 677: Lang &amp; Use Literacy
+3.0
+ENGLISH 678: Lang &amp; Use Literacy
+3.0
+ENGLISH 681: Studies Film Hist
+3.0
+ENGLISH 683: Studies Film Theory
+3.0
+ENGLISH 691: Literacy
+3.0
+ENGLISH 695: Pedagogy: Theory and Practice
+3.0
+ENGLISH 696: Teaching Lit
+3.0
+ENGLISH 720: Psem Critical Thry
+3.0
+ENGLISH 721: Psem Hist Criticism
+3.0
+ENGLISH 730: Psem Literary Genre
+3.0
+ENGLISH 731: Psem Literary Genre
+3.0
+ENGLISH 740: Psem Lit Hst Period
+3.0
+ENGLISH 741: Lit Historic Period
+3.0
+ENGLISH 750: Psem American Lit
+3.0
+ENGLISH 751: Psem American Lit
+3.0
+ENGLISH 780: Psem Comp-Intr Stdy
+3.0
+ENGLISH 781: Psem Comp-Intr Stdy
+3.0
+ENGLISH 799: Departmental Colloq
+3.0
+ENGLISH 802: English Language
+3.0
+ENGLISH 811: Literary Research
+3.0
+ENGLISH 821: Sem Critical Theory
+3.0
+ENGLISH 822: Sem Critical Theory
+3.0
+ENGLISH 831: Seminar: The Study of Genre
+3.0
+ENGLISH 832: Sem Study of Genre
+3.0
+ENGLISH 841: Seminar: An Historical Period
+3.0
+ENGLISH 842: Historical Period
+3.0
+ENGLISH 851: Sem:American Lit
+3.0
+ENGLISH 852: American Literature
+3.0
+ENGLISH 861: Seminar; Authors
+3.0
+ENGLISH 862: Seminar;Authors
+3.0
+ENGLISH 871: Seminar;Rhetoric
+3.0
+ENGLISH 872: Seminar;Rhetoric
+3.0
+ENGLISH 881: Sem:Comp-Intr Study
+3.0
+ENGLISH 882: Sem:Comp Intr Stdy
+3.0
+ENGLISH 990: Diss-Precand
+1.0 - 8.0
+ENGLISH 992: Directed Study
+1.0 - 3.0
+ENGLISH 993: Graduate Student Instructor Training Program
+1.0
+ENGLISH 995: Diss-Cand
+4.0 - 8.0

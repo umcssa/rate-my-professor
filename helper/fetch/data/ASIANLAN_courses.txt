@@ -1,0 +1,342 @@
+ASIANLAN 100: Accelerated Elementary Chinese
+3.0
+ASIANLAN 101: First Year Chinese I
+5.0
+ASIANLAN 102: 1st Yr Chinese II
+5.0
+ASIANLAN 103: Intsv 1st Yr Chinese
+10.0
+ASIANLAN 104: First Year Chinese for Mandarin Speakers
+4.0
+ASIANLAN 108: Chinese Calligraphy
+2.0
+ASIANLAN 111: First Year Filipino I
+4.0
+ASIANLAN 112: 1st Yr Filipino II
+4.0
+ASIANLAN 115: First Year Hindi I
+4.0
+ASIANLAN 116: 1st Yr Hindi II
+4.0
+ASIANLAN 117: Intsv 1st Yr Hindi
+8.0
+ASIANLAN 118: Read&amp;Write Hindi I
+4.0
+ASIANLAN 121: First Year Indonesian I
+4.0
+ASIANLAN 122: 1st Yr Indonesian II
+4.0
+ASIANLAN 123: First-Year Japanese through Anime and Manga
+3.0
+ASIANLAN 124: 1stYrJpn:Ani/MangaII
+3.0
+ASIANLAN 125: First Year Japanese I
+5.0
+ASIANLAN 126: 1st Yr Japanese II
+5.0
+ASIANLAN 127: Intsv 1st Yr Japan
+10.0
+ASIANLAN 128: Basics of Kanji
+2.0
+ASIANLAN 129: Intensive Japanese I
+10.0
+ASIANLAN 135: First Year Korean I
+5.0
+ASIANLAN 136: 1st Year Korean II
+5.0
+ASIANLAN 137: Intsv 1st Yr Korean
+10.0
+ASIANLAN 138: Reading and Writing Korean I
+5.0
+ASIANLAN 145: First Year Punjabi I
+4.0
+ASIANLAN 146: 1st Yr Punjabi II
+4.0
+ASIANLAN 151: First Year Sanskrit I
+4.0
+ASIANLAN 152: 1st Yr Sanskrit II
+4.0
+ASIANLAN 155: 1st Yr Tamil I
+4.0
+ASIANLAN 156: 1st Yr Tamil II
+4.0
+ASIANLAN 157: Intsv 1st Yr Tamil
+8.0
+ASIANLAN 161: First Year Thai I
+4.0
+ASIANLAN 162: 1st Yr Thai II
+4.0
+ASIANLAN 165: 1st Yr Tibetan I
+4.0
+ASIANLAN 166: 1st Yr Tibetan II
+4.0
+ASIANLAN 171: First Year Urdu I
+4.0
+ASIANLAN 172: 1st Yr Urdu II
+4.0
+ASIANLAN 175: First Year Vietnamese I
+4.0
+ASIANLAN 176: 1st Yr Vietnamese II
+4.0
+ASIANLAN 181: First Yr Telugu I
+4.0
+ASIANLAN 182: First Yr Telugu II
+4.0
+ASIANLAN 185: First Year Bengali I
+4.0
+ASIANLAN 186: First Yr Bengali II
+4.0
+ASIANLAN 201: Second Year Chinese I
+5.0
+ASIANLAN 202: 2nd Yr Chinese II
+5.0
+ASIANLAN 203: Intsv 2nd Yr Chinese
+10.0
+ASIANLAN 204: Second Year Chinese for Mandarin Speakers
+4.0
+ASIANLAN 205: Mandarin Pronunciatn
+2.0
+ASIANLAN 211: Second Year Filipino I
+4.0
+ASIANLAN 212: 2nd Yr Filipino II
+4.0
+ASIANLAN 215: Second Year Hindi I
+4.0
+ASIANLAN 216: 2nd Yr Hindi II
+4.0
+ASIANLAN 217: Intsv 2nd Yr Hindi
+8.0
+ASIANLAN 221: Second Year Indonesian I
+4.0
+ASIANLAN 222: 2nd Yr Indonesian II
+4.0
+ASIANLAN 225: Second Year Japanese I
+5.0
+ASIANLAN 226: 2nd Yr Japanese II
+5.0
+ASIANLAN 227: Intsv 2nd Yr Jpn
+10.0
+ASIANLAN 228: Japanese Calligraphy
+1.0
+ASIANLAN 229: Intens Japanese II
+10.0
+ASIANLAN 235: Second Year Korean I
+5.0
+ASIANLAN 236: 2nd Yr Korean II
+5.0
+ASIANLAN 237: Intsv 2nd Yr Korean
+10.0
+ASIANLAN 238: Rdg Wrtng Korean II
+5.0
+ASIANLAN 245: 2nd Yr Punjabi I
+4.0
+ASIANLAN 246: 2nd Yr Punjabi II
+4.0
+ASIANLAN 251: 2nd Yr Sanskrit I
+4.0
+ASIANLAN 252: 2nd Yr Sanskrit II
+4.0
+ASIANLAN 255: 2nd Yr Tamil I
+4.0
+ASIANLAN 256: 2nd Yr Tamil II
+4.0
+ASIANLAN 257: Intsv 2nd Yr Tamil
+6.0
+ASIANLAN 261: Second Year Thai I
+4.0
+ASIANLAN 262: 2nd Yr Thai II
+4.0
+ASIANLAN 265: 2nd Yr Tibetan I
+4.0
+ASIANLAN 266: 2nd Yr Tibetan II
+4.0
+ASIANLAN 271: Second Year Urdu I
+4.0
+ASIANLAN 272: 2nd Yr Urdu II
+4.0
+ASIANLAN 275: Second Year Vietnamese I
+4.0
+ASIANLAN 276: 2nd Yr Vietnamese II
+4.0
+ASIANLAN 281: Second Yr Telugu I
+4.0
+ASIANLAN 282: Second Yr Telugu II
+4.0
+ASIANLAN 285: Second Yr Bengali I
+4.0
+ASIANLAN 286: Second Yr Bengali II
+4.0
+ASIANLAN 301: Third Year Chinese I
+5.0
+ASIANLAN 302: 3rd Yr Chinese II
+5.0
+ASIANLAN 303: Intsv 3rd Yr Chinese
+10.0
+ASIANLAN 304: Third Year Chinese for Mandarin Speakers
+4.0
+ASIANLAN 305: Intermediate Spoken Chinese I
+2.0
+ASIANLAN 306: Inter Spoken Chn II
+2.0
+ASIANLAN 307: Mandarin I
+2.0
+ASIANLAN 308: Mandarin II
+2.0
+ASIANLAN 325: Third Year Japanese I
+4.0
+ASIANLAN 326: 3rd Yr Japanese II
+4.0
+ASIANLAN 327: Intsv 3rd Yr Jpn
+10.0
+ASIANLAN 329: Adv Spoken Jpn I
+1.0
+ASIANLAN 330: Adv Spoken Jpn II
+1.0
+ASIANLAN 331: Read Japanese St I
+3.0
+ASIANLAN 332: Read Japanese St II
+3.0
+ASIANLAN 335: Third Year Korean I
+4.0
+ASIANLAN 336: 3rd Yr Korean II
+4.0
+ASIANLAN 350: Mod Colloq Tibetan
+3.0
+ASIANLAN 351: 3rd Yr Sanskrit I
+3.0
+ASIANLAN 352: 3rd Yr Sanskrit II
+3.0
+ASIANLAN 401: Fourth Year Chinese I
+2.0
+ASIANLAN 403: Intro to Chn Ling
+3.0
+ASIANLAN 404: Read&amp;Write Chn IV
+4.0
+ASIANLAN 405: Business Chinese I
+3.0
+ASIANLAN 406: Business Chinese II
+3.0
+ASIANLAN 407: Adv Chn Read/Write I
+2.0
+ASIANLAN 409: Classical Chinese
+3.0
+ASIANLAN 410: Media Chinese I
+3.0
+ASIANLAN 411: Advanced Filipino I
+3.0
+ASIANLAN 412: Advanced Filipino II
+3.0
+ASIANLAN 414: Modern Jpn Fiction
+3.0
+ASIANLAN 415: Readings in Hindi I
+3.0
+ASIANLAN 416: Readings in Hindi II
+3.0
+ASIANLAN 417: Advanced Hindi I
+3.0
+ASIANLAN 418: Advanced Hindi II
+3.0
+ASIANLAN 419: Advanced Indonesian I
+3.0
+ASIANLAN 420: Adv Indonesian II
+3.0
+ASIANLAN 421: Reading Indonesian I
+3.0
+ASIANLAN 422: Read Indonesian II
+3.0
+ASIANLAN 423: Javanese I
+4.0
+ASIANLAN 424: Javanese II
+4.0
+ASIANLAN 425: Media Japanese I
+3.0
+ASIANLAN 426: Adv Spoken Jpn
+2.0
+ASIANLAN 427: Reading Japanese I
+3.0
+ASIANLAN 428: Reading Japanese II
+3.0
+ASIANLAN 429: Japanese Through Business and Social Topics I
+3.0
+ASIANLAN 430: Business Japanese II
+3.0
+ASIANLAN 431: Japanese Soc Sci Txt
+4.0
+ASIANLAN 433: Classical Japanese I
+4.0
+ASIANLAN 434: Classical Jpanese II
+4.0
+ASIANLAN 435: Adv Read Wrtng Krn
+2.0
+ASIANLAN 436: Advanced Spoken Korean
+2.0
+ASIANLAN 437: Business Korean
+3.0
+ASIANLAN 438: Media Korean
+3.0
+ASIANLAN 439: Academic Japanese I
+2.0
+ASIANLAN 440: Academic Japanese II
+2.0
+ASIANLAN 441: Japanese Translation
+3.0
+ASIANLAN 445: Chinese Lng Pedagogy
+3.0
+ASIANLAN 450: Japanese Pedagogy I
+3.0
+ASIANLAN 451: Advanced Sanskrit I
+3.0
+ASIANLAN 452: Advanced Sanskrit II
+3.0
+ASIANLAN 454: Adv Spoken Hindi I
+3.0
+ASIANLAN 455: Advanced Tamil I
+3.0
+ASIANLAN 456: Advanced Tamil II
+3.0
+ASIANLAN 461: Advanced Thai I
+3.0
+ASIANLAN 462: Advanced Thai II
+3.0
+ASIANLAN 463: Advanced Tibetan I
+3.0
+ASIANLAN 464: Advanced Tibetan II
+3.0
+ASIANLAN 465: 1st Yr Clscl Tibet I
+3.0
+ASIANLAN 466: 1st Yr Clscl Tbtn II
+3.0
+ASIANLAN 467: 2nd Yr Clscl Tbtn I
+3.0
+ASIANLAN 468: 2nd Yr Clscl Tbtn II
+3.0
+ASIANLAN 469: Adv Class Tibetan I
+3.0
+ASIANLAN 470: Adv Class Tibetan II
+3.0
+ASIANLAN 471: Advanced Urdu I
+3.0
+ASIANLAN 472: Advanced Urdu II
+3.0
+ASIANLAN 475: Advanced Vietnamese I
+3.0
+ASIANLAN 476: Adv Vietnamese II
+3.0
+ASIANLAN 479: Teach Community Krn
+2.0
+ASIANLAN 480: Topics: Asian Lang
+1.0 - 4.0
+ASIANLAN 481: Advanced Telugu I
+3.0
+ASIANLAN 482: Advanced Telugu II
+3.0
+ASIANLAN 485: Advanced Bengali I
+3.0
+ASIANLAN 486: Advanced Bengali II
+3.0
+ASIANLAN 492: Japanese Linguistics
+3.0
+ASIANLAN 494: Adv Japanese Ling
+2.0 - 3.0
+ASIANLAN 499: Independent Lang
+1.0 - 5.0

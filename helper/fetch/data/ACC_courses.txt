@@ -1,0 +1,110 @@
+ACC 300: Financial Accounting
+3.0
+ACC 301: Managerial Acctg
+3.0
+ACC 312: Intermediate Financial Accounting
+3.0
+ACC 315: Cost Accounting
+3.0
+ACC 317: Federal Taxation and Managerial Decisions
+3.0
+ACC 335: Managing the Maize and Blue Fund
+1.5
+ACC 336: Maize and Blue Fund
+1.5
+ACC 338: Maize &amp; Blue Fund SR
+1.5
+ACC 350: Auditing
+3.0
+ACC 399: Indep Study Project
+1.0 - 3.0
+ACC 418: Fin Statement Anal
+3.0
+ACC 442: Special Topics
+1.0 - 3.0
+ACC 443: Special Topics
+1.0 - 3.0
+ACC 471: Accounting Principles
+3.0
+ACC 484: Adv Finance Acctg
+3.0
+ACC 501: Principles of Financial Accounting
+3.0
+ACC 502: Principles of Financial Accounting
+2.25
+ACC 503: Prin Fin Acc-Appl
+1.5
+ACC 551: Prin Managerial Acc
+3.0
+ACC 552: Management Acctg
+1.5
+ACC 555: Corporate Financial Research and Reporting
+2.25
+ACC 557: Eval Fin Performance
+2.25
+ACC 558: Cost Meas &amp; Control
+2.25
+ACC 560: Federal Taxation and Managerial Decisions
+3.0
+ACC 561: Federal Taxation I
+3.0
+ACC 564: Corporate Financial Reporting
+2.25
+ACC 565: Financial Instrument
+2.25
+ACC 566: Corp Fin-Equities
+1.5
+ACC 586: Entrepreneurial Acct
+1.5
+ACC 591: Principles of Acctg
+2.25
+ACC 592: Managerial Acct
+3.0
+ACC 593: Management Acctg
+1.5
+ACC 601: Accounting Information System Design
+1.5
+ACC 615: Mgmt Accounting
+3.0
+ACC 618: Financial Communication and Investor Relations
+2.25
+ACC 620: Federal Taxation II
+2.25
+ACC 625: Adv Financial Acctg
+2.25
+ACC 630: Auditing and Assurance
+1.5 - 3.0
+ACC 640: Org Design: Control
+1.5
+ACC 650: Org Design: Cost Sys
+1.5
+ACC 690: MACC Thesis
+3.0
+ACC 695: MAcc Grad Res Sem
+1.5 - 3.0
+ACC 711: Financial Statement Analysis I
+2.25
+ACC 713: Fin Stmt Analysis II
+2.25
+ACC 725: Managing the Maize and Blue Fund
+1.5
+ACC 726: Maize and Blue Fund
+1.5
+ACC 728: Maize &amp; Blue Fund SR
+1.5
+ACC 742: Special Topics Acc
+1.5
+ACC 745: Special Topics
+3.0
+ACC 750: Indep Study Project
+1.0 - 3.0
+ACC 885: Res Top in Acc
+1.5
+ACC 899: Sem Acctg Issues
+3.0
+ACC 900: Special Research
+1.0 - 6.0
+ACC 990: Diss-Precand
+1.0 - 8.0
+ACC 995: Diss-Cand
+4.0 - 8.0
