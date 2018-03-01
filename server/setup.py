@@ -9,6 +9,7 @@ setup(
     include_package_data=True,
     install_requires=[
         'Flask==0.12.2',
+	'flask_cors==3.0.3',
         'html5validator==0.2.8',
         'pycodestyle==2.3.1',
         'pydocstyle==2.0.0',
