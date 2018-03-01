@@ -41,44 +41,35 @@ class RateMyProfessorForm extends React.Component {
         //         if (!response.ok) {
         //             throw Error(response.statusText);
         //         }
-        //         // Read the response as json.
         //         return response.json();
         //     })
         //     .then((responseAsJson) => {
-        //         // Do stuff with the JSON
         //         console.log(responseAsJson);
         //     })
         //     .catch((error) => {
         //         console.log('Looks like there was a problem: \n', error);
         //     });
 
-        fetch('http://localhost:8001/api/rate-my-professor/get-departments')
-            .then((response) => {
-                if (!response.ok) {
-                    throw Error(response.statusText);
-                }
-                return response.json();
-            })
-            .then((responseAsJson) => {
-                this.setState({all_departments: responseAsJson});
-            })
-            .catch((error) => {
-                console.log('Looks like there was a problem: \n', error);
-            });
+        $.ajax({
+            method: 'GET',
+            url: 'http://localhost:8001/api/rate-my-professor/get-departments',
+        }).done((msg) => {
+            this.setState({ all_departments: JSON.parse(msg) });
+        });
     }
 
     updateDepartment(department) {
         $.ajax({
             method: 'GET',
-            url: `/api/rate-my-professor/get-courses?department=${department}`,
+            url: `http://localhost:8001/api/rate-my-professor/get-courses?department=${department}`,
         }).done((msg) => {
-            this.setState({all_courses: JSON.parse(msg)});
+            this.setState({ all_courses: JSON.parse(msg) });
         });
         $.ajax({
             method: 'GET',
-            url: `/api/rate-my-professor/get-professors?department=${department}`,
+            url: `http://localhost:8001/api/rate-my-professor/get-professors?department=${department}`,
         }).done((msg) => {
-            this.setState({all_professors: JSON.parse(msg)});
+            this.setState({ all_professors: JSON.parse(msg) });
         });
     }
 
@@ -94,7 +85,7 @@ class RateMyProfessorForm extends React.Component {
                 data.recommend /= starNum;
                 $.ajax({
                     method: 'POST',
-                    url: '/api/rate-my-professor/rmp-form',
+                    url: 'http://localhost:8001/api/rate-my-professor/rmp-form',
                     data,
                 }).done((msg) => {
                     if (msg === 'success') {
@@ -102,7 +93,7 @@ class RateMyProfessorForm extends React.Component {
                             title: '您的评价已保存，感谢参与！',
                             okText: '前往搜索界面',
                             onOk() {
-                                window.location.href = '/rate-my-professor/search';
+                                window.location.href = '/rate-my-professor/search/';
                             },
                         });
                     } else if (msg === 'invalid') {
