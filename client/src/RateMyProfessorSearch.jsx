@@ -14,7 +14,6 @@ import {
   Carousel,
   message,
 } from 'antd';
-import 'antd/dist/antd.css';
 import RateMyProfessorSearchResults from './RateMyProfessorSearchResults';
 
 const $ = require('jquery');
@@ -29,6 +28,8 @@ const Option = Select.Option;
 const RangePicker = DatePicker.RangePicker;
 
 const starNum = 5;
+
+const apiRootPath = 'http://localhost:8001/api/rate-my-professor/';
 
 
 class RateMyProfessorSearch extends React.Component {
@@ -53,7 +54,7 @@ class RateMyProfessorSearch extends React.Component {
   componentDidMount() {
     $.ajax({
       method: 'GET',
-      url: '/api/rate-my-professor/get-viewable-departments',
+      url: `${apiRootPath}get-viewable-departments/`,
     }).done((msg) => {
       this.setState({ all_departments: JSON.parse(msg) });
     });
@@ -62,13 +63,13 @@ class RateMyProfessorSearch extends React.Component {
   updateDepartment(department) {
     $.ajax({
       method: 'GET',
-      url: `/api/rate-my-professor/get-viewable-courses?department=${department}`,
+      url: `${apiRootPath}get-viewable-courses/?department=${department}`,
     }).done((msg) => {
       this.setState({ all_courses: JSON.parse(msg) });
     });
     $.ajax({
       method: 'GET',
-      url: `/api/rate-my-professor/get-viewable-professors?department=${department}`,
+      url: `${apiRootPath}get-viewable-professors/?department=${department}`,
     }).done((msg) => {
       this.setState({ all_professors: JSON.parse(msg) });
     });
@@ -88,7 +89,7 @@ class RateMyProfessorSearch extends React.Component {
         data.offset = 0;
         $.ajax({
           method: 'POST',
-          url: '/api/rate-my-professor/rmp-search',
+          url: `${apiRootPath}rmp-search/`,
           data,
         }).done((msg) => {
           const rawResults = JSON.parse(msg);
@@ -120,7 +121,7 @@ class RateMyProfessorSearch extends React.Component {
             data.offset = page - 1;
             $.ajax({
               method: 'POST',
-              url: '/api/rate-my-professor/rmp-search',
+              url: `${apiRootPath}rmp-search/`,
               data,
             }).done((msg) => {
               const rawResults = JSON.parse(msg);

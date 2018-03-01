@@ -11,7 +11,6 @@ import {
     Rate,
     Modal,
 } from 'antd';
-import 'antd/dist/antd.css';
 
 const $ = require('jquery');
 
