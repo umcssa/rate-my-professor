@@ -20,7 +20,7 @@ const RadioGroup = Radio.Group;
 const CheckboxGroup = Checkbox.Group;
 const Textarea = Input.TextArea;
 
-const apiRootPath = 'http://localhost:8001/api/rate-my-professor/';
+const apiRootPath = 'http://54.201.89.84/api/rate-my-professor/';
 
 class RateMyProfessorForm extends React.Component {
     constructor(props) {

@@ -29,7 +29,7 @@ const RangePicker = DatePicker.RangePicker;
 
 const starNum = 5;
 
-const apiRootPath = 'http://localhost:8001/api/rate-my-professor/';
+const apiRootPath = 'http://54.201.89.84/api/rate-my-professor/';
 
 
 class RateMyProfessorSearch extends React.Component {
