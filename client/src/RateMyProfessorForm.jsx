@@ -21,6 +21,7 @@ const RadioGroup = Radio.Group;
 const CheckboxGroup = Checkbox.Group;
 const Textarea = Input.TextArea;
 
+const apiRootPath = 'http://localhost:8001/api/rate-my-professor/';
 
 class RateMyProfessorForm extends React.Component {
     constructor(props) {
@@ -52,7 +53,7 @@ class RateMyProfessorForm extends React.Component {
 
         $.ajax({
             method: 'GET',
-            url: 'http://localhost:8001/api/rate-my-professor/get-departments',
+            url: `${apiRootPath}get-departments/`,
         }).done((msg) => {
             this.setState({ all_departments: JSON.parse(msg) });
         });
@@ -61,13 +62,13 @@ class RateMyProfessorForm extends React.Component {
     updateDepartment(department) {
         $.ajax({
             method: 'GET',
-            url: `http://localhost:8001/api/rate-my-professor/get-courses?department=${department}`,
+            url: `${apiRootPath}get-courses/?department=${department}`,
         }).done((msg) => {
             this.setState({ all_courses: JSON.parse(msg) });
         });
         $.ajax({
             method: 'GET',
-            url: `http://localhost:8001/api/rate-my-professor/get-professors?department=${department}`,
+            url: `${apiRootPath}get-professors/?department=${department}`,
         }).done((msg) => {
             this.setState({ all_professors: JSON.parse(msg) });
         });
@@ -85,7 +86,7 @@ class RateMyProfessorForm extends React.Component {
                 data.recommend /= starNum;
                 $.ajax({
                     method: 'POST',
-                    url: 'http://localhost:8001/api/rate-my-professor/rmp-form',
+                    url: `${apiRootPath}rmp-form/`,
                     data,
                 }).done((msg) => {
                     if (msg === 'success') {
