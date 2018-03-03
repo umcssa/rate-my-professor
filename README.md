@@ -1,2 +1,2 @@
-# umcssa-rate-my-professor
+# rate-my-professor
 UMCSSA Rate My Professor
