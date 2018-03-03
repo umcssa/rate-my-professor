@@ -5,7 +5,7 @@ import flask
 from flask_cors import CORS
 
 # app is a single object used by all the code modules in this package
-app = flask.Flask(__name__, static_folder='./static/dist', template_folder='./static')  # pylint: disable=invalid-name
+app = flask.Flask(__name__, static_folder='../../client/build/static', template_folder='../../client/build')  # pylint: disable=invalid-name
 
 # Read settings from config module (rmp/config.py)
 app.config.from_object('rmp.config')
