@@ -12,15 +12,11 @@ const RateMyProfessor = ({match}) => (
     <div>
         <Route exact strict path={`${match.url}form/`} component={RateMyProfessorForm}/>
         <Route exact strict path={`${match.url}search/`} component={RateMyProfessorSearch}/>
-        <Route
-            exact strict
-            path={match.url}
-            component={RateMyProfessorHome}
-        />
+        <Route exact strict path={match.url} component={RateMyProfessorHome} />
     </div>
 );
 
-const Topic = ({ match }) => (
+const Topic = ({match}) => (
     <div>
         <h3>{match.params.topicId}</h3>
     </div>

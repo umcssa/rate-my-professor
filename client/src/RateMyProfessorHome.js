@@ -1,4 +1,6 @@
 import React from "react";
+import {Link} from "react-router-dom";
+import RateMyProfessorCard from './RateMyProfessorHomeCard';
 
 import {
     Card,
@@ -6,8 +8,6 @@ import {
     Col,
     Row
 } from 'antd';
-
-const {Meta} = Card;
 
 const centerParentStyle = {
     display: 'table'
@@ -22,51 +22,28 @@ const centerChildStyle = {
 export default class RateMyProfessorHome extends React.Component {
     render() {
         return (
-            <div style={Object.assign({width: '100%', backgroundColor: '#f0f2f5'},centerParentStyle)}>
-                <Row gutter={20} stylt={Object.assign(centerChildStyle)}>
-                    <Col span={10}>
-                        <Card
-                            hoverable
-                            style={{width: 240, alignItems: 'center'}}
-                            cover={<div
-                                style={Object.assign({
-                                    background: '#ff4081',
-                                    padding: 24,
-                                    minHeight: 280
-                                }, centerParentStyle)}>
-                                <Icon style={Object.assign({color: '#fff', fontSize: 100}, centerChildStyle)}
-                                      type="edit"/>
-                            </div>}
-                        >
-                            <Meta
-                                title="发布新评价"
-                                description="Rate My Professor"
-                            />
-                        </Card>
+            <div style={Object.assign({
+                minHeight: window.innerHeight,
+                width: '100%',
+                backgroundColor: '#f0f2f5',
+                padding: 40
+            }, centerParentStyle)}>
+
+                <Row style={centerChildStyle}>
+                    <Col sm={24} md={12} style={{paddingTop: 100, paddingBottom: 100}}>
+                        <Link to={`${this.props.match.url}form/`}>
+                            <RateMyProfessorCard backgroundColor="#ff4081" iconType="edit" title="发布评价"
+                                                 description="I want to Rate"/>
+                        </Link>
                     </Col>
-                    <Col span={8}>
-                        <Card
-                            hoverable
-                            style={{width: 240, alignItems: 'center'}}
-                            cover={<div
-                                style={Object.assign({
-                                    background: '#00bdd5',
-                                    padding: 24,
-                                    minHeight: 280
-                                }, centerParentStyle)}>
-                                <Icon style={Object.assign({color: '#fff', fontSize: 100}, centerChildStyle)}
-                                      type="search"/>
-                            </div>}
-                        >
-                            <Meta
-                                title="检索评价"
-                                description="Search For Comments"
-                            />
-                        </Card>
+
+                    <Col sm={24} md={12} style={{paddingTop: 100, paddingBottom: 100}}>
+                        <Link to={`${this.props.match.url}search/`}>
+                            <RateMyProfessorCard backgroundColor="#00bdd5" iconType="search" title="搜索评价"
+                                                 description="I want to Search"/>
+                        </Link>
                     </Col>
                 </Row>
-
-
             </div>
         )
     }
