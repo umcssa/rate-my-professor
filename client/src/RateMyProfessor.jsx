@@ -4,6 +4,7 @@ import {
     Route,
     Link,
 } from 'react-router-dom';
+import RateMyProfessorHome from './RateMyProfessorHome';
 import RateMyProfessorForm from './RateMyProfessorForm';
 import RateMyProfessorSearch from './RateMyProfessorSearch';
 
@@ -14,7 +15,7 @@ const RateMyProfessor = ({match}) => (
         <Route
             exact strict
             path={match.url}
-            render={() => <h3>Please select a topic.</h3>}
+            component={RateMyProfessorHome}
         />
     </div>
 );
