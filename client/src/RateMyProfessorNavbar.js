@@ -40,7 +40,7 @@ export default class RateMyProfessorNavbar extends React.Component {
                 onClick={this.handleClick}
                 selectedKeys={[this.state.current]}
                 mode="horizontal"
-                style={{position:'fixed',width:'100%', top:0, left:0}}
+                style={{position:'fixed',width:'100%', top:0, left:0, zIndex:999}}
             >
                 <Menu.Item key="logoM" style={{height: 46, width: 70, marginLeft: 20}}>
                     <a href="/">
