@@ -5,13 +5,14 @@ import {
     Link,
 } from 'react-router-dom';
 import RateMyProfessorNavbar from './RateMyProfessorNavbar';
+import RateMyProfessorNavbarCollapse from './RateMyProfessorNavbarCollapse';
 import RateMyProfessorHome from './RateMyProfessorHome';
 import RateMyProfessorForm from './RateMyProfessorForm';
 import RateMyProfessorSearch from './RateMyProfessorSearch';
 
 const RateMyProfessor = ({match}) => (
     <div>
-        <RateMyProfessorNavbar />
+        {window.innerWidth < 768 ? <RateMyProfessorNavbarCollapse/> : <RateMyProfessorNavbar/>}
         <Route exact strict path={`${match.url}form/`} component={RateMyProfessorForm}/>
         <Route exact strict path={`${match.url}search/`} component={RateMyProfessorSearch}/>
         <Route exact strict path={match.url} component={RateMyProfessorHome} />
