@@ -10,6 +10,7 @@ import {
     AutoComplete,
     Rate,
     Modal,
+    Spin,
 } from 'antd';
 
 const $ = require('jquery');
@@ -20,7 +21,8 @@ const RadioGroup = Radio.Group;
 const CheckboxGroup = Checkbox.Group;
 const Textarea = Input.TextArea;
 
-const apiRootPath = '/api/rate-my-professor/';
+// const apiRootPath = '/api/rate-my-professor/';
+const apiRootPath = 'http://localhost:8001/api/rate-my-professor/';
 
 class RateMyProfessorForm extends React.Component {
     constructor(props) {
@@ -30,6 +32,7 @@ class RateMyProfessorForm extends React.Component {
             all_departments: [],
             all_courses: [],
             all_professors: [],
+            submitting: false
         };
         this.handleSubmit = this.handleSubmit.bind(this);
         this.updateDepartment = this.updateDepartment.bind(this);
@@ -54,7 +57,7 @@ class RateMyProfessorForm extends React.Component {
             method: 'GET',
             url: `${apiRootPath}get-departments/`,
         }).done((msg) => {
-            this.setState({ all_departments: JSON.parse(msg) });
+            this.setState({all_departments: JSON.parse(msg)});
         });
     }
 
@@ -63,13 +66,13 @@ class RateMyProfessorForm extends React.Component {
             method: 'GET',
             url: `${apiRootPath}get-courses/?department=${department}`,
         }).done((msg) => {
-            this.setState({ all_courses: JSON.parse(msg) });
+            this.setState({all_courses: JSON.parse(msg)});
         });
         $.ajax({
             method: 'GET',
             url: `${apiRootPath}get-professors/?department=${department}`,
         }).done((msg) => {
-            this.setState({ all_professors: JSON.parse(msg) });
+            this.setState({all_professors: JSON.parse(msg)});
         });
     }
 
@@ -78,6 +81,7 @@ class RateMyProfessorForm extends React.Component {
         const starNum = 5;
         this.props.form.validateFieldsAndScroll((err, values) => {
             if (!err) {
+                this.setState({submitting: true});
                 const data = values;
                 data.difficulty /= starNum;
                 data.quality /= starNum;
@@ -87,6 +91,13 @@ class RateMyProfessorForm extends React.Component {
                     method: 'POST',
                     url: `${apiRootPath}rmp-form/`,
                     data,
+                    error: () => {
+                        Modal.error({
+                            title: '服务器忙，请稍后重新提交！',
+                        });
+                        this.setState({submitting: false});
+                    },
+                    timeout: 10000
                 }).done((msg) => {
                     if (msg === 'success') {
                         Modal.success({
@@ -102,9 +113,10 @@ class RateMyProfessorForm extends React.Component {
                         });
                     } else {
                         Modal.error({
-                            title: '服务器忙，请稍后重新提交！',
+                            title: '服务器错误，请稍后重新提交！',
                         });
                     }
+                    this.setState({submitting: false});
                 });
             }
         });
@@ -299,7 +311,7 @@ class RateMyProfessorForm extends React.Component {
                     )}
                 </FormItem>
                 <FormItem {...tailFormItemLayout}>
-                    <Button type="primary" htmlType="submit">提交</Button>
+                        <Button type="primary" htmlType="submit" loading={this.state.submitting} >提交</Button>
                 </FormItem>
             </Form>
         );
