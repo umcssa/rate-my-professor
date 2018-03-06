@@ -215,7 +215,7 @@ def search_rate(rate):
     workload = rate.getlist('workload[]')
     recommend = rate.getlist('recommend[]')
 
-    sql = "SELECT rate.*, semester.year, semester.season FROM rate INNER JOIN semester ON rate.semester_id = semester.semester_id WHERE rate.course_title LIKE ?" + " AND rate.course_title LIKE ?" * len(
+    sql = "SELECT rate.*, semester.year, semester.season FROM rate INNER JOIN semester ON rate.semester_id = semester.semester_id WHERE rate.viewable=1 AND rate.course_title LIKE ?" + " AND rate.course_title LIKE ?" * len(
         course_keywords) + " AND rate.professor_name LIKE ?" * len(
         professor_keywords) + " AND (rate.credits=?" + " OR rate.credits=?" * (len(
         credits) - 1) + ")" + (" AND rate.isHU=0" if 'HU' in excluded_types else "") + (
@@ -320,7 +320,8 @@ def send_verification_email(rate_id, uniqname):
         message_template = Template(
             'Dear ${PERSON_NAME}, \n\nPlease use the following security code for the UM-CSSA account: ${ACCOUNT}.\n\nAnd your Security Code is: ${URL}\n\nThanks,\nUM-CSSA account team\n')
         message = message_template.substitute(PERSON_NAME=uniqname, ACCOUNT=to_address,
-                                              URL="app.um-cssa.org/verification/" + str(rate_id))
+                                              URL='http://app.um-cssa.org/api/rate-my-professor/verification/?id={}&token={}'.format(
+                                                  rate_id, generate_token(rate_id)))
 
         msg['From'] = from_address
         msg['To'] = to_address
@@ -337,3 +338,11 @@ def send_verification_email(rate_id, uniqname):
         return True
     except:
         return False
+
+
+def generate_token(rate_id):
+    return hashlib.sha256((str(rate_id) + os.environ['CSSA_APPS_SECRET_KEY']).encode('utf-8')).hexdigest()
+
+
+def verify_rate(rate_id, token):
+    return generate_token(rate_id) == token

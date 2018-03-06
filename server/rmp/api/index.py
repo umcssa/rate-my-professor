@@ -68,6 +68,13 @@ def search_rate():
     return json.dumps(rmp.model.search_rate(flask.request.form))
 
 
+@rmp.app.route('/api/rate-my-professor/verification/', methods=['GET'])
+def verify_rate():
+    if rmp.model.verify_rate(flask.request.args.get('id'), flask.request.args.get('token')):
+        return flask.redirect('/rate-my-professor/verification-success/')
+    else:
+        return flask.redirect('/rate-my-professor/verification-fail/')
+
 # @rmp.app.route('/api/rate-my-professor/auto-update-rates/', methods=['GET'])
 # def auto_update_rates():
 #     rmp.model.auto_update_rates()

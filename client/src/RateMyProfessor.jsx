@@ -15,6 +15,8 @@ const RateMyProfessor = ({match}) => (
         {window.innerWidth < 768 ? <RateMyProfessorNavbarCollapse/> : <RateMyProfessorNavbar/>}
         <Route exact strict path={`${match.url}form/`} component={RateMyProfessorForm}/>
         <Route exact strict path={`${match.url}search/`} component={RateMyProfessorSearch}/>
+        <Route exact strict path={`${match.url}verification-success/`} component={RateMyProfessorVerificationSuccess}/>
+        <Route exact strict path={`${match.url}verification-fail/`} component={RateMyProfessorVerificationFail}/>
         <Route exact strict path={match.url} component={RateMyProfessorHome} />
     </div>
 );
