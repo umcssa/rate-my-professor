@@ -71,6 +71,7 @@ def search_rate():
 @rmp.app.route('/api/rate-my-professor/verification/', methods=['GET'])
 def verify_rate():
     if rmp.model.verify_rate(flask.request.args.get('id'), flask.request.args.get('token')):
+        rmp.model.make_rate_viewable(flask.request.args.get('id'))
         return flask.redirect('/rate-my-professor/verification-success/')
     else:
         return flask.redirect('/rate-my-professor/verification-fail/')

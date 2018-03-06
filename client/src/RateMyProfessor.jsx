@@ -9,6 +9,8 @@ import RateMyProfessorNavbarCollapse from './RateMyProfessorNavbarCollapse';
 import RateMyProfessorHome from './RateMyProfessorHome';
 import RateMyProfessorForm from './RateMyProfessorForm';
 import RateMyProfessorSearch from './RateMyProfessorSearch';
+import RateMyProfessorVerificationSuccess from './RateMyProfessorVerificationSuccess';
+import RateMyProfessorVerificationFail from './RateMyProfessorVerificationFail';
 
 const RateMyProfessor = ({match}) => (
     <div>

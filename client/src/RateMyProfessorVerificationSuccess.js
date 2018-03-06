@@ -23,9 +23,9 @@ export default class RateMyProfessorVerificationSuccess extends React.Component 
                 padding: 40
             }, centerParentStyle)}>
                 <div style={centerChildStyle}>
-                    <Alert
-                        message="Success Tips"
-                        description="Detailed description and advices about successful copywriting."
+                    <Alert style={{maxWidth:1000, margin:'auto'}}
+                        message="验证成功！"
+                           description={<span>感谢您的参与！您的评价已发布，可前往<a href="/rate-my-professor/search/">搜索界面</a>查看。</span>}
                         type="success"
                         showIcon
                     />

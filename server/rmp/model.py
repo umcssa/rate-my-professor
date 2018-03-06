@@ -346,3 +346,6 @@ def generate_token(rate_id):
 
 def verify_rate(rate_id, token):
     return generate_token(rate_id) == token
+
+def make_rate_viewable(rate_id):
+    get_db().cursor().execute("UPDATE rate SET viewable=1 WHERE rate_id=?",(rate_id,))
