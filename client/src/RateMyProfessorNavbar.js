@@ -9,9 +9,6 @@ import {
 import logoM from "./images/logo-M.png";
 import logoCSSA from "./images/logo-CSSA.png";
 
-const activeStyle = {
-    backgroundColor: '#1890ff',
-};
 
 const hoverStyle = {
     backgroundColor: '#080808',
@@ -22,8 +19,7 @@ export default class RateMyProfessorNavbar extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            active: [true, false, false],
-            hover: [false, false, false]
+            hover: [false, false, false],
         };
         this.handleMouseEnter = this.handleMouseEnter.bind(this);
         this.handleMouseLeave = this.handleMouseLeave.bind(this);
@@ -45,10 +41,21 @@ export default class RateMyProfessorNavbar extends React.Component {
         });
     }
 
+
     render() {
         return (
             <Navbar inverse collapseOnSelect
-                    style={{position: 'fixed', width: '100%', zIndex:999, top: 0, left: 0, margin: 0, borderRadius: 0, borderWidth: 0, backgroundColor: '#0c142d'}}>
+                    style={{
+                        position: 'fixed',
+                        width: '100%',
+                        zIndex: 999,
+                        top: 0,
+                        left: 0,
+                        margin: 0,
+                        borderRadius: 0,
+                        borderWidth: 0,
+                        backgroundColor: '#0c142d'
+                    }}>
                 <Navbar.Header>
                     <Navbar.Brand>
                         <a style={{paddingLeft: 50, paddingTop: 0}}><img src={logoM} style={{height: 50}}/></a>
@@ -62,19 +69,19 @@ export default class RateMyProfessorNavbar extends React.Component {
                         </NavItem>
                     </Nav>
                     <Nav pullRight>
-                        <NavDropdown title="Rate My Professor" id="basic-nav-dropdown"
-                                     style={this.state.active[0] ? activeStyle : (this.state.hover[0] ? hoverStyle : {})}
+                        <NavDropdown title="Rate My Professor" id="basic-nav-dropdown-1"
+                                     style={this.state.hover[0]? hoverStyle : {}}
                                      onMouseEnter={() => {
                                          this.handleMouseEnter(0);
                                      }}
                                      onMouseLeave={() => {
                                          this.handleMouseLeave(0);
                                      }}>
-                            <MenuItem>Rate</MenuItem>
-                            <MenuItem>Search</MenuItem>
+                            <MenuItem>发布评价</MenuItem>
+                            <MenuItem>搜索评价</MenuItem>
                         </NavDropdown>
-                        <NavDropdown eventKey={3} title="Freshman Handbook" id="basic-nav-dropdown"
-                                     style={this.state.active[1] ? activeStyle : (this.state.hover[1] ? hoverStyle : {})}
+                        <NavDropdown eventKey={3} title="Freshman Handbook" id="basic-nav-dropdown-2"
+                                     style={this.state.hover[1] ? hoverStyle : {}}
                                      onMouseEnter={() => {
                                          this.handleMouseEnter(1);
                                      }}
@@ -89,7 +96,7 @@ export default class RateMyProfessorNavbar extends React.Component {
                             <MenuItem>社团介绍</MenuItem>
                         </NavDropdown>
                         <NavItem href="#"
-                                 style={this.state.active[2] ? activeStyle : (this.state.hover[2] ? hoverStyle : {})}
+                                 style={this.state.hover[2] ? hoverStyle : {}}
                                  onMouseEnter={() => {
                                      this.handleMouseEnter(2);
                                  }}

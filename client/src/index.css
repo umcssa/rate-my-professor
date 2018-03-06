@@ -11,6 +11,14 @@ body {
   color: #ffffff;
 }
 
+#basic-nav-dropdown-1 {
+  background-color: #1890ff;
+}
+
+/*li.dropdown:hover > .dropdown-menu {*/
+  /*display: block;*/
+/*}*/
+
 .navbar-nav>li>a[href="http://www.um-cssa.org/"] {
   padding-top: 0;
   padding-bottom: 0;
