@@ -77,7 +77,7 @@ export default class RateMyProfessorSearchResults extends React.Component {
               label="课程名称"
             >
               <Input
-                value={this.props.page.toString() in this.props.results ? `${this.props.results[this.props.page.toString()].department_name} ${this.props.results[this.props.page.toString()].course_number}: ${this.props.results[this.props.page.toString()].course_title}` : ''}
+                value={this.props.page.toString() in this.props.results ? this.props.results[this.props.page.toString()].course_title : ''}
               />
             </FormItem>
             <FormItem

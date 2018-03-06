@@ -68,7 +68,7 @@ def search_rate():
     return json.dumps(rmp.model.search_rate(flask.request.form))
 
 
-@rmp.app.route('/api/rate-my-professor/auto-update-rates/', methods=['GET'])
-def auto_update_rates():
-    rmp.model.auto_update_rates()
-    return 'updated'
+# @rmp.app.route('/api/rate-my-professor/auto-update-rates/', methods=['GET'])
+# def auto_update_rates():
+#     rmp.model.auto_update_rates()
+#     return 'updated'

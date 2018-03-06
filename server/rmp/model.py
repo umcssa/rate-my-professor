@@ -8,6 +8,10 @@ import tempfile
 import sqlite3
 import flask
 import arrow
+import smtplib
+from string import Template
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
 import rmp
 from rmp.api.invalid_usage import InvalidUsage
 
@@ -181,7 +185,7 @@ def get_keywords(string):
 
 def search_rate(rate):
     offset = int(rate.get('offset'))
-    department = '%' + (rate.get('department') if rate.get('department') else '') + '%'
+    department = (rate.get('department') if rate.get('department') else '') + '%'
 
     course = rate.get('course') if rate.get('course') else ''
     course_keywords = get_keywords(course)
@@ -210,8 +214,8 @@ def search_rate(rate):
     workload = rate.getlist('workload[]')
     recommend = rate.getlist('recommend[]')
 
-    sql = "SELECT rate.*, department.name AS department_name, course.number AS course_number, course.title AS course_title, professor.name AS professor_name, semester.year, semester.season FROM rate INNER JOIN course ON rate.course_id=course.course_id INNER JOIN department ON course.department_id=department.department_id INNER JOIN professor ON rate.professor_id = professor.professor_id INNER JOIN semester ON rate.semester_id = semester.semester_id WHERE department.name LIKE ?" + " AND department.name||course.number||course.title LIKE ?" * len(
-        course_keywords) + " AND professor.name LIKE ?" * len(
+    sql = "SELECT rate.*, semester.year, semester.season FROM rate INNER JOIN semester ON rate.semester_id = semester.semester_id WHERE rate.course_title LIKE ?" + " AND rate.course_title LIKE ?" * len(
+        course_keywords) + " AND rate.professor_name LIKE ?" * len(
         professor_keywords) + " AND (rate.credits=?" + " OR rate.credits=?" * (len(
         credits) - 1) + ")" + (" AND rate.isHU=0" if 'HU' in excluded_types else "") + (
               " AND rate.isSS=0" if 'SS' in excluded_types else "") + (
@@ -279,12 +283,56 @@ def auto_update_rates():
             cur.execute("UPDATE rate SET viewable=1 WHERE rate_id=?", (rate['rate_id'],))
 
 
-# Freshman Handbook
+def fill_in_rates():
+    cur = get_db().cursor()
+    rates = cur.execute(
+        "SELECT rate_id, course_id, course_title, professor_id, professor_name FROM rate").fetchall()
+    for rate in rates:
+        if not rate['course_title'] and rate['course_id']:
+            course = cur.execute(
+                "SELECT d.name, c.number, c.title FROM course c INNER JOIN department d ON c.department_id = d.department_id WHERE c.course_id = ?",
+                (rate['course_id'],)).fetchone()
+            cur.execute("UPDATE rate SET course_title=? WHERE rate_id=?",
+                        (course['name'] + ' ' + str(course['number']) + ': ' + course['title'], rate['rate_id']))
+        if not rate['professor_name'] and rate['professor_id']:
+            professor = cur.execute(
+                "SELECT name FROM professor WHERE professor_id = ?",
+                (rate['professor_id'],)).fetchone()
+            cur.execute("UPDATE rate SET professor_name=? WHERE rate_id=?",
+                        (professor['name'], rate['rate_id']))
 
-def get_article_content(title):
-    cur = get_db().execute("SELECT content FROM article WHERE title=?", (title,))
-    result = cur.fetchone()
-    if result:
-        return result['content']
-    else:
-        return ''
+
+def send_verification_email(rate_id, uniqname):
+    from_address = os.environ['CSSA_APPS_EMAIL_ADDRESS']
+    from_password = os.environ['CSSA_APPS_EMAIL_PASSWORD']
+
+    to_address = uniqname + '@umich.edu'
+    if not re.match(r'[^@]+@[^@]+\.[^@]+', to_address):
+        return False
+
+    try:
+        s = smtplib.SMTP(host='smtp.gmail.com', port=587)
+        s.starttls()
+        s.login(from_address, from_password)
+
+        msg = MIMEMultipart()
+        message_template = Template(
+            'Dear ${PERSON_NAME}, \n\nPlease use the following security code for the UM-CSSA account: ${ACCOUNT}.\n\nAnd your Security Code is: ${URL}\n\nThanks,\nUM-CSSA account team\n')
+        message = message_template.substitute(PERSON_NAME=uniqname, ACCOUNT=to_address,
+                                              URL="app.um-cssa.org")
+
+        msg['From'] = from_address
+        msg['To'] = to_address
+        msg['Subject'] = "UM-CSSA account security code"
+
+        # add in the message body
+        msg.attach(MIMEText(message, 'plain'))
+
+        # send the message via the server set up earlier.
+        s.send_message(msg)
+        del msg
+
+        s.quit()
+        return True
+    except:
+        return False
