@@ -130,8 +130,9 @@ def save_rate(rate):
                 None if suggestion == None or str(
                     suggestion).strip() == '' else suggestion)
         )
+        rate_id = cur.execute("SELECT last_insert_rowid() FROM rate").fetchone()['last_insert_rowid()']
         cur.close()
-        return True
+        return send_verification_email(rate_id, rate.get('uniqname'))
     except sqlite3.Error:
         return False
 
@@ -246,60 +247,60 @@ def convert_semester_to_months(year, season):
     return [str(year) + '-' + begins[seasons.index(season)], str(year) + '-' + ends[seasons.index(season)]]
 
 
-def auto_update_rates():
-    """For all rates that are not viewable, update course_id and professor_id."""
-    cur = get_db().cursor()
-    rates = cur.execute(
-        "SELECT rate_id, course_id, course_title, professor_id, professor_name FROM rate WHERE viewable=0").fetchall()
-    for rate in rates:
-        if not rate['course_id']:
-            course_keywords = get_keywords(rate['course_title'])
-            courses = cur.execute(
-                "SELECT d.name, c.course_id, c.number, c.title FROM course c INNER JOIN department d ON c.department_id = d.department_id WHERE 1" + " AND d.name||c.number||c.title LIKE ?" * len(
-                    course_keywords), tuple(course_keywords)).fetchall()
-            if len(courses) == 1:
-                print(course_keywords)
-                print(courses)
-                cur.execute("UPDATE rate SET course_id=?, course_title=NULL WHERE rate_id=?",
-                            (courses[0]['course_id'], rate['rate_id']))
-            elif len(courses) > 1:
-                print(course_keywords)
-                print(courses)
-        if not rate['professor_id']:
-            professor_keywords = get_keywords(rate['professor_name'])
-            professors = cur.execute(
-                "SELECT professor_id, name FROM professor WHERE 1" + " AND name LIKE ?" * len(
-                    professor_keywords), tuple(professor_keywords)).fetchall()
-            if len(professors) == 1 or (len(professors) > 1 and professors[0]['name'] == professors[1]['name']):
-                print(professor_keywords)
-                print(professors)
-                cur.execute("UPDATE rate SET professor_id=?, professor_name=NULL WHERE rate_id=?",
-                            (professors[0]['professor_id'], rate['rate_id']))
-
-    rates = cur.execute(
-        "SELECT rate_id, course_id, course_title, professor_id, professor_name FROM rate WHERE viewable=0").fetchall()
-    for rate in rates:
-        if rate['course_id'] and rate['professor_id']:
-            cur.execute("UPDATE rate SET viewable=1 WHERE rate_id=?", (rate['rate_id'],))
-
-
-def fill_in_rates():
-    cur = get_db().cursor()
-    rates = cur.execute(
-        "SELECT rate_id, course_id, course_title, professor_id, professor_name FROM rate").fetchall()
-    for rate in rates:
-        if not rate['course_title'] and rate['course_id']:
-            course = cur.execute(
-                "SELECT d.name, c.number, c.title FROM course c INNER JOIN department d ON c.department_id = d.department_id WHERE c.course_id = ?",
-                (rate['course_id'],)).fetchone()
-            cur.execute("UPDATE rate SET course_title=? WHERE rate_id=?",
-                        (course['name'] + ' ' + str(course['number']) + ': ' + course['title'], rate['rate_id']))
-        if not rate['professor_name'] and rate['professor_id']:
-            professor = cur.execute(
-                "SELECT name FROM professor WHERE professor_id = ?",
-                (rate['professor_id'],)).fetchone()
-            cur.execute("UPDATE rate SET professor_name=? WHERE rate_id=?",
-                        (professor['name'], rate['rate_id']))
+# def auto_update_rates():
+#     """For all rates that are not viewable, update course_id and professor_id."""
+#     cur = get_db().cursor()
+#     rates = cur.execute(
+#         "SELECT rate_id, course_id, course_title, professor_id, professor_name FROM rate WHERE viewable=0").fetchall()
+#     for rate in rates:
+#         if not rate['course_id']:
+#             course_keywords = get_keywords(rate['course_title'])
+#             courses = cur.execute(
+#                 "SELECT d.name, c.course_id, c.number, c.title FROM course c INNER JOIN department d ON c.department_id = d.department_id WHERE 1" + " AND d.name||c.number||c.title LIKE ?" * len(
+#                     course_keywords), tuple(course_keywords)).fetchall()
+#             if len(courses) == 1:
+#                 print(course_keywords)
+#                 print(courses)
+#                 cur.execute("UPDATE rate SET course_id=?, course_title=NULL WHERE rate_id=?",
+#                             (courses[0]['course_id'], rate['rate_id']))
+#             elif len(courses) > 1:
+#                 print(course_keywords)
+#                 print(courses)
+#         if not rate['professor_id']:
+#             professor_keywords = get_keywords(rate['professor_name'])
+#             professors = cur.execute(
+#                 "SELECT professor_id, name FROM professor WHERE 1" + " AND name LIKE ?" * len(
+#                     professor_keywords), tuple(professor_keywords)).fetchall()
+#             if len(professors) == 1 or (len(professors) > 1 and professors[0]['name'] == professors[1]['name']):
+#                 print(professor_keywords)
+#                 print(professors)
+#                 cur.execute("UPDATE rate SET professor_id=?, professor_name=NULL WHERE rate_id=?",
+#                             (professors[0]['professor_id'], rate['rate_id']))
+#
+#     rates = cur.execute(
+#         "SELECT rate_id, course_id, course_title, professor_id, professor_name FROM rate WHERE viewable=0").fetchall()
+#     for rate in rates:
+#         if rate['course_id'] and rate['professor_id']:
+#             cur.execute("UPDATE rate SET viewable=1 WHERE rate_id=?", (rate['rate_id'],))
+#
+#
+# def fill_in_rates():
+#     cur = get_db().cursor()
+#     rates = cur.execute(
+#         "SELECT rate_id, course_id, course_title, professor_id, professor_name FROM rate").fetchall()
+#     for rate in rates:
+#         if not rate['course_title'] and rate['course_id']:
+#             course = cur.execute(
+#                 "SELECT d.name, c.number, c.title FROM course c INNER JOIN department d ON c.department_id = d.department_id WHERE c.course_id = ?",
+#                 (rate['course_id'],)).fetchone()
+#             cur.execute("UPDATE rate SET course_title=? WHERE rate_id=?",
+#                         (course['name'] + ' ' + str(course['number']) + ': ' + course['title'], rate['rate_id']))
+#         if not rate['professor_name'] and rate['professor_id']:
+#             professor = cur.execute(
+#                 "SELECT name FROM professor WHERE professor_id = ?",
+#                 (rate['professor_id'],)).fetchone()
+#             cur.execute("UPDATE rate SET professor_name=? WHERE rate_id=?",
+#                         (professor['name'], rate['rate_id']))
 
 
 def send_verification_email(rate_id, uniqname):
@@ -319,7 +320,7 @@ def send_verification_email(rate_id, uniqname):
         message_template = Template(
             'Dear ${PERSON_NAME}, \n\nPlease use the following security code for the UM-CSSA account: ${ACCOUNT}.\n\nAnd your Security Code is: ${URL}\n\nThanks,\nUM-CSSA account team\n')
         message = message_template.substitute(PERSON_NAME=uniqname, ACCOUNT=to_address,
-                                              URL="app.um-cssa.org")
+                                              URL="app.um-cssa.org/verification/" + str(rate_id))
 
         msg['From'] = from_address
         msg['To'] = to_address

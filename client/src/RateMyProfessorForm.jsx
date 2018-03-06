@@ -288,6 +288,16 @@ class RateMyProfessorForm extends React.Component {
                         />,
                     )}
                 </FormItem>
+                <FormItem
+                    {...formItemLayout}
+                    label="Uniqname"
+                >
+                    {getFieldDecorator('uniqname', {
+                        rules: [{required: true, message: '请输入Uniqname！', whitespace: true}],
+                    })(
+                        <Input placeholder="仅用于发送验证邮件，此问卷为匿名评价"/>,
+                    )}
+                </FormItem>
                 <FormItem {...tailFormItemLayout}>
                     <Button type="primary" htmlType="submit">提交</Button>
                 </FormItem>
