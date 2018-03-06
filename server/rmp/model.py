@@ -320,8 +320,8 @@ def send_verification_email(rate_id, uniqname):
         message_template = Template(
             'Dear ${PERSON_NAME}, \n\nPlease use the following security code for the UM-CSSA account: ${ACCOUNT}.\n\nAnd your Security Code is: ${URL}\n\nThanks,\nUM-CSSA account team\n')
         message = message_template.substitute(PERSON_NAME=uniqname, ACCOUNT=to_address,
-                                              URL='http://app.um-cssa.org/api/rate-my-professor/verification/?id={}&token={}'.format(
-                                                  rate_id, generate_token(rate_id)))
+                                              URL='{}/api/rate-my-professor/verification/?id={}&token={}'.format(
+                                                  os.environ['CSSA_APPS_SERVER_HOSTNAME'],rate_id, generate_token(rate_id)))
 
         msg['From'] = from_address
         msg['To'] = to_address
