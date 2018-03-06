@@ -48,7 +48,7 @@ export default class RateMyProfessorNavbar extends React.Component {
     render() {
         return (
             <Navbar inverse collapseOnSelect
-                    style={{margin: 0, borderRadius: 0, borderWidth: 0, backgroundColor: '#0c142d'}}>
+                    style={{position: 'fixed', width: '100%', zIndex:999, top: 0, left: 0, margin: 0, borderRadius: 0, borderWidth: 0, backgroundColor: '#0c142d'}}>
                 <Navbar.Header>
                     <Navbar.Brand>
                         <a style={{paddingLeft: 50, paddingTop: 0}}><img src={logoM} style={{height: 50}}/></a>
