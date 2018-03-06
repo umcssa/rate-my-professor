@@ -1,69 +1,109 @@
 import React from "react";
-import logo from "./CSSA_UM.jpeg";
-
 import {
-    Menu,
-    Icon
-} from 'antd';
+    Navbar,
+    Nav,
+    NavItem,
+    NavDropdown,
+    MenuItem
+} from 'react-bootstrap';
+import logoM from "./images/logo-M.png";
+import logoCSSA from "./images/logo-CSSA.png";
 
-const SubMenu = Menu.SubMenu;
-const MenuItemGroup = Menu.ItemGroup;
-
-const centerParentStyle = {
-    display: 'table'
+const activeStyle = {
+    backgroundColor: '#1890ff',
 };
 
-const centerChildStyle = {
-    display: 'table-cell',
-    verticalAlign: 'middle',
-    textAlign: 'center',
+const hoverStyle = {
+    backgroundColor: '#080808',
 };
+
 
 export default class RateMyProfessorNavbar extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            active: [true, false, false],
+            hover: [false, false, false]
+        };
+        this.handleMouseEnter = this.handleMouseEnter.bind(this);
+        this.handleMouseLeave = this.handleMouseLeave.bind(this);
+    }
 
-    state = {
-        current: 'mail',
-    };
-
-    handleClick = (e) => {
-        console.log('click ', e);
-        this.setState({
-            current: e.key,
+    handleMouseEnter(id) {
+        this.setState(prevState => {
+            const newHover = prevState.hover.slice();
+            newHover[id] = true;
+            return {hover: newHover};
         });
-    };
+    }
+
+    handleMouseLeave(id) {
+        this.setState(prevState => {
+            const newHover = prevState.hover.slice();
+            newHover[id] = false;
+            return {hover: newHover};
+        });
+    }
 
     render() {
         return (
-            <Menu
-                onClick={this.handleClick}
-                selectedKeys={[this.state.current]}
-                mode="horizontal"
-                theme="dark"
-                style={{position: 'fixed', top: 0, left: 0, width: '100%', zIndex: 999}}
-            >
-                <Menu.Item key="logo">
-                    {/*<img src={logo} style={{height: 92}}/>*/}
-                </Menu.Item>
-                <Menu.Item key="mail">
-                    <Icon type="mail"/>Navigation One
-                </Menu.Item>
-                <Menu.Item key="app">
-                    <Icon type="appstore"/>Navigation Two
-                </Menu.Item>
-                <SubMenu title={<span><Icon type="setting"/>Navigation Three - Submenu</span>}>
-                    <MenuItemGroup title="Item 1">
-                        <Menu.Item key="setting:1">Option 1</Menu.Item>
-                        <Menu.Item key="setting:2">Option 2</Menu.Item>
-                    </MenuItemGroup>
-                    <MenuItemGroup title="Item 2">
-                        <Menu.Item key="setting:3">Option 3</Menu.Item>
-                        <Menu.Item key="setting:4">Option 4</Menu.Item>
-                    </MenuItemGroup>
-                </SubMenu>
-                <Menu.Item key="alipay">
-                    <a href="https://ant.design" target="_blank" rel="noopener noreferrer">Navigation Four - Link</a>
-                </Menu.Item>
-            </Menu>
+            <Navbar inverse collapseOnSelect
+                    style={{margin: 0, borderRadius: 0, borderWidth: 0, backgroundColor: '#0c142d'}}>
+                <Navbar.Header>
+                    <Navbar.Brand>
+                        <a style={{paddingLeft: 50, paddingTop: 0}}><img src={logoM} style={{height: 50}}/></a>
+                    </Navbar.Brand>
+                    <Navbar.Toggle/>
+                </Navbar.Header>
+                <Navbar.Collapse>
+                    <Nav>
+                        <NavItem href="#">
+                            CSSA APPs
+                        </NavItem>
+                    </Nav>
+                    <Nav pullRight>
+                        <NavDropdown title="Rate My Professor" id="basic-nav-dropdown"
+                                     style={this.state.active[0] ? activeStyle : (this.state.hover[0] ? hoverStyle : {})}
+                                     onMouseEnter={() => {
+                                         this.handleMouseEnter(0);
+                                     }}
+                                     onMouseLeave={() => {
+                                         this.handleMouseLeave(0);
+                                     }}>
+                            <MenuItem>Rate</MenuItem>
+                            <MenuItem>Search</MenuItem>
+                        </NavDropdown>
+                        <NavDropdown eventKey={3} title="Freshman Handbook" id="basic-nav-dropdown"
+                                     style={this.state.active[1] ? activeStyle : (this.state.hover[1] ? hoverStyle : {})}
+                                     onMouseEnter={() => {
+                                         this.handleMouseEnter(1);
+                                     }}
+                                     onMouseLeave={() => {
+                                         this.handleMouseLeave(1);
+                                     }}>
+                            <MenuItem>出国前准备</MenuItem>
+                            <MenuItem>入学指南</MenuItem>
+                            <MenuItem>超市购物</MenuItem>
+                            <MenuItem>休闲娱乐</MenuItem>
+                            <MenuItem>交通</MenuItem>
+                            <MenuItem>社团介绍</MenuItem>
+                        </NavDropdown>
+                        <NavItem href="#"
+                                 style={this.state.active[2] ? activeStyle : (this.state.hover[2] ? hoverStyle : {})}
+                                 onMouseEnter={() => {
+                                     this.handleMouseEnter(2);
+                                 }}
+                                 onMouseLeave={() => {
+                                     this.handleMouseLeave(2);
+                                 }}>
+                            Secondary Market
+                        </NavItem>
+                        <NavItem href="http://www.um-cssa.org/" target="_blank">
+                            <img src={logoCSSA} style={{height: 50, padding: 0}}/>
+                        </NavItem>
+                    </Nav>
+                </Navbar.Collapse>
+            </Navbar>
         )
     }
 }

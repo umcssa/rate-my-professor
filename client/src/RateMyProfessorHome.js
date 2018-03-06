@@ -27,7 +27,7 @@ export default class RateMyProfessorHome extends React.Component {
                 padding: 40
             }, centerParentStyle)}>
                 <Row style={centerChildStyle}>
-                    <Col sm={24} md={12} style={{paddingTop: 100, paddingBottom: 100}}>
+                    <Col sm={24} md={12} style={{paddingTop: 60, paddingBottom: 60}}>
 
                         <div style={{margin: 'auto', width: 280}}>
                             <Link to={`${this.props.match.url}form/`}>
@@ -37,7 +37,7 @@ export default class RateMyProfessorHome extends React.Component {
                         </div>
                     </Col>
 
-                    <Col sm={24} md={12} style={{paddingTop: 100, paddingBottom: 100}}>
+                    <Col sm={24} md={12} style={{paddingTop: 60, paddingBottom: 60}}>
                         <div style={{margin: 'auto', width: 280}}>
                             <Link to={`${this.props.match.url}search/`}>
                                 <RateMyProfessorCard backgroundColor="#00bdd5" iconType="search" title="搜索评价"
