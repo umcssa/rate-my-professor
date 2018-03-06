@@ -20,10 +20,8 @@ const centerChildStyle = {
 export default class RateMyProfessorHomeCard extends React.Component {
     render() {
         return (
-
             <Card
                 hoverable
-                style={{width: 280, margin: 'auto'}}
                 cover={<div
                     style={Object.assign({
                         background: this.props.backgroundColor,
