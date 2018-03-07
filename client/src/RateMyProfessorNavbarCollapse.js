@@ -48,7 +48,7 @@ export default class RateMyProfessorNavbarCollapse extends React.Component {
                     style={{
                         position: 'fixed',
                         width: '100%',
-                        zIndex: 999,
+                        zIndex: 9999,
                         top: 0,
                         left: 0,
                         margin: 0,

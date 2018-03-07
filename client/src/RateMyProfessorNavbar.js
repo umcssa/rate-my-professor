@@ -26,13 +26,13 @@ export default class RateMyProfessorNavbar extends React.Component {
     state = {
         current: 'mail',
         collapsed: true,
-    }
+    };
+
     toggleCollapsed = () => {
         this.setState({
             collapsed: !this.state.collapsed,
         });
-    }
-
+    };
 
     render() {
         return (
@@ -41,7 +41,7 @@ export default class RateMyProfessorNavbar extends React.Component {
                 onClick={this.handleClick}
                 selectedKeys={[this.state.current]}
                 mode="horizontal"
-                style={{position:'fixed',width:'100%', top:0, left:0, zIndex:999}}
+                style={{position: 'fixed', width: '100%', top: 0, left: 0, zIndex: 9999}}
             >
                 <Menu.Item key="logoM" style={{height: 46, width: 70, marginLeft: 20}}>
                     <a href="/">
@@ -59,7 +59,7 @@ export default class RateMyProfessorNavbar extends React.Component {
                 </Menu.Item>
 
                 <Menu.Item key="apps">
-                    <a href="/" style={{color:'#ffffff', fontSize:20}}>CSSA APPs</a>
+                    <a href="/" style={{color: '#ffffff', fontSize: 20}}>CSSA APPs</a>
                 </Menu.Item>
 
                 <Menu.Item key="logoCSSA" style={{float: 'right', height: 46, width: 70}}>
@@ -78,7 +78,7 @@ export default class RateMyProfessorNavbar extends React.Component {
                 </Menu.Item>
                 <SubMenu title={<span onClick={() => {
                     window.location.href = "/secondary-market/";
-                }}><Icon type="shopping-cart" />Secondary Market</span>}
+                }}><Icon type="shopping-cart"/>Secondary Market</span>}
                          style={Object.assign({float: 'right'}, window.location.href.includes('secondary-market') && activeStyle)}>
                     <Menu.Item key="1"><a href="/secondary-market/buy/">我要购买</a></Menu.Item>
                     <Menu.Item key="2"><a href="/secondary-market/sell/">我要出售</a></Menu.Item>
