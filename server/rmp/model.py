@@ -318,7 +318,7 @@ def send_verification_email(rate_id, uniqname):
 
         msg = MIMEMultipart()
         message_template = Template(
-            '${PERSON_NAME}，\n\n感谢填写Rate My Professor问卷。在发布您的评价供同学查看之前，我们需要验证您的UM学生身份，请点击以下链接\n${URL}\n\n再次感谢您的参与，\nCSSA APPs 开发团队\n')
+            '${PERSON_NAME}，\n\n我们已收到您填写的Rate My Professor问卷。\n在发布您的评价供同学查看之前，我们需要验证您的UM学生身份，请点击以下链接完成验证：\n${URL}\n\n感谢您的参与，\nCSSA APPs 开发团队\n')
         message = message_template.substitute(PERSON_NAME=uniqname,
                                               URL='{}/api/rate-my-professor/verification/?id={}&token={}'.format(
                                                   os.environ['CSSA_APPS_SERVER_HOSTNAME'], rate_id,
