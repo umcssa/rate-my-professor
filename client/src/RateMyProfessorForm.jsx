@@ -11,17 +11,22 @@ import {
     Rate,
     Modal,
     Card,
+    Select,
+    InputNumber
 } from 'antd';
 
 const $ = require('jquery');
+const moment = require('moment');
 
 const FormItem = Form.Item;
 const RadioButton = Radio.Button;
 const RadioGroup = Radio.Group;
 const CheckboxGroup = Checkbox.Group;
 const Textarea = Input.TextArea;
+const Option = Select.Option;
 
 const apiRootPath = '/api/rate-my-professor/';
+
 // const apiRootPath = 'http://localhost:8001/api/rate-my-professor/';
 
 class RateMyProfessorForm extends React.Component {
@@ -87,6 +92,7 @@ class RateMyProfessorForm extends React.Component {
                 data.quality /= starNum;
                 data.workload /= starNum;
                 data.recommend /= starNum;
+                data.semester = `${data.year} ${data.season}`;
                 $.ajax({
                     method: 'POST',
                     url: `${apiRootPath}rmp-form/`,
@@ -149,9 +155,20 @@ class RateMyProfessorForm extends React.Component {
         };
 
         return (
-            <div style={{backgroundColor: '#f0f2f5', width: '100%', minHeight: window.innerHeight, padding: '100px 10px 100px 10px'}}>
-                <Card hoverable style={{margin: 'auto', padding: 20, maxWidth: 1000, backgroundColor: '#ffffff', cursor: 'default'}}>
-                    <Form onSubmit={this.handleSubmit} >
+            <div style={{
+                backgroundColor: '#f0f2f5',
+                width: '100%',
+                minHeight: window.innerHeight,
+                padding: '100px 10px 100px 10px'
+            }}>
+                <Card hoverable style={{
+                    margin: 'auto',
+                    padding: 20,
+                    maxWidth: 1000,
+                    backgroundColor: '#ffffff',
+                    cursor: 'default'
+                }}>
+                    <Form onSubmit={this.handleSubmit}>
                         <FormItem
                             {...formItemLayout}
                             label="课程院系"
@@ -181,7 +198,8 @@ class RateMyProfessorForm extends React.Component {
                                     filterOption={(inputValue, option) =>
                                         option.props.children.toUpperCase().indexOf(inputValue.toUpperCase()) !== -1}
                                 >
-                                    <Input placeholder="Eg: EECS 183: Elementary Programming Concepts。请尽量完整填写，提高被搜索成功率。"/>
+                                    <Input
+                                        placeholder="Eg: EECS 183: Elementary Programming Concepts。请尽量完整填写，提高被搜索成功率。"/>
                                 </AutoComplete>,
                             )}
                         </FormItem>
@@ -203,12 +221,29 @@ class RateMyProfessorForm extends React.Component {
                         </FormItem>
                         <FormItem
                             {...formItemLayout}
+                            label="所在学年"
+                        >
+                            {getFieldDecorator('year', {
+                                rules: [{required: true, message: '请输入所在学年！', whitespace: true}],
+                            })(
+                                <Select style={{width: 120}}>{new Array(10).fill(null).map((val, idx) => <Option
+                                    key={idx}
+                                    value={(parseInt(moment().format('YYYY')) + 1 - idx).toString()}>{parseInt(moment().format('YYYY')) + 1 - idx}</Option>)}</Select>,
+                            )}
+                        </FormItem>
+                        <FormItem
+                            {...formItemLayout}
                             label="所在学期"
                         >
-                            {getFieldDecorator('semester', {
+                            {getFieldDecorator('season', {
                                 rules: [{required: true, message: '请输入所在学期！', whitespace: true}],
                             })(
-                                <Input placeholder="Eg: 2017 Winter"/>,
+                                <Select style={{width: 120}}>
+                                    <Option value="Spring">Spring</Option>
+                                    <Option value="Summer">Summer</Option>
+                                    <Option value="Fall">Fall</Option>
+                                    <Option value="Winter">Winter</Option>
+                                </Select>,
                             )}
                         </FormItem>
                         <FormItem
