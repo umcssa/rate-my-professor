@@ -92,7 +92,6 @@ class RateMyProfessorForm extends React.Component {
                 data.quality /= starNum;
                 data.workload /= starNum;
                 data.recommend /= starNum;
-                data.semester = `${data.year} ${data.season}`;
                 $.ajax({
                     method: 'POST',
                     url: `${apiRootPath}rmp-form/`,
@@ -134,7 +133,7 @@ class RateMyProfessorForm extends React.Component {
         const formItemLayout = {
             labelCol: {
                 xs: {span: 24},
-                sm: {span: 5},
+                sm: {span: 4},
             },
             wrapperCol: {
                 xs: {span: 24},
@@ -148,8 +147,8 @@ class RateMyProfessorForm extends React.Component {
                     offset: 0,
                 },
                 sm: {
-                    span: 16,
-                    offset: 6,
+                    span: 20,
+                    offset: 4,
                 },
             },
         };
@@ -164,7 +163,7 @@ class RateMyProfessorForm extends React.Component {
                 <Card hoverable style={{
                     margin: 'auto',
                     padding: 20,
-                    maxWidth: 1000,
+                    maxWidth: 900,
                     backgroundColor: '#ffffff',
                     cursor: 'default'
                 }}>
@@ -221,28 +220,19 @@ class RateMyProfessorForm extends React.Component {
                         </FormItem>
                         <FormItem
                             {...formItemLayout}
-                            label="所在学年"
-                        >
-                            {getFieldDecorator('year', {
-                                rules: [{required: true, message: '请输入所在学年！', whitespace: true}],
-                            })(
-                                <Select style={{width: 120}}>{new Array(10).fill(null).map((val, idx) => <Option
-                                    key={idx}
-                                    value={(parseInt(moment().format('YYYY')) + 1 - idx).toString()}>{parseInt(moment().format('YYYY')) + 1 - idx}</Option>)}</Select>,
-                            )}
-                        </FormItem>
-                        <FormItem
-                            {...formItemLayout}
                             label="所在学期"
                         >
-                            {getFieldDecorator('season', {
+                            {getFieldDecorator('semester', {
                                 rules: [{required: true, message: '请输入所在学期！', whitespace: true}],
                             })(
-                                <Select style={{width: 120}}>
-                                    <Option value="Spring">Spring</Option>
-                                    <Option value="Summer">Summer</Option>
-                                    <Option value="Fall">Fall</Option>
-                                    <Option value="Winter">Winter</Option>
+                                <Select style={{width: 150}}>
+                                    {new Array(10).fill(null).map((val, idx) => (['Fall', 'Summer', 'Spring', 'Winter'].map(season => (
+                                            <Option key={`${parseInt(moment().format('YYYY')) - idx} ${season}`}
+                                                    value={`${parseInt(moment().format('YYYY')) - idx} ${season}`}>
+                                                {`${parseInt(moment().format('YYYY')) - idx} ${season}`}
+                                            </Option>
+                                        ))
+                                    ))}
                                 </Select>,
                             )}
                         </FormItem>

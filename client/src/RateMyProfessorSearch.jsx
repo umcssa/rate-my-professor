@@ -31,6 +31,7 @@ const starNum = 5;
 
 const apiRootPath = '/api/rate-my-professor/';
 
+// const apiRootPath = 'http://localhost:8001/api/rate-my-professor/';
 
 class RateMyProfessorSearch extends React.Component {
     constructor(props) {
@@ -152,7 +153,7 @@ class RateMyProfessorSearch extends React.Component {
         const formItemLayout = {
             labelCol: {
                 xs: {span: 24},
-                sm: {span: 5},
+                sm: {span: 4},
             },
             wrapperCol: {
                 xs: {span: 24},
@@ -166,8 +167,8 @@ class RateMyProfessorSearch extends React.Component {
                     offset: 0,
                 },
                 sm: {
-                    span: 16,
-                    offset: 6,
+                    span: 20,
+                    offset: 4,
                 },
             },
         };
@@ -198,7 +199,7 @@ class RateMyProfessorSearch extends React.Component {
                 <Card hoverable style={{
                     margin: 'auto',
                     padding: 20,
-                    maxWidth: 1000,
+                    maxWidth: 900,
                     backgroundColor: '#ffffff',
                     cursor: 'default'
                 }}>
@@ -306,22 +307,22 @@ class RateMyProfessorSearch extends React.Component {
                         </FormItem>
                         <FormItem {...formItemLayout} label="课程难度">
                             {getFieldDecorator('difficulty', {initialValue: [0, starNum]})(
-                                <Slider style={{maxWidth: 500}} range max={starNum}/>,
+                                <Slider range max={starNum}/>,
                             )}
                         </FormItem>
                         <FormItem {...formItemLayout} label="教授质量">
                             {getFieldDecorator('quality', {initialValue: [0, starNum]})(
-                                <Slider style={{maxWidth: 500}} range max={starNum}/>,
+                                <Slider range max={starNum}/>,
                             )}
                         </FormItem>
                         <FormItem {...formItemLayout} label="Workload">
                             {getFieldDecorator('workload', {initialValue: [0, starNum]})(
-                                <Slider style={{maxWidth: 500}} range max={starNum}/>,
+                                <Slider range max={starNum}/>,
                             )}
                         </FormItem>
                         <FormItem {...formItemLayout} label="推荐指数">
                             {getFieldDecorator('recommend', {initialValue: [0, starNum]})(
-                                <Slider style={{maxWidth: 500}} range max={starNum}/>,
+                                <Slider range max={starNum}/>,
                             )}
                         </FormItem>
                         <FormItem {...tailFormItemLayout}>
