@@ -311,59 +311,33 @@ def send_verification_email(rate_id, uniqname):
     if not re.match(r'[^@]+@[^@]+\.[^@]+', to_address):
         return False
 
-    # try:
-    #     s = smtplib.SMTP(host='smtp.gmail.com', port=587)
-    #     s.starttls()
-    #     s.login(from_address, from_password)
-    #
-    #     msg = MIMEMultipart()
-    #     message_template = Template(
-    #         'Dear ${PERSON_NAME}, \n\nPlease use the following security code for the UM-CSSA account: ${ACCOUNT}.\n\nAnd your Security Code is: ${URL}\n\nThanks,\nUM-CSSA account team\n')
-    #     message = message_template.substitute(PERSON_NAME=uniqname, ACCOUNT=to_address,
-    #                                           URL='{}/api/rate-my-professor/verification/?id={}&token={}'.format(
-    #                                               os.environ['CSSA_APPS_SERVER_HOSTNAME'],rate_id, generate_token(rate_id)))
-    #
-    #     msg['From'] = from_address
-    #     msg['To'] = to_address
-    #     msg['Subject'] = "UM-CSSA account security code"
-    #
-    #     # add in the message body
-    #     msg.attach(MIMEText(message, 'plain'))
-    #
-    #     # send the message via the server set up earlier.
-    #     s.send_message(msg)
-    #     del msg
-    #
-    #     s.quit()
-    #     return True
-    # except:
-    #     return False
+    try:
+        s = smtplib.SMTP(host='smtp.gmail.com', port=587)
+        s.starttls()
+        s.login(from_address, from_password)
 
-    s = smtplib.SMTP(host='smtp.gmail.com', port=587)
-    s.starttls()
-    s.login(from_address, from_password)
+        msg = MIMEMultipart()
+        message_template = Template(
+            'Dear ${PERSON_NAME}, \n\nPlease use the following security code for the UM-CSSA account: ${ACCOUNT}.\n\nAnd your Security Code is: ${URL}\n\nThanks,\nUM-CSSA account team\n')
+        message = message_template.substitute(PERSON_NAME=uniqname, ACCOUNT=to_address,
+                                              URL='{}/api/rate-my-professor/verification/?id={}&token={}'.format(
+                                                  os.environ['CSSA_APPS_SERVER_HOSTNAME'],rate_id, generate_token(rate_id)))
 
-    msg = MIMEMultipart()
-    message_template = Template(
-        'Dear ${PERSON_NAME}, \n\nPlease use the following security code for the UM-CSSA account: ${ACCOUNT}.\n\nAnd your Security Code is: ${URL}\n\nThanks,\nUM-CSSA account team\n')
-    message = message_template.substitute(PERSON_NAME=uniqname, ACCOUNT=to_address,
-                                          URL='{}/api/rate-my-professor/verification/?id={}&token={}'.format(
-                                              os.environ['CSSA_APPS_SERVER_HOSTNAME'], rate_id,
-                                              generate_token(rate_id)))
+        msg['From'] = from_address
+        msg['To'] = to_address
+        msg['Subject'] = "UM-CSSA account security code"
 
-    msg['From'] = from_address
-    msg['To'] = to_address
-    msg['Subject'] = "UM-CSSA account security code"
+        # add in the message body
+        msg.attach(MIMEText(message, 'plain'))
 
-    # add in the message body
-    msg.attach(MIMEText(message, 'plain'))
+        # send the message via the server set up earlier.
+        s.send_message(msg)
+        del msg
 
-    # send the message via the server set up earlier.
-    s.send_message(msg)
-    del msg
-
-    s.quit()
-    return True
+        s.quit()
+        return True
+    except:
+        return False
 
 
 def generate_token(rate_id):
