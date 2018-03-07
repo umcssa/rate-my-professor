@@ -152,11 +152,11 @@ class RateMyProfessorSearch extends React.Component {
         const formItemLayout = {
             labelCol: {
                 xs: {span: 24},
-                sm: {span: 6},
+                sm: {span: 5},
             },
             wrapperCol: {
                 xs: {span: 24},
-                sm: {span: 18},
+                sm: {span: 19},
             },
         };
         const tailFormItemLayout = {
