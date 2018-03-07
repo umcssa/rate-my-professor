@@ -10,7 +10,7 @@ import {
     AutoComplete,
     Rate,
     Modal,
-    Spin,
+    Card,
 } from 'antd';
 
 const $ = require('jquery');
@@ -21,8 +21,8 @@ const RadioGroup = Radio.Group;
 const CheckboxGroup = Checkbox.Group;
 const Textarea = Input.TextArea;
 
-// const apiRootPath = '/api/rate-my-professor/';
-const apiRootPath = 'http://localhost:8001/api/rate-my-professor/';
+const apiRootPath = '/api/rate-my-professor/';
+// const apiRootPath = 'http://localhost:8001/api/rate-my-professor/';
 
 class RateMyProfessorForm extends React.Component {
     constructor(props) {
@@ -128,11 +128,11 @@ class RateMyProfessorForm extends React.Component {
         const formItemLayout = {
             labelCol: {
                 xs: {span: 24},
-                sm: {span: 6},
+                sm: {span: 5},
             },
             wrapperCol: {
                 xs: {span: 24},
-                sm: {span: 18},
+                sm: {span: 19},
             },
         };
         const tailFormItemLayout = {
@@ -149,171 +149,176 @@ class RateMyProfessorForm extends React.Component {
         };
 
         return (
-            <Form onSubmit={this.handleSubmit} style={{margin: 'auto', padding: 20, maxWidth: 1000}}>
-                <FormItem
-                    {...formItemLayout}
-                    label="课程院系"
-                >
-                    {getFieldDecorator('department', {
-                        rules: [{required: true, message: '请输入课程院系！'}],
-                    })(
-                        <AutoComplete
-                            dataSource={this.state.all_departments}
-                            onChange={this.updateDepartment}
-                            filterOption={(inputValue, option) =>
-                                option.props.children.toUpperCase().indexOf(inputValue.toUpperCase()) !== -1}
+            <div style={{backgroundColor: '#f0f2f5', width: '100%', minHeight: window.innerHeight, padding: '100px 10px 100px 10px'}}>
+                <Card hoverable style={{margin: 'auto', padding: 20, maxWidth: 1000, backgroundColor: '#ffffff', cursor: 'default'}}>
+                    <Form onSubmit={this.handleSubmit} >
+                        <FormItem
+                            {...formItemLayout}
+                            label="课程院系"
                         >
-                            <Input/>
-                        </AutoComplete>,
-                    )}
-                </FormItem>
-                <FormItem
-                    {...formItemLayout}
-                    label="课程名称"
-                >
-                    {getFieldDecorator('course', {
-                        rules: [{required: true, message: '请输入课程名称！'}],
-                    })(
-                        <AutoComplete
-                            dataSource={this.state.all_courses}
-                            filterOption={(inputValue, option) =>
-                                option.props.children.toUpperCase().indexOf(inputValue.toUpperCase()) !== -1}
+                            {getFieldDecorator('department', {
+                                rules: [{required: true, message: '请输入课程院系！'}],
+                            })(
+                                <AutoComplete
+                                    dataSource={this.state.all_departments}
+                                    onChange={this.updateDepartment}
+                                    filterOption={(inputValue, option) =>
+                                        option.props.children.toUpperCase().indexOf(inputValue.toUpperCase()) !== -1}
+                                >
+                                    <Input placeholder="Eg: EECS"/>
+                                </AutoComplete>,
+                            )}
+                        </FormItem>
+                        <FormItem
+                            {...formItemLayout}
+                            label="课程名称"
                         >
-                            <Input/>
-                        </AutoComplete>,
-                    )}
-                </FormItem>
-                <FormItem
-                    {...formItemLayout}
-                    label="教授姓名"
-                >
-                    {getFieldDecorator('professor', {
-                        rules: [{required: true, message: '请输入教授姓名！'}],
-                    })(
-                        <AutoComplete
-                            dataSource={this.state.all_professors}
-                            filterOption={(inputValue, option) =>
-                                option.props.children.toUpperCase().indexOf(inputValue.toUpperCase()) !== -1}
+                            {getFieldDecorator('course', {
+                                rules: [{required: true, message: '请输入课程名称！'}],
+                            })(
+                                <AutoComplete
+                                    dataSource={this.state.all_courses}
+                                    filterOption={(inputValue, option) =>
+                                        option.props.children.toUpperCase().indexOf(inputValue.toUpperCase()) !== -1}
+                                >
+                                    <Input placeholder="Eg: EECS 183: Elementary Programming Concepts。请尽量完整填写，提高被搜索成功率。"/>
+                                </AutoComplete>,
+                            )}
+                        </FormItem>
+                        <FormItem
+                            {...formItemLayout}
+                            label="教授姓名"
                         >
-                            <Input/>
-                        </AutoComplete>,
-                    )}
-                </FormItem>
-                <FormItem
-                    {...formItemLayout}
-                    label="所在学期"
-                >
-                    {getFieldDecorator('semester', {
-                        rules: [{required: true, message: '请输入所在学期！', whitespace: true}],
-                    })(
-                        <Input placeholder="Eg: 2017 Winter"/>,
-                    )}
-                </FormItem>
-                <FormItem
-                    {...formItemLayout}
-                    label="学分数量"
-                >
-                    {getFieldDecorator('credits', {
-                        rules: [{required: true, message: '请选择学分数量！'}],
-                    })(
-                        <RadioGroup>
-                            <Radio value="1">1</Radio>
-                            <Radio value="2">2</Radio>
-                            <Radio value="3">3</Radio>
-                            <Radio value="4">4</Radio>
-                            <Radio value="5">5</Radio>
-                        </RadioGroup>,
-                    )}
-                </FormItem>
-                <FormItem
-                    {...formItemLayout}
-                    label="课程类型"
-                >
-                    {getFieldDecorator('type', {
-                        rules: [
-                            {required: true, message: '请选择课程类型！', type: 'array'},
-                        ],
-                    })(
-                        <CheckboxGroup>
-                            <Checkbox value="HU">HU</Checkbox>
-                            <Checkbox value="SS">SS</Checkbox>
-                            <Checkbox value="NS">NS</Checkbox>
-                            <Checkbox value="ID">ID</Checkbox>
-                            <Checkbox value="RE">RE</Checkbox>
-                            <Checkbox value="Other">Other</Checkbox>
-                        </CheckboxGroup>,
-                    )}
-                </FormItem>
-                <FormItem
-                    {...formItemLayout}
-                    label="所得成绩"
-                >
-                    {getFieldDecorator('grade', {
-                        rules: [{required: true, message: '请选择所得成绩！'}],
-                    })(
-                        <RadioGroup>
-                            <RadioButton value="A Range">A Range</RadioButton>
-                            <RadioButton value="B Range">B Range</RadioButton>
-                            <RadioButton value="C Range">C Range</RadioButton>
-                            <RadioButton value="P/F">P/F</RadioButton>
-                            <RadioButton value="Others">Others</RadioButton>
-                        </RadioGroup>,
-                    )}
-                </FormItem>
-                <FormItem {...formItemLayout} label="课程难度">
-                    {getFieldDecorator('difficulty', {
-                        rules: [{required: true, message: '请选择课程难度！'}],
-                    })(
-                        <Rate/>,
-                    )}
-                </FormItem>
-                <FormItem {...formItemLayout} label="教授质量">
-                    {getFieldDecorator('quality', {
-                        rules: [{required: true, message: '请选择教授质量！'}],
-                    })(
-                        <Rate/>,
-                    )}
-                </FormItem>
-                <FormItem {...formItemLayout} label="Workload">
-                    {getFieldDecorator('workload', {
-                        rules: [{required: true, message: '请选择Workload！'}],
-                    })(
-                        <Rate/>,
-                    )}
-                </FormItem>
-                <FormItem {...formItemLayout} label="推荐指数">
-                    {getFieldDecorator('recommend', {
-                        rules: [{required: true, message: '请选择推荐指数！'}],
-                    })(
-                        <Rate/>,
-                    )}
-                </FormItem>
-                <FormItem
-                    {...formItemLayout}
-                    label="相关建议"
-                >
-                    {getFieldDecorator('suggestion')(
-                        <Textarea
-                            rows={4}
-                            style={{resize: 'none'}}
-                            placeholder="就以上评分有任何具体原因或介绍，以及希望给想上这门课的同学的建议"
-                        />,
-                    )}
-                </FormItem>
-                <FormItem
-                    {...formItemLayout}
-                    label="Uniqname"
-                >
-                    {getFieldDecorator('uniqname', {
-                        rules: [{required: true, message: '请输入Uniqname！', whitespace: true}],
-                    })(
-                        <Input placeholder="仅用于发送验证邮件，此问卷为匿名评价"/>,
-                    )}
-                </FormItem>
-                <FormItem {...tailFormItemLayout}>
-                        <Button type="primary" htmlType="submit" loading={this.state.submitting} >提交</Button>
-                </FormItem>
-            </Form>
+                            {getFieldDecorator('professor', {
+                                rules: [{required: true, message: '请输入教授姓名！'}],
+                            })(
+                                <AutoComplete
+                                    dataSource={this.state.all_professors}
+                                    filterOption={(inputValue, option) =>
+                                        option.props.children.toUpperCase().indexOf(inputValue.toUpperCase()) !== -1}
+                                >
+                                    <Input placeholder="Eg: Benjamin Kuipers。请尽量完整填写，提高被搜索成功率。"/>
+                                </AutoComplete>,
+                            )}
+                        </FormItem>
+                        <FormItem
+                            {...formItemLayout}
+                            label="所在学期"
+                        >
+                            {getFieldDecorator('semester', {
+                                rules: [{required: true, message: '请输入所在学期！', whitespace: true}],
+                            })(
+                                <Input placeholder="Eg: 2017 Winter"/>,
+                            )}
+                        </FormItem>
+                        <FormItem
+                            {...formItemLayout}
+                            label="学分数量"
+                        >
+                            {getFieldDecorator('credits', {
+                                rules: [{required: true, message: '请选择学分数量！'}],
+                            })(
+                                <RadioGroup>
+                                    <Radio value="1">1</Radio>
+                                    <Radio value="2">2</Radio>
+                                    <Radio value="3">3</Radio>
+                                    <Radio value="4">4</Radio>
+                                    <Radio value="5">5</Radio>
+                                </RadioGroup>,
+                            )}
+                        </FormItem>
+                        <FormItem
+                            {...formItemLayout}
+                            label="课程类型"
+                        >
+                            {getFieldDecorator('type', {
+                                rules: [
+                                    {required: true, message: '请选择课程类型！', type: 'array'},
+                                ],
+                            })(
+                                <CheckboxGroup>
+                                    <Checkbox value="HU">HU</Checkbox>
+                                    <Checkbox value="SS">SS</Checkbox>
+                                    <Checkbox value="NS">NS</Checkbox>
+                                    <Checkbox value="ID">ID</Checkbox>
+                                    <Checkbox value="RE">RE</Checkbox>
+                                    <Checkbox value="Other">Other</Checkbox>
+                                </CheckboxGroup>,
+                            )}
+                        </FormItem>
+                        <FormItem
+                            {...formItemLayout}
+                            label="所得成绩"
+                        >
+                            {getFieldDecorator('grade', {
+                                rules: [{required: true, message: '请选择所得成绩！'}],
+                            })(
+                                <RadioGroup>
+                                    <RadioButton value="A Range">A Range</RadioButton>
+                                    <RadioButton value="B Range">B Range</RadioButton>
+                                    <RadioButton value="C Range">C Range</RadioButton>
+                                    <RadioButton value="P/F">P/F</RadioButton>
+                                    <RadioButton value="Others">Others</RadioButton>
+                                </RadioGroup>,
+                            )}
+                        </FormItem>
+                        <FormItem {...formItemLayout} label="课程难度">
+                            {getFieldDecorator('difficulty', {
+                                rules: [{required: true, message: '请选择课程难度！'}],
+                            })(
+                                <Rate/>,
+                            )}
+                        </FormItem>
+                        <FormItem {...formItemLayout} label="教授质量">
+                            {getFieldDecorator('quality', {
+                                rules: [{required: true, message: '请选择教授质量！'}],
+                            })(
+                                <Rate/>,
+                            )}
+                        </FormItem>
+                        <FormItem {...formItemLayout} label="Workload">
+                            {getFieldDecorator('workload', {
+                                rules: [{required: true, message: '请选择Workload！'}],
+                            })(
+                                <Rate/>,
+                            )}
+                        </FormItem>
+                        <FormItem {...formItemLayout} label="推荐指数">
+                            {getFieldDecorator('recommend', {
+                                rules: [{required: true, message: '请选择推荐指数！'}],
+                            })(
+                                <Rate/>,
+                            )}
+                        </FormItem>
+                        <FormItem
+                            {...formItemLayout}
+                            label="相关建议"
+                        >
+                            {getFieldDecorator('suggestion')(
+                                <Textarea
+                                    rows={4}
+                                    style={{resize: 'none'}}
+                                    placeholder="就以上评分有任何具体原因或介绍，以及希望给想上这门课的同学的建议"
+                                />,
+                            )}
+                        </FormItem>
+                        <FormItem
+                            {...formItemLayout}
+                            label="Uniqname"
+                        >
+                            {getFieldDecorator('uniqname', {
+                                rules: [{required: true, message: '请输入Uniqname！', whitespace: true}],
+                            })(
+                                <Input placeholder="仅用于发送验证邮件，此问卷为全匿名评价"/>,
+                            )}
+                        </FormItem>
+                        <FormItem {...tailFormItemLayout}>
+                            <Button type="primary" htmlType="submit" loading={this.state.submitting}>提交</Button>
+                        </FormItem>
+                    </Form>
+                </Card>
+
+            </div>
         );
     }
 }

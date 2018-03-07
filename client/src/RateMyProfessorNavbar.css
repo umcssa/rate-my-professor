@@ -1,0 +1,16 @@
+.navbar .container {
+    width: 100%;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #ffffff;
+}
+
+#basic-nav-dropdown-0 {
+    background-color: #1890ff;
+}
+
+.navbar-nav>li>a[href="http://www.um-cssa.org/"] {
+    padding-top: 0;
+    padding-bottom: 0;
+}

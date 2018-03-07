@@ -77,8 +77,8 @@ export default class RateMyProfessorNavbarCollapse extends React.Component {
                                      onMouseLeave={() => {
                                          this.handleMouseLeave(0);
                                      }}>
-                            <MenuItem>发布评价</MenuItem>
-                            <MenuItem>搜索评价</MenuItem>
+                            <MenuItem href="/rate-my-professor/form/">发布评价</MenuItem>
+                            <MenuItem href="/rate-my-professor/search/">搜索评价</MenuItem>
                         </NavDropdown>
                         <NavDropdown eventKey={3} title="Freshman Handbook" id="basic-nav-dropdown-1"
                                      style={this.state.hover[1] ? hoverStyle : {}}
@@ -88,12 +88,12 @@ export default class RateMyProfessorNavbarCollapse extends React.Component {
                                      onMouseLeave={() => {
                                          this.handleMouseLeave(1);
                                      }}>
-                            <MenuItem>出国前准备</MenuItem>
-                            <MenuItem>入学指南</MenuItem>
-                            <MenuItem>超市购物</MenuItem>
-                            <MenuItem>休闲娱乐</MenuItem>
-                            <MenuItem>交通</MenuItem>
-                            <MenuItem>社团介绍</MenuItem>
+                            <MenuItem href="/freshman-handbook/出国前准备/">出国前准备</MenuItem>
+                            <MenuItem href="/freshman-handbook/入学指南/">入学指南</MenuItem>
+                            <MenuItem href="/freshman-handbook/超市购物/">超市购物</MenuItem>
+                            <MenuItem href="/freshman-handbook/休闲娱乐/">休闲娱乐</MenuItem>
+                            <MenuItem href="/freshman-handbook/交通/">交通</MenuItem>
+                            <MenuItem href="/freshman-handbook/社团介绍/">社团介绍</MenuItem>
                         </NavDropdown>
                         <NavDropdown title="Secondary Market" id="basic-nav-dropdown-2"
                                      style={this.state.hover[2]? hoverStyle : {}}
@@ -103,8 +103,8 @@ export default class RateMyProfessorNavbarCollapse extends React.Component {
                                      onMouseLeave={() => {
                                          this.handleMouseLeave(2);
                                      }}>
-                            <MenuItem>我要购买</MenuItem>
-                            <MenuItem>我要出售</MenuItem>
+                            <MenuItem href="/secondary-market/buy/">我要购买</MenuItem>
+                            <MenuItem href="/secondary-market/sell/">我要出售</MenuItem>
                         </NavDropdown>
                         <NavItem href="http://www.um-cssa.org/" target="_blank">
                             <img src={logoCSSA} style={{height: 50, padding: 0}}/>

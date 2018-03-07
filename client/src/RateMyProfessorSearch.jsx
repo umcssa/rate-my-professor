@@ -11,8 +11,7 @@ import {
     Select,
     Slider,
     DatePicker,
-    Carousel,
-    message,
+    Card,
     Modal,
 } from 'antd';
 import RateMyProfessorSearchResults from './RateMyProfessorSearchResults';
@@ -103,7 +102,7 @@ class RateMyProfessorSearch extends React.Component {
                     this.setState({results, totalPages: rawResults.total, currentPage: 1});
                     if (rawResults.total === 0) {
                         Modal.warning({
-                            title: '没有找到相关评价记录，请尝试扩大搜索范围。',
+                            title: '无相关评价记录，请尝试扩大搜索范围。',
                             onOk: () => {
                                 this.setState({visible: false});
                             },
@@ -180,7 +179,12 @@ class RateMyProfessorSearch extends React.Component {
         }
 
         return (
-            <div>
+            <div style={{
+                backgroundColor: '#f0f2f5',
+                width: '100%',
+                minHeight: window.innerHeight,
+                padding: '100px 10px 100px 10px'
+            }}>
                 <RateMyProfessorSearchResults
                     results={this.state.results}
                     totalPages={this.state.totalPages}
@@ -191,132 +195,140 @@ class RateMyProfessorSearch extends React.Component {
                     }}
                     onPageChange={this.handlePageChange}
                 />
-                <Form onSubmit={this.handleSubmit} style={{margin: 'auto', padding: 20, maxWidth: 1000}}>
-                    <FormItem
-                        {...formItemLayout}
-                        label="课程院系"
-                    >
-                        {getFieldDecorator('department')(
-                            <AutoComplete
-                                dataSource={this.state.all_departments}
-                                onChange={this.updateDepartment}
-                                filterOption={(inputValue, option) =>
-                                    option.props.children.toUpperCase().indexOf(inputValue.toUpperCase()) !== -1}
-                            >
-                                <Input/>
-                            </AutoComplete>,
-                        )}
-                    </FormItem>
-                    <FormItem
-                        {...formItemLayout}
-                        label="课程名称"
-                    >
-                        {getFieldDecorator('course')(
-                            <AutoComplete
-                                dataSource={this.state.all_courses}
-                                filterOption={(inputValue, option) =>
-                                    option.props.children.toUpperCase().indexOf(inputValue.toUpperCase()) !== -1}
-                            >
-                                <Input/>
-                            </AutoComplete>,
-                        )}
-                    </FormItem>
-                    <FormItem
-                        {...formItemLayout}
-                        label="教授姓名"
-                    >
-                        {getFieldDecorator('professor')(
-                            <AutoComplete
-                                dataSource={this.state.all_professors}
-                                filterOption={(inputValue, option) =>
-                                    option.props.children.toUpperCase().indexOf(inputValue.toUpperCase()) !== -1}
-                            >
-                                <Input/>
-                            </AutoComplete>,
-                        )}
-                    </FormItem>
-                    <FormItem
-                        {...formItemLayout}
-                        label="所在学期"
-                    >
-                        <RangePicker
-                            placeholder={['Start month', 'End month']}
-                            format="YYYY-MM"
-                            value={this.state.semester}
-                            mode={['month', 'month']}
-                            onPanelChange={(value) => {
-                                this.setState({
-                                    semester: value,
-                                });
-                            }}
-                        />
-                    </FormItem>
-                    <FormItem
-                        {...formItemLayout}
-                        label="学分数量"
-                    >
-                        {getFieldDecorator('credits', {initialValue: ['1', '2', '3', '4', '5']})(
-                            <CheckboxGroup>
-                                <Checkbox value="1">1</Checkbox>
-                                <Checkbox value="2">2</Checkbox>
-                                <Checkbox value="3">3</Checkbox>
-                                <Checkbox value="4">4</Checkbox>
-                                <Checkbox value="5">5</Checkbox>
-                            </CheckboxGroup>,
-                        )}
-                    </FormItem>
-                    <FormItem
-                        {...formItemLayout}
-                        label="课程类型"
-                    >
-                        {getFieldDecorator('type', {initialValue: ['HU', 'SS', 'NS', 'ID', 'RE', 'Other']})(
-                            <Select
-                                mode="multiple"
-                                placeholder="Please select"
-                                style={{width: '100%'}}
-                            >
-                                {gradeOptions}
-                            </Select>,
-                        )}
-                    </FormItem>
-                    <FormItem
-                        {...formItemLayout}
-                        label="所得成绩"
-                    >
-                        {getFieldDecorator('grade', {initialValue: ['A Range', 'B Range', 'C Range', 'P/F', 'Others']})(
-                            <CheckboxGroup>
-                                <Checkbox value="A Range">A Range</Checkbox>
-                                <Checkbox value="B Range">B Range</Checkbox>
-                                <Checkbox value="C Range">C Range</Checkbox>
-                                <Checkbox value="P/F">P/F</Checkbox>
-                                <Checkbox value="Others">Others</Checkbox>
-                            </CheckboxGroup>,
-                        )}
-                    </FormItem>
-                    <FormItem {...formItemLayout} label="课程难度">
-                        {getFieldDecorator('difficulty', {initialValue: [0, starNum]})(
-                            <Slider style={{maxWidth: 500}} range max={starNum}/>,
-                        )}
-                    </FormItem>
-                    <FormItem {...formItemLayout} label="教授质量">
-                        {getFieldDecorator('quality', {initialValue: [0, starNum]})(
-                            <Slider style={{maxWidth: 500}} range max={starNum}/>,
-                        )}
-                    </FormItem>
-                    <FormItem {...formItemLayout} label="Workload">
-                        {getFieldDecorator('workload', {initialValue: [0, starNum]})(
-                            <Slider style={{maxWidth: 500}} range max={starNum}/>,
-                        )}
-                    </FormItem>
-                    <FormItem {...formItemLayout} label="推荐指数">
-                        {getFieldDecorator('recommend', {initialValue: [0, starNum]})(
-                            <Slider style={{maxWidth: 500}} range max={starNum}/>,
-                        )}
-                    </FormItem>
-                    <FormItem {...tailFormItemLayout}>
-                        <Button type="primary" htmlType="submit">搜索</Button>
-                    </FormItem>
-                </Form>
+                <Card hoverable style={{
+                    margin: 'auto',
+                    padding: 20,
+                    maxWidth: 1000,
+                    backgroundColor: '#ffffff',
+                    cursor: 'default'
+                }}>
+                    <Form onSubmit={this.handleSubmit}>
+                        <FormItem
+                            {...formItemLayout}
+                            label="课程院系"
+                        >
+                            {getFieldDecorator('department')(
+                                <AutoComplete
+                                    dataSource={this.state.all_departments}
+                                    onChange={this.updateDepartment}
+                                    filterOption={(inputValue, option) =>
+                                        option.props.children.toUpperCase().indexOf(inputValue.toUpperCase()) !== -1}
+                                >
+                                    <Input placeholder="请输入关键词，空白为搜索全部。"/>
+                                </AutoComplete>,
+                            )}
+                        </FormItem>
+                        <FormItem
+                            {...formItemLayout}
+                            label="课程名称"
+                        >
+                            {getFieldDecorator('course')(
+                                <AutoComplete
+                                    dataSource={this.state.all_courses}
+                                    filterOption={(inputValue, option) =>
+                                        option.props.children.toUpperCase().indexOf(inputValue.toUpperCase()) !== -1}
+                                >
+                                    <Input placeholder="请输入关键词，空白为搜索全部。"/>
+                                </AutoComplete>,
+                            )}
+                        </FormItem>
+                        <FormItem
+                            {...formItemLayout}
+                            label="教授姓名"
+                        >
+                            {getFieldDecorator('professor')(
+                                <AutoComplete
+                                    dataSource={this.state.all_professors}
+                                    filterOption={(inputValue, option) =>
+                                        option.props.children.toUpperCase().indexOf(inputValue.toUpperCase()) !== -1}
+                                >
+                                    <Input placeholder="请输入关键词，空白为搜索全部。"/>
+                                </AutoComplete>,
+                            )}
+                        </FormItem>
+                        <FormItem
+                            {...formItemLayout}
+                            label="所在学期"
+                        >
+                            <RangePicker
+                                placeholder={['Start month', 'End month']}
+                                format="YYYY-MM"
+                                value={this.state.semester}
+                                mode={['month', 'month']}
+                                onPanelChange={(value) => {
+                                    this.setState({
+                                        semester: value,
+                                    });
+                                }}
+                            />
+                        </FormItem>
+                        <FormItem
+                            {...formItemLayout}
+                            label="学分数量"
+                        >
+                            {getFieldDecorator('credits', {initialValue: ['1', '2', '3', '4', '5']})(
+                                <CheckboxGroup>
+                                    <Checkbox value="1">1</Checkbox>
+                                    <Checkbox value="2">2</Checkbox>
+                                    <Checkbox value="3">3</Checkbox>
+                                    <Checkbox value="4">4</Checkbox>
+                                    <Checkbox value="5">5</Checkbox>
+                                </CheckboxGroup>,
+                            )}
+                        </FormItem>
+                        <FormItem
+                            {...formItemLayout}
+                            label="课程类型"
+                        >
+                            {getFieldDecorator('type', {initialValue: ['HU', 'SS', 'NS', 'ID', 'RE', 'Other']})(
+                                <Select
+                                    mode="multiple"
+                                    placeholder="Please select"
+                                    style={{width: '100%'}}
+                                >
+                                    {gradeOptions}
+                                </Select>,
+                            )}
+                        </FormItem>
+                        <FormItem
+                            {...formItemLayout}
+                            label="所得成绩"
+                        >
+                            {getFieldDecorator('grade', {initialValue: ['A Range', 'B Range', 'C Range', 'P/F', 'Others']})(
+                                <CheckboxGroup>
+                                    <Checkbox value="A Range">A Range</Checkbox>
+                                    <Checkbox value="B Range">B Range</Checkbox>
+                                    <Checkbox value="C Range">C Range</Checkbox>
+                                    <Checkbox value="P/F">P/F</Checkbox>
+                                    <Checkbox value="Others">Others</Checkbox>
+                                </CheckboxGroup>,
+                            )}
+                        </FormItem>
+                        <FormItem {...formItemLayout} label="课程难度">
+                            {getFieldDecorator('difficulty', {initialValue: [0, starNum]})(
+                                <Slider style={{maxWidth: 500}} range max={starNum}/>,
+                            )}
+                        </FormItem>
+                        <FormItem {...formItemLayout} label="教授质量">
+                            {getFieldDecorator('quality', {initialValue: [0, starNum]})(
+                                <Slider style={{maxWidth: 500}} range max={starNum}/>,
+                            )}
+                        </FormItem>
+                        <FormItem {...formItemLayout} label="Workload">
+                            {getFieldDecorator('workload', {initialValue: [0, starNum]})(
+                                <Slider style={{maxWidth: 500}} range max={starNum}/>,
+                            )}
+                        </FormItem>
+                        <FormItem {...formItemLayout} label="推荐指数">
+                            {getFieldDecorator('recommend', {initialValue: [0, starNum]})(
+                                <Slider style={{maxWidth: 500}} range max={starNum}/>,
+                            )}
+                        </FormItem>
+                        <FormItem {...tailFormItemLayout}>
+                            <Button type="primary" htmlType="submit">搜索</Button>
+                        </FormItem>
+                    </Form>
+                </Card>
             </div>
         );
     }

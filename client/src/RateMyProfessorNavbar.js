@@ -2,6 +2,7 @@ import React from 'react';
 import {Menu, Icon} from 'antd';
 import logoM from "./images/logo-M.png";
 import logoCSSA from "./images/logo-CSSA.png";
+import './RateMyProfessorNavbar.css';
 
 const SubMenu = Menu.SubMenu;
 const MenuItemGroup = Menu.ItemGroup;
@@ -79,19 +80,19 @@ export default class RateMyProfessorNavbar extends React.Component {
                     window.location.href = "/secondary-market/";
                 }}><Icon type="shopping-cart" />Secondary Market</span>}
                          style={Object.assign({float: 'right'}, window.location.href.includes('secondary-market') && activeStyle)}>
-                    <Menu.Item key="1">我要购买</Menu.Item>
-                    <Menu.Item key="2">我要出售</Menu.Item>
+                    <Menu.Item key="1"><a href="/secondary-market/buy/">我要购买</a></Menu.Item>
+                    <Menu.Item key="2"><a href="/secondary-market/sell/">我要出售</a></Menu.Item>
                 </SubMenu>
                 <SubMenu title={<span onClick={() => {
                     window.location.href = "/freshman-handbook/";
                 }}><Icon type="book"/>Freshman Handbook</span>}
                          style={Object.assign({float: 'right'}, window.location.href.includes('freshman-handbook') && activeStyle)}>
-                    <Menu.Item key="1">出国前准备</Menu.Item>
-                    <Menu.Item key="2">入学指南</Menu.Item>
-                    <Menu.Item key="3">超市购物</Menu.Item>
-                    <Menu.Item key="4">休闲娱乐</Menu.Item>
-                    <Menu.Item key="5">交通</Menu.Item>
-                    <Menu.Item key="6">社团介绍</Menu.Item>
+                    <Menu.Item key="1"><a href="/freshman-handbook/出国前准备/">出国前准备</a></Menu.Item>
+                    <Menu.Item key="2"><a href="/freshman-handbook/入学指南/">入学指南</a></Menu.Item>
+                    <Menu.Item key="3"><a href="/freshman-handbook/超市购物/">超市购物</a></Menu.Item>
+                    <Menu.Item key="4"><a href="/freshman-handbook/休闲娱乐/">休闲娱乐</a></Menu.Item>
+                    <Menu.Item key="5"><a href="/freshman-handbook/交通/">交通</a></Menu.Item>
+                    <Menu.Item key="6"><a href="/freshman-handbook/社团介绍/">社团介绍</a></Menu.Item>
                 </SubMenu>
                 <SubMenu title={<span onClick={() => {
                     window.location.href = "/rate-my-professor/";
