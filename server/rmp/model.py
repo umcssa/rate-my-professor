@@ -318,14 +318,15 @@ def send_verification_email(rate_id, uniqname):
 
         msg = MIMEMultipart()
         message_template = Template(
-            'Dear ${PERSON_NAME}, \n\nPlease use the following security code for the UM-CSSA account: ${ACCOUNT}.\n\nAnd your Security Code is: ${URL}\n\nThanks,\nUM-CSSA account team\n')
-        message = message_template.substitute(PERSON_NAME=uniqname, ACCOUNT=to_address,
+            '${PERSON_NAME}，\n\n感谢填写Rate My Professor问卷。在发布您的评价供同学查看之前，我们需要验证您的UM学生身份，请点击以下链接\n${URL}\n\n再次感谢您的参与，\nCSSA APPs 开发团队\n')
+        message = message_template.substitute(PERSON_NAME=uniqname,
                                               URL='{}/api/rate-my-professor/verification/?id={}&token={}'.format(
-                                                  os.environ['CSSA_APPS_SERVER_HOSTNAME'],rate_id, generate_token(rate_id)))
+                                                  os.environ['CSSA_APPS_SERVER_HOSTNAME'], rate_id,
+                                                  generate_token(rate_id)))
 
         msg['From'] = from_address
         msg['To'] = to_address
-        msg['Subject'] = "UM-CSSA account security code"
+        msg['Subject'] = "Rate My Professor 身份验证"
 
         # add in the message body
         msg.attach(MIMEText(message, 'plain'))
@@ -347,5 +348,6 @@ def generate_token(rate_id):
 def verify_rate(rate_id, token):
     return generate_token(rate_id) == token
 
+
 def make_rate_viewable(rate_id):
-    get_db().cursor().execute("UPDATE rate SET viewable=1 WHERE rate_id=?",(rate_id,))
+    get_db().cursor().execute("UPDATE rate SET viewable=1 WHERE rate_id=?", (rate_id,))
