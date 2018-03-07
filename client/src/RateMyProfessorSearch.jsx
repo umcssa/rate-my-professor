@@ -13,6 +13,7 @@ import {
     DatePicker,
     Carousel,
     message,
+    Modal,
 } from 'antd';
 import RateMyProfessorSearchResults from './RateMyProfessorSearchResults';
 
@@ -100,7 +101,14 @@ class RateMyProfessorSearch extends React.Component {
                         results[i.toString()] = rawResult;
                     }
                     this.setState({results, totalPages: rawResults.total, currentPage: 1});
-                    //console.log(this.state.results);
+                    if (rawResults.total === 0) {
+                        Modal.warning({
+                            title: '没有找到相关评价记录，请尝试扩大搜索范围。',
+                            onOk: () => {
+                                this.setState({visible: false});
+                            },
+                        });
+                    }
                 });
             }
         });
