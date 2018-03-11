@@ -59,7 +59,7 @@ export default class RateMyProfessorSearchResults extends React.Component {
         return (
             <Modal
                 title="搜索结果"
-                style={{top: 20}}
+                style={{top: 20, zIndex: 99999}}
                 width={768}
                 visible={this.props.visible}
                 onCancel={this.props.onCancel}
