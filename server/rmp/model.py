@@ -95,7 +95,7 @@ def get_professors(department):
 def validate_form(rate):
     if not re.match(r'^\d{4} (spring|summer|fall|winter)$', rate.get('semester').lower()):
         return False
-    if not re.match(r'[^@]+@[^@]+\.[^@]+', rate.get('uniqname')+'@umich.edu'):
+    if not re.match(r'^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$', rate.get('uniqname')+'@umich.edu'):
         return False
     return True
 
@@ -311,7 +311,7 @@ def send_verification_email(rate_id, uniqname):
     from_password = os.environ['CSSA_APPS_EMAIL_PASSWORD']
 
     to_address = uniqname + '@umich.edu'
-    if not re.match(r'[^@]+@[^@]+\.[^@]+', to_address):
+    if not re.match(r'^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$', to_address):
         return False
 
     try:
