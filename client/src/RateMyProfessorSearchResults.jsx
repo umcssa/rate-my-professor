@@ -59,10 +59,11 @@ export default class RateMyProfessorSearchResults extends React.Component {
         return (
             <Modal
                 title="搜索结果"
-                style={{top: 60, zIndex: 99999}}
+                style={{top: 20}}
                 width={768}
                 visible={this.props.visible}
                 onCancel={this.props.onCancel}
+                zIndex={99999}
                 footer={
                     <Pagination
                         current={this.props.page}
