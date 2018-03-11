@@ -98,43 +98,77 @@ def validate_form(rate):
 
 
 def save_rate(rate):
-    try:
-        cur = get_db().cursor()
-        semester = re.findall(r'^(\d{4}) (spring|summer|fall|winter)$',
-                              rate.get('semester').lower())[0]
+    cur = get_db().cursor()
+    semester = re.findall(r'^(\d{4}) (spring|summer|fall|winter)$',
+                          rate.get('semester').lower())[0]
 
-        result = cur.execute(
-            "SELECT semester_id FROM semester WHERE year=? AND season=?",
-            (semester[0], semester[1])).fetchone()
-        if result:
-            semester_id = result['semester_id']
-        else:
-            cur.execute(
-                "INSERT INTO semester (year, season) VALUES (?,?)",
-                (semester[0], semester[1]))
-            semester_id = cur.execute("SELECT last_insert_rowid() FROM semester").fetchone()['last_insert_rowid()']
-
-        types = rate.getlist('type[]')
-        suggestion = rate.get('suggestion')
+    result = cur.execute(
+        "SELECT semester_id FROM semester WHERE year=? AND season=?",
+        (semester[0], semester[1])).fetchone()
+    if result:
+        semester_id = result['semester_id']
+    else:
         cur.execute(
-            "INSERT INTO rate (rate_id, course_title, professor_name, semester_id, credits, isHU, isSS, isNS, isID, isRE, isOther, grade, difficulty, quality, workload, recommend, suggestion) VALUES "
-            "(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", (
-                rate.get('rate_id'),
-                rate.get('course'), rate.get('professor'), semester_id,
-                rate.get('credits'), 'HU' in types, 'SS' in types,
-                'NS' in types, 'ID' in types, 'RE' in types,
-                'Other' in types,
-                rate.get('grade'), rate.get('difficulty'),
-                rate.get('quality'), rate.get('workload'),
-                rate.get('recommend'),
-                None if suggestion == None or str(
-                    suggestion).strip() == '' else suggestion)
-        )
-        rate_id = cur.execute("SELECT last_insert_rowid() FROM rate").fetchone()['last_insert_rowid()']
-        cur.close()
-        return send_verification_email(rate_id, rate.get('uniqname'))
-    except sqlite3.Error:
-        return False
+            "INSERT INTO semester (year, season) VALUES (?,?)",
+            (semester[0], semester[1]))
+        semester_id = cur.execute("SELECT last_insert_rowid() FROM semester").fetchone()['last_insert_rowid()']
+
+    types = rate.getlist('type[]')
+    suggestion = rate.get('suggestion')
+    cur.execute(
+        "INSERT INTO rate (rate_id, course_title, professor_name, semester_id, credits, isHU, isSS, isNS, isID, isRE, isOther, grade, difficulty, quality, workload, recommend, suggestion) VALUES "
+        "(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", (
+            rate.get('rate_id'),
+            rate.get('course'), rate.get('professor'), semester_id,
+            rate.get('credits'), 'HU' in types, 'SS' in types,
+            'NS' in types, 'ID' in types, 'RE' in types,
+            'Other' in types,
+            rate.get('grade'), rate.get('difficulty'),
+            rate.get('quality'), rate.get('workload'),
+            rate.get('recommend'),
+            None if suggestion == None or str(
+                suggestion).strip() == '' else suggestion)
+    )
+    rate_id = cur.execute("SELECT last_insert_rowid() FROM rate").fetchone()['last_insert_rowid()']
+    cur.close()
+    return send_verification_email(rate_id, rate.get('uniqname'))
+    # try:
+    #     cur = get_db().cursor()
+    #     semester = re.findall(r'^(\d{4}) (spring|summer|fall|winter)$',
+    #                           rate.get('semester').lower())[0]
+    #
+    #     result = cur.execute(
+    #         "SELECT semester_id FROM semester WHERE year=? AND season=?",
+    #         (semester[0], semester[1])).fetchone()
+    #     if result:
+    #         semester_id = result['semester_id']
+    #     else:
+    #         cur.execute(
+    #             "INSERT INTO semester (year, season) VALUES (?,?)",
+    #             (semester[0], semester[1]))
+    #         semester_id = cur.execute("SELECT last_insert_rowid() FROM semester").fetchone()['last_insert_rowid()']
+    #
+    #     types = rate.getlist('type[]')
+    #     suggestion = rate.get('suggestion')
+    #     cur.execute(
+    #         "INSERT INTO rate (rate_id, course_title, professor_name, semester_id, credits, isHU, isSS, isNS, isID, isRE, isOther, grade, difficulty, quality, workload, recommend, suggestion) VALUES "
+    #         "(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", (
+    #             rate.get('rate_id'),
+    #             rate.get('course'), rate.get('professor'), semester_id,
+    #             rate.get('credits'), 'HU' in types, 'SS' in types,
+    #             'NS' in types, 'ID' in types, 'RE' in types,
+    #             'Other' in types,
+    #             rate.get('grade'), rate.get('difficulty'),
+    #             rate.get('quality'), rate.get('workload'),
+    #             rate.get('recommend'),
+    #             None if suggestion == None or str(
+    #                 suggestion).strip() == '' else suggestion)
+    #     )
+    #     rate_id = cur.execute("SELECT last_insert_rowid() FROM rate").fetchone()['last_insert_rowid()']
+    #     cur.close()
+    #     return send_verification_email(rate_id, rate.get('uniqname'))
+    # except sqlite3.Error:
+    #     return False
 
 
 def get_viewable_departments():
@@ -311,34 +345,60 @@ def send_verification_email(rate_id, uniqname):
     if not re.match(r'[^@]+@[^@]+\.[^@]+', to_address):
         return False
 
-    try:
-        s = smtplib.SMTP(host='smtp.gmail.com', port=587)
-        s.starttls()
-        s.login(from_address, from_password)
+    s = smtplib.SMTP(host='smtp.gmail.com', port=587)
+    s.starttls()
+    s.login(from_address, from_password)
 
-        msg = MIMEMultipart()
-        message_template = Template(
-            '${PERSON_NAME}，\n\n我们已收到您填写的Rate My Professor问卷。\n\n在发布您的评价供同学查看之前，我们需要验证您的UM学生身份，请点击以下链接完成验证：\n${URL}\n\n感谢您的参与，\nCSSA APPs 开发团队\n')
-        message = message_template.substitute(PERSON_NAME=uniqname,
-                                              URL='{}/api/rate-my-professor/verification/?id={}&token={}'.format(
-                                                  os.environ['CSSA_APPS_SERVER_HOSTNAME'], rate_id,
-                                                  generate_token(rate_id)))
+    msg = MIMEMultipart()
+    message_template = Template(
+        '${PERSON_NAME}，\n\n我们已收到您填写的Rate My Professor问卷。\n\n在发布您的评价供同学查看之前，我们需要验证您的UM学生身份，请点击以下链接完成验证：\n${URL}\n\n感谢您的参与，\nCSSA APPs 开发团队\n')
+    message = message_template.substitute(PERSON_NAME=uniqname,
+                                          URL='{}/api/rate-my-professor/verification/?id={}&token={}'.format(
+                                              os.environ['CSSA_APPS_SERVER_HOSTNAME'], rate_id,
+                                              generate_token(rate_id)))
 
-        msg['From'] = from_address
-        msg['To'] = to_address
-        msg['Subject'] = "Rate My Professor 身份验证"
+    msg['From'] = from_address
+    msg['To'] = to_address
+    msg['Subject'] = "Rate My Professor 身份验证"
 
-        # add in the message body
-        msg.attach(MIMEText(message, 'plain'))
+    # add in the message body
+    msg.attach(MIMEText(message, 'plain'))
 
-        # send the message via the server set up earlier.
-        s.send_message(msg)
-        del msg
+    # send the message via the server set up earlier.
+    s.send_message(msg)
+    del msg
 
-        s.quit()
-        return True
-    except:
-        return False
+    s.quit()
+    return True
+
+    # try:
+    #     s = smtplib.SMTP(host='smtp.gmail.com', port=587)
+    #     s.starttls()
+    #     s.login(from_address, from_password)
+    #
+    #     msg = MIMEMultipart()
+    #     message_template = Template(
+    #         '${PERSON_NAME}，\n\n我们已收到您填写的Rate My Professor问卷。\n\n在发布您的评价供同学查看之前，我们需要验证您的UM学生身份，请点击以下链接完成验证：\n${URL}\n\n感谢您的参与，\nCSSA APPs 开发团队\n')
+    #     message = message_template.substitute(PERSON_NAME=uniqname,
+    #                                           URL='{}/api/rate-my-professor/verification/?id={}&token={}'.format(
+    #                                               os.environ['CSSA_APPS_SERVER_HOSTNAME'], rate_id,
+    #                                               generate_token(rate_id)))
+    #
+    #     msg['From'] = from_address
+    #     msg['To'] = to_address
+    #     msg['Subject'] = "Rate My Professor 身份验证"
+    #
+    #     # add in the message body
+    #     msg.attach(MIMEText(message, 'plain'))
+    #
+    #     # send the message via the server set up earlier.
+    #     s.send_message(msg)
+    #     del msg
+    #
+    #     s.quit()
+    #     return True
+    # except:
+    #     return False
 
 
 def generate_token(rate_id):
