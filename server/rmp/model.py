@@ -93,8 +93,11 @@ def get_professors(department):
 
 
 def validate_form(rate):
-    return bool(re.match(r'^\d{4} (spring|summer|fall|winter)$',
-                         rate.get('semester').lower()))
+    if not re.match(r'^\d{4} (spring|summer|fall|winter)$', rate.get('semester').lower()):
+        return False
+    if not re.match(r'[^@]+@[^@]+\.[^@]+', rate.get('uniqname')+'@umich.edu'):
+        return False
+    return True
 
 
 def save_rate(rate):
