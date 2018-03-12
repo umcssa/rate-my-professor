@@ -1,26 +1,16 @@
 import React from 'react';
 import {Menu, Icon} from 'antd';
-import logoM from "./images/logo-M.png";
+import logoCSSAAPPs from "./images/cssa_apps_white.png";
 import logoCSSA from "./images/logo-CSSA.png";
 import './RateMyProfessorNavbar.css';
 
 const SubMenu = Menu.SubMenu;
-const MenuItemGroup = Menu.ItemGroup;
 
 const activeStyle = {
     backgroundColor: '#1890ff',
     color: '#ffffff'
 };
 
-const centerParentStyle = {
-    display: 'table'
-};
-
-const centerChildStyle = {
-    display: 'table-cell',
-    verticalAlign: 'middle',
-    textAlign: 'center',
-};
 
 export default class RateMyProfessorNavbar extends React.Component {
     state = {
@@ -43,18 +33,19 @@ export default class RateMyProfessorNavbar extends React.Component {
                 mode="horizontal"
                 style={{position: 'fixed', width: '100%', top: 0, left: 0, zIndex: 9999}}
             >
-                <Menu.Item key="logoM" style={{height: 46, width: 70, marginLeft: 20}}>
+                <Menu.Item key="logoCSSAAPPs" style={{height: 46, width: 70, marginLeft: 20}}>
                     <a href="/">
-                        <img src={logoM}
+                        <img src={logoCSSAAPPs}
                              style={{
-                                 height: 40,
+                                 height: 36,
                                  position: 'absolute',
                                  margin: 'auto',
                                  top: 0,
                                  left: 0,
                                  right: 0,
                                  bottom: 0
-                             }}/>
+                             }}
+                             alt="CSSA APPs"/>
                     </a>
                 </Menu.Item>
 
@@ -73,7 +64,8 @@ export default class RateMyProfessorNavbar extends React.Component {
                                  left: 0,
                                  right: 0,
                                  bottom: 0
-                             }}/>
+                             }}
+                             alt="UM-CSSA"/>
                     </a>
                 </Menu.Item>
                 <SubMenu title={<span onClick={() => {

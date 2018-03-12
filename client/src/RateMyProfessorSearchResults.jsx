@@ -2,20 +2,14 @@ import React from 'react';
 import {
     Form,
     Input,
-    Row,
-    Col,
-    Button,
     Radio,
     Checkbox,
-    AutoComplete,
     Rate,
     Modal,
     Pagination,
     Spin,
 } from 'antd';
 import 'antd/dist/antd.css';
-
-const $ = require('jquery');
 
 const FormItem = Form.Item;
 const RadioButton = Radio.Button;

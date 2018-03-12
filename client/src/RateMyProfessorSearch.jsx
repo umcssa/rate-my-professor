@@ -2,10 +2,7 @@ import React from 'react';
 import {
     Form,
     Input,
-    Row,
-    Col,
     Button,
-    Radio,
     Checkbox,
     AutoComplete,
     Select,
@@ -20,10 +17,7 @@ const $ = require('jquery');
 const moment = require('moment');
 
 const FormItem = Form.Item;
-const RadioButton = Radio.Button;
-const RadioGroup = Radio.Group;
 const CheckboxGroup = Checkbox.Group;
-const Textarea = Input.TextArea;
 const Option = Select.Option;
 const RangePicker = DatePicker.RangePicker;
 

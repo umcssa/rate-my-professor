@@ -6,7 +6,7 @@ import {
     NavDropdown,
     MenuItem
 } from 'react-bootstrap';
-import logoM from "./images/logo-M.png";
+import logoCSSAAPPs from "./images/cssa_apps_white.png";
 import logoCSSA from "./images/logo-CSSA.png";
 
 
@@ -58,13 +58,13 @@ export default class RateMyProfessorNavbarCollapse extends React.Component {
                     }}>
                 <Navbar.Header>
                     <Navbar.Brand>
-                        <a style={{paddingLeft: 20, paddingTop: 0}}><img src={logoM} style={{height: 50}}/></a>
+                        <a href="/" style={{paddingLeft: 20, paddingTop: 7}}><img src={logoCSSAAPPs} style={{height: 36}} alt="CSSA APPs"/></a>
                     </Navbar.Brand>
                     <Navbar.Toggle/>
                 </Navbar.Header>
                 <Navbar.Collapse>
                     <Nav>
-                        <NavItem href="#">
+                        <NavItem href="/">
                             CSSA APPs
                         </NavItem>
                     </Nav>
@@ -107,7 +107,7 @@ export default class RateMyProfessorNavbarCollapse extends React.Component {
                             <MenuItem href="/secondary-market/sell/">我要出售</MenuItem>
                         </NavDropdown>
                         <NavItem href="http://www.um-cssa.org/" target="_blank">
-                            <img src={logoCSSA} style={{height: 50, padding: 0}}/>
+                            <img src={logoCSSA} style={{height: 50, padding: 0}} alt="UM-CSSA"/>
                         </NavItem>
                     </Nav>
                 </Navbar.Collapse>

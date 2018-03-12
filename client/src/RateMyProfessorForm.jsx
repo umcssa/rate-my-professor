@@ -2,8 +2,6 @@ import React from 'react';
 import {
     Form,
     Input,
-    Row,
-    Col,
     Button,
     Radio,
     Checkbox,
@@ -11,8 +9,7 @@ import {
     Rate,
     Modal,
     Card,
-    Select,
-    InputNumber
+    Select
 } from 'antd';
 
 const $ = require('jquery');
@@ -227,9 +224,9 @@ class RateMyProfessorForm extends React.Component {
                             })(
                                 <Select style={{width: 150}}>
                                     {new Array(10).fill(null).map((val, idx) => (['Fall', 'Summer', 'Spring', 'Winter'].map(season => (
-                                            <Option key={`${parseInt(moment().format('YYYY')) - idx} ${season}`}
-                                                    value={`${parseInt(moment().format('YYYY')) - idx} ${season}`}>
-                                                {`${parseInt(moment().format('YYYY')) - idx} ${season}`}
+                                            <Option key={`${parseInt(moment().format('YYYY'), 10) - idx} ${season}`}
+                                                    value={`${parseInt(moment().format('YYYY'), 10) - idx} ${season}`}>
+                                                {`${parseInt(moment().format('YYYY'), 10) - idx} ${season}`}
                                             </Option>
                                         ))
                                     ))}
