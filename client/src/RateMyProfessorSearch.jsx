@@ -101,6 +101,7 @@ class RateMyProfessorSearch extends React.Component {
                             onOk: () => {
                                 this.setState({visible: false});
                             },
+                            zIndex: 100000
                         });
                     }
                 });
