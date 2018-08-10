@@ -1,4 +1,6 @@
 # Rate My Professor
+[![Build Status](https://travis-ci.com/umcssa/rate-my-professor.svg?branch=master)](https://travis-ci.com/umcssa/rate-my-professor)
+
 A web application produced by the CSSA APPs development team. Students at the University of Michigan can use RMP to give comment to their professors and courses, as well as search other students' comment records.
 
 ## Website
