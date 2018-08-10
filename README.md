@@ -4,7 +4,7 @@
 A web application produced by the CSSA APPs development team. Students at the University of Michigan can use RMP to give comment to their professors and courses, as well as search other students' comment records.
 
 ## Website
-[http://app.um-cssa.org/rate-my-professor/](http://app.um-cssa.org/rate-my-professor/)
+[https://app.um-cssa.org/rate-my-professor/](https://app.um-cssa.org/rate-my-professor/)
 
 ## Development Setup
 * Preparation
